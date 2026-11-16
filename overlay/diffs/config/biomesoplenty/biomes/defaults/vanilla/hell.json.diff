@@ -1,0 +1,11 @@
+--- a/config/biomesoplenty/biomes/defaults/vanilla/hell.json
++++ b/config/biomesoplenty/biomes/defaults/vanilla/hell.json
+@@ -13,7 +13,7 @@
+       "enable": true
+     },
+     "hive": {
+-      "maxRadius": 9,
++      "maxRadius": 8,
+       "bottomExtra": 4,
+       "amountPerChunk": 0.2,
+       "enable": true,

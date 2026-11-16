@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1934714106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nTurns low-value oils into reformate, reformate gas, aromatics and petroleum gas.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_catalytic_reformer"
+      },
+      "name:8": "Catalytic Reformer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1987233849,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:circuit",
+          "Damage:2": 8
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_catalytic_reformer"
+        }
+      },
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

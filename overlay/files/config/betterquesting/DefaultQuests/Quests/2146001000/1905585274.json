@@ -1,0 +1,168 @@
+{
+  "preRequisites:11": [
+    1992879066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nRight-click water with a Dirty relic from Atum loot to wash it clean.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "atum:loot_silver_ring"
+      },
+      "name:8": "Just Like New",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1905585274,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "atum:golden_date"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_silver_ring"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_gold_ring"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_sapphire_ring"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_emerald_ring"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_ruby_ring"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_diamond_ring"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_silver_necklace"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_gold_necklace"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_sapphire_necklace"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_emerald_necklace"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_ruby_necklace"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_diamond_necklace"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_silver_scepter"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_gold_scepter"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_sapphire_scepter"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_emerald_scepter"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_ruby_scepter"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_diamond_scepter"
+        },
+        "18:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_silver_idol"
+        },
+        "19:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_gold_idol"
+        },
+        "20:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_sapphire_idol"
+        },
+        "21:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_emerald_idol"
+        },
+        "22:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_ruby_idol"
+        },
+        "23:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_diamond_idol"
+        },
+        "24:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_silver_broach"
+        },
+        "25:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_gold_broach"
+        },
+        "26:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_sapphire_broach"
+        },
+        "27:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_emerald_broach"
+        },
+        "28:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_ruby_broach"
+        },
+        "29:10": {
+          "Count:3": 1,
+          "id:8": "atum:loot_diamond_broach"
+        }
+      },
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

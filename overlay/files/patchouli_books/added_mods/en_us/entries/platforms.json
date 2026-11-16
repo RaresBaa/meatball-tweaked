@@ -1,0 +1,11 @@
+{
+  "name": "Platforms",
+  "icon": "platforms:platform",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ramps, platforms and rails-style blocks for building paths and bridges."
+    }
+  ]
+}

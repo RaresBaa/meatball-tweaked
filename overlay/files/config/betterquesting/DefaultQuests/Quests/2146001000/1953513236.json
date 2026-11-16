@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    1913588785
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nMine an Underworld ore; they are plentiful.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "lightningcraft:ore_block"
+      },
+      "name:8": "A Dark Land of Riches",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1953513236,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:experience_bottle"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "lightningcraft:ore_block"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "lightningcraft:ore_block",
+          "Damage:2": 1
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "lightningcraft:ore_block",
+          "Damage:2": 2
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "lightningcraft:ore_block",
+          "Damage:2": 3
+        }
+      },
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

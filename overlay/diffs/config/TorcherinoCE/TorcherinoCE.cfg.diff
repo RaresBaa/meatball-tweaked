@@ -1,0 +1,11 @@
+--- a/config/TorcherinoCE/TorcherinoCE.cfg
++++ b/config/TorcherinoCE/TorcherinoCE.cfg
+@@ -80,7 +80,7 @@
+     B:Debug_Mode=false
+ 
+     # Send chat hello message [default: true]
+-    B:Hello_Message=true
++    B:Hello_Message=false
+ 
+     # Integration ProjectE [default: true]
+     B:integration_ProjectE=true

@@ -1,0 +1,11 @@
+--- a/config/concheckrmd.cfg
++++ b/config/concheckrmd.cfg
+@@ -14,7 +14,7 @@
+ 
+     "customisable chat greeting message" {
+         # A customisable message that will be displayed in chat when a world is loaded.
+-        B:"1) Display Chat Greeting Message?"=true
++        B:"1) Display Chat Greeting Message?"=false
+ 
+         # The text to be displayed in chat.
+         S:"2) Greeting Message Text"=Hi, thank you so much for playing Meatballcraft, Dimensional Ascension! If you find yourself having a great time, and something unexpected happens (bugs, typos, etc.) please let me know on Discord! Use the #broken-stuff, #typos, #cant-complete-quest, #recipe-conflicts channels.

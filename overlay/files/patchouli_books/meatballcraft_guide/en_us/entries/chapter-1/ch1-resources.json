@@ -1,0 +1,40 @@
+{
+  "name": "Chickens, Bees and Mystical Agriculture",
+  "icon": "chickens:spawn_egg",
+  "category": "chapter-1",
+  "sortnum": 19,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Big picture:$() Bees < Chickens < Mystical Agriculture. You'll need all three plus the Void Ore Miner eventually, since each gives unique drops. In Chapter 1, though, $(l)anything with EMC is better obtained through EMC.$() Don't invest heavily in farms for EMC items."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Chickens worth it early:$() $(l)Emerald$() (great EMC), Cold Iron and Mithrilium.$(li)The $(l)Emerald Chicken$() is found in an Overworld structure; plains make it easier to spot. Break the petrified planks and similar blocks there, because the Mechanized Coop needs them later."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Catch chickens with an $(l)Animal Net$(). Put them in $(l)Nests$() and pipe the output into drawers. Henhouses with hay bales save on conduits.$(li)A chicken alone in a nesting pen still breeds its stats up to 10/10/10.$(li)Hatch eggs in a nest by lighting a redstone lamp above it or crouching on it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)In Chapter 2 the $(l)Mechanized Coop$() takes spawn eggs directly and replaces all of this."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Bees:$() available in Chapter 1, but most players wait.$(li)Bee houses spawn in villages (look for the Forestry villager home).$(li)Collect 2–3 pristine queens of every Overworld bee as you explore. You'll thank yourself later.$(li)Breed in the Overworld; the Void world disables weather."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Gendustry$() plus an $(l)Assassin Bee$() makes bees much easier. The Beebee Gun doesn't use up the assassin bee."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Mystical Agriculture:$() seeds need the advanced crafting table. The base seed needs Rocky and Dripping combs. Rocky bees come from rocky hives underground, most commonly in mountains; Dripping combs are easiest from the Apiarist villager."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Start with one seed, cross it on crop sticks, breed it to max stats, then spread it. Lilypads of Fertility speed this up.$(li)Withers drop Supremium, which you can craft down into lower-tier essence."
+    }
+  ]
+}

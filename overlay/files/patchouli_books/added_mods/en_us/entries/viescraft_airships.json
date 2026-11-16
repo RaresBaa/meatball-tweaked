@@ -1,0 +1,11 @@
+{
+  "name": "ViesCraft Airships",
+  "icon": "vc:item_airship_frame",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Build and fly airships with modules and upgrades."
+    }
+  ]
+}

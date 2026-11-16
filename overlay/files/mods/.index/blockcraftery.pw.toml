@@ -1,0 +1,21 @@
+filename = 'blockcraftery-1.12.2-1.3.1.jar'
+name = 'Blockcraftery'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'blockcraftery-1.12.2-1.3.1.jar'
+
+[download]
+hash = '5962fc2af3644f010e6510829244cb55ab097eda'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2716712
+project-id = 278882
+
+[[x-prismlauncher-dependencies]]
+addonId = '277064'
+type = 'REQUIRED'

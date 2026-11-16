@@ -1,0 +1,52 @@
+{
+  "name": "Bosses, Bees and Magic Mods",
+  "icon": "forestry:bee_drone_ge",
+  "category": "chapter-2",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Bosses$()$(li)Gaia 3/4 bosses damage comes from ground mines, not direct attacks—jump over or circle them to avoid lethal AoE.$(li)Avoid using Last Stand or totem abilities against Gaia IV—they do not work."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use Pleiades Combat Maid armor (super-enchanted), Strength/Regen/Resistance/Speed beacons, and a Failnaught or Crystal Bow to strip Phase 2 shields.$(li)The Ender Dragon spawns with Dampening, making shurikens deal very little damage—but the fight remains free."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Set your spawn with a bed first; the Electroblob’s Wizardry Dart spell (even from the lowest-tier wand) can stunlock the Dragon from a distance."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Beekeeping$()$(li)Prioritize Assassin Bee and Honey Smelter Bee early; the latter enables the Bee Gun to automate Assassin Bee farming.$(li)Use Industrial Apiaries with upgrades, and start with breeder genes (fertility 4 from Wintry, shortest lifespan from Cultivated)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To instantly convert queens to princesses+drones: fill the Bee Gun with honey, right-click an apiary with it.$(li)Gendustry eliminates randomness and speeds up breeding—get it running as soon as possible."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Temporal bees need Mad Scientist (a 1% mutation that needs TNT to explode at the right moment) and Phantasmal (from Ender + Monastic bees).$(li)Specialty drops need the right temperature and humidity."
+    },
+    {
+      "type": "text",
+      "text": "With tolerance genes a bee still works in the wrong climate but gives no secondaries; with tolerance: none it stops, so you notice. Production templates usually use tolerance: none."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Magic Mods$()$(li)Thaumcraft generates Flux (creates rifts) and Warp (causes harmful effects)—isolate it far from your base.$(li)Use the Ritual of Satiated Stomach + Regeneration + Strength Beacon for sustainable boss fights."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For mana pooling, use Sparks to connect pools—mana does not share automatically.$(li)Use the Enchantment Extractor to strip enchants onto books, store them in the Enchantment Library, and combine into one book for mass enchanting."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Start with Botania (for RFTools/NuclearCraft casings), Blood Magic (early access to interdimensional AE2), and Astral Sorcery (perks for damage and survivability).$(li)For Gaia 3/4, Lifesteal 3 + Vampirism 2 + Vampire Ring can carry the whole fight."
+    },
+    {
+      "type": "text",
+      "text": "Pounce 5 is a must, Aftershock 2 and Corrosive 5 help, and an offhand Terrasteel Shield tanks some mine explosions."
+    }
+  ]
+}

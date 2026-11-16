@@ -1,0 +1,16 @@
+{
+  "name": "Troubleshooting & Common Pitfalls",
+  "icon": "thermalfoundation:material:24",
+  "category": "tardis",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)If your TARDIS fluid processing seems too slow, verify you’ve completed the $(o)full$() fluid chain before blaming the stones—$(5)Divine Stone$() and $(5)Bluefire Stone$() are sufficient $(o)only$() when the chain is complete."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(5)Bluefire Stone$() alone meets or exceeds required processing rates based on recipe times."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Games",
+  "icon": "opencomputers:case3",
+  "category": "oc_fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Lava Runner$() - escape the rising lava.$(br2)Install: $(l)oppm install lava-runner$()$(br2)$(l)Minesweeper$().$(br2)Install: $(l)oppm install sminesweeperone$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Game of Life$() - two versions to compare.$(br2)Install: $(l)oppm install game-of-life$(), $(l)oppm install gol$()$(br2)$(l)CHIP-8 emulator$() - run classic CHIP-8 ROMs.$(br2)Install: $(l)oppm install chip8emu$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)lunatic86$() - an 8086 PC emulator. It needs a lot of RAM: use tier 3.5 memory.$(br2)Install: $(l)oppm install lunatic86$()"
+    },
+    {
+      "type": "link",
+      "text": "Lava Runner and other programs from the Russian OpenComputers community.",
+      "url": "https://github.com/OpenPrograms/OpenPrograms.ru",
+      "link_text": "Open OpenPrograms.ru"
+    }
+  ],
+  "sortnum": 5
+}

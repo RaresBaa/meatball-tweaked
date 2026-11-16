@@ -1,0 +1,11 @@
+--- a/scripts/mixin/astralsorcery/AstralPerks.zs
++++ b/scripts/mixin/astralsorcery/AstralPerks.zs
+@@ -7,7 +7,7 @@
+ See StatsConfig.zs in this folder for values.
+ */
+ 
+-#mixin {value: "hellfirepvp.astralsorcery.common.registry.RegistryPerks"}
++#mixin {targets: "hellfirepvp.astralsorcery.common.registry.RegistryPerks"}
+ zenClass MixinRegistryPerks {
+     #mixin Static
+     #mixin ModifyConstant

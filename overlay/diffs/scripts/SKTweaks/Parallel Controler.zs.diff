@@ -1,0 +1,42 @@
+--- a/scripts/SKTweaks/Parallel Controler.zs
++++ b/scripts/SKTweaks/Parallel Controler.zs
+@@ -58,20 +58,20 @@
+ 	[null, <modularmachinery:blockparallelcontroller>, <glassential:glass_light>, <glassential:glass_light>, <forge:bucketfilled>.withTag({FluidName: "californium_252_fluoride_flibe", Amount: 1000}), <glassential:glass_light>, <glassential:glass_light>, <modularmachinery:blockparallelcontroller>, null]
+ ]);
+ 
+-// recipes.addShaped("parallelcontrollerx256",
+-//     <modularmachinery:blockparallelcontroller:3>,
+-//     [
+-//         [<modularmachinery:blockparallelcontroller:2>,<nae2:coprocessor_64x>,<modularmachinery:blockparallelcontroller:2>],
+-//         [<nae2:coprocessor_64x>,<threng:material:6>,<nae2:coprocessor_64x>],
+-//         [<modularmachinery:blockparallelcontroller:2>,<nae2:coprocessor_64x>,<modularmachinery:blockparallelcontroller:2>]
+-//     ]
+-// );
+-// recipes.addShaped("parallelcontrollerx512",
+-//     <modularmachinery:blockparallelcontroller:4>,
+-//     [
+-//         [<modularmachinery:blockparallelcontroller:3>,<projectex:matter:11>,<modularmachinery:blockparallelcontroller:3>],
+-//         [<projectex:matter:11>,<contenttweaker:innerved_sky_stone>  ,<projectex:matter:11>],
+-//         [<modularmachinery:blockparallelcontroller:3>,<projectex:matter:11>,<modularmachinery:blockparallelcontroller:3>]
+-//     ]
+-// );
+-<modularmachinery:blockparallelcontroller:4>.addTooltip(format.gold("说真的，为什么你需要这个"));
+\ No newline at end of file
++recipes.addShaped("parallelcontrollerx256",
++    <modularmachinery:blockparallelcontroller:3>,
++    [
++        [<modularmachinery:blockparallelcontroller:2>,<nae2:coprocessor_64x>,<modularmachinery:blockparallelcontroller:2>],
++        [<nae2:coprocessor_64x>,<threng:material:6>,<nae2:coprocessor_64x>],
++        [<modularmachinery:blockparallelcontroller:2>,<nae2:coprocessor_64x>,<modularmachinery:blockparallelcontroller:2>]
++    ]
++);
++recipes.addShaped("parallelcontrollerx512",
++    <modularmachinery:blockparallelcontroller:4>,
++    [
++        [<modularmachinery:blockparallelcontroller:3>,<projectex:matter:11>,<modularmachinery:blockparallelcontroller:3>],
++        [<projectex:matter:11>,<contenttweaker:innerved_sky_stone>  ,<projectex:matter:11>],
++        [<modularmachinery:blockparallelcontroller:3>,<projectex:matter:11>,<modularmachinery:blockparallelcontroller:3>]
++    ]
++);
++<modularmachinery:blockparallelcontroller:4>.addTooltip(format.gold("Seriously, why do you need this"));
+\ No newline at end of file

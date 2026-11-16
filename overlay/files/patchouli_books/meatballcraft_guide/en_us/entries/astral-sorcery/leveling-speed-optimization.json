@@ -1,0 +1,36 @@
+{
+  "name": "Maximizing Astral & Radiation Leveling Speed",
+  "icon": "projecte:matter_block:1",
+  "category": "astral-sorcery",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)For Astral Levelling:$()$(li)Use Evorsio with an Exchanging Gadget to rapidly swap Red Matter Blocks with another block type (e.g., via copy/paste profiles) for ~25 XP per block placed/broken."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Alternatively, use Aevitas with Red Matter Furnaces (highest durability block) and a Morningstar to break them repeatedly.$(li)Alternate between Red Matter Blocks and Red Matter Furnaces to avoid diminishing returns when placing blocks."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Avoid bedrock: it has negative hardness and yields very low XP."
+    },
+    {
+      "type": "text",
+      "text": "$(l)For Radiation Levelling (Armara):$()$(li)Combine Thaumcraft healing (Cloud + Heal V) with a spike to self-damage rapidly.$(li)Use high radiation exposure while undying (e.g., Silent Eternity or Charm of Life II) for safe, rapid leveling.$(li)Radiation can reach level 30 in under 2 minutes from level 0;"
+    },
+    {
+      "type": "text",
+      "text": "at high levels you gain so much per hit that you hit the per-hit cap even at level 100."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Automation & Notes:$()$(li)Automate Evorsio leveling with conveyor belts moving blocks into a breaker (e.g., unbreakable wand) and AFK.$(li)Collector crystals from Astral Shrines can be stolen with a Sack of Holding—but may cause bugs."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Kikoku’s HP drain effect does not work as commonly believed; not recommended for boss fights.$(li)The Last Stand perk is often unusable due to high saturation and max health in this pack."
+    }
+  ]
+}

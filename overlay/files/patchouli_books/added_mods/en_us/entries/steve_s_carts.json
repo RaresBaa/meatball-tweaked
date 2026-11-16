@@ -1,0 +1,11 @@
+{
+  "name": "Steve's Carts",
+  "icon": "stevescarts:blockcartassembler",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Design your own modular minecarts: tree farms, miners, cargo carts and more."
+    }
+  ]
+}

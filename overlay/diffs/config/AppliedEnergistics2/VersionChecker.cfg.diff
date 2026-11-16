@@ -1,0 +1,11 @@
+--- a/config/AppliedEnergistics2/VersionChecker.cfg
++++ b/config/AppliedEnergistics2/VersionChecker.cfg
+@@ -3,7 +3,7 @@
+ cache {
+     # Waits as many hours, until it checks again. [range: 0 ~ 168, default: 24]
+     I:interval=24
+-    S:lastCheck=1786908628367
++    S:lastCheck=1792928070882
+ }
+ 
+ 

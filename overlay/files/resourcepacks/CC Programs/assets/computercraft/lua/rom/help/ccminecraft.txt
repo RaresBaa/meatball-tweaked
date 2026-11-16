@@ -1,0 +1,12 @@
+CC: Minecraft
+
+A tiny 3D Minecraft inside Minecraft. Controls are in controls.txt.
+
+Usage: ccminecraft
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (117 KB) to /extra/ccminecraft. Delete that folder to reset it.
+
+By Xella. License: MIT.
+Source: https://github.com/Xella37/CC-Minecraft

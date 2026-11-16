@@ -1,0 +1,17 @@
+filename = 'betternether-0.1.8.6.jar'
+name = 'BetterNether'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'betternether-0.1.8.6.jar'
+
+[download]
+hash = 'f82a17a9a32bd65579f5414a5162fb8fedf4b73d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2859893
+project-id = 311377

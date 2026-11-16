@@ -1,0 +1,32 @@
+{
+  "name": "Troubleshooting",
+  "icon": "xnet:advanced_connector",
+  "category": "chapter-3",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Automation & Performance$()$(li)Use XNet instead of EnderIO conduits to reduce TPS load; match EnderIO speed only with XNet upgrades (gated until Chapter 4)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Itemducts are highly laggy with many connections—avoid them in large networks; use only for 1:1 transfers if necessary.$(li)Use fluid laser relays for fast, reliable fluid transfer—avoid super laminar fluiducts as their ‘limitless’ rate is misleading."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Passivate Nethergetic fluid early, then switch to Sednanite; batching Nethergetic is acceptable if you don’t need it immediately."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Crafting & Troubleshooting$()$(li)If auto-crafting fails for large quantities (e.g., 500 wood), check CPU capacity and usage in the terminal—expand CPU if needed."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use both a normal ME terminal and the Ultimate Terminal (from Extended Crafting) for reliable large recipe crafting.$(li)If a recipe fails, try crafting 4 of the same item first, then shuffle antimatter components—this helps diagnose input issues."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Keep one of each rock type separate to avoid losing them to duplication bugs."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/SKTweaks/machine_mana_pool.json
++++ b/config/modularmachinery/machinery/SKTweaks/machine_mana_pool.json
+@@ -9,7 +9,7 @@
+             "y": 1,
+             "z": 2,
+             "elements": "botania:pool@1",
+-            "description": "99.99%mana消耗减免",
++            "description": "99.99% less mana used",
+             "modifier": {
+                 "target": "modularmachinery:mana",
+                 "io": "input",

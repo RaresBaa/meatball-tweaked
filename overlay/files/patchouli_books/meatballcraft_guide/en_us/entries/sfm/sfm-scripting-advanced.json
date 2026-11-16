@@ -1,0 +1,24 @@
+{
+  "name": "Performance",
+  "icon": "minecraft:redstone_torch",
+  "category": "sfm",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Prefer long intervals ($(5)EVERY 8 SECONDS$(), or $(5)EVERY 60 SECONDS$() for slow processes) over $(5)EVERY 20 TICKS$() or faster. The cost comes when items actually move, not from checking."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Put related actions in one $(5)EVERY … DO … END$() block instead of many blocks firing at once; stagger the rest with offsets.$(li)Target exact slots ($(5)SLOT 0$()) instead of ranges or sides to skip slots that can't be extracted, and name exact items instead of wildcards or bare $(5)INPUT$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(5)RETAIN$() costs next to nothing and helps SFM size its transfers."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Frequent full-stack inputs can overwhelm slow machines; feed smaller amounts more often.$(li)Code running more often than every 20 ticks: use $(5)EVERY REDSTONE PULSE DO$() with a redstone clock, or copy the code into $(5)EVERY 20+1 TICKS DO$(), $(5)EVERY 20+2 TICKS DO$() and so on."
+    }
+  ]
+}

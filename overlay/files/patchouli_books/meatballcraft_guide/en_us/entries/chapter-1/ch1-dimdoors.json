@@ -1,0 +1,28 @@
+{
+  "name": "Dimensional Doors and World Thread",
+  "icon": "dimdoors:world_thread",
+  "category": "chapter-1",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Dimensional dungeons look like a few stone bricks around a wooden or iron door in the Overworld.$(br2)$(l)Before you enter:$()$(li)Waypoint the entrance. Entering creates a $(l)rift$() that slowly eats nearby blocks."
+    },
+    {
+      "type": "text",
+      "text": "Remove it with a Rift Remover, or cover it with a Dimensional Door you crafted.$(li)Inside: dangerous rooms, TNT traps and maze rooms that are easy to get lost in.$(li)Loot ranges from coal to iridium, platinum and $(l)Red Matter$()."
+    },
+    {
+      "type": "text",
+      "text": "Grab summons, $(l)World Thread$() and $(l)Fabric of Reality$() (needs Silk Touch); you'll need them later."
+    },
+    {
+      "type": "text",
+      "text": "$(l)If you fall into Limbo:$() dig down to y=0, avoid the creatures that teleport you back up, and touch the red blocks to return to the Overworld. You may land far from your base.$(br2)$(l)World Thread trick:$() enter a door and leave straight away, then chunk-load the rift."
+    },
+    {
+      "type": "text",
+      "text": "Come back now and then to collect the thread it drops. Don't do this near your base; the rift destroys blocks.$(br2)Dim doors chests are also a good early source of Grand Magic Crystals, titanium and red matter."
+    }
+  ]
+}

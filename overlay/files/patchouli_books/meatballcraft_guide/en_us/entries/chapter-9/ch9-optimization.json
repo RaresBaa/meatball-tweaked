@@ -1,0 +1,32 @@
+{
+  "name": "Optimization",
+  "icon": "contenttweaker:draconic_energy_ball",
+  "category": "chapter-9",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Route spent fuel isotopes through a mythic isotope separator$() with two AE2 storage buses: a high-priority bus to a drawer wall (visible to main network, small buffers), and a low-priority bus for excess isotopes (used only when main buffers are full)."
+    },
+    {
+      "type": "text",
+      "text": "Craft fuels only from excess isotopes when main buffers are full to avoid shortages."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Do not rush to build a Dyson Sphere$() immediately after obtaining Defined Ingot; first ensure 100% uptime on Defined production, as some multis (e.g., Stellar Diviner) may not benefit from full uptime."
+    },
+    {
+      "type": "text",
+      "text": "$(l)You don't need many two-phase reactors for nuclear fuels$() when running at slow speeds (e.g., un-upgraded sequential fabricators); 9 two-phase units (3 for cyanite, 3 for HEA-242 path, 3 for rest of NC fuels) are enough even for heavy endgame use."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Use an offline switch (e.g., redstone block + comparator)$() to power ID machines (e.g., Melter wall) only when no players are online, avoiding FE consumption during active play."
+    },
+    {
+      "type": "text",
+      "text": "$(l)To guarantee maximum energy orb fill$(), build a robotic-speed Energy Queen in a 3×3×3 alveary, form a tier-8 energy core with 36 stabilizers, place the queen while running, then insert the pylon without glass—the underflow will instantly fill an orb. Empty the orb first for best results."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+filename = 'ThaumicAugmentation-1.12.2-2.1.14.jar'
+name = 'Thaumic Augmentation'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ThaumicAugmentation-1.12.2-2.1.14.jar'
+
+[download]
+hash = '376843864b9b7c117d4aa98c24c227a76b2d4fde'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6047659
+project-id = 319441
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'REQUIRED'

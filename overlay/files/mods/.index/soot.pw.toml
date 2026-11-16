@@ -1,0 +1,17 @@
+filename = 'Soot-1.10-hotfix.jar'
+name = 'Soot'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Soot-1.10-hotfix.jar'
+
+[download]
+hash = '43d704c1c0bde24c280fd42fce99a85e045c8822'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3056967
+project-id = 281528

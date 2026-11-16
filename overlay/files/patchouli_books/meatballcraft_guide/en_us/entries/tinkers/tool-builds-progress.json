@@ -1,0 +1,44 @@
+{
+  "name": "Tool & Weapon Builds (Progression Order)",
+  "icon": "tconstruct:sword_blade",
+  "category": "tinkers",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Early to mid-game tools$()$(li)Use Netherite sharpening kits to gain Netherite mining level without crafting full Netherite parts."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Shickaxes (Efficiency 20) break nearly all blocks instantly and outperform most Tinkers tools except on rare high-mining-level blocks."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To level tools fast, fight high-HP mobs (e.g., in the Arcana dimension with a mob replicator) or use Deep Trader structures with a redstone clock for infinite one-shot XP."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Weapon builds that save time or avoid pitfalls$()$(li)For katanas: prioritize Abyssal Flesh (Mana/Energy Eater), a Nickel embossment (critkill), and avoid Dark Matter (unreliable damage + self-harm risk)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For rapiers: use Terrasteel + Fluxed Electrum blade parts to benefit from damage multiplier; pick the part with higher base damage if choosing one.$(li)Avoid Tinkers Lasers unless using HP%-based modifiers—otherwise they’re underwhelming."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Cleavers aren’t ideal for raw damage; pick another weapon if damage is priority."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Advanced tips (don’t skip)$()$(li)Fluxed Electrum and Terrasteel parts only grant energy/mana benefits when actively held or equipped in main/offhand—not in baubles or AE systems."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Terrasteel adds a 2.5× scaling on mana that isn't counted in the base damage on the tooltip, so swapping it for something like Crystal Quartz lowers your real damage."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For katanas, use shuriken-style build: center shuriken, power books in all 8 surrounding slots, activate with Abyssalnomicon (~45k PE).$(li)Shuriken materials: nickel (crit-kill), prismarine/dragon bone (jagged/fracture for low-durability damage), manyullyn (raw damage)."
+    }
+  ]
+}

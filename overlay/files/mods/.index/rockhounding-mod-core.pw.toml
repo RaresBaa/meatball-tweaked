@@ -1,0 +1,17 @@
+filename = 'rockhounding_core-1.12.2-3.30.jar'
+name = 'Rockhounding Mod: Core'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rockhounding_core-1.12.2-3.30.jar'
+
+[download]
+hash = 'edf2f72053eb336e4dc1d4f5c436cea6efcfb80c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4790040
+project-id = 271298

@@ -1,0 +1,40 @@
+{
+  "name": "Example Scripts: Patterns",
+  "icon": "superfactorymanager:manager",
+  "category": "sfm",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Make labels with the Label Gun and rename them to match your own setup."
+    },
+    {
+      "type": "text",
+      "text": "$(l)The smallest working script$() (Ming): moves everything from $(5)A$() to $(5)B$() once a second.$(br)$(5)EVERY 20 TICKS DO$()$(br)$(5)    INPUT FROM A$()$(br)$(5)    OUTPUT TO B$()$(br)$(5)END$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Staggered triggers$() (Super Factory Meinager). $(5)EVERY 4 + 1 SECOND$() still runs every 4 seconds, but 1 second after the plain $(5)EVERY 4 SECOND$() triggers. Use offsets to spread heavy jobs over different ticks. The offset can't be larger than the interval."
+    },
+    {
+      "type": "text",
+      "text": "$(5)EVERY 4 SECOND DO$()$(br)$(5)END$()$(br)$(5)EVERY 4 + 1 SECOND DO$()$(br)$(5)END$()$(br)$(5)EVERY 4 + 2 SECOND DO$()$(br)$(5)END$()$(br)$(5)EVERY 4 + 3 SECOND DO$()$(br)$(5)END$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Stop at a target amount$() (cry). Turns Mortum Livingrock into Livingrock only while the drawer has less than 100k.$(br)$(5)NAME \"Living rock and living wood\"$()$(br)$(5)EVERY 60 SECONDS DO$()$(br)$(5)    IF drawer HAS < 100000 botania:livingrock THEN$()$(br)$(5)        INPUT 512 contenttweaker:mortum_livingrock FROM interface$()"
+    },
+    {
+      "type": "text",
+      "text": "$(5)        OUTPUT RETAIN 512 TO input_bus$()$(br)$(5)        FORGET$()$(br)$(5)        INPUT FROM output_bus$()$(br)$(5)        OUTPUT TO drawer$()$(br)$(5)    END$()$(br)$(5)END$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Only fill an empty machine$() (Spirit). Cheap enough to copy once per machine. Inserting into a full inventory wastes work, so wait with an $(5)IF$() until the input slots are empty."
+    },
+    {
+      "type": "text",
+      "text": "$(5)EVERY [N] SECONDS DO$()$(br)$(5)    if LapisEssence has >= 8192 AND LapisFab [input side] has = 0 then$()$(br)$(5)        input 8192 from LapisEssence$()$(br)$(5)        output to LapisFab [input side]$()$(br)$(5)    end$()$(br)$(5)END$()"
+    }
+  ]
+}

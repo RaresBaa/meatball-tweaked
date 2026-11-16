@@ -1,0 +1,48 @@
+{
+  "name": "Power and Heat",
+  "icon": "nuclearcraft:heat_exchanger_controller",
+  "category": "chapter-5",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The Pixonia Reactor will not melt as long as its net heat output remains negative; monitor heat balance to avoid overheating.$(li)Before activating the MSR, ensure the Net Heat Gen is negative."
+    },
+    {
+      "type": "text",
+      "text": "Meltdowns occur if Coolant Heater output tanks, Fission Vessel output tanks fill up, or coolant runs out.$(li)A fission reactor controller requires internal cells—no cells = no operation—even with redstone input."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Fission Controller is always consumed in a meltdown (along with all cells and half the walls), so it must be passived."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use low-conductivity (20%) tubes for the hot fluid (e.g., NaK) and high-conductivity (550%) tubes for the cold fluid (e.g., water) to maximize high-pressure steam production; using 550% tubes for hot NaK reduces efficiency."
+    },
+    {
+      "type": "text",
+      "text": "$(li)In a Heat Exchanger, water and coolant must flow in opposite directions for proper heat transfer.$(li)Build an HX like an MSR: Frame/Walls/Glass, Controller, Vents, and configured Heat Exchanger Tubes (DISABLED → DEFAULT → PRODUCT OUT → INPUT SPREAD)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ensure the heat exchanger is fast enough to process output fluids; if output is blocked, the reactor will melt down and produce free corium."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A spent polonium molten salt reactor can gain heat when not all fission vessels are active because the center cooler stops working if only one line is partially filled; fully vacate fluid or stop the reactor when the tank is empty.$(li)Running a molten salt reactor at full output can cause it to stop processing;"
+    },
+    {
+      "type": "text",
+      "text": "use logic control (e.g., redstone or automation) to limit fuel input when output tanks exceed a threshold."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For large corium reactors, avoid placing non-unbreakable blocks directly adjacent to the controller—only corner blocks need to be near it, and walls adjacent to it may randomly melt down."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Symmetrical neutron source placement (on x, z, and y axes) significantly boosts cooling efficiency; a 5+5 symmetric setup provides ~80% cooling."
+    }
+  ]
+}

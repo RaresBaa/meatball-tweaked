@@ -1,0 +1,11 @@
+--- a/config/cofh/world/01_thermalfoundation_ores.json
++++ b/config/cofh/world/01_thermalfoundation_ores.json
+@@ -152,7 +152,7 @@
+ 			}
+ 		},
+ 		"platinum": {
+-			"enabled": "false",
++			"enabled": "true",
+ 			"distribution": "uniform",
+ 			"generator": {
+ 				"block": [

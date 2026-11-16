@@ -1,0 +1,17 @@
+filename = 'vc-1.12.2-5.10-final.jar'
+name = 'ViesCraft Machines'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'vc-1.12.2-5.10-final.jar'
+
+[download]
+hash = '52c3b8d112b8bc435e432898c4a095e8f279492f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3906332
+project-id = 246795

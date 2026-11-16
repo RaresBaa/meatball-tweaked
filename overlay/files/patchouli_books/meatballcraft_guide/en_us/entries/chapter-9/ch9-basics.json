@@ -1,0 +1,28 @@
+{
+  "name": "Multiblocks, Fluids and Automation",
+  "icon": "appliedenergistics2:part:260",
+  "category": "chapter-9",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Multiblocks$()$(li)When building the Twelve Gates of Heaven, ensure the single leg points $(o)outward$() from the Font, not inward; building it backwards prevents impetus hatches from connecting."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fluids$()$(li)To automate fluid passive crafting, use export buses on a shared subnet for each fluid, or manually transport fluids if automation is unavailable.$(li)For the Definer, use crafting cards and melters to input all fluids—no need for complex fluid networks;"
+    },
+    {
+      "type": "text",
+      "text": "this avoids power and throughput issues.$(li)In the heat exchanger, mineral water coolant must flow opposite to hot nak; this is critical for correct operation."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Automation$()$(li)The Extreme Crafting Table cannot be automated with Automation Interfaces; use packagers instead (e.g., 6 for Gems of Aura).$(li)A single salt repolarizer is insufficient for 16 two-phase machines; use at least two to keep them running continuously."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For the alchemical particle multiblock, use a dedicated subnet powered by a creative cell on red, with a blue storage bus on a fading matter interface (512 max), and a red storage bus reading the interface connected to ME input set to 100,000."
+    }
+  ]
+}

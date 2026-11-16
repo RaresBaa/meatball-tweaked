@@ -1,0 +1,21 @@
+filename = 'buildcraft-core-8.0.0.jar'
+name = 'BuildCraft|Core'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '8.0.0'
+
+[download]
+hash = '05e9be3afb1ce46ef3b5c9ac07d9f3165872eba4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6376383
+project-id = 231305
+
+[[x-prismlauncher-dependencies]]
+addonId = '311410'
+type = 'EMBEDDED'

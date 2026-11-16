@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    1904378217
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nMake a tool out of Ravaging Essence",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "defiledlands:the_ravager"
+      },
+      "name:8": "Wielder of Destruction",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1981651735,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "minecraft:diamond"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 20,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "defiledlands:ravaging_pickaxe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "defiledlands:ravaging_shovel"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "defiledlands:ravaging_axe"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "defiledlands:the_ravager"
+        }
+      },
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

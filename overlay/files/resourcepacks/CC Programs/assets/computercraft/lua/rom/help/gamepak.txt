@@ -1,0 +1,12 @@
+3 Game Pak
+
+Three small arcade games in one, including Dr. Dan.
+
+Usage: gamepak
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (36 KB) to /extra/gamepak. Delete that folder to reset it.
+
+By CrazedProgrammer. License: MIT.
+Source: https://pastebin.com/EmLqt5D2

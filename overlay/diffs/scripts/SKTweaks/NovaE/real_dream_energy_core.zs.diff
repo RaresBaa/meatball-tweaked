@@ -1,0 +1,176 @@
+--- a/scripts/SKTweaks/NovaE/real_dream_energy_core.zs
++++ b/scripts/SKTweaks/NovaE/real_dream_energy_core.zs
+@@ -34,9 +34,9 @@
+ val MACHINE = "dream_energy_core";
+ 
+ MachineModifier.setMaxThreads(MACHINE,0);
+-MachineModifier.addCoreThread(MACHINE,FactoryRecipeThread.createCoreThread("梦之输入模块"));
+-MachineModifier.addCoreThread(MACHINE,FactoryRecipeThread.createCoreThread("梦之输出模块"));
+-MachineModifier.addCoreThread(MACHINE,FactoryRecipeThread.createCoreThread("梦之聚合模块"));
++MachineModifier.addCoreThread(MACHINE,FactoryRecipeThread.createCoreThread("Dream Input Module"));
++MachineModifier.addCoreThread(MACHINE,FactoryRecipeThread.createCoreThread("Dream Output Module"));
++MachineModifier.addCoreThread(MACHINE,FactoryRecipeThread.createCoreThread("Dream Aggregation Module"));
+ 
+ // val maxenergy = 9223372036854775807 as long;
+ val energyin = 1000000 as long;
+@@ -59,7 +59,7 @@
+         event.controller.customData = newData;
+     })
+     .setParallelized(false)
+-    .setThreadName("梦之输入模块")
++    .setThreadName("Dream Input Module")
+     .build();
+ 
+ // 能量输出配方
+@@ -75,7 +75,7 @@
+                 .multiply(BigInteger.valueOf((speedOut * 1000) as long))
+                 .divide(BigInteger.valueOf(1000));
+         if (current.compareTo(required) < 0) {
+-            event.setFailed("能量不够输出");
++            event.setFailed("Not enough energy to output");
+         }
+     })
+     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+@@ -94,7 +94,7 @@
+         event.controller.customData = newData;
+     })
+     .setParallelized(false)
+-    .setThreadName("梦之输出模块")
++    .setThreadName("Dream Output Module")
+     .build();
+ 
+ function formatNumber(value as long) as string {
+@@ -161,11 +161,11 @@
+     var speed_output = isNull(data.speed_out) ? 1.0 : data.speed_out as double;
+     var energy_speed_in = speed_input * energyin;
+     var energy_speed_out = speed_output * energyout;
+-    var working = ctrl.isWorking ? "§a● 工作中" : "§7○ 待机";
+-
+-    var inputWorking = "§7○ 待机";
+-    var outputWorking = "§7○ 待机";
+-    var chargeWorking = "§7○ 待机";
++    var working = ctrl.isWorking ? "§a● Working" : "§7○ Idle";
++
++    var inputWorking = "§7○ Idle";
++    var outputWorking = "§7○ Idle";
++    var chargeWorking = "§7○ Idle";
+     var chargeParallel = 4;
+     var threshold = BigInteger("1000000000");   // 1G 起步
+     val thousand = BigInteger.valueOf(1000);
+@@ -177,37 +177,37 @@
+     }
+     // ctrl.recipeThreadList[3].activeRecipe
+     if(!isNull(ctrl.recipeThreadList[0].activeRecipe)){
+-        inputWorking = "§a● 工作中";    
++        inputWorking = "§a● Working";    
+     }
+     if(!isNull(ctrl.recipeThreadList[1].activeRecipe)){
+-        outputWorking = "§a● 工作中";    
++        outputWorking = "§a● Working";    
+     }
+     if(!isNull(ctrl.recipeThreadList[2].activeRecipe)){
+-        chargeWorking = "§a● 工作中";    
++        chargeWorking = "§a● Working";    
+     }
+ 
+ 
+     var info as string[] = [];
+     
+     // 标题行
+-    info += "§3║§6✦§b 梦之§a能量核心 §f| §7v2.0 ";
++    info += "§3║§6✦§b Dream §aEnergy Core §f| §7v2.0";
+     // 所有者 & 状态
+-    var owner = isNull(data.owner) ? "未绑定" : data.owner as string;
+-    info += "§3║§b▸ §7结构：§r" + "§a已形成" ;
+-    info += "§3║§b▸ §7状态：§r" + working;
++    var owner = isNull(data.owner) ? "Unbound" : data.owner as string;
++    info += "§3║§b▸ §7Structure: §r" + "§aFormed" ;
++    info += "§3║§b▸ §7Status: §r" + working;
+     
+     // 能量数据
+-    info += "§3║§b▸ 存储电量：§6" + formatBigNumber(energy_Bigint);
+-    info += "§3║§b▸ 存储上限：§6∞ RF";
++    info += "§3║§b▸ Stored energy: §6" + formatBigNumber(energy_Bigint);
++    info += "§3║§b▸ Storage limit: §6∞ RF";
+     
+     // 输入/输出
+-    info += "§3║§a▸ 能量输入：§r" + inputWorking;
+-    info += "§3║§c▸ 能量输出：§r" + outputWorking;
+-    info += "§3║§d▸ 能量聚合：§r" + chargeWorking;
+-    info += "§3║§b▸ 当前输入：§6" + formatNumber(energy_speed_in) + " RF/t";
+-    info += "§3║§b▸ 当前输出：§6" + formatNumber(energy_speed_out) + " RF/t";
+-    info += "§3║§d▸ 当前聚合最大并行数：§6" + chargeParallel+ "§cx";
+-    info += "§3║§b▸ CPU 负载：§6" + (ctrl.isWorking ? (Math.random() * 20 + 10) as int : 0) + "%";
++    info += "§3║§a▸ Energy input: §r" + inputWorking;
++    info += "§3║§c▸ Energy output: §r" + outputWorking;
++    info += "§3║§d▸ Energy aggregation: §r" + chargeWorking;
++    info += "§3║§b▸ Current input: §6" + formatNumber(energy_speed_in) + " RF/t";
++    info += "§3║§b▸ Current output: §6" + formatNumber(energy_speed_out) + " RF/t";
++    info += "§3║§d▸ Current max aggregation parallel: §6" + chargeParallel+ "§cx";
++    info += "§3║§b▸ CPU load: §6" + (ctrl.isWorking ? (Math.random() * 20 + 10) as int : 0) + "%";
+ 
+     
+     event.extraInfo = info;
+@@ -236,24 +236,24 @@
+ // 智能数据接口数据类型定义
+ MachineModifier.addSmartInterfaceType(MACHINE,
+     SmartInterfaceType.create("speed_input", 0)
+-        .setHeaderInfo("能量输入速度设置")
+-        .setValueInfo("速度：§a%.2f 倍")
++        .setHeaderInfo("Energy input speed setting")
++        .setValueInfo("Speed: §a%.2fx")
+         // .setFooterInfo(
+         //     "例：0.1 倍即为 " + NovaEngUtils.formatNumber((defaultTransferAmount as float * 0.1) as long) + "RF,10 倍即为 " + NovaEngUtils.formatNumber(defaultTransferAmount * 10) + "RF"
+         // )
+         .setFooterInfo("")
+-        .setJeiTooltip("速度范围：最低 §a%.2f 倍§f,最高 §a%.0f 倍", 2)
++        .setJeiTooltip("Speed range: min §a%.2fx§f, max §a%.0fx", 2)
+         // .setNotEqualMessage("输入输出速度过载或过低！")
+ );
+ MachineModifier.addSmartInterfaceType(MACHINE,
+     SmartInterfaceType.create("speed_output", 1)
+-        .setHeaderInfo("能量输出速度设置")
+-        .setValueInfo("速度：§a%.2f 倍")
++        .setHeaderInfo("Energy output speed setting")
++        .setValueInfo("Speed: §a%.2fx")
+         // .setFooterInfo(
+         //     "例：0.1 倍即为 " + NovaEngUtils.formatNumber((defaultTransferAmount as float * 0.1) as long) + "RF,10 倍即为 " + NovaEngUtils.formatNumber(defaultTransferAmount * 10) + "RF"
+         // )
+         .setFooterInfo("")
+-        .setJeiTooltip("速度范围：最低 §a%.2f 倍§f,最高 §a%.0f 倍", 2)
++        .setJeiTooltip("Speed range: min §a%.2fx§f, max §a%.0fx", 2)
+         // .setNotEqualMessage("输入输出速度过载或过低！")
+ );
+ 
+@@ -333,7 +333,7 @@
+     val ctrl = event.controller as IMachineController;
+     val data = ctrl.customData;
+     if (isNull(data)) {
+-        event.setFailed("机器没有自定义数据！");
++        event.setFailed("The machine has no custom data!");
+         return false;
+     }
+     if (EnergyInput.compareTo(BigInteger.ZERO) <= 0) {
+@@ -341,7 +341,7 @@
+     }
+     val current = BigInteger(Get_CustomData_string(data, "energy", "0"));
+     if (current.compareTo(EnergyInput) < 0) {
+-        event.setFailed("机器存储能量不足！");
++        event.setFailed("The machine doesn't have enough stored energy!");
+         return false;
+     }
+ 
+@@ -418,10 +418,10 @@
+         ctrl.customData = newData;
+     });
+ 
+-    builder.setThreadName("梦之聚合模块");
++    builder.setThreadName("Dream Aggregation Module");
+     builder.addRecipeTooltip(
+-        "§c梦之聚合模块：",
+-        "§e需要：§6§l" + formatBigNumber(EnergyInput) + " §eRF"
++        "§cDream Aggregation Module:",
++        "§eRequires: §6§l" + formatBigNumber(EnergyInput) + " §eRF"
+     );
+     builder.build();
+ }

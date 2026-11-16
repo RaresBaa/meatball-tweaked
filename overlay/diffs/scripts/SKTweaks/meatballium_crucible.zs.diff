@@ -1,0 +1,11 @@
+--- a/scripts/SKTweaks/meatballium_crucible.zs
++++ b/scripts/SKTweaks/meatballium_crucible.zs
+@@ -7,7 +7,7 @@
+ import mods.modularmachinery.ControllerGUIRenderEvent;
+ 
+ MachineModifier.setInternalParallelism("meatballium_crucible", 256);
+-<modularmachinery:meatballium_crucible_controller>.addTooltip(format.gold("内置额外256并行！"));
++<modularmachinery:meatballium_crucible_controller>.addTooltip(format.gold("Built-in extra 256 parallel!"));
+ 
+ var MachineName = "meatballium_crucible";
+ val recipes = [

@@ -1,0 +1,11 @@
+--- a/scripts/mixin/Extrabotany/zenithdamage.zs
++++ b/scripts/mixin/Extrabotany/zenithdamage.zs
+@@ -3,7 +3,7 @@
+ 
+ import native.com.meteor.extrabotany.common.item.relic.ItemFirstFractal;
+ 
+-#mixin {value: "com.meteor.extrabotany.common.item.relic.ItemFirstFractal"}
++#mixin {targets: "com.meteor.extrabotany.common.item.relic.ItemFirstFractal"}
+ zenClass MixinItemFirstFractal {
+   #mixin Definition
+   #{

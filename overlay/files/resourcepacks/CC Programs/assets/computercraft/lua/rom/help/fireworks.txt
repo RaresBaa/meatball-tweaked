@@ -1,0 +1,10 @@
+Fireworks 3D
+
+A 3D fireworks show over a forest, rendered with Pine3D.
+
+Usage: fireworks
+
+Needs: advanced computer (colour)
+
+By Xella. License: MIT.
+Source: https://github.com/Xella37/CC-Fireworks

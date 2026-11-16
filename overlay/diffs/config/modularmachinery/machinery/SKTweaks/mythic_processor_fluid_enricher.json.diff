@@ -1,0 +1,20 @@
+--- a/config/modularmachinery/machinery/SKTweaks/mythic_processor_fluid_enricher.json
++++ b/config/modularmachinery/machinery/SKTweaks/mythic_processor_fluid_enricher.json
+@@ -8,7 +8,7 @@
+             "x": 0,
+             "y": 3,
+             "z": 1,
+-            "description": "x16并行",
++            "description": "x16 parallel",
+             "modifiers": [
+                 {
+                     "io": "output",
+@@ -41,7 +41,7 @@
+             "x": 0,
+             "y": 3,
+             "z": 1,
+-            "description": "x64并行",
++            "description": "x64 parallel",
+             "modifiers": [
+                 {
+                     "io": "output",

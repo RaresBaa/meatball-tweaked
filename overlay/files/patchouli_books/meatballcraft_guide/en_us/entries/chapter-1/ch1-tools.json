@@ -1,0 +1,32 @@
+{
+  "name": "Tools and Mining",
+  "icon": "divinerpg:divine_shickaxe",
+  "category": "chapter-1",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Tool progression:$()$(br)1. $(l)Rupee Shickaxe$() (DivineRPG): fast, mines everything and works as a scoop. Rupee also gives Haste.$(br)2. $(l)Divine Shickaxe$(): divine gems come from bosses at the start of Chapter 2 (the questbook points you to them)."
+    },
+    {
+      "type": "text",
+      "text": "A Nether cobblestone structure can also contain one.$(br2)3. $(l)Dire Pick$(): a Chapter 1 super enchant of the Divine Shickaxe. It stays the best tool for a very long time, and some players use it to the end."
+    },
+    {
+      "type": "text",
+      "text": "$(l)You still need one Tinkers' pickaxe:$() some blocks need a high harvest level (Netherite level, up to 15). Expect to need it in Chapter 3 at the latest.$(br2)Tinkers' harvest levels are offset from vanilla:$(li)Stone tier = Level 1 (wood material)$(li)Iron = Level 2 (stone material)"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Diamond = Level 3 (iron material)$(li)Obsidian = Level 4 (diamond material)$(li)Cobalt = Level 5 (obsidian material)$(li)Level 6 and up after that"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Realmite is a good stand-in if you can't find diamonds.$(li)$(l)Red Matter$() is a great Tinkers material once you have EMC. It has high durability and the $(o)Weee$() trait: 2.5x mining speed, and every block mines as fast as stone."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Never mine Thermal dynamos or machines with a Tinkers' hammer.$() It resets them and you lose the upgrade kits and augments. Use the $(l)Crescent Hammer$() (you get one from a quest; it also rotates blocks).$(li)Silk Touch without vanilla enchanting: add a $(l)Silky Jewel$() to a Tinkers' tool."
+    }
+  ]
+}

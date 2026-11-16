@@ -1,0 +1,20 @@
+{
+  "name": "Automation & Advanced Tools (MMCE, RF Tools, etc.)",
+  "icon": "rftools:scanner",
+  "category": "copypaste-gadget",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Modular Machines (MMCE) multiblocks can be auto-built by right-clicking the controller block with a stick.$(li)RF Tools scanner can copy tile entities and use them in shape cards, bypassing Building Gadget’s TE limitation."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use modular platform templates (Crossroad and Section) for faster multiblock construction."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Avoid relying solely on Building Gadget for multiblocks involving tile entities—use RF Tools or manual placement instead."
+    }
+  ]
+}

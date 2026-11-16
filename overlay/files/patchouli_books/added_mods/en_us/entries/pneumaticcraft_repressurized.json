@@ -1,0 +1,11 @@
+{
+  "name": "PneumaticCraft: Repressurized",
+  "icon": "pneumaticcraft:pneumatic_wrench",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Pressurized-air machines, programmable drones, elevators and the assembly line."
+    }
+  ]
+}

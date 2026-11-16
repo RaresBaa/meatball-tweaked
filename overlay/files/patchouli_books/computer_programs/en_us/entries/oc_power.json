@@ -1,0 +1,16 @@
+{
+  "name": "Reactors and Power",
+  "icon": "opencomputers:adapter",
+  "category": "oc_automation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)bigreactors-control$() runs $(item)Extreme Reactors$() reactors and turbines: connect their computer ports with an $(item)Adapter$() or cable and run it. Use $(l)-s$() to run silently.$(br2)Install: $(l)oppm install bigreactors-control$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)energy-monitor$() graphs a Draconic Evolution $(item)Energy Core$() on a screen (see /usr/share/doc/energy-monitor for setup).$(br2)Install: $(l)oppm install energy-monitor$()$(br2)$(l)charts$() is a library for your own bars and graphs.$(br2)Install: $(l)oppm install charts$()"
+    }
+  ],
+  "sortnum": 14
+}

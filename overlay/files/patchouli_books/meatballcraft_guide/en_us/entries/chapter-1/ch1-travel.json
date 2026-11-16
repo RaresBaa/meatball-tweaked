@@ -1,0 +1,24 @@
+{
+  "name": "Getting Around",
+  "icon": "openblocks:hang_glider",
+  "category": "chapter-1",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)The classic early setup:$() Slime Boots + Slimesling + Hang Glider.$(li)$(l)Infinite flight:$() boots with $(l)Multi-Jump III$() let you jump in mid-air while gliding. Multi-jump resets on a timer, not when you land, so you can climb forever."
+    },
+    {
+      "type": "text",
+      "text": "Hold Shift to glide faster.$(li)$(l)Cyclic Player Launcher$() beats the slimesling, especially combined with the glider. It accelerates exponentially with slime boots, so be careful.$(li)Keep the slimesling even after you can fly. Launching first, then flying, keeps the momentum."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Bessie$() (TARDIS mod): cheap, fast, crosses water, takes no fall damage.$(li)$(l)Floo Network$() (Random Things): the earliest teleporting.$(li)$(l)Spectral Key$() (Random Things): hold right-click to enter a private 14x2x14 room. Right-clicking the center 4 blocks with Ectoplasm makes it 254 tall."
+    },
+    {
+      "type": "text",
+      "text": "Use it as an escape, a loot room or a teleport hub.$(li)A Cyclic chorus-fruit-like food gives creative flight; eat several to stack the duration.$(li)The $(l)Autojump$() control acts as step assist in this pack."
+    }
+  ]
+}

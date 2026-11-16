@@ -1,0 +1,28 @@
+{
+  "name": "Power and Energy Storage",
+  "icon": "thermalexpansion:cell",
+  "category": "chapter-2",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Prioritize water wheels for early passive power; they output a constant 512 RF/t when water touches all four sides."
+    },
+    {
+      "type": "text",
+      "text": "For higher output, build an Extreme Reactor + Turbine setup—one reactor feeds at most 25 turbines, and a small-to-medium reactor already reaches that cap. Avoid using steam ports for direct power; steam is only for turbines."
+    },
+    {
+      "type": "text",
+      "text": "Use Energy Transfer Pipes for dynamo power routing, and upgrade dynamos to avoid shortages for crafters and other machines. For mid-game storage, progress from Thermal Expansion Cells → Capacitor Banks → Draconic Evolution Energy Cores."
+    },
+    {
+      "type": "text",
+      "text": "EnderIO Energy Conduits are fine and come in many tiers, so pick what you can afford. For long distances, Flux Networks have no limits and work cross-dimensionally."
+    },
+    {
+      "type": "text",
+      "text": "Use more than one dense infinite water source. If Fluid Laser Relays are too slow, add more and set each one to extract-only or insert-only."
+    }
+  ]
+}

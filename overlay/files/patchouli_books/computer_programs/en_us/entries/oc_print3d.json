@@ -1,0 +1,12 @@
+{
+  "name": "3D Printing",
+  "icon": "opencomputers:printer",
+  "category": "oc_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)print3d$() sends model files to the $(item)3D Printer$() to make custom decorative blocks, $(l)print3d-view$() previews them, and $(l)print3d-examples$() adds sample models in /usr/share/models.$(br2)Install: $(l)oppm install print3d$(), $(l)oppm install print3d-examples$()"
+    }
+  ],
+  "sortnum": 11
+}

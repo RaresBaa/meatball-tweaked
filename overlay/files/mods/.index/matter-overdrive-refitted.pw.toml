@@ -1,0 +1,17 @@
+filename = 'matteroverdrive-1.2.3.jar'
+name = 'Matter Overdrive Refitted'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'matteroverdrive-1.2.3.jar'
+
+[download]
+hash = 'e3e7a066d72dc1c35ab1aaf5e4c99d09168ff9d1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8161752
+project-id = 1522080

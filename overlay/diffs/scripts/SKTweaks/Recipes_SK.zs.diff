@@ -1,0 +1,13 @@
+--- a/scripts/SKTweaks/Recipes_SK.zs
++++ b/scripts/SKTweaks/Recipes_SK.zs
+@@ -176,8 +176,8 @@
+ // 	0
+ // );
+ // 无限水和无限熔岩原件
+-val infinite_water_cell = <cells:creative_fluid_cell>.withTag({CreativeFluidFilters: [{FluidName: "water", Amount: 1}], display: {Name: "§b无限水原件", Lore: ["§f感觉不如水槽......", "§8但是，这个提供的水更多"]}});
+-val infinite_lava_cell = <cells:creative_fluid_cell>.withTag({CreativeFluidFilters: [{FluidName: "lava", Amount: 1}], display: {Name: "§c无限熔岩原件", Lore: ["§c§m感觉不如机械动力......"]}});
++val infinite_water_cell = <cells:creative_fluid_cell>.withTag({CreativeFluidFilters: [{FluidName: "water", Amount: 1}], display: {Name: "§bInfinite Water Cell", Lore: ["§fFeels worse than a sink......", "§8But it does give more water"]}});
++val infinite_lava_cell = <cells:creative_fluid_cell>.withTag({CreativeFluidFilters: [{FluidName: "lava", Amount: 1}], display: {Name: "§cInfinite Lava Cell", Lore: ["§c§mFeels worse than Create......"]}});
+ Recipe_Builder_SK(
+ 	"infinite_water_cell_make",
+ 	"creation_altar",

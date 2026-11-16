@@ -1,0 +1,25 @@
+filename = 'MultifarmCrops-1.2.0.jar'
+name = 'Multifarm Crops'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = ' Multifarm Crops - 1.12.2 - 1.2.0'
+
+[download]
+hash = 'b6bd81647856cb5221b08e5618c95394ff32a5fa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2628754
+project-id = 265462
+
+[[x-prismlauncher-dependencies]]
+addonId = '225635'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '59751'
+type = 'REQUIRED'

@@ -1,0 +1,36 @@
+{
+  "name": "Essentia Basics & Safety",
+  "icon": "thaumcraft:sanity_soap",
+  "category": "thaumcraft",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Place a water source block directly on the cauldron of a Phytogenic Insolator; it will auto-fill and avoid reservoir TPS issues."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When crafting Essentia Smeltery multiblocks via Chisel, use the first blueprint in the chisel list; other blueprints are for different variants and may not appear in JEI if mismatched."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To unlock the Arcane Spa (required for the Meatball Lore Book), you must first research and craft Sanity Soap; the spa is not directly researchable until soap is crafted.$(li)To make Sanity Soap, melt crystals first;"
+    },
+    {
+      "type": "text",
+      "text": "if unavailable, use Thaumathorium, then fallback to zombie brains, lead, or ender pearls in the smeltery.$(li)Avoid AbyssalCraft before crafting Sanity Soap, as it causes excessive Sticky Warp; if needed, prepare Omothol Warp Cleanser and Vishroom first."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Perform early Thaumcraft research and risky crafting (e.g., unstable aspects, flux handling) in a remote location until you unlock safe methods like the Arcane Assembler or Thaumic Energistics storage."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Form the Infusion Altar by right-clicking the matrix with Salis Mundus first; only then does clicking it with a caster's gauntlet start a craft."
+    },
+    {
+      "type": "text",
+      "text": "$(li)If a Thaumium Thaumatorium fails to form, ensure it was built with Sticc (not Thaumium blocks alone) and that the correct pattern was selected."
+    }
+  ]
+}

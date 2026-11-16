@@ -1,0 +1,32 @@
+{
+  "name": "Common Bugs, Crashes & Fixes",
+  "icon": "minecraft:redstone_torch",
+  "category": "ae2-storage",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Crash on import interface open$() after joining: if the GUI help overlay extends beyond screen bounds, the game crashes. Resize your screen or adjust UI scale before opening."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Compacting cell crash$(): occurs when inserting an item card, adding items, then removing the card. Avoid this sequence."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Interface polling issues$(): if items/fluids don’t update reliably, temporarily set polling rate to $(5)1$() second, then revert to your preferred value.$(li)$(l)Fluid/item misreporting in subnet view$(): often caused by fluid drawers connected via Storage Bus."
+    },
+    {
+      "type": "text",
+      "text": "Use a standard Storage Bus instead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)If items vanish in ME, check for subnets without direct storage—items get poofed if no storage exists on the subnet.$(li)Import and export buses require intermediary storage (disk or storage bus) to function correctly.$(li)AE2 systems do not leak items like chests;"
+    },
+    {
+      "type": "text",
+      "text": "items in ME networks are safe from accidental loss."
+    }
+  ]
+}

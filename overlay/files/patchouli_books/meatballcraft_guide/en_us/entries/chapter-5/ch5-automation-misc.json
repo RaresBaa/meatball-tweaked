@@ -1,0 +1,36 @@
+{
+  "name": "Automation",
+  "icon": "appliedenergistics2:interface",
+  "category": "chapter-5",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Do not increase buffer capacities (e.g., Will Steel buffers) by 32× (e.g., from 2048 to 65536), as this causes severe performance issues."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The item filter can only handle up to one stack (64) of an item; for larger amounts, use XNet or SFM instead.$(li)RFTools Crafter cannot be used for certain recipes (e.g., Definer); you must use a Sequential Fabricator instead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)In the ME Mythic Assembler, recipe ingredients (e.g., Cursed Sapphire, Mithrillium Catalyst) are consumed unless the tooltip explicitly states otherwise."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To enable on-demand crafting with ME Machinery Input Bus, use an AE2 subnet: place an interface with patterns on the input inventory, then connect a storage bus to the same inventory and link it to the Machinery Input Bus set to stock a large quantity of ingredients."
+    },
+    {
+      "type": "text",
+      "text": "$(li)If a Mythic Processor isn’t crafting, verify the interface is attached directly to the input bus, and ensure no duplicate recipes exist elsewhere in your AE network."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Some recipes (e.g., Black Iron) do not fit into the ludicrous-tier output hatch when using Tier 3 mythic coils; reduce coil tier or upgrade output hatch capacity to avoid overflow."
+    },
+    {
+      "type": "text",
+      "text": "$(li)One bucket of Astral Water is sufficient to run one full cycle of the Mythic Assembly—craft just that amount per run to avoid waste."
+    }
+  ]
+}

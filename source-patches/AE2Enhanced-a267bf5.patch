@@ -1,0 +1,13 @@
+diff --git a/src/main/resources/assets/ae2enhanced/recipes/chunk_mana_node.json b/src/main/resources/assets/ae2enhanced/recipes/chunk_mana_node.json
+index c512b04..d919db5 100644
+--- a/src/main/resources/assets/ae2enhanced/recipes/chunk_mana_node.json
++++ b/src/main/resources/assets/ae2enhanced/recipes/chunk_mana_node.json
+@@ -11,7 +11,7 @@
+   "key": {
+     "I": { "item": "minecraft:iron_block" },
+     "M": { "item": "botania:manaresource", "data": 1 },
+-    "P": { "item": "botania:pool" },
++    "P": { "item": "botania:pool", "data": 0 },
+     "C": { "item": "ae2enhanced:stable_spacetime_manifold" }
+   },
+   "result": { "item": "ae2enhanced:chunk_mana_node" }

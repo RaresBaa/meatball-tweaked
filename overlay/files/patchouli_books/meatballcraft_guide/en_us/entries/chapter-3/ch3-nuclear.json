@@ -1,0 +1,48 @@
+{
+  "name": "Nuclear Power",
+  "icon": "nuclearcraft:radiation_scrubber",
+  "category": "chapter-3",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Before starting any reactor, check the heat number in the controller GUI—it must be negative. A positive value floods the area with radiation and can kill you instantly.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use dedicated 5³ safe reactor designs per fuel type (e.g., LEU-235, LEP-239, HEA-242, LEB-248) to avoid meltdowns$(li)Passive cooling is simpler and more reliable than active cooling—only use active cooling if maximizing power/efficiency"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Buffer all isotopes on the fuel production path (LEU-235, LEP-239, HEA-242, LEB-248), not just spent fuel$(li)For converting yellorium to blutonium, disable cooling and maximize reactor rods to burn fuel faster"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Radiation safety is critical:$()$(li)Scrubbers only work in the chunk they’re placed in; place 9 in a 3×3 grid with 4 blocks between each$(li)Radiation spreads into nearby chunks in weaker amounts; a fuel's \"Rad:\" tooltip shows how dangerous it is (Rad > mRad > nRad > fRad)"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Keep reactors in a dedicated chunk with scrubbers—meltdowns irradiate ~200 blocks around the reactor$(li)Store radioactive items in sealed containers (drawers, piping); exposure only occurs when items are on the ground or in inventory"
+    },
+    {
+      "type": "text",
+      "text": "$(li)If scrubbers fail, use the dedicated radiation multiblock (from RFTools) to clear radiation"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Turbines & output:$()$(li)Maximize turbine output with 2,000 mB/t steam, 80 blades, ludicrite coils (wrap only 3×3 around shaft), and wait for ~1800 RPM$(li)Larger reactors (e.g., 7×7×7) are more efficient than small JEI previews—especially with moderators"
+    },
+    {
+      "type": "text",
+      "text": "$(li)One reactor can support multiple turbines; stack vertically or co-locate reactors to stay within chunk limits$(li)To measure reactor steam output, pump all steam into a fluid trash can and hover over the tank"
+    },
+    {
+      "type": "text",
+      "text": "$(li)You don’t need fluid output for turbines—enable automatic voiding of excess water in turbine config$(br2)$(l)Place reactors at least 500 blocks from your base$() to avoid radiation exposure if a meltdown occurs. One meltdown can contaminate ~200 blocks around it;"
+    },
+    {
+      "type": "text",
+      "text": "radiation scrubbers keep normal levels at zero."
+    }
+  ]
+}

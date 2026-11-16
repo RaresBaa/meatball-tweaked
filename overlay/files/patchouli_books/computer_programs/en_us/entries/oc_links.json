@@ -1,0 +1,32 @@
+{
+  "name": "More Programs",
+  "icon": "opencomputers:screen3",
+  "category": "oc_more",
+  "pages": [
+    {
+      "type": "link",
+      "text": "Every package OPPM can install, searchable.",
+      "url": "https://openprograms.github.io/",
+      "link_text": "OpenPrograms index"
+    },
+    {
+      "type": "link",
+      "text": "The OpenComputers forum's programs section has hundreds of shared programs.",
+      "url": "https://oc.cil.li/forum/34-programs/",
+      "link_text": "OC forums: Programs"
+    },
+    {
+      "type": "link",
+      "text": "GitHub projects tagged opencomputers.",
+      "url": "https://github.com/topics/opencomputers",
+      "link_text": "GitHub topic"
+    },
+    {
+      "type": "link",
+      "text": "MineOS also has its own app store once installed.",
+      "url": "https://github.com/IgorTimofeev/MineOS",
+      "link_text": "MineOS"
+    }
+  ],
+  "sortnum": 16
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Chapter 2 at a Glance",
+  "icon": "thermalexpansion:dynamo:5",
+  "category": "chapter-2",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Focus on core infrastructure first$()$(li)Unlock a better EMC loop early (Botania + Arcana)"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Prioritize AE2 and Pure Fluix production via Growth Acceleration Chamber—combine with Void Miner and Mystical Agriculture for uncapped non-EMC resources"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Don’t skip Chapter 2 content: complete Abyssalcraft (except final boss), Astral Sorcery (perks), Thaumcraft (Sedna), and Betweenlands (required for Chapter 3)$(li)Avoid halting progression—delays here can block shortcuts and make later content harder"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Automation and power setup$()$(li)Early power: Numismatic Dynamo spam with Lapidary Calibration augment (otherwise it won’t accept diamonds)$(li)Mid-Ch2: scale to turbines to run multiple void miners and quarries$(li)Use Thermal Expansion machines first (Reinforced tier is sufficient);"
+    },
+    {
+      "type": "text",
+      "text": "skip EnderIO early due to expensive capacitor crafting$(li)Automate alloys, essentia, and Blood Altar (including Terrasteel) before Chapter 3"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Key shortcuts and quality-of-life$()$(li)Click the eye icon in the quest book to see all quests, not just currently available ones$(li)Bewitchment villagers trade directly for jars, ungent, and bottled frostfire—spawn and level them with mob duplicators and emeralds"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Mother Void Walkers drop plenty of Preserved Curiosity—no need to farm it separately$(li)The Ring of Far Reach increases reach; you can wear multiple simultaneously$(li)First Callstone may contain a sapling (if not entering the dimension);"
+    },
+    {
+      "type": "text",
+      "text": "collect Green Denthrothyst from the Alchemy Callstone for Herblore Bee armaniis vial paths"
+    }
+  ]
+}

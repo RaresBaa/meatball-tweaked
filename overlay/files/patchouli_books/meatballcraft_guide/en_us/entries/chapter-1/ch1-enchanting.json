@@ -1,0 +1,28 @@
+{
+  "name": "Enchanting",
+  "icon": "minecraft:enchanted_book",
+  "category": "chapter-1",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use $(l)books$() instead of random enchanting. A mob farm drops many, and special mobs drop enchanted books.$(li)$(l)Duplicate books$() with the Botania Mana Enchanter, which doesn't consume the book, or a printing press."
+    },
+    {
+      "type": "text",
+      "text": "EnderIO can target specific enchants.$(li)$(l)Super enchants$(): the questbook introduces them once you can make the first one.$(li)$(l)AbyssalCraft mass enchanting$(): up to 8 enchants at up to level 15, even ones that normally conflict."
+    },
+    {
+      "type": "text",
+      "text": "It's the only way to combine conflicting enchants like Protection and Magic Protection."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Removing enchants:$()$(li)Enchant Extractor$(li)Void Anvil (wipes everything)$(li)Corail Tombstone disenchanting$(li)Lens of Disenchanting$(li)Draconic Evolution Disenchanter (costs XP)$(li)Industrial Foregoing Enchantment Remover (removes one at a time, in order)"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Liquid XP:$() there are three kinds. Convert between them with the Industrial Foregoing Fluid Dictionary Converter. The EnderIO $(l)Experience Obelisk$() trades freely with your XP bar."
+    }
+  ]
+}

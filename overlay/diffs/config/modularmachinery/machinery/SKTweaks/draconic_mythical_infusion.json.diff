@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/SKTweaks/draconic_mythical_infusion.json
++++ b/config/modularmachinery/machinery/SKTweaks/draconic_mythical_infusion.json
+@@ -11,7 +11,7 @@
+             "y": 12,
+             "z": 4,
+             "elements": "avaritia:block_resource@1",
+-            "description": "配方速度x20,能量消耗减半",
++            "description": "Recipe speed x20, half energy use",
+             "modifiers": [
+                 {
+                     "io": "input",

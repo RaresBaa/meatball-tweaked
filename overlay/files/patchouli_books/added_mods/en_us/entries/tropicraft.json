@@ -1,0 +1,11 @@
+{
+  "name": "Tropicraft",
+  "icon": "tropicraft:bamboo_spear",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A tropical paradise dimension with islands, volcanoes and scuba gear."
+    }
+  ]
+}

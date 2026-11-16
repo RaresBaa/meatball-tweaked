@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1966050096
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oClick the checkbox when done.\u00a7r\n\nProgram your first Drone. Doesn't matter what you make it do.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pneumaticcraft:drone"
+      },
+      "name:8": "Software Engineer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1981894855,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "pneumaticcraft:printed_circuit_board"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Chance Cubes",
+  "icon": "chancecubes:chance_cube",
+  "category": "fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Break one and get a random reward... or a random disaster."
+    }
+  ]
+}

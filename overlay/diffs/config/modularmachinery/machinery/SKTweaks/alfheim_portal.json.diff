@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/SKTweaks/alfheim_portal.json
++++ b/config/modularmachinery/machinery/SKTweaks/alfheim_portal.json
+@@ -11,7 +11,7 @@
+             "y": 7,
+             "z": 1,
+             "elements": "avaritia:block_resource@1",
+-            "description": "配方速度x20 产量x4",
++            "description": "Recipe speed x20, output x4",
+             "modifiers": [
+                 {
+                     "io": "output",

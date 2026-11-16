@@ -1,0 +1,45 @@
+filename = 'AbyssalCraft Integration-1.12.2-1.11.3.jar'
+name = 'AbyssalCraft Integration'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AbyssalCraft Integration-1.12.2-1.11.3.jar'
+
+[download]
+hash = '70804ed080b7328995ce9e53c396717be49a5ff1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3425537
+project-id = 234851
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268655'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '74072'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '53686'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '394915'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '226410'
+type = 'OPTIONAL'

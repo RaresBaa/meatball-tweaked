@@ -1,0 +1,21 @@
+filename = 'AromaBackup-1.12.2-2.1.1.4.jar'
+name = 'AromaBackup'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AromaBackup-1.12.2-2.1.1.4.jar'
+
+[download]
+hash = '2e3e04cfe4fe5e2da47e8edf7b9e842d44b8209a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2586524
+project-id = 225658
+
+[[x-prismlauncher-dependencies]]
+addonId = '223735'
+type = 'REQUIRED'

@@ -1,0 +1,7 @@
+{
+  "name": "Chapter 8 Tips",
+  "description": "Tips for Chapter 8.",
+  "icon": "minecraft:iron_ingot",
+  "parent": "chapters",
+  "sortnum": 8
+}

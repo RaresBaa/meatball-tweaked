@@ -1,0 +1,25 @@
+filename = 'apiarist-terminal-0.2.0.jar'
+name = "The Apiarist's Terminal"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'apiarist-terminal-0.2.0.jar'
+
+[download]
+hash = 'fd1be5c198ccc32576705a82bcb927af7510e29f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7105229
+project-id = 1364926
+
+[[x-prismlauncher-dependencies]]
+addonId = '223008'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '70492'
+type = 'REQUIRED'

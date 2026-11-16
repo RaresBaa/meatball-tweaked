@@ -1,0 +1,12 @@
+Samurai Salad
+
+Slice flying fruit with the mouse, Fruit Ninja style.
+
+Usage: samuraisalad
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (121 KB) to /extra/samuraisalad. Delete that folder to reset it.
+
+By Michiel. License: unspecified.
+Source: https://github.com/MichielP1807/CC-Samurai-Salad

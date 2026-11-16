@@ -1,0 +1,24 @@
+{
+  "name": "Building Gadget: Range, Safety, and Best Practices",
+  "icon": "buildinggadgets:buildingtool",
+  "category": "copypaste-gadget",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Range$()$(li)Range is capped at 15 blocks and cannot be increased$(li)For longer range, use the Builder’s Wand with a Dank Chest in your inventory"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Safety$()$(li)The Building Gadget cannot copy or paste tile entities (e.g., machines, controllers, smeltery parts, Woot blocks)"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Best Practices$()$(li)Avoid cheating in chisel blocks or storing large quantities of blocks in Dank Chests—both cause bugs$(li)Build in stages if needed, and manually place problematic blocks afterward$(li)When pasting large structures, ensure perfect alignment before committing"
+    },
+    {
+      "type": "text",
+      "text": "$(li)If misaligned, destroy manually—undoing mistakes can cause crashes"
+    }
+  ]
+}

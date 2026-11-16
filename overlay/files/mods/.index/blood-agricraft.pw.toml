@@ -1,0 +1,25 @@
+filename = 'bloodagricraft-1.0.0.jar'
+name = 'Blood Agricraft'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bloodagricraft-1.0.0.jar'
+
+[download]
+hash = 'a93dc23bc9f949f4c50a2fbf39d862019a723ed3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2854225
+project-id = 357155
+
+[[x-prismlauncher-dependencies]]
+addonId = '224791'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225635'
+type = 'REQUIRED'

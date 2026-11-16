@@ -1,0 +1,7 @@
+{
+  "name": "Chapter 5 Tips",
+  "description": "Tips for Chapter 5.",
+  "icon": "astralsorcery:itemcraftingcomponent",
+  "parent": "chapters",
+  "sortnum": 5
+}

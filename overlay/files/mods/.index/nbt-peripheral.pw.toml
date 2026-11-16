@@ -1,0 +1,21 @@
+filename = 'nbtperipheral-1.1.jar'
+name = 'NBT Peripheral'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'NBT Peripheral Version 1.1'
+
+[download]
+hash = '17a084c539a87b19ed075ace9b0942eab5c1cd1e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2523685
+project-id = 284477
+
+[[x-prismlauncher-dependencies]]
+addonId = '67504'
+type = 'REQUIRED'

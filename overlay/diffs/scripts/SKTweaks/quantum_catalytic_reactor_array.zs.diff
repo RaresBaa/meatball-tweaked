@@ -1,0 +1,31 @@
+--- a/scripts/SKTweaks/quantum_catalytic_reactor_array.zs
++++ b/scripts/SKTweaks/quantum_catalytic_reactor_array.zs
+@@ -13,20 +13,20 @@
+ 
+ val MACHINE = "quantum_catalytic_reactor_array";
+ MachineModifier.setMaxThreads("quantum_catalytic_reactor_array", 0);
+-val threadA = FactoryRecipeThread.createCoreThread("§9催化核心I");
+-val threadB = FactoryRecipeThread.createCoreThread("§9催化核心II");
+-val threadC = FactoryRecipeThread.createCoreThread("§9催化核心III");
+-val threadD = FactoryRecipeThread.createCoreThread("§9催化核心IV");
+-val threadE = FactoryRecipeThread.createCoreThread("§9催化核心V");
++val threadA = FactoryRecipeThread.createCoreThread("§9Catalysis Core I");
++val threadB = FactoryRecipeThread.createCoreThread("§9Catalysis Core II");
++val threadC = FactoryRecipeThread.createCoreThread("§9Catalysis Core III");
++val threadD = FactoryRecipeThread.createCoreThread("§9Catalysis Core IV");
++val threadE = FactoryRecipeThread.createCoreThread("§9Catalysis Core V");
+ MachineModifier.addCoreThread(MACHINE, threadA);
+ MachineModifier.addCoreThread(MACHINE, threadB);
+ MachineModifier.addCoreThread(MACHINE, threadC);
+ MachineModifier.addCoreThread(MACHINE, threadD);
+ MachineModifier.addCoreThread(MACHINE, threadE);
+ MachineModifier.setInternalParallelism("quantum_catalytic_reactor_array", 256);
+-<modularmachinery:quantum_catalytic_reactor_array_factory_controller>.addTooltip(format.gold("内置额外256并行！"));
+-<modularmachinery:quantum_catalytic_reactor_array_factory_controller>.addTooltip(format.gold("内置5线程"));
+-<modularmachinery:quantum_catalytic_reactor_array_factory_controller>.addTooltip(format.gold("3x3的龙研能量核心稳定器可能需手动放置"));
++<modularmachinery:quantum_catalytic_reactor_array_factory_controller>.addTooltip(format.gold("Built-in extra 256 parallel!"));
++<modularmachinery:quantum_catalytic_reactor_array_factory_controller>.addTooltip(format.gold("Built-in 5 threads"));
++<modularmachinery:quantum_catalytic_reactor_array_factory_controller>.addTooltip(format.gold("The 3x3 Draconic energy core stabilizers may need placing by hand"));
+ // 输入
+ // ============================================
+ var Recipe_Input_Item = [

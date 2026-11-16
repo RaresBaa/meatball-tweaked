@@ -1,0 +1,40 @@
+{
+  "name": "Linking Subnets: Interfaces & Storage Buses",
+  "icon": "cells:export_interface",
+  "category": "ae2-storage",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)The recommended way:$() a Storage Bus on an Export Interface. It outperforms partitioned interfaces and subnet proxies, and up to 5 networks can storage-bus the same Export Interface without linking."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Don't use dual interfaces with storage buses to link subnets; they double-count and are unstable.$(li)Always filter the Storage Bus to what the subnet should see; unfiltered connections risk item loops, lag and wrong behavior."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A controller on the subnet isn't strictly required, but you usually want one."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Keep subnets small and purpose-built$()$(li)Only include items needed for one task (e.g., alloy smelting or seed crafting).$(li)Large subnets force frequent recipe tree recomputations, causing lag.$(li)For crafting on a subnet, use Export Interfaces with push cards to feed assemblers/injectors."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Import and Export Interfaces$()$(li)Import Interfaces have small capacity—use multiple around high-output sources (e.g., EnderIO miners) to scale throughput.$(li)Import and export interfaces do $(o)not$() support priority settings—they act as masters, not AE2 priority participants."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Interfaces respect NBT (including damage): partially damaged items won’t stack and may jam the system; don’t rely on them to repair or combine items."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Shift-clicking into an import interface during polling cycles may temporarily show stacks >64 in your inventory—harmless but visually odd.$(li)Do not click on universal interfaces—they can cause crashes."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Other tips$()$(li)The best way to reach EMC is a Storage Bus directly on an EMC Link.$(li)Ensure all network components are chunkloaded; missing chunks cause erratic behavior.$(li)One wireless connector output can feed several wireless connector inputs."
+    }
+  ]
+}

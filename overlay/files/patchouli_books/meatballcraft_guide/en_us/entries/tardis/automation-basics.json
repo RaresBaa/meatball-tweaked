@@ -1,0 +1,36 @@
+{
+  "name": "Throughput and Production Rates",
+  "icon": "appliedenergistics2:material:22",
+  "category": "tardis",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Throughput$()$(li)Thermal machines (e.g., Sawmill, Transposer) are capped at 2 ticks per recipe."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For AE2 processors in a 50-hour TARDIS: Logic Processor = 64,000/s (2 PCRs), Calculation Processor = 83,306/s (3 PCRs), Engineering Processor = 61,386/s (2 PCRs)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Printed circuits can be produced via 1 PCR with Monouse Press (7 AE2 patterns), or split across Printed Logic (0.5 PCR), Printed Engineering (0.5 PCR), Printed Calculation (0.65 PCR), and Printed Silicon (1.63 PCR)."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Item input$()$(li)Stocking buses work in MeatballCraft and can be used for automated item input."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Prioritization$()$(li)Integrated Dynamics is viable for offloading crafting (e.g., for slow trickle processes), but may require offline switches to avoid FPS drops; it works best when paired with passive fluid export/storage buses."
+    },
+    {
+      "type": "text",
+      "text": "$(li)ME Storage Component production rates: 1K = 43,740/s, 4K = 14,580/s, 16K = 4,860/s, 64K = 1,620/s, 256K = 540/s, 1 MB = 180/s, 4 MB = 60/s, 16 MB = 20/s."
+    },
+    {
+      "type": "text",
+      "text": "$(li)You can craft 16MB, 4MB, 1MB, and 256k components in a single 100x parallel machine (e.g., 16MB every 195s), and 64k–1k in a single 1000x parallel (e.g., 64k every 24s), if carefully scheduled."
+    }
+  ]
+}

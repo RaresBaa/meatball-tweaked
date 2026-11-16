@@ -1,0 +1,11 @@
+{
+  "name": "Hats",
+  "icon": "hatstand:hatstand",
+  "category": "fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Collect hats from mobs and show them off on a Hat Stand."
+    }
+  ]
+}

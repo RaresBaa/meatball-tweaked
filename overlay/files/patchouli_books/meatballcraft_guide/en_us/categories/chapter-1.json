@@ -1,0 +1,7 @@
+{
+  "name": "Chapter 1 Tips",
+  "description": "Chapter 1 is the \"kitchen sink\" chapter: almost every mod is open to you, and the main goals are to survive, unlock EMC (ProjectE) and reach Chapter 2.",
+  "icon": "industrialforegoing:mob_relocator",
+  "parent": "chapters",
+  "sortnum": 1
+}

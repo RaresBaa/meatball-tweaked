@@ -1,0 +1,24 @@
+{
+  "name": "Multiplayer",
+  "icon": "minecraft:skull:3",
+  "category": "chapter-1",
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Quest sharing:$() form a party in the questbook's party menu (press $(o)Back$() at the bottom left of the questbook). Complete any checkbox quests yourselves."
+    },
+    {
+      "type": "text",
+      "text": "As a last resort, the most advanced player runs $(5)/bq_copyquests <name>$() to copy their progress to a teammate. This overwrites that teammate's progress.$(li)$(l)EMC and knowledge sharing:$() join the same $(l)FTB Team$() (top left of your inventory;"
+    },
+    {
+      "type": "text",
+      "text": "this is separate from the quest party) and enable sharing. A new team starts with 0 EMC; turning sharing off returns you to your personal EMC. Pull out high-value items such as Red Matter blocks before switching.$(li)$(l)ExU2 GP sharing:$() $(5)/xu_powersharing$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Difficulty gamestages apply $(l)around each player$(), so one player's progress doesn't make mobs harder for everyone."
+    }
+  ]
+}

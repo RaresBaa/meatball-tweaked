@@ -1,0 +1,12 @@
+Watermelon Game 3D
+
+Drop and merge fruit until you make a watermelon - in 3D.
+
+Usage: watermelon
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (129 KB) to /extra/watermelon. Delete that folder to reset it.
+
+By Xella. License: MIT.
+Source: https://github.com/Xella37/Watermelon-Game-3D

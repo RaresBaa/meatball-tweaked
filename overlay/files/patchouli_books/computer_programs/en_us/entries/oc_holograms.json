@@ -1,0 +1,16 @@
+{
+  "name": "Holograms",
+  "icon": "opencomputers:hologram2",
+  "category": "oc_fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Place a $(item)Hologram Projector$() next to a computer.$(br2)$(l)holo-demos$() - spinning text, flows and other demos.$(br2)Install: $(l)oppm install holo-demos$()$(br2)$(l)holo-editor$() - draw your own.$(br2)Install: $(l)oppm install holo-editor$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)geo2holo$() - scans the land around a $(item)Geolyzer$() and shows it as a 3D hologram map.$(br2)Install: $(l)oppm install geo2holo$()"
+    }
+  ],
+  "sortnum": 6
+}

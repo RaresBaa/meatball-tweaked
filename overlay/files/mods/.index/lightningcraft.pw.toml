@@ -1,0 +1,17 @@
+filename = 'lightningcraft-2.9.7_1.jar'
+name = 'LightningCraft'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lightningcraft-2.9.7_1.jar'
+
+[download]
+hash = '5563d92fc8e6d1f0a0d6cf49b14cd4570f5ae8fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2872478
+project-id = 237422

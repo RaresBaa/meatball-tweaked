@@ -1,0 +1,21 @@
+filename = 'MagicBees-1.12.2-3.1.10.jar'
+name = 'Magic Bees'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MagicBees-1.12.2-3.1.10.jar'
+
+[download]
+hash = '4175e8c9997ea5eed579df73e9c73772a13d3285'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2566282
+project-id = 65764
+
+[[x-prismlauncher-dependencies]]
+addonId = '59751'
+type = 'REQUIRED'

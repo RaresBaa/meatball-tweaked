@@ -1,0 +1,11 @@
+{
+  "name": "Magneticraft",
+  "icon": "magneticraft:wrench",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Realistic machines: crushers, sluices, combustion chambers, heat and electric networks."
+    }
+  ]
+}

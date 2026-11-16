@@ -1,0 +1,12 @@
+Tetracraft
+
+Another falling-block puzzle game, with hold and next pieces.
+
+Usage: tetracraft
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (24 KB) to /extra/tetracraft. Delete that folder to reset it.
+
+By unknown (pastebin 2jmN835i; uses 9551Dev's pixelbox, MIT). License: unspecified.
+Source: https://pastebin.com/2jmN835i

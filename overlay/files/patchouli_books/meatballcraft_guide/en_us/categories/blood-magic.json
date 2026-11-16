@@ -1,0 +1,7 @@
+{
+  "name": "Blood Magic",
+  "description": "Tips for Blood Magic.",
+  "icon": "bloodmagic:altar",
+  "parent": "topics",
+  "sortnum": 7
+}

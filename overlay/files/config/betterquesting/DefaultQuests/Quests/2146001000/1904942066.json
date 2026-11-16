@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    1962290766
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oClick the checkbox when done.\u00a7r\n\nTraverse every surface biome and sub-biome in midnight",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "midnight:tall_midnight_grass"
+      },
+      "name:8": "Nightwalker",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1904942066,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 6,
+          "id:8": "midnight:nagrilite_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 12,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "id:8": "midnight:tall_midnight_grass",
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "TrophyName:8": "Nightwalker",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
+    }
+  }
+}

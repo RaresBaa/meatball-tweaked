@@ -1,0 +1,10 @@
+Game of Life
+
+Conway's Game of Life. Click cells to toggle them, space to start/stop.
+
+Usage: gameoflife
+
+Needs: advanced computer (colour)
+
+By vilsol. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

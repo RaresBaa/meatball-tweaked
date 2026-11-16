@@ -1,0 +1,21 @@
+filename = 'RailwayDepotWorker-1.10.8+build.35.jar'
+name = 'Railway Depot Worker'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'RailwayDepotWorker-1.10.8+build.35.jar'
+
+[download]
+hash = 'ff1a1a83841e12a1d93c311b324f905b81e2c6c2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7815628
+project-id = 1031521
+
+[[x-prismlauncher-dependencies]]
+addonId = '51195'
+type = 'REQUIRED'

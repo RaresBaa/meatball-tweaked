@@ -1,0 +1,20 @@
+{
+  "name": "Other Tips",
+  "icon": "forestry:broken_bronze_pickaxe",
+  "category": "chapter-7",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Ensorcellators are slow, so build more than one fracturer for egg processing (at least 2–3; some players go one per egg)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Rainbow input hatch is bound to the player who placed it, not chunk-based—moving it won’t rebind it to another player.$(li)Blood tanks are needed for the Skythern Core, and full blood tanks for Sacrifice Metal Armor (which needs aragonite levels of orichalcos)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A fully built corium reactor (e.g., ~1,000 casings + controller + cells on standby) is safe to operate near your base, with no dangerous side effects."
+    }
+  ]
+}

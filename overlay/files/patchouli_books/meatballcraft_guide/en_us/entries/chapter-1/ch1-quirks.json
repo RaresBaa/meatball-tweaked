@@ -1,0 +1,16 @@
+{
+  "name": "Common Problems and Quirks",
+  "icon": "minecraft:barrier",
+  "category": "chapter-1",
+  "sortnum": 26,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Magic Protection house:$() the Thaumcraft-material house is meant to have Magic Protection books, but it's reportedly bugged and gives a different enchant.$(li)$(l)Energy Eater$() drains energy items from left to right on your hotbar."
+    },
+    {
+      "type": "text",
+      "text": "Keep your Flux Capacitor in the leftmost slot.$(li)$(l)Tinkers' modifiers:$() Reinforced is applied one at a time. Only lapis uses a single slot for all of its levels."
+    }
+  ]
+}

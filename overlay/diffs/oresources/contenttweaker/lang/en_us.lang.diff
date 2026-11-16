@@ -1,0 +1,11 @@
+--- a/oresources/contenttweaker/lang/en_us.lang
++++ b/oresources/contenttweaker/lang/en_us.lang
+@@ -4357,6 +4357,8 @@
+ tile.contenttweaker.balanced_machine_frame.name=§fBalanced Machine Frame
+ tile.contenttweaker.reinforced_eezo_casing.name=§dReinforced Eezo Casing
+ tile.contenttweaker.hyperdimensional_casing.name=§dHyperdimensional Casing
++tile.contenttweaker.skaia_glass.name=§bSkaia Glass
++tile.contenttweaker.paradoxical_machine_casing.name=§dParadoxical Machine Casing
+ tile.contenttweaker.hyperdimensional_beam.name=§dHyperdimensional Beam
+ tile.contenttweaker.twisting_control_component.name=§dTwisting Control Component
+ tile.contenttweaker.exotic_energy_component.name=§dExotic Energy Component

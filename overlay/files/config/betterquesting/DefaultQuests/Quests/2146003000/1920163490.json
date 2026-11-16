@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1933786261
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oClick the checkbox when done.\u00a7r\n\nWith the Delivery Person by your side, you can now start using crafting workers! We recommend starting off with the sawmill, place and build one to start your new crafting experience!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecolonies:blockhutsawmill"
+      },
+      "name:8": "Crafting Wood!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1920163490,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:diamond"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
+    }
+  }
+}

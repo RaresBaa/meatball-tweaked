@@ -1,0 +1,889 @@
+--- a/scripts/mixin/aoa3/WeaponRegisterBuffs.zs
++++ b/scripts/mixin/aoa3/WeaponRegisterBuffs.zs
+@@ -7,11 +7,11 @@
+ See StatsConfig.zs in this folder for values.
+ */
+ 
+-#mixin {value: "net.tslat.aoa3.common.registration.WeaponRegister"}
++#mixin {targets: "net.tslat.aoa3.common.registration.WeaponRegister"}
+ zenClass MixinWeaponRegister {
+   #mixin Definition
+   #{
+-  #  id: "ChilliChugger", type: "net/tslat/aoa3/item/weapon/gun/ChilliChugger"
++  #  id: "ChilliChugger", type: "Lnet/tslat/aoa3/item/weapon/gun/ChilliChugger;"
+   #}
+   #mixin Expression
+   #{
+@@ -29,7 +29,7 @@
+   
+   #mixin Definition
+   #{
+-  #  id: "DartGun", type: "net/tslat/aoa3/item/weapon/gun/DartGun"
++  #  id: "DartGun", type: "Lnet/tslat/aoa3/item/weapon/gun/DartGun;"
+   #}
+   #mixin Expression
+   #{
+@@ -47,7 +47,7 @@
+   
+   #mixin Definition
+   #{
+-  #  id: "FlamingFury", type: "net/tslat/aoa3/item/weapon/gun/FlamingFury"
++  #  id: "FlamingFury", type: "Lnet/tslat/aoa3/item/weapon/gun/FlamingFury;"
+   #}
+   #mixin Expression
+   #{
+@@ -65,7 +65,7 @@
+   
+   #mixin Definition
+   #{
+-  #  id: "NethengeicSlugger", type: "net/tslat/aoa3/item/weapon/gun/NethengeicSlugger"
++  #  id: "NethengeicSlugger", type: "Lnet/tslat/aoa3/item/weapon/gun/NethengeicSlugger;"
+   #}
+   #mixin Expression
+   #{
+@@ -83,7 +83,7 @@
+   
+   #mixin Definition
+   #{
+-  #  id: "WithersWrath", type: "net/tslat/aoa3/item/weapon/blaster/WithersWrath"
++  #  id: "WithersWrath", type: "Lnet/tslat/aoa3/item/weapon/blaster/WithersWrath;"
+   #}
+   #mixin Expression
+   #{
+@@ -106,7 +106,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "WithersWrath", type: "net/tslat/aoa3/item/weapon/blaster/WithersWrath"
++  #  id: "WithersWrath", type: "Lnet/tslat/aoa3/item/weapon/blaster/WithersWrath;"
+   #}
+   #mixin Expression
+   #{
+@@ -124,7 +124,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "DoomBringer", type: "net/tslat/aoa3/item/weapon/blaster/DoomBringer"
++  #  id: "DoomBringer", type: "Lnet/tslat/aoa3/item/weapon/blaster/DoomBringer;"
+   #}
+   #mixin Expression
+   #{
+@@ -142,7 +142,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "GoldBringer", type: "net/tslat/aoa3/item/weapon/blaster/GoldBringer"
++  #  id: "GoldBringer", type: "Lnet/tslat/aoa3/item/weapon/blaster/GoldBringer;"
+   #}
+   #mixin Expression
+   #{
+@@ -165,7 +165,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "BayonetteRifle", type: "net/tslat/aoa3/item/weapon/gun/BayonetteRifle"
++  #  id: "BayonetteRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/BayonetteRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -183,7 +183,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "GigaCannon", type: "net/tslat/aoa3/item/weapon/cannon/GigaCannon"
++  #  id: "GigaCannon", type: "Lnet/tslat/aoa3/item/weapon/cannon/GigaCannon;"
+   #}
+   #mixin Expression
+   #{
+@@ -201,7 +201,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Baronator", type: "net/tslat/aoa3/item/weapon/gun/Baronator"
++  #  id: "Baronator", type: "Lnet/tslat/aoa3/item/weapon/gun/Baronator;"
+   #}
+   #mixin Expression
+   #{
+@@ -219,7 +219,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CarrotCannon", type: "net/tslat/aoa3/item/weapon/cannon/CarrotCannon"
++  #  id: "CarrotCannon", type: "Lnet/tslat/aoa3/item/weapon/cannon/CarrotCannon;"
+   #}
+   #mixin Expression
+   #{
+@@ -237,7 +237,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "GoldenFury", type: "net/tslat/aoa3/item/weapon/gun/GoldenFury"
++  #  id: "GoldenFury", type: "Lnet/tslat/aoa3/item/weapon/gun/GoldenFury;"
+   #}
+   #mixin Expression
+   #{
+@@ -255,7 +255,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "GoldenFury", type: "net/tslat/aoa3/item/weapon/gun/GoldenFury"
++  #  id: "GoldenFury", type: "Lnet/tslat/aoa3/item/weapon/gun/GoldenFury;"
+   #}
+   #mixin Expression
+   #{
+@@ -275,7 +275,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "BoulderBomber", type: "net/tslat/aoa3/item/weapon/cannon/BoulderBomber"
++  #  id: "BoulderBomber", type: "Lnet/tslat/aoa3/item/weapon/cannon/BoulderBomber;"
+   #}
+   #mixin Expression
+   #{
+@@ -293,7 +293,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "GolderBomber", type: "net/tslat/aoa3/item/weapon/cannon/GolderBomber"
++  #  id: "GolderBomber", type: "Lnet/tslat/aoa3/item/weapon/cannon/GolderBomber;"
+   #}
+   #mixin Expression
+   #{
+@@ -312,7 +312,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "BloodIron", type: "net/tslat/aoa3/item/weapon/gun/BloodIron"
++  #  id: "BloodIron", type: "Lnet/tslat/aoa3/item/weapon/gun/BloodIron;"
+   #}
+   #mixin Expression
+   #{
+@@ -331,7 +331,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CoreRifle", type: "net/tslat/aoa3/item/weapon/gun/CoreRifle"
++  #  id: "CoreRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/CoreRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -350,7 +350,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "DischargeRifle", type: "net/tslat/aoa3/item/weapon/gun/DischargeRifle"
++  #  id: "DischargeRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/DischargeRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -369,7 +369,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "EchoGull", type: "net/tslat/aoa3/item/weapon/gun/EchoGull"
++  #  id: "EchoGull", type: "Lnet/tslat/aoa3/item/weapon/gun/EchoGull;"
+   #}
+   #mixin Expression
+   #{
+@@ -388,7 +388,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "NethenetteRifle", type: "net/tslat/aoa3/item/weapon/gun/NethenetteRifle"
++  #  id: "NethenetteRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/NethenetteRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -407,7 +407,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Gardener", type: "net/tslat/aoa3/item/weapon/gun/Gardener"
++  #  id: "Gardener", type: "Lnet/tslat/aoa3/item/weapon/gun/Gardener;"
+   #}
+   #mixin Expression
+   #{
+@@ -425,7 +425,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "GaugeRifle", type: "net/tslat/aoa3/item/weapon/gun/GaugeRifle"
++  #  id: "GaugeRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/GaugeRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -443,7 +443,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "HotShot", type: "net/tslat/aoa3/item/weapon/gun/HotShot"
++  #  id: "HotShot", type: "Lnet/tslat/aoa3/item/weapon/gun/HotShot;"
+   #}
+   #mixin Expression
+   #{
+@@ -461,7 +461,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "HeatWave", type: "net/tslat/aoa3/item/weapon/gun/HeatWave"
++  #  id: "HeatWave", type: "Lnet/tslat/aoa3/item/weapon/gun/HeatWave;"
+   #}
+   #mixin Expression
+   #{
+@@ -479,7 +479,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "LightIron", type: "net/tslat/aoa3/item/weapon/gun/LightIron"
++  #  id: "LightIron", type: "Lnet/tslat/aoa3/item/weapon/gun/LightIron;"
+   #}
+   #mixin Expression
+   #{
+@@ -497,7 +497,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Minigun", type: "net/tslat/aoa3/item/weapon/gun/Minigun"
++  #  id: "Minigun", type: "Lnet/tslat/aoa3/item/weapon/gun/Minigun;"
+   #}
+   #mixin Expression
+   #{
+@@ -515,7 +515,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Megagun", type: "net/tslat/aoa3/item/weapon/gun/Megagun"
++  #  id: "Megagun", type: "Lnet/tslat/aoa3/item/weapon/gun/Megagun;"
+   #}
+   #mixin Expression
+   #{
+@@ -533,7 +533,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "PrecasianSlugger", type: "net/tslat/aoa3/item/weapon/gun/PrecasianSlugger"
++  #  id: "PrecasianSlugger", type: "Lnet/tslat/aoa3/item/weapon/gun/PrecasianSlugger;"
+   #}
+   #mixin Expression
+   #{
+@@ -551,7 +551,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Predigun", type: "net/tslat/aoa3/item/weapon/gun/Predigun"
++  #  id: "Predigun", type: "Lnet/tslat/aoa3/item/weapon/gun/Predigun;"
+   #}
+   #mixin Expression
+   #{
+@@ -569,7 +569,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "JackRocker", type: "net/tslat/aoa3/item/weapon/cannon/JackRocker"
++  #  id: "JackRocker", type: "Lnet/tslat/aoa3/item/weapon/cannon/JackRocker;"
+   #}
+   #mixin Expression
+   #{
+@@ -588,7 +588,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "RockerRifle", type: "net/tslat/aoa3/item/weapon/gun/RockerRifle"
++  #  id: "RockerRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/RockerRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -607,7 +607,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Stampede", type: "net/tslat/aoa3/item/weapon/gun/Stampede"
++  #  id: "Stampede", type: "Lnet/tslat/aoa3/item/weapon/gun/Stampede;"
+   #}
+   #mixin Expression
+   #{
+@@ -625,7 +625,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Roulette", type: "net/tslat/aoa3/item/weapon/gun/Roulette"
++  #  id: "Roulette", type: "Lnet/tslat/aoa3/item/weapon/gun/Roulette;"
+   #}
+   #mixin Expression
+   #{
+@@ -644,7 +644,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Skullette", type: "net/tslat/aoa3/item/weapon/gun/Skullette"
++  #  id: "Skullette", type: "Lnet/tslat/aoa3/item/weapon/gun/Skullette;"
+   #}
+   #mixin Expression
+   #{
+@@ -662,7 +662,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "SquadGun", type: "net/tslat/aoa3/item/weapon/gun/SquadGun"
++  #  id: "SquadGun", type: "Lnet/tslat/aoa3/item/weapon/gun/SquadGun;"
+   #}
+   #mixin Expression
+   #{
+@@ -680,7 +680,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "SpineGun", type: "net/tslat/aoa3/item/weapon/gun/SpineGun"
++  #  id: "SpineGun", type: "Lnet/tslat/aoa3/item/weapon/gun/SpineGun;"
+   #}
+   #mixin Expression
+   #{
+@@ -698,7 +698,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Tommy", type: "net/tslat/aoa3/item/weapon/gun/Tommy"
++  #  id: "Tommy", type: "Lnet/tslat/aoa3/item/weapon/gun/Tommy;"
+   #}
+   #mixin Expression
+   #{
+@@ -716,7 +716,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "TigerTommy", type: "net/tslat/aoa3/item/weapon/gun/TigerTommy"
++  #  id: "TigerTommy", type: "Lnet/tslat/aoa3/item/weapon/gun/TigerTommy;"
+   #}
+   #mixin Expression
+   #{
+@@ -735,7 +735,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "WartGun", type: "net/tslat/aoa3/item/weapon/gun/WartGun"
++  #  id: "WartGun", type: "Lnet/tslat/aoa3/item/weapon/gun/WartGun;"
+   #}
+   #mixin Expression
+   #{
+@@ -753,7 +753,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Stormer", type: "net/tslat/aoa3/item/weapon/gun/Stormer"
++  #  id: "Stormer", type: "Lnet/tslat/aoa3/item/weapon/gun/Stormer;"
+   #}
+   #mixin Expression
+   #{
+@@ -772,7 +772,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Artifact", type: "net/tslat/aoa3/item/weapon/gun/Artifact"
++  #  id: "Artifact", type: "Lnet/tslat/aoa3/item/weapon/gun/Artifact;"
+   #}
+   #mixin Expression
+   #{
+@@ -790,7 +790,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Skullifact", type: "net/tslat/aoa3/item/weapon/gun/Skullifact"
++  #  id: "Skullifact", type: "Lnet/tslat/aoa3/item/weapon/gun/Skullifact;"
+   #}
+   #mixin Expression
+   #{
+@@ -808,7 +808,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "ApocoRifle", type: "net/tslat/aoa3/item/weapon/gun/ApocoRifle"
++  #  id: "ApocoRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/ApocoRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -826,7 +826,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "ApocoAssaultRifle", type: "net/tslat/aoa3/item/weapon/gun/ApocoAssaultRifle"
++  #  id: "ApocoAssaultRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/ApocoAssaultRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -844,7 +844,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "MechanicalAssaultRifle", type: "net/tslat/aoa3/item/weapon/gun/MechanicalAssaultRifle"
++  #  id: "MechanicalAssaultRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/MechanicalAssaultRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -862,7 +862,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "MintMagnum", type: "net/tslat/aoa3/item/weapon/gun/MintMagnum"
++  #  id: "MintMagnum", type: "Lnet/tslat/aoa3/item/weapon/gun/MintMagnum;"
+   #}
+   #mixin Expression
+   #{
+@@ -881,7 +881,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "AquaMagnum", type: "net/tslat/aoa3/item/weapon/gun/AquaMagnum"
++  #  id: "AquaMagnum", type: "Lnet/tslat/aoa3/item/weapon/gun/AquaMagnum;"
+   #}
+   #mixin Expression
+   #{
+@@ -899,7 +899,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "BigTop", type: "net/tslat/aoa3/item/weapon/gun/BigTop"
++  #  id: "BigTop", type: "Lnet/tslat/aoa3/item/weapon/gun/BigTop;"
+   #}
+   #mixin Expression
+   #{
+@@ -917,7 +917,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "ChainWrecker", type: "net/tslat/aoa3/item/weapon/gun/ChainWrecker"
++  #  id: "ChainWrecker", type: "Lnet/tslat/aoa3/item/weapon/gun/ChainWrecker;"
+   #}
+   #mixin Expression
+   #{
+@@ -936,7 +936,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "FlameWrecker", type: "net/tslat/aoa3/item/weapon/gun/FlameWrecker"
++  #  id: "FlameWrecker", type: "Lnet/tslat/aoa3/item/weapon/gun/FlameWrecker;"
+   #}
+   #mixin Expression
+   #{
+@@ -954,7 +954,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Overshot", type: "net/tslat/aoa3/item/weapon/gun/Overshot"
++  #  id: "Overshot", type: "Lnet/tslat/aoa3/item/weapon/gun/Overshot;"
+   #}
+   #mixin Expression
+   #{
+@@ -972,7 +972,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Clownershot", type: "net/tslat/aoa3/item/weapon/gun/Clownershot"
++  #  id: "Clownershot", type: "Lnet/tslat/aoa3/item/weapon/gun/Clownershot;"
+   #}
+   #mixin Expression
+   #{
+@@ -990,7 +990,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CrystalCarver", type: "net/tslat/aoa3/item/weapon/gun/CrystalCarver"
++  #  id: "CrystalCarver", type: "Lnet/tslat/aoa3/item/weapon/gun/CrystalCarver;"
+   #}
+   #mixin Expression
+   #{
+@@ -1008,7 +1008,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Cyclone", type: "net/tslat/aoa3/item/weapon/gun/Cyclone"
++  #  id: "Cyclone", type: "Lnet/tslat/aoa3/item/weapon/gun/Cyclone;"
+   #}
+   #mixin Expression
+   #{
+@@ -1026,7 +1026,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Wrecker", type: "net/tslat/aoa3/item/weapon/gun/Wrecker"
++  #  id: "Wrecker", type: "Lnet/tslat/aoa3/item/weapon/gun/Wrecker;"
+   #}
+   #mixin Expression
+   #{
+@@ -1044,7 +1044,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Darkener", type: "net/tslat/aoa3/item/weapon/gun/Darkener"
++  #  id: "Darkener", type: "Lnet/tslat/aoa3/item/weapon/gun/Darkener;"
+   #}
+   #mixin Expression
+   #{
+@@ -1063,7 +1063,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "DestructionRifle", type: "net/tslat/aoa3/item/weapon/gun/DestructionRifle"
++  #  id: "DestructionRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/DestructionRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -1081,7 +1081,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Dragilator", type: "net/tslat/aoa3/item/weapon/gun/Dragilator"
++  #  id: "Dragilator", type: "Lnet/tslat/aoa3/item/weapon/gun/Dragilator;"
+   #}
+   #mixin Expression
+   #{
+@@ -1099,7 +1099,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Electinator", type: "net/tslat/aoa3/item/weapon/gun/Electinator"
++  #  id: "Electinator", type: "Lnet/tslat/aoa3/item/weapon/gun/Electinator;"
+   #}
+   #mixin Expression
+   #{
+@@ -1117,7 +1117,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Frosticator", type: "net/tslat/aoa3/item/weapon/gun/Frosticator"
++  #  id: "Frosticator", type: "Lnet/tslat/aoa3/item/weapon/gun/Frosticator;"
+   #}
+   #mixin Expression
+   #{
+@@ -1135,7 +1135,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Germinator", type: "net/tslat/aoa3/item/weapon/gun/Germinator"
++  #  id: "Germinator", type: "Lnet/tslat/aoa3/item/weapon/gun/Germinator;"
+   #}
+   #mixin Expression
+   #{
+@@ -1153,7 +1153,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CoralClogger", type: "net/tslat/aoa3/item/weapon/gun/CoralClogger"
++  #  id: "CoralClogger", type: "Lnet/tslat/aoa3/item/weapon/gun/CoralClogger;"
+   #}
+   #mixin Expression
+   #{
+@@ -1171,7 +1171,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Draco", type: "net/tslat/aoa3/item/weapon/gun/Draco"
++  #  id: "Draco", type: "Lnet/tslat/aoa3/item/weapon/gun/Draco;"
+   #}
+   #mixin Expression
+   #{
+@@ -1189,7 +1189,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "MK", type: "net/tslat/aoa3/item/weapon/gun/MK"
++  #  id: "MK", type: "Lnet/tslat/aoa3/item/weapon/gun/MK;"
+   #}
+   #mixin Expression
+   #{
+@@ -1207,7 +1207,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "MKFung", type: "net/tslat/aoa3/item/weapon/gun/MKFung"
++  #  id: "MKFung", type: "Lnet/tslat/aoa3/item/weapon/gun/MKFung;"
+   #}
+   #mixin Expression
+   #{
+@@ -1225,7 +1225,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Pulsator", type: "net/tslat/aoa3/item/weapon/gun/Pulsator"
++  #  id: "Pulsator", type: "Lnet/tslat/aoa3/item/weapon/gun/Pulsator;"
+   #}
+   #mixin Expression
+   #{
+@@ -1243,7 +1243,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Predator", type: "net/tslat/aoa3/item/weapon/gun/Predator"
++  #  id: "Predator", type: "Lnet/tslat/aoa3/item/weapon/gun/Predator;"
+   #}
+   #mixin Expression
+   #{
+@@ -1261,7 +1261,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "PurityRifle", type: "net/tslat/aoa3/item/weapon/gun/PurityRifle"
++  #  id: "PurityRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/PurityRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -1279,7 +1279,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "HaunterRifle", type: "net/tslat/aoa3/item/weapon/gun/HaunterRifle"
++  #  id: "HaunterRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/HaunterRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -1297,7 +1297,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Dustometer", type: "net/tslat/aoa3/item/weapon/gun/Dustometer"
++  #  id: "Dustometer", type: "Lnet/tslat/aoa3/item/weapon/gun/Dustometer;"
+   #}
+   #mixin Expression
+   #{
+@@ -1315,7 +1315,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Sublimus", type: "net/tslat/aoa3/item/weapon/gun/Sublimus"
++  #  id: "Sublimus", type: "Lnet/tslat/aoa3/item/weapon/gun/Sublimus;"
+   #}
+   #mixin Expression
+   #{
+@@ -1333,7 +1333,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "HuntersRifle", type: "net/tslat/aoa3/item/weapon/gun/HuntersRifle"
++  #  id: "HuntersRifle", type: "Lnet/tslat/aoa3/item/weapon/gun/HuntersRifle;"
+   #}
+   #mixin Expression
+   #{
+@@ -1352,7 +1352,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "Bloodlurker", type: "net/tslat/aoa3/item/weapon/greatblade/Bloodlurker"
++  #  id: "Bloodlurker", type: "Lnet/tslat/aoa3/item/weapon/greatblade/Bloodlurker;"
+   #}
+   #mixin Expression
+   #{
+@@ -1371,7 +1371,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "TidalGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/TidalGreatblade"
++  #  id: "TidalGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/TidalGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1390,7 +1390,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "BaronGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/BaronGreatblade"
++  #  id: "BaronGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/BaronGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1408,7 +1408,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CreepoidGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/CreepoidGreatblade"
++  #  id: "CreepoidGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/CreepoidGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1427,7 +1427,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "LelyetianGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/LelyetianGreatblade"
++  #  id: "LelyetianGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/LelyetianGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1446,7 +1446,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "RoyalGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/RoyalGreatblade"
++  #  id: "RoyalGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/RoyalGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1465,7 +1465,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "SubterraneanGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/SubterraneanGreatblade"
++  #  id: "SubterraneanGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/SubterraneanGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1484,7 +1484,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "ShyreSword", type: "net/tslat/aoa3/item/weapon/greatblade/ShyreSword"
++  #  id: "ShyreSword", type: "Lnet/tslat/aoa3/item/weapon/greatblade/ShyreSword;"
+   #}
+   #mixin Expression
+   #{
+@@ -1503,7 +1503,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "GodsGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/GodsGreatblade"
++  #  id: "GodsGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/GodsGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1521,7 +1521,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CrystalGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/CrystalGreatblade"
++  #  id: "CrystalGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/CrystalGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1540,7 +1540,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "GoofyGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/GoofyGreatblade"
++  #  id: "GoofyGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/GoofyGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1558,7 +1558,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "LyonicGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/LyonicGreatblade"
++  #  id: "LyonicGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/LyonicGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1576,7 +1576,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "NoxiousGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/NoxiousGreatblade"
++  #  id: "NoxiousGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/NoxiousGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1594,7 +1594,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "RosidianGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/RosidianGreatblade"
++  #  id: "RosidianGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/RosidianGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1612,7 +1612,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "ShroomicGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/ShroomicGreatblade"
++  #  id: "ShroomicGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/ShroomicGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1630,7 +1630,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "UnderworldGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/UnderworldGreatblade"
++  #  id: "UnderworldGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/UnderworldGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1648,7 +1648,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "RunicGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/RunicGreatblade"
++  #  id: "RunicGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/RunicGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1666,7 +1666,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CoralGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/CoralGreatblade"
++  #  id: "CoralGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/CoralGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1684,7 +1684,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "PrimordialGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/PrimordialGreatblade"
++  #  id: "PrimordialGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/PrimordialGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1703,7 +1703,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "HauntedGreatblade", type: "net/tslat/aoa3/item/weapon/greatblade/HauntedGreatblade"
++  #  id: "HauntedGreatblade", type: "Lnet/tslat/aoa3/item/weapon/greatblade/HauntedGreatblade;"
+   #}
+   #mixin Expression
+   #{
+@@ -1722,7 +1722,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "VulcammerMaul", type: "net/tslat/aoa3/item/weapon/maul/VulcammerMaul"
++  #  id: "VulcammerMaul", type: "Lnet/tslat/aoa3/item/weapon/maul/VulcammerMaul;"
+   #}
+   #mixin Expression
+   #{
+@@ -1740,7 +1740,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CoralstoneMaul", type: "net/tslat/aoa3/item/weapon/maul/CoralstoneMaul"
++  #  id: "CoralstoneMaul", type: "Lnet/tslat/aoa3/item/weapon/maul/CoralstoneMaul;"
+   #}
+   #mixin Expression
+   #{
+@@ -1758,7 +1758,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "CrystalMaul", type: "net/tslat/aoa3/item/weapon/maul/CrystalMaul"
++  #  id: "CrystalMaul", type: "Lnet/tslat/aoa3/item/weapon/maul/CrystalMaul;"
+   #}
+   #mixin Expression
+   #{
+@@ -1777,7 +1777,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "ElectronMaul", type: "net/tslat/aoa3/item/weapon/maul/ElectronMaul"
++  #  id: "ElectronMaul", type: "Lnet/tslat/aoa3/item/weapon/maul/ElectronMaul;"
+   #}
+   #mixin Expression
+   #{
+@@ -1796,7 +1796,7 @@
+ 
+   #mixin Definition
+   #{
+-  #  id: "HorizonMaul", type: "net/tslat/aoa3/item/weapon/maul/HorizonMaul"
++  #  id: "HorizonMaul", type: "Lnet/tslat/aoa3/item/weapon/maul/HorizonMaul;"
+   #}
+   #mixin Expression
+   #{

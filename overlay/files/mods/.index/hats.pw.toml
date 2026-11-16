@@ -1,0 +1,17 @@
+filename = 'Hats-1.12.2-7.1.1.jar'
+name = 'Hats'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Hats-1.12.2-7.1.1.jar'
+
+[download]
+hash = '44d154180a99c02a2888649184794625d980acc2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2960397
+project-id = 229073

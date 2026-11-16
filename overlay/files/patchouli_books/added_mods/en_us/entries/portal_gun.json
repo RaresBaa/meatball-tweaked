@@ -1,0 +1,11 @@
+{
+  "name": "Portal Gun",
+  "icon": "portalgun:item_miniature_black_hole",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Portal Gun from Portal: shoot linked portals on walls."
+    }
+  ]
+}

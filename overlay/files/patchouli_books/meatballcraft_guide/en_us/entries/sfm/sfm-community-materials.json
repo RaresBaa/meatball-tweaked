@@ -1,0 +1,66 @@
+{
+  "name": "Community Scripts: Materials",
+  "icon": "superfactorymanager:manager",
+  "category": "sfm",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "text",
+      "text": "By RagingRevenge, for chapters 1-5. These work as a set: the machine scripts make materials and $(l)DrawerMovement$() brings them to your drawers."
+    },
+    {
+      "type": "link",
+      "text": "$(l)AE2Automation$(): fluix, certus, seeds and the three processors. 25 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/AE2Automation.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)DrawerMovement$(): moves finished materials from machines to drawers, stocking by amount. 45 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/DrawerMovement.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)NuclearCraftAlloying$(): feeds NuclearCraft alloy furnaces for most chapter alloys. 30 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/NuclearCraftAlloying.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)NuclearCraftDustsNMore$(): pulverised obsidian, crushed quartz and clear glass. 6 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/NuclearCraftDustsNMore.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)ThermalAutomation$(): coal coke, treated wood, flux, graphite and rubber. 16 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/ThermalAutomation.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)TechRebornAutomation$(): Black Iron from Tech Reborn machines. 3 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/TechRebornAutomation.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)MiscAutomations$(): villagers, chorus, crystal ember, compacting and a trash output. 14 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/MiscAutomations.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)ColdIronMultis$(): Cold Iron multiblock input, export and power. 7 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/ColdIronMultis.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)MechanicalCoop$(): eggs and resources through Mechanized Coop infusers. 8 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/MechanicalCoop.sfm",
+      "link_text": "Open script"
+    }
+  ]
+}

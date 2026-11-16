@@ -1,0 +1,20 @@
+{
+  "name": "Reactors and Fluids",
+  "icon": "appliedenergistics2:wireless_access_point",
+  "category": "chapter-10",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Two-phase cooling lines must both be active; a single inactive line removes middle-line cooling benefits$(li)Use fission vessels (not coolant heaters) in molten salt reactors to maintain proper heat balance"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Inserting items into the nuclear fission reactor is unusually laggy—minimize interactions here"
+    },
+    {
+      "type": "text",
+      "text": "$(li)For fluid amount and max int settings on export buses, configure them to prevent AE2 from breaking fluid containers during low-throughput runs"
+    }
+  ]
+}

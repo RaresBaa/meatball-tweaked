@@ -1,0 +1,32 @@
+{
+  "name": "Fluid Transport",
+  "icon": "fluiddrawers:tank",
+  "category": "automation",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The Fluid Drawer mod’s Tank block integrates directly with Drawer controllers—treat it like a normal drawer for fluids.$(li)Use NuclearCraft’s Infinite Water Source block for reliable water supply."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For large-scale fluid needs (e.g., Dense Plasma at ~160,000 mB), standard buffers (e.g., 72,000 mB) are too small—input directly from an ME Interface via fluid P2P tunnel or use larger fluid hatches."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Don't use the ME Fluid Level Maintainer for liquids like liquid LP (log spam, weird behavior); handle those passively."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Fluid lasers (Actually Additions) offer fast transfer (e.g., 20 mB/t for blood)—if slower, optimize the Blood Altar’s rune setup, not the lasers.$(li)Fluiducts hate fluid mixing and the lowest tier falls apart near heat; Ender IO conduits behave like their item versions; Tesslocators are fast but TPS-heavy;"
+    },
+    {
+      "type": "text",
+      "text": "XNet is low-TPS but suboptimal for fluids; Superlaminar fluiducts are ridiculously good, and the lowest tier can be made in a Transmutation Tablet.$(li)Neither XNet nor SFM can evenly split fluids directly;"
+    },
+    {
+      "type": "text",
+      "text": "use subnet-based solutions with level maintainers and fixed-quantity storage"
+    }
+  ]
+}

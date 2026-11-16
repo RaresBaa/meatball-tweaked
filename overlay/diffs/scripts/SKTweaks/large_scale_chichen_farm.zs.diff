@@ -1,0 +1,15 @@
+--- a/scripts/SKTweaks/large_scale_chichen_farm.zs
++++ b/scripts/SKTweaks/large_scale_chichen_farm.zs
+@@ -30,9 +30,9 @@
+ //     MachineModifier.addCoreThread(MACHINE, thread);
+ // }
+ // MachineModifier.setInternalParallelism("large_scale_chicken_farm", 4);
+-<modularmachinery:large_scale_chicken_farm_factory_controller>.addTooltip(format.gold("内置额外32线程！"));
+-<modularmachinery:large_scale_chicken_farm_factory_controller>.addTooltip(format.red("若使用了MMCEAddition"));
+-<modularmachinery:large_scale_chicken_farm_factory_controller>.addTooltip(format.red("那你大概不需要这个机器了..."));
++<modularmachinery:large_scale_chicken_farm_factory_controller>.addTooltip(format.gold("Built-in extra 32 threads!"));
++<modularmachinery:large_scale_chicken_farm_factory_controller>.addTooltip(format.red("If you're using MMCE Addition"));
++<modularmachinery:large_scale_chicken_farm_factory_controller>.addTooltip(format.red("you probably don't need this machine..."));
+ 
+ 
+ function Recipe_Builder_SK_Chicken(

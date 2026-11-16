@@ -1,0 +1,104 @@
+--- a/config/Expanded Equivalence/minecraft/internal.cfg
++++ b/config/Expanded Equivalence/minecraft/internal.cfg
+@@ -345,6 +345,27 @@
+   # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
+   +L:enderio:withering=1
+ 
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:enderzoo:confusion=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:enderzoo:confusionlong=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:enderzoo:floating=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:enderzoo:floatinglong=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:enderzoo:floatingtwo=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:enderzoo:withering=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:enderzoo:witheringlong=1
++
+   +L:extrautils2:oily=1
+ 
+   +L:extrautils2:xu2.doom=1
+@@ -364,6 +385,12 @@
+   +L:extrautils2:xu2.relapse=1
+ 
+   +L:extrautils2:xu2.second.chance=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:lightningcraft:demon_warding_extended=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:lightningcraft:demon_warding_normal=1
+ 
+   # The EMC value for this potion type (Default: 25, Range: [0;9223372036854775807])
+   +L:minecraft:awkward=25
+@@ -561,6 +588,60 @@
+   +L:mowziesmobs:poison_resist=1
+ 
+   # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:plants2:cauldron_brew=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:plants2:levitation=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:plants2:regen_heal=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:plants2:wither=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:danger_sight=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:haste=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:long_danger_sight=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:long_haste=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:long_mining_fatigue=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:long_resilience=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:long_resistance=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:mining_fatigue=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:resilience=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:resistance=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:strong_haste=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:strong_mining_fatigue=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:strong_resilience=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
++  +L:quark:strong_resistance=1
++
++  # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])
+   +L:railcraft:creosote=1
+ 
+   # The EMC value for this potion type (Default: 1, Range: [0;9223372036854775807])

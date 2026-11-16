@@ -1,0 +1,20 @@
+{
+  "name": "Choosing a Base Location",
+  "icon": "minecraft:grass",
+  "category": "chapter-1",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Stay away from Nuclear Wastelands.$() Radiation spreads to surrounding chunks (see Radiation).$(li)Avoid $(l)cold biomes$(); some very dangerous enemies live there.$(li)Watch out in water: sea serpents and mermaids."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Dragons shouldn't spawn within about 1000 blocks of spawn.$(li)Taking over a structure works fine: houses, Battle Towers, the white Aether temple, or a gorgon temple by the water (kill the gorgon first)."
+    },
+    {
+      "type": "text",
+      "text": "Your long-term base will probably be in the $(l)Void world$(), which opens early in Chapter 2. Mob spawning is disabled there, so there is less lag and infinite space. Don't overbuild in the Overworld if you plan to move. The sooner you move, the less you have to rebuild."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+--- a/scripts/SKTweaks/AE2Enhanced/recipe_rework.zs
++++ b/scripts/SKTweaks/AE2Enhanced/recipe_rework.zs
+@@ -2,9 +2,9 @@
+ import mods.ae2enhanced.BlackHole;
+ import crafttweaker.item.IItemStack;
+ 
+-<ae2enhanced:upgrade_card>.addTooltip(format.red("已被禁用"));
+-<ae2enhanced:upgrade_card>.addTooltip(format.red("请搜索：装配枢纽并行升级"));
+-<ae2enhanced:network_link_credential>.addTooltip(format.red("已被禁用"));
++<ae2enhanced:upgrade_card>.addTooltip(format.red("Disabled"));
++<ae2enhanced:upgrade_card>.addTooltip(format.red("Search for: Assembly Parallel Upgrade"));
++<ae2enhanced:network_link_credential>.addTooltip(format.red("Disabled"));
+ var bh_id =[
+     "test_obsidian",
+     // "stable_spacetime_manifold",
+@@ -68,10 +68,10 @@
+ val HDC_Casing = <ae2enhanced:hyperdimensional_casing>;
+ val HDC_Singularity = <ae2enhanced:hyperdimensional_singularity_core>;
+ val HDC_Interface = <ae2enhanced:hyperdimensional_me_interface>;
+-HDC.addTooltip(format.green("多方块结构："));
+-HDC.addTooltip(format.green("   仓储中枢 ME 接口 × 1"));
+-HDC.addTooltip(format.green("   仓储中枢裸奇点核心 × 5"));
+-HDC.addTooltip(format.green("   仓储中枢度规稳定锚 × 14"));
++HDC.addTooltip(format.green("Multiblock structure:"));
++HDC.addTooltip(format.green("   Hyperdimensional ME Interface × 1"));
++HDC.addTooltip(format.green("   Hyperdimensional Singularity Core × 5"));
++HDC.addTooltip(format.green("   Hyperdimensional Metric Anchor × 14"));
+ mods.extendedcrafting.TableCrafting.addShaped(HDC, [
+ 	[null, null, null, <contenttweaker:radiant_meatballium_reinforced_casing>, <contenttweaker:radiant_meatballium_reinforced_casing>, <contenttweaker:radiant_meatballium_reinforced_casing>, null, null, null], 
+ 	[null, <contenttweaker:radiant_meatballium_reinforced_casing>, <contenttweaker:radiant_meatballium_reinforced_casing>, <ae2enhanced:hyperdimensional_casing>, <ae2enhanced:hyperdimensional_casing>, <ae2enhanced:hyperdimensional_casing>, <contenttweaker:radiant_meatballium_reinforced_casing>, <contenttweaker:radiant_meatballium_reinforced_casing>, null], 
+@@ -112,11 +112,11 @@
+ val SCC_Interface = <ae2enhanced:super_crafting_interface>;
+ val SCC_Casing_Spinor = <ae2enhanced:constant_spinor_field_casing>;
+ val SCC_Casing_Tensor = <ae2enhanced:constant_tensor_field_casing>;
+-SCC.addTooltip(format.green("多方块结构："));
+-SCC.addTooltip(format.green("   恒定张量场外壳 × 144"));
+-SCC.addTooltip(format.green("   因果锚定核心 × 343"));
+-SCC.addTooltip(format.green("   恒定旋量场外壳 × 366"));
+-SCC.addTooltip(format.green("   超因果合成接口 × 1"));
++SCC.addTooltip(format.green("Multiblock structure:"));
++SCC.addTooltip(format.green("   Constant Tensor Field Casing × 144"));
++SCC.addTooltip(format.green("   Causal Anchor Core × 343"));
++SCC.addTooltip(format.green("   Constant Spinor Field Casing × 366"));
++SCC.addTooltip(format.green("   Supercausal Crafting Interface × 1"));
+ mods.extendedcrafting.TableCrafting.addShaped(SCC, [
+ 	[null, null, null, <draconicevolution:particle_generator:2>, SCC_CAC, <draconicevolution:particle_generator:2>, null, null, null], 
+ 	[null, null, <appliedenergistics2:spatial_pylon>, <appliedenergistics2:crafting_storage_64k>, <contenttweaker:eden_core>, <appliedenergistics2:crafting_storage_64k>, <appliedenergistics2:spatial_pylon>, null, null], 
+@@ -169,11 +169,11 @@
+ val ASC_Inner_Wall = <ae2enhanced:assembly_inner_wall>;
+ val ASC_Stabilizer = <ae2enhanced:assembly_stabilizer>;
+ val ASC_Interface = <ae2enhanced:assembly_me_interface>;
+-ASC.addTooltip(format.green("多方块结构："));
+-ASC.addTooltip(format.green("   装配枢纽 ME 接口 × 3"));
+-ASC.addTooltip(format.green("   装配枢纽外壳 × 180"));
+-ASC.addTooltip(format.green("   装配枢纽内壁 × 128"));
+-ASC.addTooltip(format.green("   装配枢纽稳定器 × 32"));
++ASC.addTooltip(format.green("Multiblock structure:"));
++ASC.addTooltip(format.green("   Assembly ME Interface × 3"));
++ASC.addTooltip(format.green("   Assembly Casing × 180"));
++ASC.addTooltip(format.green("   Assembly Inner Wall × 128"));
++ASC.addTooltip(format.green("   Assembly Stabilizer × 32"));
+ mods.extendedcrafting.TableCrafting.addShaped(ASC, [
+ 	[ASC_Casing, <appliedenergistics2:molecular_assembler>, ASC_Stabilizer, <appliedenergistics2:molecular_assembler>, ASC_Casing], 
+ 	[<appliedenergistics2:molecular_assembler>, <appliedenergistics2:molecular_assembler>, ASC_Inner_Wall, <appliedenergistics2:molecular_assembler>, <appliedenergistics2:molecular_assembler>], 
+@@ -391,8 +391,8 @@
+         parallelMaxStacks[i],
+         parallelLimits[i]
+     );
+-    item.addTooltip(format.gold("装配枢纽并行升级:"));
+-    item.addTooltip(format.gold("    最高堆叠数:" + parallelMaxStacks[i]));
++    item.addTooltip(format.gold("Assembly Parallel Upgrade:"));
++    item.addTooltip(format.gold("    Max stack size:" + parallelMaxStacks[i]));
+     var limits = parallelLimits[i];
+     var limitsStr = "";
+     for index in 0 .. (limits.length) {
+@@ -401,11 +401,11 @@
+         }
+         limitsStr += limits[index];
+     }
+-    item.addTooltip(format.gold("    每个提供并行上限:" + limitsStr));
++    item.addTooltip(format.gold("    Parallel limit per item:" + limitsStr));
+ }
+ // ME中枢接口
+ // 哈哈哈不让你们用
+-<ae2enhanced:central_me_interface>.addTooltip(format.green("用作合成拓展的合成时，自带8并行"));
++<ae2enhanced:central_me_interface>.addTooltip(format.green("Grants 8 parallel when used for crafting expansion crafts"));
+ mods.extendedcrafting.TableCrafting.addShaped(4, <ae2enhanced:central_me_interface>, [
+ // mods.avaritia.ExtremeCrafting.addShaped("central_me_interface_sk",<ae2enhanced:central_me_interface>, [
+ 	[<appliedenergistics2:quartz_vibrant_glass>, <contenttweaker:mythic_machine_case>, <contenttweaker:supertranslucent_catalyst>, <contenttweaker:supertranslucent_catalyst>, <contenttweaker:supertranslucent_catalyst>, <contenttweaker:supertranslucent_catalyst>, <contenttweaker:supertranslucent_catalyst>, <contenttweaker:mythic_machine_case>, <appliedenergistics2:quartz_vibrant_glass>], 
+@@ -508,10 +508,10 @@
+     <ae2enhanced:virtual_parallel_card>.withTag({Tier: 6}),// 134217728x
+     <ae2enhanced:virtual_parallel_card>.withTag({Tier: 7}) // longmax
+ ];
+-VPC[4].addTooltip(format.red("不许掏！"));
+-VPC[5].addTooltip(format.red("不许掏！"));
+-VPC[6].addTooltip(format.red("不许掏！"));
+-VPC[7].addTooltip(format.red("不许掏！"));
++VPC[4].addTooltip(format.red("Hands off!"));
++VPC[5].addTooltip(format.red("Hands off!"));
++VPC[6].addTooltip(format.red("Hands off!"));
++VPC[7].addTooltip(format.red("Hands off!"));
+ val BH_Inputs = [
+ 	[
+ 		<appliedenergistics2:material:27>*512,

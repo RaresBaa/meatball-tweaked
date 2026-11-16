@@ -1,0 +1,16 @@
+{
+  "name": "Chapter 9 Basics",
+  "icon": "aoa3:runic_sword",
+  "category": "chapter-9",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The Defined Ingot needs every fluid on the definer list. The list is in periodic-table order, not alphabetical, so write out what you have and compare carefully to find what's missing."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A strong Runic Sword build is your most important endgame tool: a good one (or a good Chainsaw build) is most of what you need."
+    }
+  ]
+}

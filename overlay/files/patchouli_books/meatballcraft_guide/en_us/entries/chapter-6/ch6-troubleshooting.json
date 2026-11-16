@@ -1,0 +1,16 @@
+{
+  "name": "Shell Bosses and Other Tips",
+  "icon": "minecraft:redstone_torch",
+  "category": "chapter-6",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Optimize performance$()$(li)For an Immersive Engineering diesel line, put the torcherino on the Redstone Engineering block; IE stays very light on TPS even at x36."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Avoid wasted effort$()$(li)Shell 3 only needs 2 fluid types and 3 dimensions—don’t overcomplicate setup.$(li)Shell 4 is simple beyond bee breeding; focus on core progression first."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+filename = 'moresoundconfig-1.0.4.jar'
+name = 'Sound Device Options'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Sound Device Options 1.0.4'
+
+[download]
+hash = '5a17517653deef1faf9d47005aad288b7c61ecaa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2707092
+project-id = 306555

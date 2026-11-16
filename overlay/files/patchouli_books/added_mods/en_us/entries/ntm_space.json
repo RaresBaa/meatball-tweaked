@@ -1,0 +1,11 @@
+{
+  "name": "NTM Space",
+  "icon": "hbm:detonator",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The space add-on for Nuclear Tech: build rockets and travel to other planets and moons."
+    }
+  ]
+}

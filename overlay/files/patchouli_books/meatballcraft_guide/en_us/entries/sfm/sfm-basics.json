@@ -1,0 +1,40 @@
+{
+  "name": "SFM Basics",
+  "icon": "superfactorymanager:network_tool",
+  "category": "sfm",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Name blocks with the Label Gun (right-click the blocks), then right-click the manager to push the labels to it. Pulling from a manager with the gun gives you the labels its script already uses."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A machine can have several labels (e.g., $(5)ElectrumAF$() and $(5)AlloyFurnace$()) for both targeted and grouped operations, and one statement can name several labels with commas ($(5)INPUT FROM fluid_infuser, final$())."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Right-click a block with the SFM Network Tool to see what SFM can extract per side and slot (items, fluids, power). Trust this over the GUI, which can be off by one; $(5)Ctrl+I$() is unreliable."
+    },
+    {
+      "type": "text",
+      "text": "$(li)In the editor, $(5)Ctrl+Space$() on a label shows the same info. Use it only on complete lines; half-written lines break parsing.$(li)$(5)Left Alt$() shows only the currently selected label, and $(5)Shift+Click$() on the disk icon clears unused labels."
+    },
+    {
+      "type": "text",
+      "text": "$(li)With a package recipe open in JEI, press $(5)+$() in the manager GUI to generate a packager/unpackager script.$(li)Cable camouflage is set in the manager GUI by picking a block texture. Modded blocks with metadata (e.g., DivineRPG asphalt, Fiery Pyrite) may render wrong;"
+    },
+    {
+      "type": "text",
+      "text": "use blocks without metadata."
+    },
+    {
+      "type": "text",
+      "text": "$(l)AE2 and SFM$()$(li)SFM can't reach into an AE2 network directly; label ME Interfaces (export/import) and move through those. Storage exposer buses lag badly, even on small networks.$(li)Import Interfaces can only be read; move items through Export Interfaces."
+    },
+    {
+      "type": "text",
+      "text": "One Import Interface is also cheaper than twenty, since each ticks on its own.$(li)To feed cobble into a Compacting Cell, a plain move from the EMC Link into an Import Interface (or normal interface) is enough."
+    }
+  ]
+}

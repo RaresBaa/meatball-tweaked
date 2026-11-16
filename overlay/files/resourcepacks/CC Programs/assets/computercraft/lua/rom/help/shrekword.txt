@@ -1,0 +1,8 @@
+ShrekWord
+
+Word processor with pages, colours and printing.
+
+Usage: shrekword [file]
+
+By Mason Gulu. License: MIT.
+Source: https://github.com/ShrekshelleraiserCC/shrekword

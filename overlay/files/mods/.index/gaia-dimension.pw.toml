@@ -1,0 +1,17 @@
+filename = 'gaiadimension-1.12.2-1.0.5.jar'
+name = 'Gaia Dimension'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gaiadimension-1.12.2-1.0.5.jar'
+
+[download]
+hash = '8bfa986a3ae8449ee66535b15613da8628218b3d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2724738
+project-id = 302529

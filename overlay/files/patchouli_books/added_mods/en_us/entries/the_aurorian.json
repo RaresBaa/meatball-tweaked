@@ -1,0 +1,11 @@
+{
+  "name": "The Aurorian",
+  "icon": "theaurorian:absorptionorb",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A night-time dimension lit by auroras, with dungeons and bosses."
+    }
+  ]
+}

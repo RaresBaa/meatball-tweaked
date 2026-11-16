@@ -1,0 +1,29 @@
+--- a/config/modularmachinery/machinery/SKTweaks/large_scale_hypergrowth_insolator.json
++++ b/config/modularmachinery/machinery/SKTweaks/large_scale_hypergrowth_insolator.json
+@@ -11,7 +11,7 @@
+             "x": 0,
+             "y": 2,
+             "z": 0,
+-            "description": "产出x4",
++            "description": "Output x4",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:item",
+@@ -24,7 +24,7 @@
+             "x": 0,
+             "y": 2,
+             "z": 0,
+-            "description": "产出x16",
++            "description": "Output x16",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:item",
+@@ -37,7 +37,7 @@
+             "x": 0,
+             "y": 2,
+             "z": 0,
+-            "description": "产出x64",
++            "description": "Output x64",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:item",

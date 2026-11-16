@@ -1,0 +1,54 @@
+{
+  "name": "Community Scripts: Late Game",
+  "icon": "superfactorymanager:manager",
+  "category": "sfm",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "text",
+      "text": "By mantikafasi, from a late-game base. Label names here are lowercase and use underscores."
+    },
+    {
+      "type": "link",
+      "text": "$(l)mainpassive$(): priority list that keeps a drawer controller stocked. Its astralsorchery checks are a typo and always pass. 10 labels.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/mainpassive.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)cleanroom$(): keeps a buffer stocked with AE2 printed circuits. 5 labels.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/cleanroom.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)definer$(): sends each fluid from a Storage Exposer to its own tank. 121 labels.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/definer.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)defineremptyall$(): empties those same tanks back out. 121 labels.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/defineremptyall.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)soulaccumilator$(): items and fluids for soul binder and rock snot setups. 8 labels.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/soulaccumilator.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)uncorrupted_library$(): passes redstone when a buffer holds 128k of each demon crystal. Delete its last redstone pair or it always passes. 3 labels.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/uncorrupted_library.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)ludi_output_keep_1_in_each_slot$(): keeps 1 item in each of 32 output slots, the rest goes to drawers. 2 labels.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/ludi_output_keep_1_in_each_slot.sfm",
+      "link_text": "Open script"
+    }
+  ]
+}

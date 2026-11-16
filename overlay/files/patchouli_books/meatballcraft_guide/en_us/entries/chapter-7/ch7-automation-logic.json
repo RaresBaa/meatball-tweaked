@@ -1,0 +1,24 @@
+{
+  "name": "Automation",
+  "icon": "appliedenergistics2:molecular_assembler",
+  "category": "chapter-7",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)For Essentia processing$(), use the emptying essentia interface (not AE2 buses); then you don't need pipes."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Gene farming scales efficiently$() with Gendustry’s dedicated gene duplicator machine."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Alverary drone production$() is optimized with an Oblivion frame (only one needed); route outputs back in with high-priority conduits, send drones to a gene extractor, and filter to keep only Rainbow genes."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Chaos Condensers$(): four are typically sufficient; add more only if output is insufficient."
+    }
+  ]
+}

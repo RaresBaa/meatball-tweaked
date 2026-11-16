@@ -1,0 +1,12 @@
+Pumpkin Carver
+
+Carve a 3D pumpkin with the mouse. Ctrl opens the menu.
+
+Usage: pumpkincarver
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (113 KB) to /extra/pumpkincarver. Delete that folder to reset it.
+
+By Xella. License: unspecified.
+Source: https://github.com/Xella37/Pumpkin-Carver

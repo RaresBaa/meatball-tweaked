@@ -1,0 +1,12 @@
+CCDoom
+
+3D first-person shooter in the style of Doom, built on Pine3D. Online highscores use HTTP.
+
+Usage: doom
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (96 KB) to /extra/doom. Delete that folder to reset it.
+
+By Xella. License: MIT.
+Source: https://github.com/Xella37/CCDoom

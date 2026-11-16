@@ -1,0 +1,29 @@
+filename = 'ExtraSpells-1.12.2-1.2.0.jar'
+name = "Extra Spells (Electroblob's Wizardry)"
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ExtraSpells-1.12.2-1.2.0.jar'
+
+[download]
+hash = '30754cde580e65bd4464006e5b70d127a1753bd8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3091628
+project-id = 310745
+
+[[x-prismlauncher-dependencies]]
+addonId = '247357'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242872'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '265642'
+type = 'REQUIRED'

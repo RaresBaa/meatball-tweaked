@@ -1,0 +1,40 @@
+{
+  "name": "Vethea",
+  "icon": "minecraft:ender_eye",
+  "category": "chapter-7",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Use the Lurker Callstone to link a Lurker Pouch or Ender Chest$() for item access in Vethea; the pouch must be equipped (via keybind or sneak-click). $(l)Vethea pyramids spawn at Y=2$(), not at surface level—the tooltip is misleading."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Basic crafting tables and ink are not available in Vethea$()—plan automation accordingly."
+    },
+    {
+      "type": "text",
+      "text": "$(l)For Ancient Cavern skills$():$(li)Runation requires finding a rune shrine in the overworld and clicking Unpowered Runes on it$(li)Foraging is fastest by hand (use Draconic Staff of Power in AoA dimensions)"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Infusion is best done with Pixons and Infusion Stones (Infusinator speeds this up)$(li)Avoid Hunter—use Skill Crystals instead$(li)When shrines say $(o)'Tribute Required!'$(), kill the mobs spawned by the four pillars to increase tribute"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Skill Crystals$() are usually slower than levelling by hand unless many of your other skills are already high; Foraging is always faster manually, and Runation is roughly comparable to crystals if shrines are nearby. $(l)Craft the Terran Summoning item$(), which is required as a quest task."
+    },
+    {
+      "type": "text",
+      "text": "$(l)The bejeweled lotto banner functions as an inscriber press and is not consumed during use.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)You can skip the Wither$() by obtaining Intestines and summoning papers, which allow Nether Star drops; Pillagers can be used strategically with these papers. $(l)Vethea can be completed without skipping$(); automating the pouch materials helps, and expect to lose time dying to surprises."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Use Woot farms on Watcher or the Ancient Entity$() for Divine Shards; Watcher is equally good as Epi. Time machines (e.g., Torchero) can also be used to speed up farming. $(l)An Undead Herald can be found in Apalachia.$()"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    1910536263
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oTravel to the dimension shown.\u00a7r\n\nA golden land. Build a Nether-style frame from Euca Portal Frames and light it with the Flame Coin.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "journey:eucaportalframe"
+      },
+      "name:8": "Euca",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1987253031,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "1:10": {
+          "Count:3": 20,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "id:8": "journey:eucaportalframe",
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "TrophyName:8": "Euca",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:location",
+      "dimension:3": 7704,
+      "hideInfo:1": 0,
+      "name:8": "Euca",
+      "index:3": 0
+    }
+  }
+}

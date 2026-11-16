@@ -1,0 +1,28 @@
+{
+  "name": "Power in Chapter 1",
+  "icon": "thermalexpansion:dynamo:5",
+  "category": "chapter-1",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Chapter 1 power is modest. Early quests give you a $(l)Spectre Coil$() and a $(l)Thermoelectric Generator$().$(li)$(l)Thermoelectric Generator$() (water + lava): about 30 RF/t. It only produces if it has somewhere to push the power."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Tech Reborn Water Mills$(): surround them with water.$(li)$(l)Numismatic Dynamo with the Lapidary augment$(): the community favourite. Once the dragon-heart EMC loop is running, diamonds will run your dynamos for hours."
+    },
+    {
+      "type": "text",
+      "text": "They'll carry you to your first Extreme Reactors turbine in Chapter 2.$(li)Compression dynamos with spark plugs and steam → diesel are also options.$(li)Pink Generators appear in pink buildings, but they $(l)disintegrate when mined$()."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Mid-game option (pyrotheum setup, ~16k RF/t):$() a Pulverizer crushes blaze rods, a crafter makes pyrotheum dust, and one Magma Crucible melts it to feed about 28 Magmatic Dynamos (isentropic reservoir + 2 auxiliary transmission coils each), all with Signalum upgrades."
+    },
+    {
+      "type": "text",
+      "text": "Don't pipe lava into a Magmatic Dynamo through its red coil side; that side is energy only."
+    }
+  ]
+}

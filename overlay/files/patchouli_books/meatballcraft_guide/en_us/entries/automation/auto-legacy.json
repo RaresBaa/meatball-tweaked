@@ -1,0 +1,16 @@
+{
+  "name": "Other Automation Tips",
+  "icon": "thermalfoundation:wrench",
+  "category": "automation",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Avoid automating Bewitchment if you can—it’s buggy, and conduit setups often overflow fuel/jars into input slots.$(li)Rock Crusher: use Granite (not Andesite) for Crushed Villiaumite, then Sodium Fluoride via the Fluid Enricher."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To move Red Matter/Dark Matter Furnaces before you have a Red Matter Pickaxe, use a Bag of Holding, and rotate them with a Crescent Hammer."
+    }
+  ]
+}

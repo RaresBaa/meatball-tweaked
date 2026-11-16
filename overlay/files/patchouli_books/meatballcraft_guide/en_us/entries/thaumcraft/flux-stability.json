@@ -1,0 +1,40 @@
+{
+  "name": "Flux, Warp & Stability Management",
+  "icon": "thaumcraft:causality_collapser",
+  "category": "thaumcraft",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Flux builds up when essentia sits unused in a Crucible; remove excess with quartz slivers (which have EMC) to prevent it.$(li)Non-mithminite Essentia Smelteries generate Flux—use mithminite smelteries or MMCE multis instead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Flux Rifts spawn when too much Flux accumulates: they destroy blocks, spawn taint seeds, and can taint the area. Evacuate items and either wait for natural collapse or use a Causality Collapser to close them."
+    },
+    {
+      "type": "text",
+      "text": "$(li)If a Causality Collapser can’t reach a rift (e.g., at Y=-1), let it remain—it only becomes dangerous if it grows large enough to spawn taint seeds."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Warp effects fade after a few hours with no additional accumulation; soap does $(o)not$() remove permanent Warp.$(li)Cultist spawns cease after a few hours if you gain no new Warp."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To reduce excessive Warp, use the Omothol Warp Cleanser (reusable, removes all Warp) or Sanitizing Soap (consumable).$(li)For candle-based stability, ensure Warp is at least +15; rely on the matrix block’s total stability display, not candle counts."
+    },
+    {
+      "type": "text",
+      "text": "$(li)In smelting-based essentia factories, excess stays in the boiler until ME storage opens up—the factory pauses automatically when full.$(li)Store essentia as crystals (not fluid) for efficiency; crystallizer adds efficiency and on-site smelting is simpler than centralized storage."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Avoid overproducing essentia—excess can cause flux buildup; if you overproduce, trash excess but monitor flux closely.$(li)For large setups, use 53 modular MMCE multis with individual input buses and subnet isolation—not 53 import buses—to maintain TPS."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Thaumcraft candles provide weak stability; do not rely on them alone for high-stability needs."
+    }
+  ]
+}

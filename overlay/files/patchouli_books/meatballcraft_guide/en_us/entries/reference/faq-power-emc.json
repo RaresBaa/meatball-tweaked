@@ -1,0 +1,20 @@
+{
+  "name": "Power and EMC",
+  "icon": "immersiveengineering:metal_device1:3",
+  "category": "reference",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use thermoelectric generators early; they’re reliable and require minimal setup.$(li)Once you have EMC, use it to bridge toward dynamos—this is the recommended path to scale up power."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Dynamos are the recommended power generation method for mid-to-late game.$(li)Avoid relying on EMC duplication for sustained power."
+    },
+    {
+      "type": "text",
+      "text": "$(li)EMC has no value for string—it’s intentionally excluded to keep progression meaningful.$(li)Only items with no gameplay purpose (e.g., purely decorative blocks) or specific quality-of-life upgrades receive EMC value."
+    }
+  ]
+}

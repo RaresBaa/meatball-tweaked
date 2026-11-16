@@ -1,0 +1,7 @@
+{
+  "name": "Computers",
+  "description": "Tips for Computers.",
+  "icon": "computercraft:computer",
+  "parent": "topics",
+  "sortnum": 4
+}

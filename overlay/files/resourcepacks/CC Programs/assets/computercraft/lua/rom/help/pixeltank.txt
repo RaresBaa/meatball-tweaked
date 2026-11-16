@@ -1,0 +1,12 @@
+Pixel Tank
+
+Top-down tank battles across 20+ levels. remote.lua lets a pocket computer drive.
+
+Usage: pixeltank
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (94 KB) to /extra/pixeltank. Delete that folder to reset it.
+
+By Mr_Octopus_2020. License: unspecified.
+Source: https://pastebin.com/LYVUBJAQ

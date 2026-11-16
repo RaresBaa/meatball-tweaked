@@ -1,0 +1,40 @@
+{
+  "name": "Fluids & Essentia Handling",
+  "icon": "cells:export_essentia_interface",
+  "category": "ae2-storage",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)To import essentia into AE2, connect an Import Interface with a Pull Card directly to an Export Hatch (not an Import Hatch), and configure the hatch for essentia output. Tile caching this way is the lightest method;"
+    },
+    {
+      "type": "text",
+      "text": "avoid wireless essentia transfer and direct pipes—they are TPS-expensive and unstable.$(li)The Essentia Export Interface works reliably with Infusion, Thaumatorium, Import Hatch, and Storage bus (no caching issues); the Import Interface has known issues here."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When opening a Better Level Maintainer GUI for the first time, press the craft button twice: the first press may not register.$(li)Level Maintainers only maintain set levels if the adjacent inventory correctly reports slot contents."
+    },
+    {
+      "type": "text",
+      "text": "If multiblock quirks cause slots to report empty while holding items, the maintainer may stop exporting.$(li)Multiblock hatches (e.g., from MMCE) auto-pull items and bypass the 64-item limit of Better Level Maintainer."
+    },
+    {
+      "type": "text",
+      "text": "There is no built-in way to disable this, so use phantomface or layout carefully to avoid overflow."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To fix fluid desync with subnet proxies: expose only items (not fluid channels) on the fluid subnet, use a discretizer only on the fluid subnet, and add AE2FC fluid drops to the subnet proxy filter instead of enabling the fluid channel."
+    },
+    {
+      "type": "text",
+      "text": "$(li)AE2 does not support fuzzy fluid filtering for subnets when the fluid has NBT.$(li)Fluids crafted by the Better Level Maintainer may not be recognized by AE2 because the Discretizer only handles standard AE2 fluid sources."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Discritizers on subnets may produce ghost fluid drops when paired with interface-stocked fluids on separate networks—avoid this combo"
+    }
+  ]
+}

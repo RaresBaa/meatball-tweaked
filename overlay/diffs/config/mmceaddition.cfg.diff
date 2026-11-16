@@ -1,0 +1,12 @@
+--- a/config/mmceaddition.cfg
++++ b/config/mmceaddition.cfg
+@@ -76,6 +76,9 @@
+     S:recipe_summation_machine_blacklist <
+      >
+ 
++    # 外部 tick 加速器兼容模式：time_bottle_only（仅 Quantum Things 时间之瓶，默认）/ all（所有同原理加速器）/ off（关闭）
++    S:tick_acceleration_mode=time_bottle_only
++
+     # 虚拟装配台内部材料缓存槽数量（每槽计数上限为 int）
+     # Min: 27
+     # Max: 1024

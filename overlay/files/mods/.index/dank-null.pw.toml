@@ -1,0 +1,57 @@
+filename = 'DankNull-1.12.2-1.7.101.jar'
+name = '/dank/null'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'DankNull-1.12.2-1.7.101.jar'
+
+[download]
+hash = 'd082f6a00a3a11bc2bc4c9f8aac40851a413b92c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2962052
+project-id = 272514
+
+[[x-prismlauncher-dependencies]]
+addonId = '238403'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '255232'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '264353'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '270183'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '298187'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '235279'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '253449'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '73488'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'

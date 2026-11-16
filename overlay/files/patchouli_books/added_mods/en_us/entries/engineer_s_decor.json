@@ -1,0 +1,11 @@
+{
+  "name": "Engineer's Decor",
+  "icon": "engineersdecor:treated_wood_table",
+  "category": "building",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Industrial-style decor plus a few handy utility blocks."
+    }
+  ]
+}

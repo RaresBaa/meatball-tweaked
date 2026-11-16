@@ -1,0 +1,44 @@
+{
+  "name": "EMC Farming and Loops",
+  "icon": "cells:hyper_density_component",
+  "category": "chapter-2",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use an EMC Link to feed AE2 (a storage bus directly on the link works best)—this is more efficient than storing items first once the Personal EMC Link is unlocked. Without it, early EMC gain is limited and hard to spend automatically."
+    },
+    {
+      "type": "text",
+      "text": "Focus on progression first; don’t over-farm before unlocking it.$(li)For early EMC loops, prioritize the Dragon Heart loop: Dragon Heart + Blaze Rods yield more EMC than the initial Blaze Rods, and the Dragon Heart is not consumed. A single diamond crafter (8 slots, fast mode) yields ~1.6M EMC/s."
+    },
+    {
+      "type": "text",
+      "text": "Lightning Dragon Heart provides 4× that.$(li)The Alkahestry emerald loop is estimated at around 10× the dragon loop, but some crafter slots must recharge the tome, so the real gain depends on how you split the slots."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To automate alchemist trades, trap mobs in a Mob Imprisonment Tool, place it in a Mob Duplicator, and unlock trades until you have enough alchemists. Early priority trades: Fiery Ungent (4→3), Cleansing Balm (3→3), Stone Ichor (2→4), Dragon Blood (3→5)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)If your Blood Altar runs out of life essence, fix the Life Essence generation setup (e.g., generating altar), not just add runes—reliable essence input is required for passive slate crafting."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For passive Blood Magic slate crafting, use an EMC Link → stone → Blood Altar (with Limited Item Filter set to 1 stone) → Storage Controller + Locked Drawers (one slate type per drawer, void upgrade on ethereal drawer). The altar auto-advances slates as drawers fill."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When ordering a recipe in the Runic Altar, nothing happens until you cancel the recipe—then items are sent to the altar and crafted. This is normal behavior.$(li)Shimmerstones from Mummies have multiple NBT states that cycle on right-click;"
+    },
+    {
+      "type": "text",
+      "text": "store them with NBT-sensitive filters or in drawers/interfaces that respect NBT.$(li)Hyper-Density Cells are cheaper than 16M cells; interfaces are expensive.$(li)After obtaining Tesslocators, use the Dragon Heart loop from Chapter 1 to automate essence generation."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Without an EMC link, siphon from an existing dragon loop or make a new one—do not rely on geckos for early essence."
+    }
+  ]
+}

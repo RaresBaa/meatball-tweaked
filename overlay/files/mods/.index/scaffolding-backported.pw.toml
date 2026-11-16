@@ -1,0 +1,18 @@
+filename = 'ScaffoldingBackported-1.0.1.jar'
+name = 'Scaffolding Backported'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12-Snapshot', '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Scaffolding Backported 1.0.1 [Forge 1.12]'
+
+[download]
+hash = '213bd1f500652a5f5cff54739b1b3a2c3f1b20b6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5659746
+project-id = 1089286

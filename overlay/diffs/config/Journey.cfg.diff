@@ -1,0 +1,46 @@
+--- a/config/Journey.cfg
++++ b/config/Journey.cfg
+@@ -7,19 +7,19 @@
+ 
+ 
+ dimension {
+-    I:"Boiling Point ID"=22
++    I:"Boiling Point ID"=7700
+     I:"Boiling Point biome ID"=62
+     B:"Boiling Point blocks spawn smoke (More lag)"=true
+-    I:"Cloudia ID"=26
++    I:"Cloudia ID"=7701
+     I:"Cloudia biome ID"=66
+-    I:"Corba ID"=24
++    I:"Corba ID"=7702
+     I:"Corba biome ID"=64
+-    I:"Depths ID"=21
++    I:"Depths ID"=7703
+     I:"Depths biome ID"=61
+-    I:"Euca ID"=20
++    I:"Euca ID"=7704
+     I:"Euca Silver biome ID"=60
+     I:"Euca biome ID"=40
+-    I:"Frozen Lands ID"=23
++    I:"Frozen Lands ID"=7705
+     I:"Frozen Lands biome ID"=63
+     B:"Keep loading Boiling Point"=false
+     B:"Keep loading Cloudia"=false
+@@ -32,13 +32,13 @@
+     B:"Keep loading Wastelands"=false
+     B:"Keep loading the Withanian Lands"=false
+     I:"Rarity for 'special' dimension biomes (The higher, the rarer)"=16
+-    I:"Senterian Labirynth ID"=29
++    I:"Senterian Labirynth ID"=7706
+     I:"Senterian Labirynth biome ID"=69
+-    I:"Terrania ID"=27
++    I:"Terrania ID"=7707
+     I:"Terrania biome ID"=67
+-    I:"Wastelands ID"=25
++    I:"Wastelands ID"=7708
+     I:"Wastelands biome ID"=65
+-    I:"Withanian Lands ID"=30
++    I:"Withanian Lands ID"=7709
+ }
+ 
+ 

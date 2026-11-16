@@ -1,0 +1,56 @@
+{
+  "name": "XNet",
+  "icon": "xnet:controller",
+  "category": "automation",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Set connectors to $(o)extract stacks$(), not single items—single-item extraction is rarely enough."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When pulling many unique items from one inventory, switch from first-slot extract to $(o)ordered (round-robin)$() mode so all slots get moved.$(li)XNet extracts one slot per operation; to move more, consolidate items in drawers, danks or interfaces first."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For simple automation (e.g., chicken farms) XNet is easier and reliable; SFM is flexible but complex and only needed for advanced setups."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Advanced connectors (not basic) let you reach any side of a machine from one block face—pick the side in the controller.$(li)Routing cable is only needed when one controller manages more than eight channels; regular network cable routes channels between controllers."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A wireless hub supports up to 32 channels and 32 connectors; one hub can push at least 5 channels to a single connector.$(li)For modular machine control over XNet, set the frequency to 200."
+    },
+    {
+      "type": "text",
+      "text": "$(li)XNet cables can bypass some sided power insertion restrictions when accelerated, and work with an Advanced Torchero, which makes batching practical for power-limited recipes."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Advanced connectors use AND logic: all assigned colors must be active for the channel to trigger. For OR or other logic, output redstone from XNet and process it externally (e.g., with ProjectRed).$(li)Logic channels may not trigger block updates reliably;"
+    },
+    {
+      "type": "text",
+      "text": "for Atomic Reconstruction chambers, break and replace them after wiring changes, and stagger units to prevent cascading shutdowns.$(li)XNet fluid extraction defaults to 'bucket'; set the amount yourself to avoid over-extraction."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use order extract mode for item extraction—it’s faster than conduits and lets you cycle what the system pulls.$(li)XNet’s native fluid channel is unreliable for multi-fluid sources;"
+    },
+    {
+      "type": "text",
+      "text": "instead, use XNet sensors to detect low fluid levels and trigger redstone-controlled EnderIO fluid conduits.$(li)Keep the XNet controller ticking rarely: run operations every 200 ticks and enable connections only on a redstone color, so the setup barely touches TPS."
+    },
+    {
+      "type": "text",
+      "text": "$(li)XNet’s item stocking limit only applies $(o)per filtered item$() when a filter is applied; if the filter is empty, it checks total items across $(o)all$() items instead—double-check filter settings if stockpiling behaves unexpectedly."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Use XNet’s logic channel with sensor connections$() to control item/fluid transport only when needed—e.g., trigger extraction when fluid level < 250,000 mb, set sensor checks to run every 200 ticks. Only the sensor ticks, not the extract/insert connections, drastically reducing TPS impact."
+    }
+  ]
+}

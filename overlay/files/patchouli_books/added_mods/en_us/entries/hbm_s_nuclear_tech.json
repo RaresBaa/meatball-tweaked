@@ -1,0 +1,11 @@
+{
+  "name": "HBM's Nuclear Tech",
+  "icon": "hbm:geiger_counter",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Massive nuclear tech mod: reactors, chemistry, weapons and nukes. NTM radiation is disabled; NuclearCraft radiation is the active system."
+    }
+  ]
+}

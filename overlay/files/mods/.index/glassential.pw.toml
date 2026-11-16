@@ -1,0 +1,21 @@
+filename = 'glassential-1.12.2-1.1.0.jar'
+name = 'Glassential'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'glassential-1.12.2-1.1.0.jar'
+
+[download]
+hash = '1650ab1c3d36ca67f75e8e05c454bdedd0968baa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2698826
+project-id = 319194
+
+[[x-prismlauncher-dependencies]]
+addonId = '267602'
+type = 'OPTIONAL'

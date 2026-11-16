@@ -1,0 +1,17 @@
+filename = 'mcw-doors-1.0.3-mc1.12.2.jar'
+name = 'Macaws Doors'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mcw-doors-1.0.3-mc1.12.2.jar'
+
+[download]
+hash = '005f81af71b0ba953e2ff25f736958ae3358f0a0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3340797
+project-id = 378646

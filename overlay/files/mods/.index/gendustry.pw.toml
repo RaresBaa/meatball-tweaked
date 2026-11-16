@@ -1,0 +1,45 @@
+filename = 'gendustry-1.6.5.8-mc1.12.2.jar'
+name = 'Gendustry'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Gendustry 1.6.5.8 (MC 1.12.2)'
+
+[download]
+hash = 'fdb69e45f0e54c793b9e52bb49ecedc9dfce13a1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2516215
+project-id = 70492
+
+[[x-prismlauncher-dependencies]]
+addonId = '70496'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '61811'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69162'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '59751'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '244651'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '73488'
+type = 'OPTIONAL'

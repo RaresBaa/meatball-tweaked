@@ -1,0 +1,11 @@
+{
+  "name": "Atum 2",
+  "icon": "atum:anubiss_wrath",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An Egyptian desert dimension with pharaohs, gods and relics."
+    }
+  ]
+}

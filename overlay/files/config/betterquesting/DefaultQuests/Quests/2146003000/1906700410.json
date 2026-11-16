@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    1900520399
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nRefine oil, heated by an Oil Heater.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "magneticraft:refinery"
+      },
+      "name:8": "Refinery",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1906700410,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:iron_block"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 28,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "id:8": "magneticraft:refinery",
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "TrophyName:8": "Refinery",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "magneticraft:refinery"
+        }
+      },
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

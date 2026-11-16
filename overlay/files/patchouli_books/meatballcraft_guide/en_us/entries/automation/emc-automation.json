@@ -1,0 +1,20 @@
+{
+  "name": "EMC and ProjectE",
+  "icon": "projectex:personal_link",
+  "category": "automation",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The best way into AE2 is a Storage Bus directly on an EMC Link (see AE2 and Cell Storage). The Basic EMC Link doesn't accept or output items."
+    },
+    {
+      "type": "text",
+      "text": "$(li)An EMC loop: ME IO Port with 3 Hyper Acceleration Cards, connected to an ME Storage Bus on an EMC Link.$(li)Use ME Interfaces for non-EMC resources and EMC Links for EMC-based ones when feeding passive automation."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To hold a target stock of an EMC item, put a Storage Bus on a Dank or Drawer with upgrades to set thresholds."
+    }
+  ]
+}

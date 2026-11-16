@@ -1,0 +1,70 @@
+{
+  "name": "Community Scripts: Magic & Farms",
+  "icon": "botania:manaresource",
+  "category": "sfm",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "text",
+      "text": "By RagingRevenge. Magic resources, crops, loops and miners."
+    },
+    {
+      "type": "link",
+      "text": "$(l)BotaniaResourceAutomation$(): drops items in a full Mana Pool (redstone 15), stocking by drawer. 4 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/BotaniaResourceAutomation.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)FluidTransfer-BM$(): life essence from the Altar to tanks, and Twilight matter. 7 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/FluidTransfer-BM.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)StarlightGeneration$(): fills a starlight tank up to a limit. 4 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/StarlightGeneration.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)AgricraftFarming$(): powers the Hydrator, Harvester and Crafter. 4 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/AgricraftFarming.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)MysticalCrafters$(): essence to six crafters on a pulse. Its empty-crafter check names a mod not in this pack, so it always passes. 11 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/MysticalCrafters.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)MysticalItemMovement$(): moves essences from the Harvester. 3 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/MysticalItemMovement.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)MythicMiners$(): miner output to drawers every 320 ticks. 2 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/MythicMiners.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)EmcLoop$(): arcanium to an EMC crafter on a redstone pulse. 2 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/EmcLoop.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)NetherStarLoop$(): nether stars and redstone blocks through a crafter. 4 labels. Needs a fix, see the next page.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/NetherStarLoop.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "text",
+      "text": "$(l)NetherStarLoop$() won't compile as published: the first $(5)Every Tick$() block has no $(5)End$(). Add a line with $(5)End$() right after $(5)To Crafter$(), before $(5)Every Redstone Pulse Do$(). With that change it passes SFM's parser."
+    }
+  ]
+}

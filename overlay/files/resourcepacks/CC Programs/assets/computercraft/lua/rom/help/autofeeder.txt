@@ -1,0 +1,12 @@
+Plethora: Auto feeder
+
+Eats food from your inventory when you get hungry.
+
+Usage: autofeeder
+
+Run on a neural interface (or a computer with a manipulator) with the required modules installed.
+
+Needs: Plethora neural interface
+
+By SquidDev (Plethora examples). License: MIT.
+Source: https://plethora.madefor.cc/examples/

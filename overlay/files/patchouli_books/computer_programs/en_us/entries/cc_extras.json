@@ -1,0 +1,24 @@
+{
+  "name": "Built-in Programs",
+  "icon": "computercraft:computer",
+  "category": "computercraft",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Every ComputerCraft computer, turtle and pocket computer has extra programs installed in $(l)/rom$(), courtesy of the $(o)CC Programs$() resource pack.$(br2)Type $(l)extras$() to list them and $(l)help <name>$() to learn about one."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fun:$() nyancat, alongtimeago (Star Wars), sl, fireworks, pumpkincarver, mandelplot, gameoflife.$(br2)$(l)Games:$() doom, ccminecraft, watermelon, samuraisalad, tessera, tetracraft, racer, pixeltank, goldrunner, boardgames, flappybird, snake, pong and more."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tools:$() luaide, consult and shrekword (editors), npaintpro, spritemog, cash (shell), nsh (remote shell), pinestore (download even more programs).$(br2)$(l)Mod helpers:$() drmon, ezreactor and the Plethora neural-interface programs (fly, orescanner, ...)."
+    },
+    {
+      "type": "text",
+      "text": "Most programs need an $(l)advanced$() computer for colour.$(br2)Programs that save highscores or settings copy themselves to $(l)/extra/<name>$() the first time they run. Delete that folder to reset one."
+    }
+  ],
+  "sortnum": 0
+}

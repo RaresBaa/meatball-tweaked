@@ -1,0 +1,17 @@
+filename = 'HatStand-1.12.2-7.1.0.jar'
+name = 'Hat Stand'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'HatStand-1.12.2-7.1.0.jar'
+
+[download]
+hash = 'bfe7d60a6ad4ab9bdec402d3d5d8088aad2f45dc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2801267
+project-id = 229076

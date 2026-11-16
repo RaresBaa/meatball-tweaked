@@ -1,0 +1,10 @@
+Gold Runner
+
+Lode Runner style platformer: collect the gold, dodge the monks.
+
+Usage: goldrunner
+
+Needs: advanced computer (colour)
+
+By nitrogenfingers. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

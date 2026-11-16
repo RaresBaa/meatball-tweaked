@@ -1,0 +1,16 @@
+{
+  "name": "Chapter 10 Basics",
+  "icon": "astralsorcery:blockmarble",
+  "category": "chapter-10",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Side quest progression$()$(li)Early parts of the side quests (top and bottom) are doable pre-Cannon; the ends require Cosmic Balance (except Sprens for Freedom Steel)."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tricky recipes$()$(li)The Better Sane Thoughts recipe is locked behind the Bedrock Blaster and requires passivating the Infinity Pick in the duplication recipe.$(li)The cauldron recipe is the only one that becomes meaningfully more annoying to craft at higher tiers."
+    }
+  ]
+}

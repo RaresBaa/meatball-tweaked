@@ -1,0 +1,11 @@
+--- a/scripts/SKTweaks/Custom_SK.zs
++++ b/scripts/SKTweaks/Custom_SK.zs
+@@ -209,8 +209,3 @@
+ simple_register_block("paradoxical_machine_casing",false,false,true,30.0,"SOLID");
+ // 苍穹玻璃
+ simple_register_block("skaia_glass",true,false,true,30.0,"CUTOUT_MIPPED");
+-StatedMachineComponentBuilder.newBuilder("my_machine_casing")
+-    .build();
+-
+-
+-

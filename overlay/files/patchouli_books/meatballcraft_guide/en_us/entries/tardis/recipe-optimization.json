@@ -1,0 +1,32 @@
+{
+  "name": "Recipe Optimization & Efficiency",
+  "icon": "appliedenergistics2:material:35",
+  "category": "tardis",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Parallelize storage component crafts sensibly$(): one 100× parallel handles 256k to 16M components, and one 1000× parallel can do 1k to 64k if you're careful.$(br2)$(l)Encode byproducts separately$() when setting up automation patterns;"
+    },
+    {
+      "type": "text",
+      "text": "exclude them from main patterns to avoid inflated material calculations.$(br2)$(l)Non-consumed items (e.g., reusable tools) don’t count toward material demand$()—omit them from pattern logic entirely."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Avoid the Utopic Spires dragonsteel path early on$()—it bottlenecks on gilded matter before stars are feasible; switch to alternative dragonsteel recipes sooner."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Use ME Input buses to feed multi-input machines$() (e.g., AoA auto-crafting multi), but remember: MMCE won’t auto-configure them.$(br2)$(l)Catalyst of Universal Balance is expensive$(): Ascended Fluix Crystals cost ~15M and Hungering Flesh Ingots ~27.4M."
+    },
+    {
+      "type": "text",
+      "text": "$(l)The Max Upgrade gives ~98% discount$() (64× in, 64× out, no fluid cost increase).$(br2)$(l)Upgraded lymph recipes (e.g., with Hungering Flesh) cut vessel count drastically$() (e.g., to 273) and speed up processing."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Supertranslucent catalyst needs 10 inertial confinement reactors$(), though ~3 may suffice if you already have stockpiles."
+    }
+  ]
+}

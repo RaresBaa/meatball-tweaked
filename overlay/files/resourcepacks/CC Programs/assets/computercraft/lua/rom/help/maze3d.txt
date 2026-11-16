@@ -1,0 +1,10 @@
+Maze 3D
+
+Escape a random maze in first person.
+
+Usage: maze3d   (or maze2d for the top-down version)
+
+This program saves data, so the first run copies it (23 KB) to /extra/maze3d. Delete that folder to reset it.
+
+By JTK. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

@@ -1,0 +1,24 @@
+{
+  "name": "Infusion, Enchanting and Last Stand",
+  "icon": "minecraft:enchanted_book",
+  "category": "chapter-8",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Infusion$()$(li)Darkstar Compound must be crafted into an ingot before it can be duplicated in the Dynatos system.$(li)Add more simulation chambers to make more insanium. They only crash when you look inside, so don't."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Enchanting$()$(li)Apply conflicting enchants via Mass Enchanting first, then use Enchant Applicator for non-conflicting enchants; super enchanted items can be used as sources.$(li)Last Stand can be duplicated up to level 30 using Bibliocraft, avoiding the need for many super-enchantments."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Last Stand$()$(li)One piece of armor with Last Stand 1 + enough XP levels lets you survive indefinitely; higher levels reduce XP use."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Focus Lens$()$(li)Passive crafting of Recursion Focus Lens can be done by auto-crafting Recursion Fragment Terra, bypassing Garnet-based recipes."
+    }
+  ]
+}

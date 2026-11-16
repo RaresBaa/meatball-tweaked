@@ -1,0 +1,11 @@
+{
+  "name": "Nature's Aura",
+  "icon": "naturesaura:eye",
+  "category": "magic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Aura-based magic that rewards keeping nature healthy around you."
+    }
+  ]
+}

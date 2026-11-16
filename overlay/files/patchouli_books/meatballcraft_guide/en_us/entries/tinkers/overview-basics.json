@@ -1,0 +1,20 @@
+{
+  "name": "Overview & Basics",
+  "icon": "minecraft:enchanted_book",
+  "category": "tinkers",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Enchantment Library$()$(li)Use the Enchantment Library to mass-enchant items efficiently$(li)You can add unlimited enchantments of any type to a single item"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Max enchantment level equals the highest-level book you insert"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Dragon Combat$()$(li)Prioritize speed over raw damage when fighting dragons$(li)Fast weapons like shurikens deal more effective damage per second$(li)Use shurikens made of dragon bone, enderium, fluxed electrum, or terrasteel for best results"
+    }
+  ]
+}

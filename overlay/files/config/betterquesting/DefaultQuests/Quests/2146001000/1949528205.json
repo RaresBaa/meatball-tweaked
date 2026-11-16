@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1941777028
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oTravel to the dimension shown.\u00a7r\n\nBuild a portal frame out of Sandstone or Limestone Bricks, like a Nether portal, and use the Scarab on it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "atum:sand"
+      },
+      "name:8": "Journey Into The Sands",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1949528205,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:torch"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:location",
+      "dimension:3": 17,
+      "hideInfo:1": 0,
+      "name:8": "Journey Into The Sands",
+      "index:3": 0
+    }
+  }
+}

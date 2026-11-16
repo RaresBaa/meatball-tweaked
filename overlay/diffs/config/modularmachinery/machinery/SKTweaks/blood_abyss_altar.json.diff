@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/SKTweaks/blood_abyss_altar.json
++++ b/config/modularmachinery/machinery/SKTweaks/blood_abyss_altar.json
+@@ -11,7 +11,7 @@
+             "y": 1,
+             "z": 0,
+             "elements": "contenttweaker:everburner@0",
+-            "description": "配方速度x100",
++            "description": "Recipe speed x100",
+             "modifier": {
+                 "io": "input",
+                 "target": "modularmachinery:duration",

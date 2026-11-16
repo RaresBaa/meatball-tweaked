@@ -1,0 +1,16 @@
+{
+  "name": "Miscellaneous Tips",
+  "icon": "minecraft:spawn_egg",
+  "category": "tinkers",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Entity Handling$()$(li)Shift + Right-click captures an entity into a spawn egg.$(li)To release a captured entity, bind a key in Controls (e.g., 'Release Entity') and press it."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Hunter Quest Rewards$()$(li)Hunter quest rewards include spawn eggs.$(li)These eggs work with a mob duplicator for efficient training and farming."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "AE2, Item Transport and Crafting",
+  "icon": "appliedenergistics2:interface",
+  "category": "chapter-2",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)ME Import Interfaces only accept items matching their exact filter—including NBT and durability—and do not buffer items.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(li)You rarely fill a cell completely: once it holds 63 types, use $(5)Partition from Content$() to lock it to those items in one go.$(li)For simple setups (e.g., cursed earth farms), direct ME connection suffices; subnet proxies are only needed for whitelisting or complex routing."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To prevent overproduction, limit output storage—machines stop automatically once buffers fill."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Extended Crafting automation requires Packaged Auto:$()$(li)Set Packager above Unpackager with matching recipes; they need not be directly connected."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use Package Crafting Table adjacent to Unpackager, ensure sufficient RF (quartz fiber is too slow), and extract final product.$(li)Higher-tier Extended Crafting tables can also craft lower-tier recipes."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Logistics & Performance:$()$(li)Use XNet instead of EnderIO conduits for complex automation—it supports tick-based extraction, avoids inventory spam, and handles item/fluid/energy without TPS issues."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Split large AE2 drawer walls into smaller sub-walls (e.g., 4×20 instead of 1×80) to improve lookup speed.$(li)Avoid stacking item conduits in the same block space to prevent performance issues.$(li)Use XNet in a centralized hub-and-spoke layout for clarity and efficiency."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Quantum Condensers need ~5k items/tick—use two input buses and buffer items with a Dank or chest between AE2 and inputs.$(li)Use Export/Import Interfaces (not standard interfaces) for high-volume or variable-rate item flow (e.g., Resource Miners)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Avoid subnet loops; link subnets only to the main network, not to each other.$(li)Place drives in a single connected slab—unconnected drives cause instability."
+    }
+  ]
+}

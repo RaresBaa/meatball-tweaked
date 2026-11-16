@@ -1,0 +1,32 @@
+{
+  "name": "Multiblock Structures: Common Recipes and Tips",
+  "icon": "buildinggadgets:buildingtool",
+  "category": "copypaste-gadget",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The Bee Stargate multiblock can be pasted with Building Gadget, but only non-TE blocks (sand, chevron, ring); the controller block must be placed manually."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Empowerer consists entirely of tile entities and cannot be copied or pasted with Building Gadget.$(li)The Industrial Engineering Arc Furnace can be partially pasted (non-TE casing blocks); electrodes and controller must be placed manually."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Roost (Chicken Coop) multiblock can be pasted, but only non-TE blocks—controllers and hoppers must be placed manually."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Blood Magic altars (ziggurat/pyramid outline, no runes) can be pasted; rune blocks must be placed manually.$(li)Astral Sorcery multiblock templates exclude tile entity blocks; actual blocks must be placed manually.$(li)Fission Reactor pastes include only non-TE structural blocks;"
+    },
+    {
+      "type": "text",
+      "text": "reactor components must be placed manually.$(li)Bewitchment multiblocks (Ritual Basement, Greenhouse, etc.) can be pasted, but ritual blocks and TE components must be placed manually."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When pasting multiblocks built with Thermal Expansion steel blocks, breaking them yields Immersive Engineering steel blocks (chiselable).$(li)Always verify which blocks in a multiblock are tile entities—those cannot be copied or pasted with Building Gadget."
+    }
+  ]
+}

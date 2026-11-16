@@ -1,0 +1,36 @@
+{
+  "name": "Basic Altar & Agonizer Automation",
+  "icon": "minecraft:redstone_lamp",
+  "category": "blood-magic",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use a Redstone Lamp placed directly on the Blood Altar—it outputs a redstone signal only when crafting completes."
+    },
+    {
+      "type": "text",
+      "text": "Trigger extraction (e.g., via redstone-gated conduits) with this signal to remove items only after transformation finishes."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For AE2-based automation: use alternating red/orange subnet storage buses with direct filters (e.g., stone, T1–T4 slates), an XOR+buffer gate edge detector, and a counter (max 2, inc 1/dec 2) to trigger item removal only after transformation completes."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Block crafting if altar LP falls below ~47% (7/15 full) by using a comparator on the altar to gate the AE2 system; this prevents failed crafts and wasted resources."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Demon Will cannot be directly inserted into Tartaric Gems—place a Gem on the Forge instead; it will automatically draw Will from the chunk."
+    },
+    {
+      "type": "text",
+      "text": "$(li)An Agonizer only runs when the altar has room for its whole Life Essence dump (~60B with a Self-Aware Ender Dragon model), so a small altar pauses after every dump and you get ~500 mB/t instead of ~981."
+    },
+    {
+      "type": "text",
+      "text": "Swapping 7 Sacrifice Runes for Augmented Capacity Runes (~120B, room for two dumps) gave ~944 mB/t with no pauses."
+    }
+  ]
+}

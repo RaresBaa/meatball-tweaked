@@ -1,0 +1,7 @@
+{
+  "name": "AoA Skills",
+  "description": "Tips for AoA Skills.",
+  "icon": "aoa3:medium_skill_crystal",
+  "parent": "topics",
+  "sortnum": 10
+}

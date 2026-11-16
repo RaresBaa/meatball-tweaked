@@ -1,0 +1,21 @@
+filename = 'advancedrocketry-2.2.12.jar'
+name = 'Advanced Rocketry - Reworked'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'advancedrocketry-2.2.12.jar'
+
+[download]
+hash = '7c46c47fbef267c1f092e2c49ed3e756c084cc2e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8591048
+project-id = 1024225
+
+[[x-prismlauncher-dependencies]]
+addonId = '1038780'
+type = 'REQUIRED'

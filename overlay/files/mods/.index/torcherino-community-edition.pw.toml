@@ -1,0 +1,18 @@
+filename = 'torcherino-7.8.6.jar'
+name = 'Torcherino Community Edition'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'torcherino-7.8.6.jar'
+
+[download]
+hash = 'd2a869e358ae1bf4d83a4e2e0eb98ca012d6c561'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5874294
+project-id = 919322

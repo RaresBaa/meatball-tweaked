@@ -1,0 +1,20 @@
+{
+  "name": "Reading the Questbook",
+  "icon": "betterquesting:quest_book",
+  "category": "chapter-1",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The main line is in the first tab, $(l)Dimensional Ascension$(). It runs $(l)left to right through the center$().$(li)Quests with a $(l)crown$() at the top mark where one chapter ends and the next begins."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The $(l)Big Picture$() tab shows which chapters you have started.$(li)Click the $(l)eye icon$() (top left) to show every quest, including hidden ones.$(li)The $(l)Book of Worlds$() tab shows which dimensions are open. Bosses aren't in a fixed order; available dimensions are what gate them."
+    },
+    {
+      "type": "text",
+      "text": "The questbook works as an in-game wiki. It has sections on chargers, energy, item transport, backpacks, flight and more. Search it first.$(br2)The pack documents its own obscure mechanics, but it assumes you know the basics of the major mods."
+    }
+  ]
+}

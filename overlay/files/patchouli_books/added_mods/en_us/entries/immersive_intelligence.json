@@ -1,0 +1,11 @@
+{
+  "name": "Immersive Intelligence",
+  "icon": "immersiveintelligence:radio_explosives",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Immersive Engineering add-on: data networks, radios, artillery and logistics."
+    }
+  ]
+}

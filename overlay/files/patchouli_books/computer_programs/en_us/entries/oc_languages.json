@@ -1,0 +1,12 @@
+{
+  "name": "Other Languages",
+  "icon": "opencomputers:keyboard",
+  "category": "oc_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Lua not your thing?$(li)$(l)moonscript$() - MoonScript compiler$(li)$(l)lisp$() - Lisp REPL$(li)$(l)python$() - an experimental Python VM$(br2)Install each with $(l)oppm install <name>$()."
+    }
+  ],
+  "sortnum": 12
+}

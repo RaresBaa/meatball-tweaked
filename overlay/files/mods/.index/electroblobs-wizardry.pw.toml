@@ -1,0 +1,29 @@
+filename = 'ElectroblobsWizardry-4.3.11.jar'
+name = "Electroblob's Wizardry"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Electroblob's Wizardry - 4.3.11 - MC 1.12.2"
+
+[download]
+hash = '972883940a4c3a2b6d17cd78f2cb53f5d67834c8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4617771
+project-id = 265642
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227795'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'

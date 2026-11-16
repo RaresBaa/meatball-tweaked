@@ -1,0 +1,36 @@
+{
+  "name": "Draconic, Thaumcraft and Astral Sorcery",
+  "icon": "draconicevolution:fusion_crafting_core",
+  "category": "automation",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Connect flux points to $(o)half$() draconic wireless crystals—not full crystals—or the connection fails.$(li)Draconic Fusion Crafting: Package Crafter + Distributor;"
+    },
+    {
+      "type": "text",
+      "text": "mark the first distributor on the fusion core, set crafting injectors to single-item mode, trigger with a wireless transmitter + comparator or a redstone clock, and keep the unpackager in blocking mode.$(li)Don't automate dragon steel pre-fusion (fire dragon blood is scarce);"
+    },
+    {
+      "type": "text",
+      "text": "batch-craft dreaded steel instead, and trade villagers for ice blood for the crucible.$(li)Never automate draconic reactor explosions—huge TPS lag and possible crashes."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Thaumcraft infusion: an Autonomous Activator (or Mechanical User) holding the Thaumonomicon starts the craft; item conduits place pedestal items and essentia comes in separately. Setups may reset on server restart, and research can't be done by fake players."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For ME/Cyclic multiblock automation, use 53 import buses per multiblock and 1 partitioned cell per essentia type.$(li)You can tick-accelerate the Gateway Core."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Astral Sorcery Iridescent Altar via Integrated Dynamics: read $(5)craftingData$() for the item type (heart vs. statue via $(5)index % 2$()) and relay position ($(5)bposX$(), $(5)bposZ$()); skip items already present, find inputs by NBT position, and fetch only missing items."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Exporters must check the custom NBT (coordinates) subset match and that the target is empty before exporting 1 item; re-place cables now and then to avoid sync issues.$(li)Give incense sticks their own Mechanical User, off the impulse hopper path, to prevent jams."
+    }
+  ]
+}

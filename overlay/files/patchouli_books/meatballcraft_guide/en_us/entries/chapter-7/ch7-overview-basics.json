@@ -1,0 +1,12 @@
+{
+  "name": "Weapons",
+  "icon": "aoa3:power_staff",
+  "category": "chapter-7",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The Power Staff is weak for its era; consider stronger alternatives such as Kikoku."
+    }
+  ]
+}

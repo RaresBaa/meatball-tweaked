@@ -1,0 +1,17 @@
+filename = 'ElecCore-1.12.2-1.9.453.jar'
+name = 'ElecCore'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ElecCore-1.12.2-1.9.453.jar'
+
+[download]
+hash = '112cda98b049902b8c073ec37b96495ff5e0bdf6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2853959
+project-id = 227391

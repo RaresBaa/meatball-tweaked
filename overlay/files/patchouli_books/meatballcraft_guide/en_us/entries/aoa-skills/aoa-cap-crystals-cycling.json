@@ -1,0 +1,16 @@
+{
+  "name": "Skill Caps, Crystals & Efficient Cycling",
+  "icon": "aoa3:medium_skill_crystal",
+  "category": "aoa-skills",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Skill Caps$()$(li)Skills cap at 100; leveling beyond 100 provides no benefit except for one skill granting extra HP, which is not worth the effort.$(li)Do not attempt skill cycling (resetting to level 1 for XP boost)—it is not useful."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Skill Crystals$()$(li)Once you reach level 15, use Skill Crystals to quickly level to 100.$(li)Four full stacks of Skill Crystals will take you from level 15 to 100.$(li)Crystals are easily obtained from mob farms (e.g., Cursed Earth), Woot mob duplicators, or rare drops."
+    }
+  ]
+}

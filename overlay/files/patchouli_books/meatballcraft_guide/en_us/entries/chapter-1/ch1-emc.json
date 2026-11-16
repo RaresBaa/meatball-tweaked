@@ -1,0 +1,44 @@
+{
+  "name": "EMC and the Dragon Heart Loop",
+  "icon": "projecte:transmutation_table",
+  "category": "chapter-1",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)EMC is vital. Get it as soon as you can.$() ProjectE unlocks near the end of Chapter 1 and changes everything.$(li)Make the Transmutation Table, then aim for about 2M EMC for the Transmutation Tablet."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Transmuting strips NBT.$() Enchanted gear comes back unenchanted, and books lose their contents (e.g. an Akashic Records full of guides).$(li)In multiplayer, EMC is per player but can be shared through FTB Teams (see Multiplayer)."
+    },
+    {
+      "type": "text",
+      "text": "$(l)The Dragon Heart loop (intended, not an exploit):$()$(br)1. Kill an Ice & Fire $(l)fire dragon$() and take its heart. Right-click the corpse with an empty hand; using bottles gets you blood but no heart.$(br)2. In JEI, a recipe turns $(l)blaze rods into diamonds$() and gives the dragon heart back."
+    },
+    {
+      "type": "text",
+      "text": "The diamonds are worth more EMC than the rods.$(br2)3. An $(l)Energy Condenser$() makes blaze rods from diamonds. A crafter turns them back into diamonds, which go back into the condenser. Each cycle is a net EMC gain."
+    },
+    {
+      "type": "text",
+      "text": "4. Siphon off the surplus and store it compactly, e.g. as Red Matter blocks."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Tesslocators work well for this. A fast setup reaches about 1M EMC/s.$(li)There are also $(l)ice$() and $(l)lightning$() dragon heart loops. They produce more EMC than fire; lightning produces the most.$(li)$(l)The basic EMC Link does not accept items$(), despite what the questbook says."
+    },
+    {
+      "type": "text",
+      "text": "Until you get the $(l)Personal EMC Link$() (from Mythic miners, after the Controller Manual), use an Energy Condenser set to a high-value item like Red Matter.$(li)Energy Collectors and Antimatter Relays aren't worth it. A mob farm makes more EMC."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tome of Alkahestry$(): duplicates steel and Nether Stars.$(li)Use an RFTools Crafter (T3 if you can) and an EMC Link or Energy Condenser set to Redstone Blocks. One redstone block = 9 charges.$(li)Recipe order: internal charging → internal duplication → external duplication."
+    },
+    {
+      "type": "text",
+      "text": "Lock every slot except the book's (it has NBT).$(li)Each cycle charges before it duplicates. If the book runs out of charge mid-cycle, the chain restarts."
+    }
+  ]
+}

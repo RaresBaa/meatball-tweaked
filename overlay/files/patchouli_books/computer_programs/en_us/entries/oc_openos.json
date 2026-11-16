@@ -1,0 +1,22 @@
+{
+  "name": "Installing OpenOS",
+  "icon": "opencomputers:diskdrive",
+  "category": "oc_basics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A new OpenComputers computer has no operating system. Craft the $(l)OpenOS floppy$() from a $(item)Floppy Disk$() and the $(item)OpenComputers Manual$(), put it in a disk drive and boot.$(br2)Type $(l)install$() to copy OpenOS to the hard drive."
+    },
+    {
+      "type": "text",
+      "text": "Handy OpenOS commands:$(li)$(l)man <cmd>$() - manual pages$(li)$(l)components$() - list attached hardware$(li)$(l)edit <file>$() - text editor$(li)$(l)wget <url> <file>$() - download (needs an $(item)Internet Card$())$(li)$(l)pastebin get <id> <file>$()"
+    },
+    {
+      "type": "link",
+      "text": "The official OpenComputers documentation covers every component, API and program.",
+      "url": "https://ocdoc.cil.li/",
+      "link_text": "Open ocdoc.cil.li"
+    }
+  ],
+  "sortnum": 2
+}

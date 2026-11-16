@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/mythic_processor_chemical_reactor.json
++++ b/config/modularmachinery/machinery/mythic_processor_chemical_reactor.json
+@@ -8,7 +8,7 @@
+             "x": 0,
+             "y": 4,
+             "z": 2,
+-            "description": "x16并行",
++            "description": "x16 parallel",
+             "modifiers": [
+                 {
+                     "io": "output",

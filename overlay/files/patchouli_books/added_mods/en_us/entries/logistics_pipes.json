@@ -1,0 +1,11 @@
+{
+  "name": "Logistics Pipes",
+  "icon": "logisticspipes:hud_glasses",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Smart item pipes with request tables, crafting and supplier logic."
+    }
+  ]
+}

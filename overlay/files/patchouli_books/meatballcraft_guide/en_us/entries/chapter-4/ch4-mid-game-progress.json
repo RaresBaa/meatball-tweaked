@@ -1,0 +1,32 @@
+{
+  "name": "Reactors and Fluids",
+  "icon": "nuclearcraft:salt_fission_computer_port",
+  "category": "chapter-4",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Reactors: Fuel and Cooling$()$(li)For Extreme Reactors, aim for exactly 100% active cooling; too much cooling slows heating and reduces efficiency."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For Nuclearcraft scrubbers, ensure 4 blocks of air on all sides—build them outside Compact Machines, and break out first to place externally."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Fuel from the NuclearCraft production bee behaves like real fuel: one player's reactor melted within seconds of switching to it, so check the design first.$(li)For Eutectic NaK automation, use 4× more potassium than sodium by volume to avoid imbalances."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fluid Handling and Processing$()$(li)Process Salt Water, not Brine: salt water gives 40 mB molten sodium per salt, brine only 4 mB.$(li)Sodium hydroxide must be melted (not fluid-infused) before entering the Eutectic NaK production line."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When filtering fluids with XNet, enable metadata/NBT filtering for compounds like NaF/KF, set speed to 5000 mB/t, and use one fluid per filter.$(li)The salt mixer requires 3 separate XNet channels if filtering all inputs (e.g., NaF, KF, molten salt)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not void fluid byproducts (e.g., oxygen, HF); store them in a black hole tank for later high-tier use like FLiBe production."
+    }
+  ]
+}

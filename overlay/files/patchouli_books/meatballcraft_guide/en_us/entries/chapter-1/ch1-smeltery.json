@@ -1,0 +1,36 @@
+{
+  "name": "The Smeltery and Early Processing",
+  "icon": "tconstruct:seared",
+  "category": "chapter-1",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Build a Tinkers' Smeltery right away.$() It doubles ores, makes alloys and makes steel. It doesn't need to be big.$(li)Alloys: 1 copper + 1 nickel = 2 Constantan. Aluminum Brass = copper + aluminum (not to be confused with Brass = copper + zinc)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Automation: a chest and pipe feed the input, and a $(l)single active lever$() on the faucet pours continuously. No clock needed."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Thermal Expansion machines$() are the cheapest and easiest for basic Chapter 1 processing. Use EnderIO only when an alloy requires it, and skip NuclearCraft until you have a full Thermal set."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Thermal machines and dynamos need a $(l)Hardened upgrade kit$() before they accept augments.$(li)Grinders: Thermal Pulverizer, EnderIO SAG Mill, or a Cyclic Auto Clicker + Quartz Grindstone.$(li)Steel: roughly 1.05–1.1 coal coke per iron in the blast furnace."
+    },
+    {
+      "type": "text",
+      "text": "Refined iron is another option."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Treated Wood:$()$(li)Loot the $(l)Immersive Engineering village house$() (treated wood and green wool). Its IE crates keep their contents when broken.$(li)Later, a Redstone Furnace with the Pyrolytic Conversion augment is the best method."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The IE Coke Oven works but is very slow.$(li)In a Sequential Fabricator, add a $(l)Pattern Validation$() augment. Otherwise it fills up with wood, forgets the creosote, and stalls."
+    }
+  ]
+}

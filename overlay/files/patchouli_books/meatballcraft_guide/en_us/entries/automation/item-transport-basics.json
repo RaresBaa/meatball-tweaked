@@ -1,0 +1,32 @@
+{
+  "name": "Item Transport and Drawers",
+  "icon": "enderio:item_item_conduit",
+  "category": "automation",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Item throughput scales linearly with input faces: adding more item conduits to separate inventory faces increases throughput proportionally.$(li)Export Interfaces push items from the ME network to adjacent inventories (use a push card);"
+    },
+    {
+      "type": "text",
+      "text": "Import Interfaces pull items from adjacent inventories into the network.$(li)Enderchests work for early/mid-game but should be phased out later for better performance and scalability."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use item p2p tunnels to connect multiblock output hatches directly to an ME system—multiblocks auto-output to adjacent hatches.$(li)Add input p2ps by shift-right-clicking with a memory card in the off-hand.$(li)Beam formers reduce TE cable costs and TPS load;"
+    },
+    {
+      "type": "text",
+      "text": "they don't carry 32 channels, but 4 side by side (with anchors) can fit 32 across a long distance, and laser beams pass through transparent blocks including AE2 cables."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Drawers$()$(li)To limit machine production, export items into Storage Drawers with Redstone Upgrades: when the drawer fills to the threshold, it emits redstone to shut down the machine."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Sorting priorities: highest for enchanted books and filtered trash, lower for drawers and misc items, lowest for overflow trash.$(li)Keep drawer walls to ~20 items for optimal AE2 performance; ~50 is still OK, but don't go beyond that if you can help it."
+    }
+  ]
+}

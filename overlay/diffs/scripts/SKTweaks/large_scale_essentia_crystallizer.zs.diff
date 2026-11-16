@@ -1,0 +1,11 @@
+--- a/scripts/SKTweaks/large_scale_essentia_crystallizer.zs
++++ b/scripts/SKTweaks/large_scale_essentia_crystallizer.zs
+@@ -18,7 +18,7 @@
+ 
+ val MACHINE = "large_scale_essentia_crystallizer";
+ MachineModifier.setMaxThreads(MACHINE, 53);
+-<modularmachinery:large_scale_essentia_crystallizer_factory_controller>.addTooltip(format.gold("内置额外53线程！"));
++<modularmachinery:large_scale_essentia_crystallizer_factory_controller>.addTooltip(format.gold("Built-in extra 53 threads!"));
+ 
+ 
+ 

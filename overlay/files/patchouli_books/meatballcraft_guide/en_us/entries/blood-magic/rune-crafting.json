@@ -1,0 +1,32 @@
+{
+  "name": "Crafting Runes & Slates",
+  "icon": "bloodmagic:blood_rune:1",
+  "category": "blood-magic",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Speed runes do not increase the blood cost of recipes, but they may cause blood to deplete faster, potentially interrupting long recipes if LP is insufficient.$(li)Acceleration runes reduce the time per blood-movement tick by 1 tick;"
+    },
+    {
+      "type": "text",
+      "text": "Displacement runes increase the amount of blood moved per tick.$(li)Capacity runes (augmented) are required for high-tier slate crafting (e.g., ethereal slate)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For optimal T6 Blood Altar performance (e.g., crafting 64 ethereal slate catalysts in 51 seconds), use: 73 Speed, 19 Acceleration, 52 Aug Capacity, and 40 Displacement runes.$(li)The drum is a major bottleneck for ethereal slate production—fixing it resolves slow crafting."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Dedicated sacrifice and crafting altars are still recommended over agonizer spam for high-volume slate crafting, as agonizers are affected by sacrificial runes (wasting blood)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A good slate setup on a Crafting Altar automatically progresses through slate tiers until drawers are full, then moves to the next tier.$(li)Slate automation can be fully hidden inside a T6 Blood Altar using AE2 and vanilla components (e.g., item conduits, filters, comparators);"
+    },
+    {
+      "type": "text",
+      "text": "use a magnet blocker if your magnet pulls items from too far.$(li)The T6 Blood Altar ziggurat structure has no functional advantage over a standard T6 altar—it is only faster to build."
+    }
+  ]
+}

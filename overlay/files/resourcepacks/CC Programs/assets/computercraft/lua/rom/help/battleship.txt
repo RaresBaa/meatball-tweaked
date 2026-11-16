@@ -1,0 +1,10 @@
+Battleship
+
+Two-player battleship between two computers over modems.
+
+Usage: battleship
+
+Needs: advanced computer (colour), modem
+
+By GopherAtl. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

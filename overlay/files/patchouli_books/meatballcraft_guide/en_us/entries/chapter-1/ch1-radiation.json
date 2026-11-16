@@ -1,0 +1,32 @@
+{
+  "name": "Radiation",
+  "icon": "nuclearcraft:geiger_counter",
+  "category": "chapter-1",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "If you suddenly have Weakness or Mining Fatigue, it's probably radiation.$(br)1. Get the $(l)Geiger Counter$() from its quest. It fits in a bauble slot.$(br)2. Use it to find a spot with low radiation."
+    },
+    {
+      "type": "text",
+      "text": "3. Eat $(l)golden food$() (golden carrots, golden apples, enchanted apples) to lower your accumulated dose."
+    },
+    {
+      "type": "text",
+      "text": "$(l)How radiation works:$()$(li)You have an accumulated $(l)dose$() (the bar, max 1000 Rads; bad effects start around 500) and a current $(l)rate$() (Rads/t).$(li)Golden food lowers your dose but not your rate. If you keep receiving radiation, you'll have to keep eating."
+    },
+    {
+      "type": "text",
+      "text": "$(li)nRads/t (nano) is background noise. A few µRads/t (micro) is fine. Dozens of µRads/t, or anything in mRads/t (milli), means a wasteland is nearby: move."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Radiation flows from loaded chunks into neighbouring chunks, so being near a wasteland slowly raises the level around your base.$(li)Radioactive items in your inventory, on the floor or in $(l)vanilla chests$() also leak radiation. Most other storage blocks are safe."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Scrubbers lower radiation, but next to a wasteland they only treat the symptoms.$(li)The Void world copies Overworld biomes, so a wasteland there still emits radiation."
+    }
+  ]
+}

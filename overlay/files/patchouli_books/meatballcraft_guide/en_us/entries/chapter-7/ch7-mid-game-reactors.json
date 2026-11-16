@@ -1,0 +1,28 @@
+{
+  "name": "Reactors and Fuel",
+  "icon": "nuclearcraft:fission_controller_new_fixed",
+  "category": "chapter-7",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Use larger reactors for better corium yield per casing$()—all cells become corium, but only half the casings are consumed, so larger volume reduces casing overhead."
+    },
+    {
+      "type": "text",
+      "text": "$(l)For Einsteinium, avoid the Lymph of Pixonia salt reactor beyond one slice$()—use a dedicated pancake-style reactor or alternate fluid allocators; standard salt reactors need extra coolant (Helium NaK) for longer runs, and Helium coolers are bugged."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Restart fission reactors with redstone$() to reset the cycle and enable continuous automation (e.g., cyclic redstone clock).$(br2)$(l)Two-phase fission reactors$() have a smaller footprint, less lag and can share walls. Big passive setups still work fine if you prefer them."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Use XNet to leave fluid behind in two-phase reactors$(), especially for reprocessed fuels; passive routing is preferred over on-demand for definer fuels.$(br2)$(l)If the fission controller places in the wrong orientation$(), ensure fission casing is directly behind it."
+    },
+    {
+      "type": "text",
+      "text": "$(l)To maximize corium production$(), fully fill the reactor with cells before triggering a meltdown—corium itself does not melt blocks, but emits high radiation.$(br2)$(l)Corrupted Aragonite crystallizers need at least one coil block$()—zero coils will cause failure."
+    }
+  ]
+}

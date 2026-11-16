@@ -1,0 +1,28 @@
+{
+  "name": "Recipes and JEI",
+  "icon": "extendedcrafting:table_basic",
+  "category": "chapter-1",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Check every crafting tab in JEI.$() Many items have a cheaper recipe in another table. Extreme crafting recipes are often the cheapest.$(li)If a recipe needs the item itself (e.g."
+    },
+    {
+      "type": "text",
+      "text": "the Basic table needs a Basic table), it's a $(l)recursive recipe$(). Craft the first one another way; the recursive recipe is for autocrafting later.$(li)The normal crafting table version of a recipe is often pricier but yields more or automates faster."
+    },
+    {
+      "type": "text",
+      "text": "$(li)HEI won't auto-fill a lower-tier table's recipe into a higher-tier table. Keep one table of each tier early on."
+    },
+    {
+      "type": "text",
+      "text": "$(l)JEI search tricks:$()$(li)$(5)#$() searches tooltips, e.g. $(5)#wither proof$() or $(5)#cobalt$().$(li)$(5)$$() searches ore dictionary names.$(li)Double-click the JEI search bar to highlight matching items in open inventories.$(li)In a crate or chest, hover an item and press $(l)T$() to find it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)You can't search for items by EMC value; EMC is assigned dynamically.$(br2)In-game mod manuals describe the mod's $(o)default$() recipes. MeatballCraft changes many recipes, so trust JEI over the books for recipes. General mechanics in the books are usually still correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Troubleshooting",
+  "icon": "xnet:controller",
+  "category": "chapter-9",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Capacitors beyond Warren tier are bugged; stick to Warren tier or lower."
+    },
+    {
+      "type": "text",
+      "text": "$(li)There is no warren extractor for tartarite, so you can't skip RFTools dimensions that way: you need 120k tartarite ore."
+    }
+  ]
+}

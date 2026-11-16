@@ -1,0 +1,24 @@
+{
+  "name": "TARDIS Material Requirements & Feasibility",
+  "icon": "contenttweaker:harmonic_fluid_lattice",
+  "category": "tardis",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Dragonsteel Harmonic Lattice costs $(l)1 MB$(); gilded matter and the spire resource chains are the hard part.$(li)Costs: Shard of the Cosmos ~78k EMC, Gilded Matter 3M, Harmonic Fluid Lattice 19.1M mB."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Total material needs: ~1,800 hypercubics, ~336,875 balanced casings, ~441,435 hyperuranion actualizing fabrials, ~5,026,125 mythic excavation reactors (at ~4.65 crafts/s)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A solo TARDIS takes massive parallelization."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Watch gilded matter chains closely; they're a key bottleneck."
+    }
+  ]
+}

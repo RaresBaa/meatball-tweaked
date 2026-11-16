@@ -1,0 +1,17 @@
+filename = 'practicallogistics2-1.12.2-3.0.8-11.jar'
+name = 'Practical Logistics 2'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'practicallogistics2-1.12.2-3.0.8-11.jar'
+
+[download]
+hash = '27641711907fe8c55a3c8043023a6f1d53f19650'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2643354
+project-id = 263048

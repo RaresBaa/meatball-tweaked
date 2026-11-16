@@ -1,0 +1,40 @@
+{
+  "name": "Troubleshooting & Common Pitfalls",
+  "icon": "minecraft:redstone_torch",
+  "category": "computers",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)NBT and Automation Pitfalls$()$(li)When automating Agricraft, avoid NBT-peripheral limitations by converting all seeds to 10/10/10 using Agricultural Combs—no NBT inspection needed in turtle scripts"
+    },
+    {
+      "type": "text",
+      "text": "$(li)For Thaumcraft infusion recipes not listed in the multiblock (e.g., Ancient Altar), use an ME interface with packagers/unpackagers for recipes with ≤9 discrete ingredients"
+    },
+    {
+      "type": "text",
+      "text": "$(li)During infusion automation, some ingredients (like EMBee gene samples or 1/8-durability primordial pearls) aren’t consumed and stay on pedestals; clear all pedestals $(o)after$() detecting a changed central item NBT to prevent recipe failures"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Quarrying & Construction$()$(li)For underground mining, run $(5)pastebin run Starkus/quarry$() to automatically clear stone and dig rectangular zones—specify dimensions and let it handle the rest"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Build large, complex shapes (e.g., spheres, cylinders) with OpenBlocks’ Building Guides (possibly even up to ~1000 blocks)"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Bee & Sample Automation$()$(li)Automate bee breeding and template extraction via the Advanced Mutatron’s peripheral: push bees, read $(5)getMetadata()$(), and select optimal bees for queen production;"
+    },
+    {
+      "type": "text",
+      "text": "queens move via slot manipulation but may duplicate—discard extras manually$(li)To avoid duplicating samples, use a script that puts only unique samples into the storage cabinet (note: this voids any pre-existing samples in the chest)"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Farming & Setup$()$(li)A properly configured Forestry peat farm will automatically replace dirt with bog earth—no robot script required"
+    }
+  ]
+}

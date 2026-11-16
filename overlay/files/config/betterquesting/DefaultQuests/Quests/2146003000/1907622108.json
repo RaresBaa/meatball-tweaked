@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1920163490
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oClick the checkbox when done.\u00a7r\n\nNow that you've unlocked 3x3 crafting with your sawmill, teach them how to craft a door! Note: Crafters will only craft on requests, and have a limit on what they can craft, see their info tab in their hut for more.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:wooden_door"
+      },
+      "name:8": "Adoorable Crafting",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1907622108,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:diamond"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
+    }
+  }
+}

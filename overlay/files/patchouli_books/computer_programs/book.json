@@ -1,0 +1,8 @@
+{
+  "name": "Computer Programs",
+  "landing_text": "Programs for the two computer mods in this pack.$(br2)$(l)ComputerCraft$() computers come with dozens of games and tools already installed.$(br2)$(l)OpenComputers$() programs are downloaded in-game: this book lists good ones and how to install them.",
+  "version": 1,
+  "show_progress": false,
+  "creative_tab": "misc",
+  "model": "patchouli:book_blue"
+}

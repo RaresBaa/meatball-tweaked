@@ -1,0 +1,11 @@
+{
+  "name": "Macaw's Furniture & More",
+  "icon": "mcwlights:chain_lantern",
+  "category": "building",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Macaw's Furniture, Bridges, Doors, Windows, Roofs, Fences, Paintings, Lights and Lamps."
+    }
+  ]
+}

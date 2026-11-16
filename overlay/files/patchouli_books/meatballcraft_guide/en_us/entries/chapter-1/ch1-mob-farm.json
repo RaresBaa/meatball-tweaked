@@ -1,0 +1,36 @@
+{
+  "name": "Mob Farm (Cursed Earth)",
+  "icon": "industrialforegoing:mob_relocator",
+  "category": "chapter-1",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A mob farm is close to required. It gives you rupees, drops, enchanted books, XP and boss summons.$(br2)$(l)Build:$()$(br)1. Make a $(l)Mob Crusher$() with a Range addon (tier 5 = 11x11), plus a Fortune addon if you can."
+    },
+    {
+      "type": "text",
+      "text": "2. Turn on $(o)visualize area$() and build a light-proof box around it.$(br)3. Cover the floor with dirt (up to 13x13). Use walls that $(l)silverfish can't infest$().$(br)4. Power the crusher. The free Spectre Coil from an early quest works; it pushes energy into the block it's placed on."
+    },
+    {
+      "type": "text",
+      "text": "5. Use a $(l)Drop of Evil$() on the dirt to make Cursed Earth, then seal the box quickly. Cursed Earth disappears in light."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Placement:$()$(li)$(l)On bedrock / y≤11$(): spawns the deep mobs. Corrupted stone and rupee-dropping mobs come from here.$(li)Biome matters: forests for Druden, Dark Lands for Shadow Beasts.$(li)Some Cursed Earth mobs can one-shot you."
+    },
+    {
+      "type": "text",
+      "text": "Keep the farm enclosed and don't stand in it.$(li)Use fans to move mobs, not pathing (avoid OpenBlocks fans; they affect blocks outside their y-level). 7x7 is plenty, and big farms cost TPS."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Handling the loot$():$(li)Pull items out from 2–3 sides of the crusher with extraction upgrades.$(li)Route by priority: $(l)locked drawers$() (highest) → enchant library / book storage → $(l)filtered trash cans$() (low) → $(l)overflow chest$() (lowest)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)As junk piles up in the overflow, add it to the trash filters. EnderIO snapshot filters hold lots of items, and ExU2 filters can be nested.$(li)Trash all gear $(o)except$() Bloodmaster gear (after the Controller Manual); smelt that.$(li)Mechanical Users can auto-open Intestines. Do it."
+    }
+  ]
+}

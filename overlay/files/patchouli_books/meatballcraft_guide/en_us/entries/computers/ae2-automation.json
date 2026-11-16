@@ -1,0 +1,40 @@
+{
+  "name": "AE2 Automation & Monitoring",
+  "icon": "appliedenergistics2:part:280",
+  "category": "computers",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Avoid level emitters for automation triggers$()$(li)Level emitters rebuild the entire crafting cache on any grid change, causing quadratic lag in large networks"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Instead, use OpenComputers scripts (e.g., AE2 AutoStock) to manage stockpiling via direct pattern requests"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Use OpenComputers for crafting monitoring and automation$()$(li)OC cannot directly read AE2 crafting job status beyond idle/busy$(li)Infer completion by requesting a craftable item and checking the $(5)requesting()$() count of the returned $(5)CraftingStatus$() object"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Install AE2 AutoStock with: $(5)pastebin get -f ai3msVQD /home/AE2AutoStock.lua$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Handle extended crafting recipes via PackagedAuto$()$(li)Encode multi-grid recipes (e.g., 5×5+) using a Recipe Package Encoder into Package Recipe Holders$(li)Place one holder in a Packager linked to your ME system"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Place the other in an Unpackager inside the group of Package Crafters (Advanced/Elite/Ultimate); underneath them it only feeds the bottom crafter$(li)The ME system will now craft the recipe on request without custom scripts"
+    },
+    {
+      "type": "text",
+      "text": "$(l)CPU targeting in AE2 is name-based only$()$(li)AE2’s API only supports whitelisting CPUs by name—no blacklisting$(li)Unnamed CPUs return an empty string for the name field, so only explicitly named CPUs can be targeted"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Always name your OC CPUs before configuring AE2 integration"
+    }
+  ]
+}

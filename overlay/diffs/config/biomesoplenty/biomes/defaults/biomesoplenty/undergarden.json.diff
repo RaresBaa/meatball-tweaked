@@ -1,0 +1,11 @@
+--- a/config/biomesoplenty/biomes/defaults/biomesoplenty/undergarden.json
++++ b/config/biomesoplenty/biomes/defaults/biomesoplenty/undergarden.json
+@@ -28,7 +28,7 @@
+   },
+   "generators": {
+     "hive": {
+-      "maxRadius": 9,
++      "maxRadius": 8,
+       "bottomExtra": 4,
+       "amountPerChunk": 0.2,
+       "enable": true,

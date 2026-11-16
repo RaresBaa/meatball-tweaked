@@ -1,0 +1,29 @@
+--- a/config/modularmachinery/machinery/SKTweaks/deep_void_excavator.json
++++ b/config/modularmachinery/machinery/SKTweaks/deep_void_excavator.json
+@@ -11,7 +11,7 @@
+             "y": 2,
+             "z": 2,
+             "elements": "contenttweaker:innerved_sky_stone",
+-            "description": "配方速度x2",
++            "description": "Recipe speed x2",
+             "modifier": {
+                 "io": "input",
+                 "target": "modularmachinery:duration",
+@@ -24,7 +24,7 @@
+             "y": 2,
+             "z": 2,
+             "elements": "contenttweaker:ordered_eigenstate_condenser",
+-            "description": "配方速度x5",
++            "description": "Recipe speed x5",
+             "modifier": {
+                 "io": "input",
+                 "target": "modularmachinery:duration",
+@@ -37,7 +37,7 @@
+             "y": 2,
+             "z": 2,
+             "elements": "contenttweaker:screaming_blood_infused_glitch_block",
+-            "description": "配方速度x20",
++            "description": "Recipe speed x20",
+             "modifier": {
+                 "io": "input",
+                 "target": "modularmachinery:duration",

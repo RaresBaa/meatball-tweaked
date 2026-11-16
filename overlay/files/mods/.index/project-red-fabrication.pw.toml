@@ -1,0 +1,25 @@
+filename = 'ProjectRed-1.12.2-4.9.4.120-fabrication.jar'
+name = 'Project Red - Fabrication'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ProjectRed-1.12.2-4.9.4.120-fabrication'
+
+[download]
+hash = '7766aa672bc20a2a44a6a231efdc05a7bbdf0073'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2745547
+project-id = 230111
+
+[[x-prismlauncher-dependencies]]
+addonId = '228702'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229045'
+type = 'REQUIRED'

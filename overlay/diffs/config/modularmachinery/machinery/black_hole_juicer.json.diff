@@ -1,0 +1,29 @@
+--- a/config/modularmachinery/machinery/black_hole_juicer.json
++++ b/config/modularmachinery/machinery/black_hole_juicer.json
+@@ -8,7 +8,7 @@
+             "x": 0,
+             "y": 2,
+             "z": 7,
+-            "description": "产出x10",
++            "description": "Output x10",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:fluid",
+@@ -21,7 +21,7 @@
+             "x": 0,
+             "y": 2,
+             "z": 7,
+-            "description": "产出x50",
++            "description": "Output x50",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:fluid",
+@@ -34,7 +34,7 @@
+             "x": 0,
+             "y": 2,
+             "z": 7,
+-            "description": "产出x100",
++            "description": "Output x100",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:fluid",

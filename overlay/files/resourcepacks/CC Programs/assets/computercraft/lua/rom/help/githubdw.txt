@@ -1,0 +1,10 @@
+GitHub Downloader
+
+Download a whole GitHub repository onto the computer.
+
+Usage: githubdw
+
+Needs: internet (HTTP API)
+
+By Tom (PineStore). License: unspecified.
+Source: https://pastebin.com/jP9CNvYS

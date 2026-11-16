@@ -1,0 +1,16 @@
+{
+  "name": "Robots and Drones",
+  "icon": "opencomputers:assembler",
+  "category": "oc_automation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Build robots in the $(item)Electronics Assembler$().$(li)$(l)geomine$() - robot uses a $(item)Geolyzer$() to find and mine only ores$(li)$(l)lumber$() - robot lumberjack$(br2)Install each with $(l)oppm install <name>$()."
+    },
+    {
+      "type": "text",
+      "text": "$(l)drone-sort$() is a drone BIOS that sorts items between waypoints. Flash it to an EEPROM and put it in the drone.$(br2)Install: $(l)oppm install drone-sort$()$(br2)The $(l)Digger$() and $(l)Builder$() loot disks are ready-made robot programs too."
+    }
+  ],
+  "sortnum": 15
+}

@@ -1,0 +1,17 @@
+filename = 'EmbersRekindled-1.19.jar'
+name = 'Embers Rekindled'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EmbersRekindled-1.19.jar'
+
+[download]
+hash = '9d3b4a6c4c363b48a412748c6581f98ad3875d8e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3695248
+project-id = 300777

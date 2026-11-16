@@ -1,0 +1,29 @@
+--- a/scripts/SKTweaks/fake_crafter_crafting.zs
++++ b/scripts/SKTweaks/fake_crafter_crafting.zs
+@@ -29,12 +29,12 @@
+     .addInput(<ore:anyBlockController>).setChance(0)
+     .setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
+         var displayname = item.displayName;
+-        if (displayname.endsWith("集成控制器")) {
+-            displayname = displayname.replace("集成控制器", "套装");
+-        } else if (displayname.endsWith("控制器")) {
+-            displayname = displayname.replace("控制器", "套装");
+-        } else if (displayname.endsWith("终端")) {
+-            displayname = displayname + "套装";
++        if (displayname.endsWith("Integrated Controller")) {
++            displayname = displayname.replace("Integrated Controller", "Set");
++        } else if (displayname.endsWith("Controller")) {
++            displayname = displayname.replace("Controller", "Set");
++        } else if (displayname.endsWith("Terminal")) {
++            displayname = displayname + " Set";
+         }
+         var currentData = ctrl.customData;
+         if (isNull(currentData)) {
+@@ -59,5 +59,5 @@
+         }
+         return <minecraft:paper>.withTag({display: {Name: displayname}});
+     })
+-    .addRecipeTooltip("输入xxx控制器/集成控制器和纸,","输出名字为xxx套装的纸","控制器不会被消耗","几乎支持所有模块化机器的控制器")
++    .addRecipeTooltip("Input an xxx Controller/Integrated Controller and paper,","outputs paper named xxx Set","The controller isn't consumed","Supports nearly all modular machine controllers")
+     .build();
+\ No newline at end of file

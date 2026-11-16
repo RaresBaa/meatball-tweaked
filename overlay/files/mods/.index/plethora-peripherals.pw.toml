@@ -1,0 +1,21 @@
+filename = 'plethora-1.12.2-1.2.3.jar'
+name = 'Plethora Peripherals'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'plethora-1.12.2-1.2.3.jar'
+
+[download]
+hash = '9d6854afb23e6c5646c6b644db0309adf04a20d8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2858569
+project-id = 248425
+
+[[x-prismlauncher-dependencies]]
+addonId = '282001'
+type = 'REQUIRED'

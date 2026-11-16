@@ -1,0 +1,17 @@
+drmon (Draconic reactor)
+
+Monitors a Draconic Evolution reactor and keeps it from exploding: regulates the input flux gate to hold the containment field, and shuts down on low field, high temperature or low fuel.
+
+Usage: drmon
+
+Setup: advanced computer with the reactor stabilizer on its BACK and the OUTPUT flux gate on its RIGHT. The INPUT flux gate (to the energy injector) and an advanced monitor (3x3) connect via wired modems.
+First run copies the program to /extra/drmon - edit the top of /extra/drmon/drmon.lua to change sides or limits. To start it automatically, make a startup.lua containing:  shell.run("drmon")
+
+Needs: advanced computer (colour), advanced monitor
+
+This program saves data, so the first run copies it (12 KB) to /extra/drmon. Delete that folder to reset it.
+
+By acidjazz, RaithSphere (1.12 fork). License: unspecified.
+Source: https://github.com/RaithSphere/drmon
+
+Patched for this pack: finds the input gate by type 'flux_gate' on DE 1.12 (the fork looked for 'flow_gate', which this DE version does not use), never picks the output gate as the input gate, and uses the original safer defaults (target field 50%, emergency stop below 15%), and reports a missing monitor clearly.

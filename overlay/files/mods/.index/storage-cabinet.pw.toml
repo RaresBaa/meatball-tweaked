@@ -1,0 +1,18 @@
+filename = 'storagecabinet-1.2.0.jar'
+name = 'Storage Cabinet'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'storagecabinet-1.2.0.jar'
+
+[download]
+hash = '6f13417ac1aafba3643fee32a30b8920a02d20d1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2797187
+project-id = 304889

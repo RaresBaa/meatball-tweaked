@@ -1,0 +1,10 @@
+PineStore client
+
+Browse and install more programs from pinestore.cc. Newer programs may need CC 1.95+.
+
+Usage: pinestore
+
+Needs: internet (HTTP API)
+
+By Cyber. License: unspecified.
+Source: https://github.com/CyberL1/pinestore-client

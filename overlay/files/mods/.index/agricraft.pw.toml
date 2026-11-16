@@ -1,0 +1,21 @@
+filename = 'agricraft-2.12.0-1.12.2-b2.jar'
+name = 'AgriCraft'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'agricraft-2.12.0-1.12.2-b2.jar'
+
+[download]
+hash = '44988a77ab787a2f74d68af4fb011a2a3ed1e806'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3317747
+project-id = 225635
+
+[[x-prismlauncher-dependencies]]
+addonId = '251396'
+type = 'REQUIRED'

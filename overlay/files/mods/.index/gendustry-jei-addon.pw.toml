@@ -1,0 +1,25 @@
+filename = 'gendustryjei-1.0.2.jar'
+name = 'Gendustry JEI Addon'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gendustryjei-1.0.2.jar'
+
+[download]
+hash = 'fb3cddd50d037700bbd5dfb2a9db54736db8bbc6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2609434
+project-id = 301364
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '70492'
+type = 'REQUIRED'

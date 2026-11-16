@@ -1,0 +1,12 @@
+--- a/config/ichunutil_keybinds.cfg
++++ b/config/ichunutil_keybinds.cfg
+@@ -12,6 +12,9 @@
+ ##########################################################################################################
+ 
+ keybinds {
++    # Key bind to open the Hat Selection GUI? [default: 35]
++    S:hats.guiKeyBind=35
++
+     # Key to grab blocks/entities with the Portal Gun [default: 34]
+     S:portalgun.keyGrab=34
+ 

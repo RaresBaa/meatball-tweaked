@@ -1,0 +1,8 @@
+{
+  "name": "Added Mods",
+  "landing_text": "Mods added on top of the default MeatballCraft pack that you can actively play with. Libraries, world generation and performance mods are not listed.",
+  "version": 1,
+  "show_progress": false,
+  "creative_tab": "misc",
+  "model": "patchouli:book_brown"
+}

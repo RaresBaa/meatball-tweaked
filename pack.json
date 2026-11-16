@@ -1,0 +1,2342 @@
+{
+ "name": "MeatballCraft Tweaked",
+ "base": {
+  "url": "https://mediafilez.forgecdn.net/files/8665/629/Meatballcraft-prerelease-0.18.6.4.zip",
+  "sha1": "a1feda1439fbf64f2489f682ce2d042873fc3c9f"
+ },
+ "skTweaks": {
+  "url": "https://codeload.github.com/shenkongsk/SK-Tweaks/zip/19fcaddd80b87fd3d52aa3b73bcf96151b39ba1d",
+  "files": [
+   {
+    "from": "config/mmceaddition.cfg",
+    "to": "config/mmceaddition.cfg",
+    "sha1": "452987ad405b6d12039377d3313bb9571f1d09f2"
+   },
+   {
+    "from": "config/modularmachinery/machinery/NovaE/Yue_Se-dream_energy_core.json",
+    "to": "config/modularmachinery/machinery/NovaE/Yue_Se-dream_energy_core.json",
+    "sha1": "5faee08561370a3f2bb4e9c8ecc247c48feec692"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/Blue_Sky_It-advanced_liquid_conversion_machine.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/Blue_Sky_It-advanced_liquid_conversion_machine.json",
+    "sha1": "a64126a2e32677af79c1e51e713b0d3f3fa6b63e"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/Redstone_Compressor.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/Redstone_Compressor.json",
+    "sha1": "75017c3c00da604373f5e3855252a67788a82bba"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/advanced_transposer.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/advanced_transposer.json",
+    "sha1": "9747ace297b5ce8843315125fd74234e4815e7b2"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/alfheim_portal.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/alfheim_portal.json",
+    "sha1": "2b01bef34187ce39d79ca329e0cd4c2645b2bed8"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/auto_altar.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/auto_altar.json",
+    "sha1": "039a05d35bbad75d7c409bbef4fbf896edfb8fb6"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/auto_thaumatorium.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/auto_thaumatorium.json",
+    "sha1": "547a5cea3fa39ada92b4b131851b75338eaf90f4"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/blood_abyss_altar.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/blood_abyss_altar.json",
+    "sha1": "744c7b103d417eb6d63757a43a52110aea0dd818"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/carpet_duplicator_1000.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/carpet_duplicator_1000.json",
+    "sha1": "757dd9fabb6fc9e473a55f143cecd138b2f2743a"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/catalyzation_multi_chamber.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/catalyzation_multi_chamber.json",
+    "sha1": "93e8abb1470833ff8098f8bd13e7f8ba7f61b380"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/deep_void_excavator.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/deep_void_excavator.json",
+    "sha1": "d2863ff50efa4668e0c9d52f2541d50f871ed43f"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/definer_three_sk.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/definer_three_sk.json",
+    "sha1": "4ead041b196372c31748d78fe81afe2ced295e71"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/dimension_drill.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/dimension_drill.json",
+    "sha1": "1467f8456fa152c4fdffa8407723227150db24bf"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/draconic_mythical_infusion.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/draconic_mythical_infusion.json",
+    "sha1": "8d97853032eb72bce99835424d2a92122376eeee"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/fluix_reactor.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/fluix_reactor.json",
+    "sha1": "d8cfc165b24e46a8423f5bb35b8197ebbef476a8"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/fridge.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/fridge.json",
+    "sha1": "344f47446ef98949a1f57f2e05a9a4ecf68946d8"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/infernal_multi_furnace.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/infernal_multi_furnace.json",
+    "sha1": "bb7622a38169466d7c34e34ebeae20c737593079"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/infinite_recursive_factory.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/infinite_recursive_factory.json",
+    "sha1": "d82dec6088639999a57549a1f62cdcfd5f93d191"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/infinite_seeker_brain_in_a_vat.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/infinite_seeker_brain_in_a_vat.json",
+    "sha1": "91612b4b60be6826f2ddb7f5c0a1c570be2f6ec0"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/large_scale_chicken_farm.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/large_scale_chicken_farm.json",
+    "sha1": "256c960002a50540402a9330279179d9e9b51c2f"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/large_scale_essentia_crystallizer.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/large_scale_essentia_crystallizer.json",
+    "sha1": "9e4899226844995512010ad5e2ca2648cafada7c"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/large_scale_hypergrowth_insolator.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/large_scale_hypergrowth_insolator.json",
+    "sha1": "11f3ca3d0a2839b04b1d1aef568a89f254b8d48c"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/machine_daisy.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/machine_daisy.json",
+    "sha1": "92ce632c4b14077f58528c787dee2a59f1c1e6b5"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/machine_mana_pool.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/machine_mana_pool.json",
+    "sha1": "af26914b6633024dc2a914e2877bc52bb8bcfe8d"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/magic_vat.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/magic_vat.json",
+    "sha1": "abeb43b20164af937528c348cad1710ae464d25a"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/meatballium_crucible.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/meatballium_crucible.json",
+    "sha1": "5fc4083aa6bae1d6cc48de4df54582802ff8ff5a"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_1.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_1.json",
+    "sha1": "c36c9962771f01cc4060500279ddcfca451bf8a1"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_2.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_2.json",
+    "sha1": "b0afb5740dbce2f69f6fb7ce7e6e9ad4ae3db002"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_3.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_3.json",
+    "sha1": "fe4abfe8de48c57b5bdabe77d08f6d601ba75220"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_4.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_4.json",
+    "sha1": "edf47857b170565b8d14d4f4a6ab8f62b8271f02"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_5.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythic_fractal_core_5.json",
+    "sha1": "9ab7d7685e7451dacca8d34a6ca44a5c7b1c79fa"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythic_processor_crystallizer.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythic_processor_crystallizer.json",
+    "sha1": "87eab16b9be8e5b468bcf0e59a52ea10c9914880"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythic_processor_fluid_enricher.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythic_processor_fluid_enricher.json",
+    "sha1": "db4c69cc35dc82c2e0bdcb33e64b9ff503fc8fc2"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythical_generator_first_order.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythical_generator_first_order.json",
+    "sha1": "ec4f94815b358e0ea2a0db1aa731c0d406497954"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/mythical_generator_second_order.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/mythical_generator_second_order.json",
+    "sha1": "35b7045b29f6968a0413a95323e91b0c0daf488e"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/numeron_network.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/numeron_network.json",
+    "sha1": "fb25d8c7955159d52fe831cb8b7dd05314408534"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/pyrolyse_oven.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/pyrolyse_oven.json",
+    "sha1": "8a3cd3a0205197290c275a2443e50124f28d05e3"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/quantum_catalytic_reactor_array.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/quantum_catalytic_reactor_array.json",
+    "sha1": "8261c4b1d44f1d2b9cb256099d6ab1f8a98c752d"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/small_blood_abyss_altar.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/small_blood_abyss_altar.json",
+    "sha1": "2e07f5b2c4d2a0f55919923e9a429d37fa302238"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/small_draconic_infusion.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/small_draconic_infusion.json",
+    "sha1": "b3083c2049546eed1693097340fc01944388270e"
+   },
+   {
+    "from": "config/modularmachinery/machinery/SKTweaks/solar_array.json",
+    "to": "config/modularmachinery/machinery/SKTweaks/solar_array.json",
+    "sha1": "bdc2101e2d62f8f05b5361179561d199f4c58e01"
+   },
+   {
+    "from": "config/modularmachinery/machinery/black_hole_juicer.json",
+    "to": "config/modularmachinery/machinery/black_hole_juicer.json",
+    "sha1": "760664235acf6cca0ac5cdd75c75404e456c1961"
+   },
+   {
+    "from": "config/modularmachinery/machinery/definer_two.json",
+    "to": "config/modularmachinery/machinery/definer_two.json",
+    "sha1": "1a186cb7bf0f02cc3dcea18ce31286d8822aa418"
+   },
+   {
+    "from": "config/modularmachinery/machinery/me_mythic_assembler.json",
+    "to": "config/modularmachinery/machinery/me_mythic_assembler.json",
+    "sha1": "e041aa6732b7285cc7d10d7bc0369e4ef8722f28"
+   },
+   {
+    "from": "config/modularmachinery/machinery/mythic_processor_chemical_reactor.json",
+    "to": "config/modularmachinery/machinery/mythic_processor_chemical_reactor.json",
+    "sha1": "d384d4a87f457b24c95c79c11d423ee00d048d47"
+   },
+   {
+    "from": "config/modularmachinery/machinery/salt_reporalizer.json",
+    "to": "config/modularmachinery/machinery/salt_reporalizer.json",
+    "sha1": "7ddf2a71b0829160078d8130c5d2c1a6fcb42be1"
+   },
+   {
+    "from": "config/modularmachinery/machinery/variables/casings.var.json",
+    "to": "config/modularmachinery/machinery/variables/casings.var.json",
+    "sha1": "684861a29aa1f04ac3038d0b6590130874e6c21f"
+   },
+   {
+    "from": "config/modularmachinery/modularmachinery.cfg",
+    "to": "config/modularmachinery/modularmachinery.cfg",
+    "sha1": "98ec568c94dece8e7a21b5aa5408b0eff6956784"
+   },
+   {
+    "from": "oresources/contenttweaker/lang/en_us.lang",
+    "to": "oresources/contenttweaker/lang/en_us.lang",
+    "sha1": "0ea011aad698827df7677a924609c0c2bcaf1bb6"
+   },
+   {
+    "from": "oresources/contenttweaker/lang/zh_cn.lang",
+    "to": "oresources/contenttweaker/lang/zh_cn.lang",
+    "sha1": "62549ad72afe4e83fc711d73e000faaae792c56d"
+   },
+   {
+    "from": "oresources/modularmachinery/lang/en_us.lang",
+    "to": "oresources/modularmachinery/lang/en_us.lang",
+    "sha1": "95a3c97751988e668299d84416478ff1b38e09f6"
+   },
+   {
+    "from": "oresources/modularmachinery/lang/zh_cn.lang",
+    "to": "oresources/modularmachinery/lang/zh_cn.lang",
+    "sha1": "020d8c02bebe3814562dac33930aa04f383d4779"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/actualizing_ink.json",
+    "to": "resources/contenttweaker/blockstates/actualizing_ink.json",
+    "sha1": "276dc39194c7cf247d9a0e6bafb500f0115c0607"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/arcanium_slurry.json",
+    "to": "resources/contenttweaker/blockstates/arcanium_slurry.json",
+    "sha1": "8fee61f28b461acbc844a20b585b86662dc11727"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/asended_adenosinetriphosphate.json",
+    "to": "resources/contenttweaker/blockstates/asended_adenosinetriphosphate.json",
+    "sha1": "7659a3ed8616141d0c59e937d244613d9b76408b"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/balanced_machine_conduit.json",
+    "to": "resources/contenttweaker/blockstates/balanced_machine_conduit.json",
+    "sha1": "a8dfe6616cdb56441c6a7ffec2bb8f7a068d253a"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/balanced_machine_frame.json",
+    "to": "resources/contenttweaker/blockstates/balanced_machine_frame.json",
+    "sha1": "2846f3cd99e4e6c4da863982f23d65543ff3073c"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/binding_resonate_core.json",
+    "to": "resources/contenttweaker/blockstates/binding_resonate_core.json",
+    "sha1": "f9863c87e444502b3dac2e14a764d72a9949550d"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/core_astral.json",
+    "to": "resources/contenttweaker/blockstates/core_astral.json",
+    "sha1": "f4a57edc5771fe11cc88db4447f41ad02ae28dfc"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/core_avartia.json",
+    "to": "resources/contenttweaker/blockstates/core_avartia.json",
+    "sha1": "f6977c420bd4556367eca76e69b21472024308d3"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/core_blackhole.json",
+    "to": "resources/contenttweaker/blockstates/core_blackhole.json",
+    "sha1": "6f97d7876ddbdef7fa0108dca3cfc73000a3180e"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/core_cosmos.json",
+    "to": "resources/contenttweaker/blockstates/core_cosmos.json",
+    "sha1": "565fa3311f5b242073e371ee541efd604bca7c00"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/core_dark.json",
+    "to": "resources/contenttweaker/blockstates/core_dark.json",
+    "sha1": "e4ecd30a14923dd3cfee53f66bdc35f0d71d699c"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/core_eternal.json",
+    "to": "resources/contenttweaker/blockstates/core_eternal.json",
+    "sha1": "a41fe6197f55f202122759bd1b237124368240fc"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/core_pure.json",
+    "to": "resources/contenttweaker/blockstates/core_pure.json",
+    "sha1": "bb21888dbae34f6b5a02fcca0af6809457dc3f9e"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/dark_matter_frame.json",
+    "to": "resources/contenttweaker/blockstates/dark_matter_frame.json",
+    "sha1": "bd4b7b6bb6125c8d3cce31129169744821e28082"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/draconium_electromagnet.json",
+    "to": "resources/contenttweaker/blockstates/draconium_electromagnet.json",
+    "sha1": "f82c423af4e48d013bb5e16a258bac7902227845"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/exotic_energy_component.json",
+    "to": "resources/contenttweaker/blockstates/exotic_energy_component.json",
+    "sha1": "b8a58e9c62a5a66effccf1b4e7e8f101ecebbd53"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/hyperdimensional_beam.json",
+    "to": "resources/contenttweaker/blockstates/hyperdimensional_beam.json",
+    "sha1": "28a21d5e22057e30fc163a1893e1b3b815c1f7ee"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/hyperdimensional_casing.json",
+    "to": "resources/contenttweaker/blockstates/hyperdimensional_casing.json",
+    "sha1": "6d1d9916b680ff6e97c51d91607a6b9c378ede31"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/infinite_eezo_mix.json",
+    "to": "resources/contenttweaker/blockstates/infinite_eezo_mix.json",
+    "sha1": "65c04b117e5154563c3c1a3c4ee417dcec17ebfe"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/leashed_star_casing.json",
+    "to": "resources/contenttweaker/blockstates/leashed_star_casing.json",
+    "sha1": "7e2270f02cc2a9229a980f6ecc45e18070c18a48"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/leashed_star_conduit.json",
+    "to": "resources/contenttweaker/blockstates/leashed_star_conduit.json",
+    "sha1": "88dfe92ca9d71b49be5bfc1347fc3f68f7fbd8de"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/limbo_gel.json",
+    "to": "resources/contenttweaker/blockstates/limbo_gel.json",
+    "sha1": "c3cf9aa4c1f0ce7b1a4b8c295f8e9c65b4561385"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/metastable_chronophasic_flux.json",
+    "to": "resources/contenttweaker/blockstates/metastable_chronophasic_flux.json",
+    "sha1": "93357df8963da7f812a6c15913081ffac0a36f27"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/mythical_mix.json",
+    "to": "resources/contenttweaker/blockstates/mythical_mix.json",
+    "sha1": "23c63a21eb31123b360124822360e3e32ffe1971"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/negative_mass_exotic_fluid.json",
+    "to": "resources/contenttweaker/blockstates/negative_mass_exotic_fluid.json",
+    "sha1": "ec00522a1722211ccaeaffe8fb1e791b64974dfb"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/neuro_electric_trace.json",
+    "to": "resources/contenttweaker/blockstates/neuro_electric_trace.json",
+    "sha1": "320f5162778c1458cabae25d578aa4980d4a1d24"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/one_power_resonate_core.json",
+    "to": "resources/contenttweaker/blockstates/one_power_resonate_core.json",
+    "sha1": "bec53dc9c7e4ccb962372694e3242c35b249c3fd"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/pure_dream_energy.json",
+    "to": "resources/contenttweaker/blockstates/pure_dream_energy.json",
+    "sha1": "42b8795438b18d0c3063e164767280cb89cd12eb"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/pure_eezo_mix.json",
+    "to": "resources/contenttweaker/blockstates/pure_eezo_mix.json",
+    "sha1": "e99a9e60045aabdaed528f33238731ab0838408b"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/reinforced_eezo_casing.json",
+    "to": "resources/contenttweaker/blockstates/reinforced_eezo_casing.json",
+    "sha1": "2e34013ab2b5e85b516eb27390a31bb65736e369"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/skaia_glass.json",
+    "to": "resources/contenttweaker/blockstates/skaia_glass.json",
+    "sha1": "92f0eed3425025b9e4d59368bd30155918dd9f57"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/stable_eezo_mix.json",
+    "to": "resources/contenttweaker/blockstates/stable_eezo_mix.json",
+    "sha1": "44f3d9371aa8b76128108c6ea498432e0d61a57c"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/twisting_control_component.json",
+    "to": "resources/contenttweaker/blockstates/twisting_control_component.json",
+    "sha1": "243c304ad1f1186e4cb15f5defe114f8a4a3872a"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/whisper_of_chinesesword.json",
+    "to": "resources/contenttweaker/blockstates/whisper_of_chinesesword.json",
+    "sha1": "b95d590673738c676eb4cad545ca6c08d2904cfa"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/whisper_of_nerdyspider.json",
+    "to": "resources/contenttweaker/blockstates/whisper_of_nerdyspider.json",
+    "sha1": "e451d79c794442f6c5310013f9d96dade267e5fb"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/whisper_of_sainagh.json",
+    "to": "resources/contenttweaker/blockstates/whisper_of_sainagh.json",
+    "sha1": "a363d60411035aef51db616718719ebb1a074bc1"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/whisper_of_x_zhangjun.json",
+    "to": "resources/contenttweaker/blockstates/whisper_of_x_zhangjun.json",
+    "sha1": "879cb5aa8238e7180b43e6fdff9b498ebae3c751"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/whisper_of_zy.json",
+    "to": "resources/contenttweaker/blockstates/whisper_of_zy.json",
+    "sha1": "41ecac0e946dbe032a11ebcfea3edd03a010190e"
+   },
+   {
+    "from": "resources/contenttweaker/blockstates/zero_point_spatial_core.json",
+    "to": "resources/contenttweaker/blockstates/zero_point_spatial_core.json",
+    "sha1": "e68926081568292c254ae99df332438736e79113"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/aerial_automaton.json",
+    "to": "resources/contenttweaker/models/item/aerial_automaton.json",
+    "sha1": "5fc16a54221f0d1bab527e5bd36dfddc7f7c0815"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/alfheim_ingot.json",
+    "to": "resources/contenttweaker/models/item/alfheim_ingot.json",
+    "sha1": "1b7fa402592583ca5053955b31c2b275f9bf930e"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/alfheim_rift_scanner.json",
+    "to": "resources/contenttweaker/models/item/alfheim_rift_scanner.json",
+    "sha1": "4a3033b7d0f2cb0943b6665de85365bee319e2aa"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/all_might_rune.json",
+    "to": "resources/contenttweaker/models/item/all_might_rune.json",
+    "sha1": "1b8cf4679eb58677421e94dc937f7bf0e4cd7799"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/balanced_ingot.json",
+    "to": "resources/contenttweaker/models/item/balanced_ingot.json",
+    "sha1": "4a6b3c1b4a946a7089a536a48e2120fa87d8f8fc"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/binding_taint_ingot.json",
+    "to": "resources/contenttweaker/models/item/binding_taint_ingot.json",
+    "sha1": "31e1d0a683b8b8555da8312a7a59ea69482bae8d"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/bottled_lightening.json",
+    "to": "resources/contenttweaker/models/item/bottled_lightening.json",
+    "sha1": "252bfd99a84daf06a9d29080119ff8cbf47d445d"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/cleansed_harmonic_element.json",
+    "to": "resources/contenttweaker/models/item/cleansed_harmonic_element.json",
+    "sha1": "b5ec96b2b08c7590c9e823466e90646309038010"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/cryotheum_myrmex_coolant_cell.json",
+    "to": "resources/contenttweaker/models/item/cryotheum_myrmex_coolant_cell.json",
+    "sha1": "0bd49748dcd7e6509450fed7c79399de0ab766bf"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/cursed_taint_element.json",
+    "to": "resources/contenttweaker/models/item/cursed_taint_element.json",
+    "sha1": "72aa22e09a8ecf4a3068fc585f614e97b9a0ef2d"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/defined_egg.json",
+    "to": "resources/contenttweaker/models/item/defined_egg.json",
+    "sha1": "a29c3c89085088a5d83eea3cf76686c49e27d16b"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/dream_energy_link_card.json",
+    "to": "resources/contenttweaker/models/item/dream_energy_link_card.json",
+    "sha1": "ab3f31e6af7adfd4fe6b4f6523ed323d31cfc078"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/eezo_cluster.json",
+    "to": "resources/contenttweaker/models/item/eezo_cluster.json",
+    "sha1": "d1991c2fb496ee36ed496cf77fc2535b9a1a5cf5"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/eezo_crystal.json",
+    "to": "resources/contenttweaker/models/item/eezo_crystal.json",
+    "sha1": "df17c6728f24bd32e9cf0fcd7eb817084cda6656"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/eezo_energy_unit.json",
+    "to": "resources/contenttweaker/models/item/eezo_energy_unit.json",
+    "sha1": "dbb81daf6305a34890521cbd016cbadb934ccb86"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/eezo_filter_cake.json",
+    "to": "resources/contenttweaker/models/item/eezo_filter_cake.json",
+    "sha1": "f1800b656868cd32f3f7974dbcac4a2f180235cd"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/eezo_ore.json",
+    "to": "resources/contenttweaker/models/item/eezo_ore.json",
+    "sha1": "e12e10b42595897d544c3839484688ef527a8c77"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/eternal_glory.json",
+    "to": "resources/contenttweaker/models/item/eternal_glory.json",
+    "sha1": "230c777a6bd636ea57342622737322693235b783"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/eternal_piece.json",
+    "to": "resources/contenttweaker/models/item/eternal_piece.json",
+    "sha1": "e61f1c4a124986ea666ba1e3a74e64c030c31f9d"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/etherium_plate.json",
+    "to": "resources/contenttweaker/models/item/etherium_plate.json",
+    "sha1": "c26ae52bf2712ba4fd270a7e40c3ff6c756c07a4"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/everfree_steel_ingot.json",
+    "to": "resources/contenttweaker/models/item/everfree_steel_ingot.json",
+    "sha1": "9bc5ba8173630584165dade3b5f84e7a6c8f4a94"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/everloving_matirx.json",
+    "to": "resources/contenttweaker/models/item/everloving_matirx.json",
+    "sha1": "0e50c9283ec37f566d790ef79b9f3087114ea1fe"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/everloving_rune.json",
+    "to": "resources/contenttweaker/models/item/everloving_rune.json",
+    "sha1": "d62fcdb5f47674091e989086aabc359fb4170838"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/exotic_dross.json",
+    "to": "resources/contenttweaker/models/item/exotic_dross.json",
+    "sha1": "e0e96effdc25e3ea2cafcbeb4c0d375023a7c37e"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/eye_of_harmony_power_unit_hypercharged.json",
+    "to": "resources/contenttweaker/models/item/eye_of_harmony_power_unit_hypercharged.json",
+    "sha1": "d1ba5f8399faf8626320be9e7e4fec78fb6363f7"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/fractal_containment_vessel.json",
+    "to": "resources/contenttweaker/models/item/fractal_containment_vessel.json",
+    "sha1": "caa170f738aea9cc8f234e61bb4861bfef32b02b"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/harmonic_crystal.json",
+    "to": "resources/contenttweaker/models/item/harmonic_crystal.json",
+    "sha1": "fb93c748a3685265eea7175ff4b49a0dda8d31ad"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/harmonic_ingot.json",
+    "to": "resources/contenttweaker/models/item/harmonic_ingot.json",
+    "sha1": "4a53d1487e78646ee3639b26b5e860d5afa0b233"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/harmonic_star.json",
+    "to": "resources/contenttweaker/models/item/harmonic_star.json",
+    "sha1": "4e6f0442304744f76a6a30470fd8ce34cef033fa"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/helicopter_alloy_ingot.json",
+    "to": "resources/contenttweaker/models/item/helicopter_alloy_ingot.json",
+    "sha1": "41ba7b7c7b73cefaa8574289efe9bd5777a501ea"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/hyper_dense_dirt.json",
+    "to": "resources/contenttweaker/models/item/hyper_dense_dirt.json",
+    "sha1": "c32fec599a2d1aafee6b64b0b8e59f92e9a961df"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/hyper_frame.json",
+    "to": "resources/contenttweaker/models/item/hyper_frame.json",
+    "sha1": "8529be02c96db722a75d0483aa078d0d8bc34a2a"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/hyperdense_matter.json",
+    "to": "resources/contenttweaker/models/item/hyperdense_matter.json",
+    "sha1": "4d0e86af06226aba3ab09ae8c98c8ce6f45bd77a"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/hyperdimensional_component.json",
+    "to": "resources/contenttweaker/models/item/hyperdimensional_component.json",
+    "sha1": "917e5ea687cb13ba62ac6ad79a2dae246ed84823"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/hyperdimensional_conponent.json",
+    "to": "resources/contenttweaker/models/item/hyperdimensional_conponent.json",
+    "sha1": "660dcf61194d7c9a6c3c0c079ccd9850ba34c97a"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/impure_eezo_ash.json",
+    "to": "resources/contenttweaker/models/item/impure_eezo_ash.json",
+    "sha1": "8fe88b62951c10069dfa57f5dd653732549fc468"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/ingot_of_harmony.json",
+    "to": "resources/contenttweaker/models/item/ingot_of_harmony.json",
+    "sha1": "88be2bf646e2a62976cc672da8f1a74dd7014517"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/module_dyson_discharge.json",
+    "to": "resources/contenttweaker/models/item/module_dyson_discharge.json",
+    "sha1": "03e123891cf38b404dd072cf357a2b9f2843d069"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/naquadriah_ingot.json",
+    "to": "resources/contenttweaker/models/item/naquadriah_ingot.json",
+    "sha1": "739b7caa9813743de011e8b5bd8dad0b6df5d24a"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_fifth_order.json",
+    "to": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_fifth_order.json",
+    "sha1": "044ac5b6fe3dbcfe87fac3dbd46dcbc24842b5da"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_first_order.json",
+    "to": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_first_order.json",
+    "sha1": "ff2888c4fd4bd7825606169e9cbe3bc739454764"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_fourth_order.json",
+    "to": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_fourth_order.json",
+    "sha1": "0781f573c355d8ab9f489193ff45c7f1a0e9ecb4"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_second_order.json",
+    "to": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_second_order.json",
+    "sha1": "6b701bd3ad0d5ca6e773d8e8311aa46d728fa121"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_third_order.json",
+    "to": "resources/contenttweaker/models/item/negentropy_dimensional_fractal_minus_third_order.json",
+    "sha1": "8d7b8387869f132fc7589652e1a80dba852e7f21"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/paradoxical_star.json",
+    "to": "resources/contenttweaker/models/item/paradoxical_star.json",
+    "sha1": "413f8162de189acf298d44792d34781320d36d63"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/purecrystal.json",
+    "to": "resources/contenttweaker/models/item/purecrystal.json",
+    "sha1": "3655a0dcc44dfbf6398974804f08e67956ceb97f"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/refined_eezo.json",
+    "to": "resources/contenttweaker/models/item/refined_eezo.json",
+    "sha1": "35bbb391c5f6f1783747f4545e9ee00f30b98acd"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/saligia.json",
+    "to": "resources/contenttweaker/models/item/saligia.json",
+    "sha1": "c0e63217b964cbfcf59ee5442b1399cb0ce682b4"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/seventh_one.json",
+    "to": "resources/contenttweaker/models/item/seventh_one.json",
+    "sha1": "b993c33e2397eab8acc48dd82f2862cf28380753"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/shadow_crystal.json",
+    "to": "resources/contenttweaker/models/item/shadow_crystal.json",
+    "sha1": "709197e8e6f58f3a6bdfd974cc9a24c053ed2414"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/shield_breaker.json",
+    "to": "resources/contenttweaker/models/item/shield_breaker.json",
+    "sha1": "61744d336dfe0f2f71fcbbb2a83b74dfaf52a14f"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/solid_time.json",
+    "to": "resources/contenttweaker/models/item/solid_time.json",
+    "sha1": "a7428dbb16cd7064650409f6fad2ea3a3924e628"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/taint_crystal.json",
+    "to": "resources/contenttweaker/models/item/taint_crystal.json",
+    "sha1": "b80ca64b37402de29abda7e7f137b7e1fff2dc59"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/taint_ingot.json",
+    "to": "resources/contenttweaker/models/item/taint_ingot.json",
+    "sha1": "335a36fb0bec10923d5be9e201b7fdc2b63f49c4"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/taint_star.json",
+    "to": "resources/contenttweaker/models/item/taint_star.json",
+    "sha1": "421e05845b77ad567b02af2df9f1a4394f16d3a2"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/triune_homunculus.json",
+    "to": "resources/contenttweaker/models/item/triune_homunculus.json",
+    "sha1": "4ca356e6b291ea640f67932d10e17f2696ac9540"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/turbid_eezo_dust.json",
+    "to": "resources/contenttweaker/models/item/turbid_eezo_dust.json",
+    "sha1": "8800792a1c409591eb54763da54bb2ce4a91e380"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/unleashed_star_ingot.json",
+    "to": "resources/contenttweaker/models/item/unleashed_star_ingot.json",
+    "sha1": "7f65d8c7e4ea58056490925e7360d36400c06316"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/whisper_tuner.json",
+    "to": "resources/contenttweaker/models/item/whisper_tuner.json",
+    "sha1": "3d180993f1a5841a94d7937525b890cd3f18e1cc"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/zero_ash_echo.json",
+    "to": "resources/contenttweaker/models/item/zero_ash_echo.json",
+    "sha1": "b94843dd14ded87dda9dd1c823152642e234951f"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/zero_bloom_dust.json",
+    "to": "resources/contenttweaker/models/item/zero_bloom_dust.json",
+    "sha1": "351a4b35bddb5f26c18868a638eb149554929dda"
+   },
+   {
+    "from": "resources/contenttweaker/models/item/zero_point_fractal.json",
+    "to": "resources/contenttweaker/models/item/zero_point_fractal.json",
+    "sha1": "a1b2bb4ca50ff346d5227197590bf1766ee528f1"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/balanced_machine_conduit.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/balanced_machine_conduit.png",
+    "sha1": "610c0da3625059fe12a1e1fa04a56c85b69501f9"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/balanced_machine_conduit.png.mcmeta",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/balanced_machine_conduit.png.mcmeta",
+    "sha1": "5be5a041f5b7ac8e6875f750e084edc2dbd6d2f9"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/balanced_machine_frame.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/balanced_machine_frame.png",
+    "sha1": "571716078d0a609626bd173bfab31214f300fa99"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/binding_resonate_core.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/binding_resonate_core.png",
+    "sha1": "e25e12a0502f6cca428ecc855ade0abe205a7d7e"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/core_astral.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/core_astral.png",
+    "sha1": "4d4a53db3d1853e64ed774de6d274a4b4a4623ed"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/core_avartia.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/core_avartia.png",
+    "sha1": "31ea80c19910ea110404732545621811972c604d"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/core_avartia.png.mcmeta",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/core_avartia.png.mcmeta",
+    "sha1": "3414f33b0e6961db1cb07c75fc21da450b4d2cc4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/core_blackhole.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/core_blackhole.png",
+    "sha1": "ff00604a9c75efeb49d00bb321f2d004c1c533d2"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/core_cosmos.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/core_cosmos.png",
+    "sha1": "0bee399f2bbe280bcd1e21ee8a629be29d4cc8df"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/core_dark.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/core_dark.png",
+    "sha1": "1640d8937951d05af12b43e88733fb3f8b92a50f"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/core_eternal.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/core_eternal.png",
+    "sha1": "17f31e255d0220bc34f7be2354b1a20b1caf367a"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/core_pure.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/core_pure.png",
+    "sha1": "026f8df496e424b7686cb6301eea2fa16e4e40a0"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/dark_matter_frame.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/dark_matter_frame.png",
+    "sha1": "2c6b86e5c62c2033dbd0d378a5d6b713fa6cb398"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/leashed_star_casing.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/leashed_star_casing.png",
+    "sha1": "f6bf3883735bcd5022aeff13a9c6c5301e4e64ad"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/leashed_star_conduit.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/leashed_star_conduit.png",
+    "sha1": "67a1be300ac7c2ffdd9abdcc29792cd901896819"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/leashed_star_conduit.png.mcmeta",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/leashed_star_conduit.png.mcmeta",
+    "sha1": "5be5a041f5b7ac8e6875f750e084edc2dbd6d2f9"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/one_power_resonate_core.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/one_power_resonate_core.png",
+    "sha1": "2b6fba08d159447659ea8963b572dd2d6eaa4f93"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/paradoxical_machine_casing.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/paradoxical_machine_casing.png",
+    "sha1": "0d692775ec87151ee80b8555a4028f8e831fd81d"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/paradoxical_machine_casing.png.mcmeta",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/paradoxical_machine_casing.png.mcmeta",
+    "sha1": "88160f271c65a6ceec69a497563f8b1c6058c818"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/paradoxical_machine_casing_ctm.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/paradoxical_machine_casing_ctm.png",
+    "sha1": "faa464eded9042486f5d6ec0ebc4aa2b40099dc8"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/zero_point_spatial_core.png",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/zero_point_spatial_core.png",
+    "sha1": "77f5c95abee517913eb760ef333d7253f41d22df"
+   },
+   {
+    "from": "resources/contenttweaker/textures/blocks/SKTweaks/zero_point_spatial_core.png.mcmeta",
+    "to": "resources/contenttweaker/textures/blocks/sktweaks/zero_point_spatial_core.png.mcmeta",
+    "sha1": "4de83a83082f2a14ea233e3ea0f24d1ac351cb7b"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/actualizing_ink.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/actualizing_ink.png",
+    "sha1": "7ad6f8b7058432e0d8cd2d9d9d3d45a65cb57b59"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/actualizing_ink.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/actualizing_ink.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/actualizing_ink_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/actualizing_ink_flow.png",
+    "sha1": "e2b2356f237f7726e27b3126e5bc6a35a4096fa9"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/actualizing_ink_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/actualizing_ink_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/arcanium_slurry.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/arcanium_slurry.png",
+    "sha1": "cd56b4355c41e403651f99d93f81dd5bebe7c937"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/arcanium_slurry.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/arcanium_slurry.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/arcanium_slurry_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/arcanium_slurry_flow.png",
+    "sha1": "696efa3b7c3345ac74028b941b375e3ebffd9cc4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/arcanium_slurry_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/arcanium_slurry_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/asended_adenosinetriphosphate.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/asended_adenosinetriphosphate.png",
+    "sha1": "81c92525a2bdbc5b4068d979ca772340b25df775"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/asended_adenosinetriphosphate.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/asended_adenosinetriphosphate.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/asended_adenosinetriphosphate_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/asended_adenosinetriphosphate_flow.png",
+    "sha1": "5c053c09c86e9e58eaa27ed800a6f2f10c7cc3f3"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/asended_adenosinetriphosphate_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/asended_adenosinetriphosphate_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/fluid_base.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/fluid_base.png",
+    "sha1": "620d962f5e4d5946f2834d019b0420c5e182a39e"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/infinite_eezo_mix.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/infinite_eezo_mix.png",
+    "sha1": "b1d3e73d2dbcd3fc2c6aa8bec3470cf55027ed03"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/infinite_eezo_mix.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/infinite_eezo_mix.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/infinite_eezo_mix_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/infinite_eezo_mix_flow.png",
+    "sha1": "82d625a881c67d79ba2c2a7d930fa392818238fb"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/infinite_eezo_mix_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/infinite_eezo_mix_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/limbo_gel.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/limbo_gel.png",
+    "sha1": "bb57d317f02e4506faa2f912ee842f438d3aa823"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/limbo_gel.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/limbo_gel.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/limbo_gel_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/limbo_gel_flow.png",
+    "sha1": "36143519b078207f5f44f6076acc881df9948f37"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/limbo_gel_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/limbo_gel_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/more_whisper_base.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/more_whisper_base.png",
+    "sha1": "5d63a3b2929cf137539def5f9ed1b80ea632617b"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/more_whisper_base.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/more_whisper_base.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/more_whisper_base_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/more_whisper_base_flow.png",
+    "sha1": "b8a4c58853c5d1277eb9808397d0ed63f78982fc"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/more_whisper_base_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/more_whisper_base_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/mythical_mix.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/mythical_mix.png",
+    "sha1": "d08162b98959bb3c50add376d0d5b7bbc6892553"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/mythical_mix.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/mythical_mix.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/mythical_mix.png11",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/mythical_mix.png11",
+    "sha1": "90c53cd06635bcaa89b429d2c1497f1226984038"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/mythical_mix_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/mythical_mix_flow.png",
+    "sha1": "6c2b09351851b70f7719230bc34feedc0691df8c"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/mythical_mix_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/mythical_mix_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/mythical_mix_flow.png11",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/mythical_mix_flow.png11",
+    "sha1": "4734e470109147a3928f6c89bde5053a14a24d11"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/negative_mass_exotic_fluid.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/negative_mass_exotic_fluid.png",
+    "sha1": "b32227dfdecabfe01f20fa24a9988b8d2f8c4b19"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/negative_mass_exotic_fluid.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/negative_mass_exotic_fluid.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/negative_mass_exotic_fluid_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/negative_mass_exotic_fluid_flow.png",
+    "sha1": "c4cf32e5f3db3f0c9fe9694ce077585f77c19746"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/negative_mass_exotic_fluid_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/negative_mass_exotic_fluid_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/neuro_electric_trace.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/neuro_electric_trace.png",
+    "sha1": "0d755f8f7eb1f54a50f8ca472faa8bcd3e6c7b11"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/neuro_electric_trace.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/neuro_electric_trace.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/neuro_electric_trace_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/neuro_electric_trace_flow.png",
+    "sha1": "8f9688dabde9edcf02f3f35020b2bf39843b52be"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/neuro_electric_trace_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/neuro_electric_trace_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/pure_dream_energy.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/pure_dream_energy.png",
+    "sha1": "3849ba37d888fe6ddc8b78f876487a527883afb8"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/pure_dream_energy.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/pure_dream_energy.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/pure_dream_energy_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/pure_dream_energy_flow.png",
+    "sha1": "84a285665025d4ee137a08ab9676621914964fb0"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/pure_dream_energy_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/pure_dream_energy_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/pure_eezo_mix.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/pure_eezo_mix.png",
+    "sha1": "5e1bccdf666bf500ba5a1fdcf6237db96fc6d579"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/pure_eezo_mix.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/pure_eezo_mix.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/pure_eezo_mix_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/pure_eezo_mix_flow.png",
+    "sha1": "9ccf916996a9203cbc6a8a20435f66a39db74941"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/pure_eezo_mix_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/pure_eezo_mix_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_eezo_mix.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_eezo_mix.png",
+    "sha1": "b6cf14028f705f395291f6787b4b1317448c9ea1"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_eezo_mix.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_eezo_mix.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_eezo_mix_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_eezo_mix_flow.png",
+    "sha1": "37fe51e26a39ee14e893f425bc3a8917faa3f529"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_eezo_mix_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_eezo_mix_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_space.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_space.png",
+    "sha1": "780c8e73d5459e992958a1c8e59ac74e6a835183"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_space.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_space.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_space_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_space_flow.png",
+    "sha1": "15cba003ba2b0de6498884667deb4aab2de52589"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_space_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_space_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_time.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_time.png",
+    "sha1": "9520f4753fcbc201c430704272f4a1788868daee"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_time.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_time.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_time_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_time_flow.png",
+    "sha1": "d67daa0b45adac2c2314c653d37395083106aecf"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/stable_time_flow.png.mcmeta",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/stable_time_flow.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/water_flow.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/water_flow.png",
+    "sha1": "39671bc95a412a05bcdb5a8ec8d38f4a0e701722"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/water_still.png",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/water_still.png",
+    "sha1": "b45c47c3a945e449362ea07e0a8d4c871df1d7e7"
+   },
+   {
+    "from": "resources/contenttweaker/textures/fluids/SKTweaks/whisper_base.psd",
+    "to": "resources/contenttweaker/textures/fluids/sktweaks/whisper_base.psd",
+    "sha1": "a5ca9a7fd78d80babdfcb89d7ca77e5a964c1d4b"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/aerial_automaton.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/aerial_automaton.png",
+    "sha1": "4fd7ee5567c7524d794708a6ecd56e45bf98aad4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/alfheim_ingot.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/alfheim_ingot.png",
+    "sha1": "f05e30b538a1ca9283e4e910daf6a82903279fc5"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/alfheim_ingot.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/alfheim_ingot.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/all_might_rune.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/all_might_rune.png",
+    "sha1": "25864c084909727296f18ec4aa920239d1f9ccd9"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/all_might_rune.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/all_might_rune.png.mcmeta",
+    "sha1": "60b2e717390470528ce9167fffafb40518aaed21"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/balanced_ingot.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/balanced_ingot.png",
+    "sha1": "7d5ce2f19c1daaaf4d3666d99804da097f1992ad"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/balanced_ingot.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/balanced_ingot.png.mcmeta",
+    "sha1": "8dcb58ef5df0b0377231665c17039453d50ca2e4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/balanced_ingot_old.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/balanced_ingot_old.png",
+    "sha1": "b39bad38685c56fb7ff38db98fb66efafaf99db2"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/binding_taint_ingot.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/binding_taint_ingot.png",
+    "sha1": "6d4d7dadc611d93995bcbf32eb26227c9ab393a2"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/binding_taint_ingot.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/binding_taint_ingot.png.mcmeta",
+    "sha1": "a45e9d67cf269828d583d3afd1fb6e31dd044b14"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/bottled_lightening.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/bottled_lightening.png",
+    "sha1": "edecfac2dc15f3af1f19f4b1454f5e12bd2bf5ee"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/cleansed_harmonic_element.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/cleansed_harmonic_element.png",
+    "sha1": "98674c513b99a170f76dae05e6aa986935f82146"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/cleansed_harmonic_element.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/cleansed_harmonic_element.png.mcmeta",
+    "sha1": "03767cbb6d2e1067d94740d55bde329746f73d64"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/cryotheum_myrmex_coolant_cell.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/cryotheum_myrmex_coolant_cell.png",
+    "sha1": "8523a2f2e9bd4340b9a192b1e732f0c126337641"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/cursed_taint_element.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/cursed_taint_element.png",
+    "sha1": "083e01b637d2e3ea4fd25dc46b8df7bc72755343"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/cursed_taint_element.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/cursed_taint_element.png.mcmeta",
+    "sha1": "03767cbb6d2e1067d94740d55bde329746f73d64"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/defined_egg.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/defined_egg.png",
+    "sha1": "59bccfdfdf0317ee7ab981a7ddc4661c7488d953"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/destined_ingot_nerdy_drawn.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/destined_ingot_nerdy_drawn.png",
+    "sha1": "08e45d8acb64b2fd3c8cb0e751fe96ee6e6e53e1"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/dirty_tungsten_dust.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/dirty_tungsten_dust.png",
+    "sha1": "c537dd6362c52818443e5f5354478da27ba77865"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/dream_energy_link_card.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/dream_energy_link_card.png",
+    "sha1": "b58b891ad08ed62a53618baa3959a4a2bb67e2df"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eezo_cluster.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eezo_cluster.png",
+    "sha1": "9a6f9746dd7d29623410e3ed2469a3edae7c26c2"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eezo_crystal.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eezo_crystal.png",
+    "sha1": "0413acab6ce1dbf808c83d51ebf2968e2000c304"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eezo_energy_core.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eezo_energy_core.png",
+    "sha1": "18c147786806b0d45c87bc054805b015c342b803"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eezo_energy_unit.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eezo_energy_unit.png",
+    "sha1": "18c147786806b0d45c87bc054805b015c342b803"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eezo_filter_cake.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eezo_filter_cake.png",
+    "sha1": "bdbebd4320eb42d3f945d5d0798d9b4cd0bce6ff"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eezo_ore.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eezo_ore.png",
+    "sha1": "63b741499dce2cb6d415531098fc6190a1491857"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eternal_glory.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eternal_glory.png",
+    "sha1": "566016290f324ca366cf3dc161cad0754bc33bd3"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eternal_glory_enchanted.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eternal_glory_enchanted.png",
+    "sha1": "249768785fe2b50bbdc648719bb448172d77dd9e"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eternal_piece.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eternal_piece.png",
+    "sha1": "c2c993bdb890b639b2f45a7c43eda7aac5242737"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eternal_piece.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eternal_piece.png.mcmeta",
+    "sha1": "8dcb58ef5df0b0377231665c17039453d50ca2e4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/etherium_plate.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/etherium_plate.png",
+    "sha1": "a3e47ab2fe6a6e590192282c9041d815bb270c0b"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/etherium_plate.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/etherium_plate.png.mcmeta",
+    "sha1": "5be5a041f5b7ac8e6875f750e084edc2dbd6d2f9"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/everfree_steel_ingot.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/everfree_steel_ingot.png",
+    "sha1": "d4604a9bdc7493860442ed8c56f4c59d4883af15"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/everfree_steel_ingot.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/everfree_steel_ingot.png.mcmeta",
+    "sha1": "bd75f3f68e29101cc6c58e41296e6c21727af1d4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/everloving_rune.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/everloving_rune.png",
+    "sha1": "df8543ed1a454546cbc4d2854f371ba21d6f4d61"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/everloving_rune.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/everloving_rune.png.mcmeta",
+    "sha1": "bd75f3f68e29101cc6c58e41296e6c21727af1d4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eye_of_harmony_power_unit_hypercharged.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eye_of_harmony_power_unit_hypercharged.png",
+    "sha1": "5bd0e861724e30b5573ba9014c4eb9e5e6d7a041"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/eye_of_harmony_power_unit_hypercharged.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/eye_of_harmony_power_unit_hypercharged.png.mcmeta",
+    "sha1": "ec250c4abe0affae606aa8149dbcfbfc3a3ca2e9"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/fractal_containment_vessel.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/fractal_containment_vessel.png",
+    "sha1": "1628ed062aa9cd6f67266d31080666bd20e30a0c"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/harmonic_crystal.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/harmonic_crystal.png",
+    "sha1": "c699ba9efba6032486958471625a63dad02d48a6"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/harmonic_crystal.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/harmonic_crystal.png.mcmeta",
+    "sha1": "f1ff471daf8a489782a1c4aec6e6af36dade411d"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/harmonic_ingot.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/harmonic_ingot.png",
+    "sha1": "677d2c4686eedc7c01df300e55b5b8034f6e12be"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/harmonic_ingot.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/harmonic_ingot.png.mcmeta",
+    "sha1": "f5a15e241639291837805a19a813cee3a28b9fa0"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/harmonic_star.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/harmonic_star.png",
+    "sha1": "dbc48661165cfa51b4627c537c57bd4db3b26989"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/hyper_dense_dirt.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/hyper_dense_dirt.png",
+    "sha1": "c97de808619f41c60fc5c046511c46814358e5be"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/hyperdense_matter.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/hyperdense_matter.png",
+    "sha1": "b1419e6eed46778d4ce9f79cfe1080bbd016f34b"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/hyperdense_matter.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/hyperdense_matter.png.mcmeta",
+    "sha1": "8dcb58ef5df0b0377231665c17039453d50ca2e4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/impure_eezo_ash.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/impure_eezo_ash.png",
+    "sha1": "7898eb7260e96082ed34ac97f297bea5a4c4cea9"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/impure_eezo_ash.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/impure_eezo_ash.png.mcmeta",
+    "sha1": "ae39cf5f32113a9476ca44f31c959bea27517c98"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/ingot_of_harmony.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/ingot_of_harmony.png",
+    "sha1": "47d91bfcbebdd730fd838dee710f721532d4abc8"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/ingot_of_harmony.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/ingot_of_harmony.png.mcmeta",
+    "sha1": "33945aef8634f9570c6c38fc08dd20bd59e114a7"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/module_dyson_discharge.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/module_dyson_discharge.png",
+    "sha1": "e91b66a33322f303890f494a76c438e47996cabc"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/morv_in_a_meat_box.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/morv_in_a_meat_box.png",
+    "sha1": "833b3b79c902338e9cc5bcf73598567da99ba4b0"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/naquadriah_ingot.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/naquadriah_ingot.png",
+    "sha1": "9ffddd18618f2e809542815578495df6e3cd3c8d"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/naquadriah_ingot.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/naquadriah_ingot.png.mcmeta",
+    "sha1": "8dcb58ef5df0b0377231665c17039453d50ca2e4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/refined_eezo.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/refined_eezo.png",
+    "sha1": "3f6a3d4e55cd30fee8d45ec57d4406e380558c21"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/saligia.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/saligia.png",
+    "sha1": "df278ca6f2d7e820e04975900c7b8f1917d680ce"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/saligia.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/saligia.png.mcmeta",
+    "sha1": "8dcb58ef5df0b0377231665c17039453d50ca2e4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/taint_crystal.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/taint_crystal.png",
+    "sha1": "5706663a623b636300adafa903475a715ef356e1"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/taint_crystal.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/taint_crystal.png.mcmeta",
+    "sha1": "f1ff471daf8a489782a1c4aec6e6af36dade411d"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/taint_ingot.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/taint_ingot.png",
+    "sha1": "595389e85cc880d30b68980bce6fe8f93389048e"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/taint_ingot.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/taint_ingot.png.mcmeta",
+    "sha1": "7e8e2aa9d3fcff07879e9a6e4d36437ee0ddd949"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/taint_star.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/taint_star.png",
+    "sha1": "b6379c194a96e5397052639eaf29f84cbd370675"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/triune_homunculus.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/triune_homunculus.png",
+    "sha1": "4bd9c4ababa3b9dad29ec07f3a0eaa90cde74818"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/triune_homunculus.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/triune_homunculus.png.mcmeta",
+    "sha1": "05d4c019443c5e4d90812492ef706d0958ddfb20"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/turbid_eezo_dust.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/turbid_eezo_dust.png",
+    "sha1": "4d51dcc7a42089044cfa257449ad2e4238e917a4"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/unleashed_star_ingot.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/unleashed_star_ingot.png",
+    "sha1": "0aa5354ce58403f00630a55d58582de18ea77a1b"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/unleashed_star_ingot.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/unleashed_star_ingot.png.mcmeta",
+    "sha1": "14f137ae662cf1be77afbcce0d244d51bb751940"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/zero_ash_echo.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/zero_ash_echo.png",
+    "sha1": "79844d1258e09c71a03b9df2cc287ebb96272a37"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/zero_ash_echo.png.mcmeta",
+    "to": "resources/contenttweaker/textures/items/sktweaks/zero_ash_echo.png.mcmeta",
+    "sha1": "05d4c019443c5e4d90812492ef706d0958ddfb20"
+   },
+   {
+    "from": "resources/contenttweaker/textures/items/SKTweaks/zero_bloom_dust.png",
+    "to": "resources/contenttweaker/textures/items/sktweaks/zero_bloom_dust.png",
+    "sha1": "14a399f4acf5f29b862cdfdf09d9d5d3f9f40a5a"
+   },
+   {
+    "from": "resources/modularmachinery/animations/dream_energy_core.animation.json",
+    "to": "resources/modularmachinery/animations/dream_energy_core.animation.json",
+    "sha1": "186a34066412d837c12a5433a5ecbad556702e63"
+   },
+   {
+    "from": "resources/modularmachinery/geo/dream_energy_core.geo.json",
+    "to": "resources/modularmachinery/geo/dream_energy_core.geo.json",
+    "sha1": "076e3d6da6772764a3630dcb4c6bb403becb5f23"
+   },
+   {
+    "from": "resources/modularmachinery/textures/dream_energy_core.png",
+    "to": "resources/modularmachinery/textures/dream_energy_core.png",
+    "sha1": "a671cc35a08869cf799627a9187253085cf4f59e"
+   },
+   {
+    "from": "scripts/SKTweaks/AE2Enhanced/recipe_rework.zs",
+    "to": "scripts/SKTweaks/AE2Enhanced/recipe_rework.zs",
+    "sha1": "e0b53072706ddfdce080828b2cbae7d9f99c1c3a"
+   },
+   {
+    "from": "scripts/SKTweaks/Advanced_Fluid.zs",
+    "to": "scripts/SKTweaks/Advanced_Fluid.zs",
+    "sha1": "e9044a0ad97ec88b56b5c840768868140e197dea"
+   },
+   {
+    "from": "scripts/SKTweaks/BrainLine.zs",
+    "to": "scripts/SKTweaks/BrainLine.zs",
+    "sha1": "65b78f46a48c42c58fbf00f99f35cda43e8041d2"
+   },
+   {
+    "from": "scripts/SKTweaks/BrainLine_controller.zs",
+    "to": "scripts/SKTweaks/BrainLine_controller.zs",
+    "sha1": "dbefa8f5461b726b888d05436cacf9d088994941"
+   },
+   {
+    "from": "scripts/SKTweaks/Chicken_coop_SK.zs",
+    "to": "scripts/SKTweaks/Chicken_coop_SK.zs",
+    "sha1": "0536a953f5cf805a6b2837b7a1f2e9b3917b7a92"
+   },
+   {
+    "from": "scripts/SKTweaks/Custom_SK.zs",
+    "to": "scripts/SKTweaks/Custom_SK.zs",
+    "sha1": "ca948cfc5aa79787e2f0b9816a811396d7ee7bce"
+   },
+   {
+    "from": "scripts/SKTweaks/Custom_SK_Chicken.zs",
+    "to": "scripts/SKTweaks/Custom_SK_Chicken.zs",
+    "sha1": "0aff732e3014999f6c62f7daaeb4d1d51472b617"
+   },
+   {
+    "from": "scripts/SKTweaks/Custom_SK_Fluid.zs",
+    "to": "scripts/SKTweaks/Custom_SK_Fluid.zs",
+    "sha1": "2a50e37da12b66e12d1099448b5395e21b689e81"
+   },
+   {
+    "from": "scripts/SKTweaks/Definer_three_SK.zs",
+    "to": "scripts/SKTweaks/Definer_three_SK.zs",
+    "sha1": "f9560f6ad40dc1e711fdae2a9a4bc5c9381b923a"
+   },
+   {
+    "from": "scripts/SKTweaks/Definer_three_SK_controller.zs",
+    "to": "scripts/SKTweaks/Definer_three_SK_controller.zs",
+    "sha1": "dd4242f588bad55ae10885d1925ea4648a175784"
+   },
+   {
+    "from": "scripts/SKTweaks/Hall_Of_Fame.zs",
+    "to": "scripts/SKTweaks/Hall_Of_Fame.zs",
+    "sha1": "ade4e291e4c92a0219e9c1b6a8e8886953a2cf37"
+   },
+   {
+    "from": "scripts/SKTweaks/MMCEC/recipe_rework.zs",
+    "to": "scripts/SKTweaks/MMCEC/recipe_rework.zs",
+    "sha1": "edde2c14f32b93d6179377ea7b11f76bd4cdda84"
+   },
+   {
+    "from": "scripts/SKTweaks/MMCE_Addtion/recipe_rework.zs",
+    "to": "scripts/SKTweaks/MMCE_Addtion/recipe_rework.zs",
+    "sha1": "c53f5523adc25da189971d94c17d934a3768c19b"
+   },
+   {
+    "from": "scripts/SKTweaks/MachinePrefix.zs",
+    "to": "scripts/SKTweaks/MachinePrefix.zs",
+    "sha1": "05a02f32059c49a3ecb61343a1fdd91e2ddc0457"
+   },
+   {
+    "from": "scripts/SKTweaks/ModularFridge.zs",
+    "to": "scripts/SKTweaks/ModularFridge.zs",
+    "sha1": "f22967e1fee1cb1cbfe747962c2f76640d10faf0"
+   },
+   {
+    "from": "scripts/SKTweaks/ModularFridge_controller.zs",
+    "to": "scripts/SKTweaks/ModularFridge_controller.zs",
+    "sha1": "eebed1c1c436c50b84e00268708336584dd0eebf"
+   },
+   {
+    "from": "scripts/SKTweaks/ModularOreProcessing_Core.zs",
+    "to": "scripts/SKTweaks/ModularOreProcessing_Core.zs",
+    "sha1": "a273cd3270b07b4f52a61008210c35a551c3fc5f"
+   },
+   {
+    "from": "scripts/SKTweaks/ModularSuperApiary_SK.zs",
+    "to": "scripts/SKTweaks/ModularSuperApiary_SK.zs",
+    "sha1": "bb0c0995d88fbfd1a13d593fe9411a2554451973"
+   },
+   {
+    "from": "scripts/SKTweaks/Modular_EnvironmentTech_SK.zs",
+    "to": "scripts/SKTweaks/Modular_EnvironmentTech_SK.zs",
+    "sha1": "c4fe78babda39c71e468858689d030f9f97c34f3"
+   },
+   {
+    "from": "scripts/SKTweaks/Modular_EnvironmentTech_SK_controller.zs",
+    "to": "scripts/SKTweaks/Modular_EnvironmentTech_SK_controller.zs",
+    "sha1": "0b9df663aa16093b22efabf9b9642c1000be0154"
+   },
+   {
+    "from": "scripts/SKTweaks/NovaE/bigint_dream_energy_core.zs",
+    "to": "scripts/SKTweaks/NovaE/bigint_dream_energy_core.zs",
+    "sha1": "d7645a35e5f3609f94430252aea65ba888d54e45"
+   },
+   {
+    "from": "scripts/SKTweaks/NovaE/dream_energy_core_controller.zs",
+    "to": "scripts/SKTweaks/NovaE/dream_energy_core_controller.zs",
+    "sha1": "1959420906c416b7b8962b27c4b363758f4199bd"
+   },
+   {
+    "from": "scripts/SKTweaks/NovaE/dream_energy_link_card.zs",
+    "to": "scripts/SKTweaks/NovaE/dream_energy_link_card.zs",
+    "sha1": "3a85e32ee871f3da252e9f59552014d96dc87385"
+   },
+   {
+    "from": "scripts/SKTweaks/NovaE/dream_energy_link_generator.zs",
+    "to": "scripts/SKTweaks/NovaE/dream_energy_link_generator.zs",
+    "sha1": "b7e6fef612d37f036dd26a6afad21565df925721"
+   },
+   {
+    "from": "scripts/SKTweaks/NovaE/real_dream_energy_core.zs",
+    "to": "scripts/SKTweaks/NovaE/real_dream_energy_core.zs",
+    "sha1": "bea07932317e86675f3db645d444e452192419ef"
+   },
+   {
+    "from": "scripts/SKTweaks/Parallel Controler.zs",
+    "to": "scripts/SKTweaks/Parallel Controler.zs",
+    "sha1": "47dd06690ec58f69f2e961ce76c75d818e6af5d1"
+   },
+   {
+    "from": "scripts/SKTweaks/Recipes_SK.zs",
+    "to": "scripts/SKTweaks/Recipes_SK.zs",
+    "sha1": "e844eed4649c756576da690935b1e23fdf9f28cc"
+   },
+   {
+    "from": "scripts/SKTweaks/SpecialItems/Shield_Breaker.zs",
+    "to": "scripts/SKTweaks/SpecialItems/Shield_Breaker.zs",
+    "sha1": "e8ba0ef992adad6e117c939bc6cdf8b06d8b0fb3"
+   },
+   {
+    "from": "scripts/SKTweaks/ZY-MMCE-PatternProvider.zs",
+    "to": "scripts/SKTweaks/ZY-MMCE-PatternProvider.zs",
+    "sha1": "8aad44d1c9cb849d24991355314fc7b4e736e5f6"
+   },
+   {
+    "from": "scripts/SKTweaks/advanced_transposer.zs",
+    "to": "scripts/SKTweaks/advanced_transposer.zs",
+    "sha1": "8f0b9a5b082e2371b7bcb8575277f40d4e3daf37"
+   },
+   {
+    "from": "scripts/SKTweaks/alfheim_portal.zs",
+    "to": "scripts/SKTweaks/alfheim_portal.zs",
+    "sha1": "d0336bf3089c12e358aaa9a128e1604de2a3c0d1"
+   },
+   {
+    "from": "scripts/SKTweaks/alfheim_portal_controller.zs",
+    "to": "scripts/SKTweaks/alfheim_portal_controller.zs",
+    "sha1": "77791848f77b32ead8ad9f9193fab1bf3c3d9bc8"
+   },
+   {
+    "from": "scripts/SKTweaks/astral_compressor.zs",
+    "to": "scripts/SKTweaks/astral_compressor.zs",
+    "sha1": "96d3a835ec28c2ec6a436ffac6755da0a635eb82"
+   },
+   {
+    "from": "scripts/SKTweaks/astral_compressor_controller.zs",
+    "to": "scripts/SKTweaks/astral_compressor_controller.zs",
+    "sha1": "4967f32b1a8b2b65be7e6f4bd0b0465865623006"
+   },
+   {
+    "from": "scripts/SKTweaks/auto_altar.zs",
+    "to": "scripts/SKTweaks/auto_altar.zs",
+    "sha1": "98e52bfb8a85e77e1f5fd51a1f98e47333fe7ed3"
+   },
+   {
+    "from": "scripts/SKTweaks/auto_altar_controller.zs",
+    "to": "scripts/SKTweaks/auto_altar_controller.zs",
+    "sha1": "7b026f06f2341cd8e40a45ffcf034e2336260e45"
+   },
+   {
+    "from": "scripts/SKTweaks/auto_thaumatorium.zs",
+    "to": "scripts/SKTweaks/auto_thaumatorium.zs",
+    "sha1": "73191175265472584f83f9357dfbd32c0fe6e103"
+   },
+   {
+    "from": "scripts/SKTweaks/auto_thaumatorium_controller.zs",
+    "to": "scripts/SKTweaks/auto_thaumatorium_controller.zs",
+    "sha1": "749eccd4f04164d9ccd7d7c0c0b65d584823a7ca"
+   },
+   {
+    "from": "scripts/SKTweaks/blood_abyss_altar.zs",
+    "to": "scripts/SKTweaks/blood_abyss_altar.zs",
+    "sha1": "94db5467f78b273695d21f269d2ec4754d065ea2"
+   },
+   {
+    "from": "scripts/SKTweaks/blood_abyss_altar_controller.zs",
+    "to": "scripts/SKTweaks/blood_abyss_altar_controller.zs",
+    "sha1": "cbca15a408c90097a2b7e88889da35b7ff08a617"
+   },
+   {
+    "from": "scripts/SKTweaks/carpet_duplicator_1000.zs",
+    "to": "scripts/SKTweaks/carpet_duplicator_1000.zs",
+    "sha1": "d118072ab06149f08f9448744a8f22e54479628f"
+   },
+   {
+    "from": "scripts/SKTweaks/carpet_duplicator_1000_controlller.zs",
+    "to": "scripts/SKTweaks/carpet_duplicator_1000_controlller.zs",
+    "sha1": "c0dd15151b9dae08bf76700d308f592568696db5"
+   },
+   {
+    "from": "scripts/SKTweaks/catalyzation_multi_chamber.zs",
+    "to": "scripts/SKTweaks/catalyzation_multi_chamber.zs",
+    "sha1": "401413c20bd2524d2c1e01c1d84545e1af8ae288"
+   },
+   {
+    "from": "scripts/SKTweaks/catalyzation_multi_chamber_controller.zs",
+    "to": "scripts/SKTweaks/catalyzation_multi_chamber_controller.zs",
+    "sha1": "318a10b827e2369545ce3bef32554b8d66e3c64e"
+   },
+   {
+    "from": "scripts/SKTweaks/dimension_drill_controller.zs",
+    "to": "scripts/SKTweaks/dimension_drill_controller.zs",
+    "sha1": "7ea59649e1234f0c70ef59097f40f3b82596a338"
+   },
+   {
+    "from": "scripts/SKTweaks/dimention_drill.zs",
+    "to": "scripts/SKTweaks/dimention_drill.zs",
+    "sha1": "fdf8d98d21b399aaeecd56ece3927822ca97b54c"
+   },
+   {
+    "from": "scripts/SKTweaks/draconic_mythical_infusion.zs",
+    "to": "scripts/SKTweaks/draconic_mythical_infusion.zs",
+    "sha1": "b8c55193eea3000c398c00c9db8afddd777dbe75"
+   },
+   {
+    "from": "scripts/SKTweaks/draconic_mythical_infusion_controller.zs",
+    "to": "scripts/SKTweaks/draconic_mythical_infusion_controller.zs",
+    "sha1": "d362647346ea98652d81067fee61223954f65be5"
+   },
+   {
+    "from": "scripts/SKTweaks/fake_crafter_crafting.zs",
+    "to": "scripts/SKTweaks/fake_crafter_crafting.zs",
+    "sha1": "25cddb30feadede2c25625361bb4c8956d001d46"
+   },
+   {
+    "from": "scripts/SKTweaks/fluix_reactor_controller.zs",
+    "to": "scripts/SKTweaks/fluix_reactor_controller.zs",
+    "sha1": "a21a1c37ae7ef781072478bb85612e46afd05386"
+   },
+   {
+    "from": "scripts/SKTweaks/fluix_reator.zs",
+    "to": "scripts/SKTweaks/fluix_reator.zs",
+    "sha1": "a2f45dfad3bafaeffa95b97e7a42f423d1b20563"
+   },
+   {
+    "from": "scripts/SKTweaks/hypergrowth_sk.zs",
+    "to": "scripts/SKTweaks/hypergrowth_sk.zs",
+    "sha1": "43f6487c66c0bb122c5fe859fc1fca6063acf4d3"
+   },
+   {
+    "from": "scripts/SKTweaks/infernal_multi_furnace.zs",
+    "to": "scripts/SKTweaks/infernal_multi_furnace.zs",
+    "sha1": "92b9c96808cb84faaebc9569f4e18b51c06f9acc"
+   },
+   {
+    "from": "scripts/SKTweaks/infernal_multi_furnace_controller.zs",
+    "to": "scripts/SKTweaks/infernal_multi_furnace_controller.zs",
+    "sha1": "ec552b5d13ff926252fb619ba339ea28211df8fc"
+   },
+   {
+    "from": "scripts/SKTweaks/infinite_recursive_factory.zs",
+    "to": "scripts/SKTweaks/infinite_recursive_factory.zs",
+    "sha1": "074d734f4a843f8419f722a7b63fb352d023a6af"
+   },
+   {
+    "from": "scripts/SKTweaks/large_scale_chichen_farm.zs",
+    "to": "scripts/SKTweaks/large_scale_chichen_farm.zs",
+    "sha1": "7099142654e1b94b4cbe6b238a8903442541d1ca"
+   },
+   {
+    "from": "scripts/SKTweaks/large_scale_chichen_farm_controller.zs",
+    "to": "scripts/SKTweaks/large_scale_chichen_farm_controller.zs",
+    "sha1": "4cef339e7c89e0065d952d3af0373adf94183ce8"
+   },
+   {
+    "from": "scripts/SKTweaks/large_scale_essentia_crystallizer.zs",
+    "to": "scripts/SKTweaks/large_scale_essentia_crystallizer.zs",
+    "sha1": "c077ee699d3243a11422d35c4231656b6776f0a7"
+   },
+   {
+    "from": "scripts/SKTweaks/large_scale_essentia_crystallizer_controllery.zs",
+    "to": "scripts/SKTweaks/large_scale_essentia_crystallizer_controllery.zs",
+    "sha1": "7f3b505ea8c1eb71fb5701e2be2f97c855d7ed07"
+   },
+   {
+    "from": "scripts/SKTweaks/large_scale_hypergrowth.zs",
+    "to": "scripts/SKTweaks/large_scale_hypergrowth.zs",
+    "sha1": "457a5def42803f9a53830743d839a213c6048ba4"
+   },
+   {
+    "from": "scripts/SKTweaks/large_scale_hypergrowth_controller.zs",
+    "to": "scripts/SKTweaks/large_scale_hypergrowth_controller.zs",
+    "sha1": "a4701e6f36e00335c315ab99139df9551fe5a295"
+   },
+   {
+    "from": "scripts/SKTweaks/lib/Big.zs",
+    "to": "scripts/SKTweaks/lib/Big.zs",
+    "sha1": "8a468d99faed17736141d75816d0d05acebe2a22"
+   },
+   {
+    "from": "scripts/SKTweaks/lib/Real_Parallels.zs",
+    "to": "scripts/SKTweaks/lib/Real_Parallels.zs",
+    "sha1": "2030b0c1485310aad961a0bcbce6dc54f05d8a51"
+   },
+   {
+    "from": "scripts/SKTweaks/lib/aaa_function.zs",
+    "to": "scripts/SKTweaks/lib/aaa_function.zs",
+    "sha1": "c8c4a6afebfbd809c569c9358745b145cdfda3f4"
+   },
+   {
+    "from": "scripts/SKTweaks/lib/aaa_registery.zs",
+    "to": "scripts/SKTweaks/lib/aaa_registery.zs",
+    "sha1": "28d97c3d3d858a668e14308b615b92fc698f7198"
+   },
+   {
+    "from": "scripts/SKTweaks/machine_dasiy.zs",
+    "to": "scripts/SKTweaks/machine_dasiy.zs",
+    "sha1": "8219b8bd901241aa9dcabc00df7a4b27adee8aa3"
+   },
+   {
+    "from": "scripts/SKTweaks/machine_dasiy_controller.zs",
+    "to": "scripts/SKTweaks/machine_dasiy_controller.zs",
+    "sha1": "7ca9e3b3975203a26ad3dfb2b376c6142cf301c9"
+   },
+   {
+    "from": "scripts/SKTweaks/machine_mana_pool.zs",
+    "to": "scripts/SKTweaks/machine_mana_pool.zs",
+    "sha1": "dad4a684fb3b9c3e42176c11e48565ee54613f91"
+   },
+   {
+    "from": "scripts/SKTweaks/machine_mana_pool_controller.zs",
+    "to": "scripts/SKTweaks/machine_mana_pool_controller.zs",
+    "sha1": "c1533eaacaff9daee940281d56970aae521415f4"
+   },
+   {
+    "from": "scripts/SKTweaks/magic_vat.zs",
+    "to": "scripts/SKTweaks/magic_vat.zs",
+    "sha1": "6350fe5ff6d182ea57f16a7b33687c9846fc2cef"
+   },
+   {
+    "from": "scripts/SKTweaks/magic_vat_controller.zs",
+    "to": "scripts/SKTweaks/magic_vat_controller.zs",
+    "sha1": "f7f84148b2beda1313b6fe10fa32289cf81153b4"
+   },
+   {
+    "from": "scripts/SKTweaks/meatballium_crucible.zs",
+    "to": "scripts/SKTweaks/meatballium_crucible.zs",
+    "sha1": "48b94945b825a7ec38e4aa0935ab648e548dffbe"
+   },
+   {
+    "from": "scripts/SKTweaks/meatballium_crucible_controller.zs",
+    "to": "scripts/SKTweaks/meatballium_crucible_controller.zs",
+    "sha1": "b283bcf332aab74feb808ff4eb1a7029170870cf"
+   },
+   {
+    "from": "scripts/SKTweaks/mechanized_essentia_smeltery_SK.zs",
+    "to": "scripts/SKTweaks/mechanized_essentia_smeltery_SK.zs",
+    "sha1": "96b5e005ee5c8fc7ac6e3aa0188c8f172ba06364"
+   },
+   {
+    "from": "scripts/SKTweaks/mythic_processor_crystalizer.zs",
+    "to": "scripts/SKTweaks/mythic_processor_crystalizer.zs",
+    "sha1": "ef2fd82d482209ac4114858e1b06326ba995360b"
+   },
+   {
+    "from": "scripts/SKTweaks/mythic_processor_fluid_enricher.zs",
+    "to": "scripts/SKTweaks/mythic_processor_fluid_enricher.zs",
+    "sha1": "7b6c3420e0fc3e1b2ac7fbb93f47559ab6a542f2"
+   },
+   {
+    "from": "scripts/SKTweaks/mythical_generator_first_order.zs",
+    "to": "scripts/SKTweaks/mythical_generator_first_order.zs",
+    "sha1": "7d53dfaa0b8469c935469c45fd5c0ce187bb2b49"
+   },
+   {
+    "from": "scripts/SKTweaks/mythical_generator_first_order_controller.zs",
+    "to": "scripts/SKTweaks/mythical_generator_first_order_controller.zs",
+    "sha1": "324f4fea93302fc4939c2e6b27dca966320d7188"
+   },
+   {
+    "from": "scripts/SKTweaks/mythical_generator_second_controller.zs",
+    "to": "scripts/SKTweaks/mythical_generator_second_controller.zs",
+    "sha1": "7b03c9b0bd969a696e640b92a1b31c93dfa86f8c"
+   },
+   {
+    "from": "scripts/SKTweaks/mythical_generator_second_order.zs",
+    "to": "scripts/SKTweaks/mythical_generator_second_order.zs",
+    "sha1": "e749a9136fd2df1dd31019fdb053dae647874686"
+   },
+   {
+    "from": "scripts/SKTweaks/quantum_catalytic_reactor_array.zs",
+    "to": "scripts/SKTweaks/quantum_catalytic_reactor_array.zs",
+    "sha1": "b5964730e56dd50dc1457c94d1490993f2a1d99d"
+   },
+   {
+    "from": "scripts/SKTweaks/quantum_catalytic_reactor_array_controller.zs",
+    "to": "scripts/SKTweaks/quantum_catalytic_reactor_array_controller.zs",
+    "sha1": "289aadbb665ebd2b9a08e9aa3acd78b8699e0bd1"
+   },
+   {
+    "from": "scripts/SKTweaks/seared_caster_SK.zs",
+    "to": "scripts/SKTweaks/seared_caster_SK.zs",
+    "sha1": "2e2e966f46b858353656fc769dc8a4048c78e3ec"
+   },
+   {
+    "from": "scripts/SKTweaks/solar_array.zs",
+    "to": "scripts/SKTweaks/solar_array.zs",
+    "sha1": "f738930cab97ea3ccf6bbc6589373584cb66aabc"
+   },
+   {
+    "from": "scripts/SKTweaks/solar_array_controller.zs",
+    "to": "scripts/SKTweaks/solar_array_controller.zs",
+    "sha1": "b3d69fb7ef7437b85b97fbefe7887a8f108653a1"
+   },
+   {
+    "from": "scripts/SKTweaks/test.txt",
+    "to": "scripts/SKTweaks/test.txt",
+    "sha1": "dbaca645effbebfe41965059e3fbb373a537c2c9"
+   },
+   {
+    "from": "scripts/SKTweaks/test.zs",
+    "to": "scripts/SKTweaks/test.zs",
+    "sha1": "f4a13d730eb270d73802e51f5c9c025731c92b1d"
+   }
+  ]
+ },
+ "asm": {
+  "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.9/asm-9.9.jar",
+  "sha1": "c29635c8a7afa03d74b33c1884df8abb2b3f3dcc"
+ },
+ "delete": [
+  "AlternativeConfigs/0_README.txt",
+  "AlternativeConfigs/AppliedEnergistics2/AppliedEnergistics2.cfg",
+  "AlternativeConfigs/AppliedEnergistics2/CustomRecipes.cfg",
+  "AlternativeConfigs/AppliedEnergistics2/Facades.cfg",
+  "AlternativeConfigs/AppliedEnergistics2/VersionChecker.cfg",
+  "AlternativeConfigs/AppliedEnergistics2/extracells.cfg",
+  "AlternativeConfigs/AppliedEnergistics2/items.csv",
+  "AlternativeConfigs/legendarytooltips.cfg",
+  "AlternativeConfigs/legendarytooltips/textures/gui/tooltip_borders.png",
+  "config/LagGoggles-client.cfg",
+  "config/LagGoggles-server.cfg",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_black_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_blue_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_brown_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_cyan_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_gray_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_green_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_light_blue_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_light_gray_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_lime_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_magenta_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_orange_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_pink_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_purple_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_red_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_white_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/mutations/botania_yellow_mutation.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_black_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_blue_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_brown_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_cyan_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_gray_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_green_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_light_blue_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_light_gray_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_lime_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_magenta_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_orange_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_pink_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_purple_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_red_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_white_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/plants/botania_yellow_plant.json",
+  "config/agricraft/json/defaults/mod_Botania/soils/podzol_soil.json",
+  "config/divinerpg/divinerpg.cfg",
+  "config/divinerpg/divinerpg_mob_stats.cfg",
+  "config/entityculling.cfg",
+  "config/entityculling.json",
+  "config/nothirium.cfg",
+  "config/renderlib.cfg"
+ ],
+ "lf": [
+  "asm/hammercore.xml",
+  "config/Animus.cfg",
+  "config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+  "config/AppliedEnergistics2/CustomRecipes.cfg",
+  "config/AppliedEnergistics2/VersionChecker.cfg",
+  "config/AppliedEnergistics2/extracells.cfg",
+  "config/BetterBuildersWandsFix.cfg",
+  "config/Bewitchment.cfg",
+  "config/Building Gadgets.cfg",
+  "config/EMC Gadgets.cfg",
+  "config/Guide-API/Guide-API.cfg",
+  "config/IntegrationForegoing.cfg",
+  "config/Journey.cfg",
+  "config/JustEnoughCalculation/main.cfg",
+  "config/LogisticsPipes.cfg",
+  "config/ProjectE/ProjectE.cfg",
+  "config/ProjectE/mapping.cfg",
+  "config/ProjectRedRelocation.cfg",
+  "config/RestrictPlayerInterfaces.cfg",
+  "config/RoughlyEnoughIDs.cfg",
+  "config/TARDIS Mod.cfg",
+  "config/TinkerIO.cfg",
+  "config/TorcherinoCE/TorcherinoCE.cfg",
+  "config/Universal Tweaks - Bugfixes.cfg",
+  "config/Universal Tweaks - General.cfg",
+  "config/Universal Tweaks - Mod Integration.cfg",
+  "config/Universal Tweaks - Tweaks.cfg",
+  "config/Vajra Configuration.cfg",
+  "config/Waystones.cfg",
+  "config/WirelessRedstone.cfg",
+  "config/acronym/base/General.cfg",
+  "config/acronym/contenttweaker/General.cfg",
+  "config/acronym/material_system.cfg",
+  "config/actuallyadditions.cfg",
+  "config/advRocketry/advancedRocketry.cfg",
+  "config/ae2bettermagnetcard.cfg",
+  "config/ae2powertools/client.cfg",
+  "config/ae2powertools/server.cfg",
+  "config/aether_legacy.cfg",
+  "config/agricraft/config.cfg",
+  "config/agricraft/json/defaults/mod_mysticalworld/plants/mysticalworld_aubergine_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_cloud_berry_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_dewgonia_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_infernal_bulb_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_moonglow_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_pereskia_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_spirit_herb_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_stalicripe_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_wildewheet_plant.json",
+  "config/agricraft/json/defaults/mod_roots/plants/roots_wildroot_plant.json",
+  "config/agricraft/json/defaults/mod_roots/soils/aqueous_soil_soil.json",
+  "config/agricraft/json/defaults/mod_roots/soils/caelic_soil_soil.json",
+  "config/agricraft/json/defaults/mod_roots/soils/elemental_soil_soil.json",
+  "config/agricraft/json/defaults/mod_roots/soils/magmatic_soil_soil.json",
+  "config/agricraft/json/defaults/mod_roots/soils/terran_soil_soil.json",
+  "config/aireducer.cfg",
+  "config/aoa3/entities_config.cfg",
+  "config/aoa3/integrations_config.cfg",
+  "config/aoa3/main_config.cfg",
+  "config/aoa3/ore_config.cfg",
+  "config/aoa3/structure_config.cfg",
+  "config/aquaacrobatics.cfg",
+  "config/aquaacrobatics_core.cfg",
+  "config/astralsorcery.cfg",
+  "config/astralsorcery/aevitas_ore_perk.cfg",
+  "config/astralsorcery/fluid_rarities.cfg",
+  "config/astralsorcery/herdable_animals_blacklist.cfg",
+  "config/astralsorcery/mineralis_ritual.cfg",
+  "config/astralsorcery/perk_void_trash_replacement.cfg",
+  "config/astralsorcery/treasure_shrine.cfg",
+  "config/avaritia.cfg",
+  "config/badwithernocookiereloaded.cfg",
+  "config/battletowers.cfg",
+  "config/battletowers_fixes.cfg",
+  "config/baubles.cfg",
+  "config/beebetteratbees.cfg",
+  "config/betterbiomeblend.cfg",
+  "config/betterbuilderswands.cfg",
+  "config/bettercaves-1_12_2.cfg",
+  "config/betterquesting.cfg",
+  "config/bhc/BaubleyHeartCanisters.cfg",
+  "config/bibliocraft.cfg",
+  "config/bloodarsenal/bloodarsenal.cfg",
+  "config/bloodmagic/bloodmagic.cfg",
+  "config/bloodmagic/rituals.cfg",
+  "config/botania.cfg",
+  "config/bpopener.cfg",
+  "config/buildcraft/main.cfg",
+  "config/capns_chisel_search.cfg",
+  "config/capnsjeidragfix.cfg",
+  "config/cells.cfg",
+  "config/champions.cfg",
+  "config/citnbt.cfg",
+  "config/clearwater.cfg",
+  "config/codechickenlib.cfg",
+  "config/cofh/core/client.cfg",
+  "config/cofh/core/common.cfg",
+  "config/cofh/redstonearsenal/client.cfg",
+  "config/cofh/redstonearsenal/common.cfg",
+  "config/cofh/thermalcultivation/client.cfg",
+  "config/cofh/thermalcultivation/common.cfg",
+  "config/cofh/thermaldynamics/client.cfg",
+  "config/cofh/thermaldynamics/common.cfg",
+  "config/cofh/thermalexpansion/client.cfg",
+  "config/cofh/thermalexpansion/common.cfg",
+  "config/cofh/thermalexpansion/florbs.cfg",
+  "config/cofh/thermalexpansion/morbs.cfg",
+  "config/cofh/thermalfoundation/client.cfg",
+  "config/cofh/thermalfoundation/common.cfg",
+  "config/cofh/thermalinnovation/client.cfg",
+  "config/cofh/thermalinnovation/common.cfg",
+  "config/cofh/world/config.cfg",
+  "config/commoncapabilities.cfg",
+  "config/computercraft.cfg",
+  "config/concheckrmd.cfg",
+  "config/crimsonwarfare.cfg",
+  "config/ctm.cfg",
+  "config/customfov.cfg",
+  "config/cyclic_ores.cfg",
+  "config/cyclicmagic.cfg",
+  "config/cyclopscore.cfg",
+  "config/deepmobevolution/deepmobevolution.cfg",
+  "config/defaultoptions.cfg",
+  "config/defaultoptions/options.txt",
+  "config/demagnetize.cfg",
+  "config/dimdoors.cfg",
+  "config/divinerpg/general_config.cfg",
+  "config/dme_bloodmagic/main.cfg",
+  "config/ebwizardry/ebwizardry.cfg",
+  "config/enchlib.cfg",
+  "config/endercore/endercore.cfg",
+  "config/enderstorage.cfg",
+  "config/enderutilities.cfg",
+  "config/extremesoundmuffler.cfg",
+  "config/fermiumbooter.cfg",
+  "config/findme.cfg",
+  "config/fluiddrawers.cfg",
+  "config/flux_networks.cfg",
+  "config/forestry/apiculture.cfg",
+  "config/forestry/arboriculture.cfg",
+  "config/forestry/backpacks.cfg",
+  "config/forestry/binnie-mods.conf",
+  "config/forestry/binniecore/main.conf",
+  "config/forestry/common.cfg",
+  "config/forestry/farm.cfg",
+  "config/forestry/fluids.cfg",
+  "config/forestry/gamemodes/EASY.cfg",
+  "config/forestry/lepidopterology.cfg",
+  "config/forge.cfg",
+  "config/fpsreducer/fpsreducer.cfg",
+  "config/ftblib.cfg",
+  "config/ftbutilities.cfg",
+  "config/fugue.cfg",
+  "config/gamestages.cfg",
+  "config/gendustry/client.config",
+  "config/gendustryjei.cfg",
+  "config/glassential.cfg",
+  "config/ice_and_fire.cfg",
+  "config/ichunutil.cfg",
+  "config/ichunutil_keybinds.cfg",
+  "config/igwmod.cfg",
+  "config/immersiveengineering.cfg",
+  "config/immersivepetroleum.cfg",
+  "config/integratedderivative.cfg",
+  "config/integrateddynamics.cfg",
+  "config/integrateddynamicscompat.cfg",
+  "config/integratedtunnels.cfg",
+  "config/integratedtunnelscompat.cfg",
+  "config/itlt.cfg",
+  "config/jei/jei.cfg",
+  "config/jeibees.cfg",
+  "config/jeivillagers.cfg",
+  "config/journeymap_server.cfg",
+  "config/key_binding_patch.cfg",
+  "config/lazy_ae2.cfg",
+  "config/legendarytooltips.cfg",
+  "config/lemonskin.cfg",
+  "config/libvulpes.cfg",
+  "config/loliasm.cfg",
+  "config/lootcapacitortooltips.cfg",
+  "config/loottweaker.cfg",
+  "config/lostcities/general.cfg",
+  "config/matc.cfg",
+  "config/minieffects.cfg",
+  "config/moartinkers.cfg",
+  "config/modularmachineryaddons.cfg",
+  "config/modularrouters.cfg",
+  "config/modularui.cfg",
+  "config/morpheus.cfg",
+  "config/morphoverlay.cfg",
+  "config/mousetweaks.cfg",
+  "config/mowziesmobs.cfg",
+  "config/multipart.cfg",
+  "config/nae2.cfg",
+  "config/noisethreader.cfg",
+  "config/nuclearcraft.cfg",
+  "config/omniwand.cfg",
+  "config/opencomputers/settings.conf",
+  "config/opeq.cfg",
+  "config/overpoweredarmorbar.cfg",
+  "config/particleculling.cfg",
+  "config/patchouli.cfg",
+  "config/peteams.cfg",
+  "config/pillar.cfg",
+  "config/plethora-core.cfg",
+  "config/plethora.cfg",
+  "config/plustic.cfg",
+  "config/projectex.cfg",
+  "config/railcraft/blocks.cfg",
+  "config/railcraft/entities.cfg",
+  "config/railcraft/railcraft.cfg",
+  "config/railway_depot_worker.cfg",
+  "config/randomtweaker.cfg",
+  "config/rangedpumps.cfg",
+  "config/reachfix.cfg",
+  "config/reccomplex.cfg",
+  "config/recipestages.cfg",
+  "config/roost.cfg",
+  "config/rotm.cfg",
+  "config/scannable.cfg",
+  "config/simplevoidworld.cfg",
+  "config/simplyjetpacks/client.cfg",
+  "config/simplyjetpacks/common.cfg",
+  "config/smoothfont/smoothfont.cfg",
+  "config/solcarrot.cfg",
+  "config/soulshardsrespawn/soulshardsrespawn.cfg",
+  "config/stellar_core.cfg",
+  "config/storagecabinet.cfg",
+  "config/superfactorymanager.cfg",
+  "config/teamreborn/reborncore/client.cfg",
+  "config/teamreborn/reborncore/misc.cfg",
+  "config/teamreborn/reborncore/power.cfg",
+  "config/teamreborn/reborncore/upgrades.cfg",
+  "config/teamreborn/techreborn/compat.cfg",
+  "config/teamreborn/techreborn/generators.cfg",
+  "config/teamreborn/techreborn/items.cfg",
+  "config/teamreborn/techreborn/machines.cfg",
+  "config/teamreborn/techreborn/misc.cfg",
+  "config/teamreborn/techreborn/recipes.cfg",
+  "config/teamreborn/techreborn/world.cfg",
+  "config/tesslocator.cfg",
+  "config/tfspellpack.cfg",
+  "config/thaumcraft_graphics.cfg",
+  "config/thaumcraft_misc.cfg",
+  "config/thaumcraft_world.cfg",
+  "config/thaumcraftfix.cfg",
+  "config/thaumicaugmentation.cfg",
+  "config/thaumicenergistics.cfg",
+  "config/thaumicenergistics.properties",
+  "config/thaumicjei.cfg",
+  "config/thaumictinkerer.cfg",
+  "config/thaumictweaker/ThaumicTweaker - Enhancements.cfg",
+  "config/thaumictweaker/ThaumicTweaker - Overhauls.cfg",
+  "config/thaumictweaker/ThaumicTweaker - Tweaks.cfg",
+  "config/thaumictweaker/ThaumicTweaker - Wuss Mode.cfg",
+  "config/thaumicwonders.cfg",
+  "config/thebetweenlands/config.cfg",
+  "config/tinymobfarm.cfg",
+  "config/togetherforever.cfg",
+  "config/tombstone.cfg",
+  "config/topaddons.cfg",
+  "config/topaddons_client.cfg",
+  "config/torchmaster.cfg",
+  "config/tweakedexcavation.cfg",
+  "config/tweakedlib.cfg",
+  "config/twilightforest.cfg",
+  "config/uberconduitprobe.cfg",
+  "config/unidict/UniDict.cfg",
+  "config/unlimitedchiselworks.cfg",
+  "config/variegated.cfg",
+  "config/vintagefix.properties",
+  "config/xporbclump.cfg",
+  "config/xreliquary.cfg",
+  "config/xtones.cfg",
+  "local/client/ftblib.cfg",
+  "local/client/ftbutilities.cfg",
+  "local/client/projectex.cfg"
+ ]
+}

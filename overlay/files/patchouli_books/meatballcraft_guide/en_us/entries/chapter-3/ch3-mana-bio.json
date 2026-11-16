@@ -1,0 +1,52 @@
+{
+  "name": "Botania, Bees and Thaumcraft",
+  "icon": "botania:manatablet",
+  "category": "chapter-3",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)To charge items with mana, toss them into a mana pool or use a Dispersive Spark; to control flow direction (into item vs. pool), hold a Wand of the Forest and right-click the pool."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Manasteel automation isn’t urgent in Chapter 3—Guilty Pool makes mana crafting fast enough without it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For pure daisy automation, use two subnets: one with an import bus for formation planes and another with an export bus for annihilation planes, ensuring only finished daisies are extracted."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Starlight can be automated with a Starwell before obtaining the Master Spell needed for the Starlight Sphere; Master Spells are optional and challenging to craft."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To prevent essentia from being pumped into the wrong hatch, add a label to the receiving side or use Thaumic Energistics to avoid equal-suction conflicts."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To automate the Thaumatorium, use Essentia Export Interface (not storage bus) with wireless connectors to distribute channels.$(li)You do not need to fill will-specific tartaric gems;"
+    },
+    {
+      "type": "text",
+      "text": "the Botania Enchanter (Ziggurat of Life) only requires a crucible—no tartaric gems needed for will-based enchanting.$(li)To add genes to bees, put a gene template with the desired gene in a Genetic Imprinter."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When imprinting a bee template, use a second template with tolerance 0 to debug—tolerance 0 triggers only when all conditions are perfect, giving immediate feedback."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Analyzing a bee changes its genes but doesn’t update its tooltip description—don’t assume it failed if the description looks unchanged.$(li)Use an Impulse Hopper to automate crafting of bee-related items."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For optimal bee breeding: use Fertility: 4 (Wintry), Lifespan: Shortest (Cultivated), and Territory: Largest (Vindictive); for production: Fertility: 1 (Rocky), Lifespan: Immortal (Temporal), and never sleep (Rocky)."
+    },
+    {
+      "type": "text",
+      "text": "Also use Humidity Tolerance: 3 (Cyan), Temperature Tolerance: 3 (Lime), Speed: Robotic (Robot), and Flowering: Maximum (Jaded)."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Mandelplot
+
+Mandelbrot set explorer. Click to zoom.
+
+Usage: mandelplot
+
+Needs: advanced computer (colour)
+
+By cyberbit. License: unspecified.
+Source: https://gist.github.com/cyberbit/762ecc475eaab511cb6191052a47a5e3

@@ -1,0 +1,11 @@
+--- a/config/AppliedEnergistics2/extracells.cfg
++++ b/config/AppliedEnergistics2/extracells.cfg
+@@ -14,7 +14,7 @@
+     B:"enablecofhapi|item"=true
+ 
+     # Enable IngameWikiMod Integration.
+-    B:enableigwmod=true
++    B:enableigwmod=false
+ 
+     # Enable Just Enough Items Integration.
+     B:enablejei=true

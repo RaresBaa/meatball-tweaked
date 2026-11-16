@@ -1,0 +1,16 @@
+{
+  "name": "Built-in Disks",
+  "icon": "opencomputers:diskdrive",
+  "category": "oc_basics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "OpenComputers ships more floppies that you find in dungeon chests. Craft any loot disk together with a $(item)Scrench$() to cycle to the next one:$(li)$(l)Network$() - routing stack$(li)$(l)Plan9k$() - another OS$(li)$(l)OpenIRC$() - IRC client"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)OpenLoader$() - boot menu$(li)$(l)Builder$() - robot builds from a plan$(li)$(l)Digger$() - robot quarry$(li)$(l)Mazer$() - robot carves mazes$(li)$(l)Data Card$() and $(l)Generator$() driver software"
+    }
+  ],
+  "sortnum": 4
+}

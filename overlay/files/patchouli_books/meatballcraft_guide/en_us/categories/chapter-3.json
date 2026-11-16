@@ -1,0 +1,7 @@
+{
+  "name": "Chapter 3 Tips",
+  "description": "Tips for Chapter 3.",
+  "icon": "minecraft:ender_pearl",
+  "parent": "chapters",
+  "sortnum": 3
+}

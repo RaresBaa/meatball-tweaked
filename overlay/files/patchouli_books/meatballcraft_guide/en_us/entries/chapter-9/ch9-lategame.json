@@ -1,0 +1,44 @@
+{
+  "name": "Structures and Bosses",
+  "icon": "contenttweaker:chaos_pearl",
+  "category": "chapter-9",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)To dismantle a Draconic Core, ensure it is at 0 charge—use extract pylons (e.g., 8) to drain charge, though expect ~30 minutes.$(li)The All-Seeing Sentient Meatball drops only from the mob shown in the reference image."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not craft infinity armor; instead, use a Weezer weapon on the Meatball Man to de-armor it and steal the armor directly."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Energy Queen does not automatically power adjacent blocks—connect it to a valid FE network (e.g., via conductors or ducts) and ensure target blocks are actively drawing power."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To prevent flux overflow in the Fallen Tower, use a flux sponge on a timer to purge when chunk flux reaches ~100 (the relic only needs 50), or use a world reader to monitor flux and disable the controller via redstone."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Withering Fabrial requires wither souls from Animus; capture withers using the Sigil of Chains instead of killing them with weapons like the Reaper 200, as killing them prevents soul drop."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To spawn and convert 200 freed betrayed souls at once, place vines on the conversion block to bypass entity cramming limits—no timed redstone or killing chambers needed."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Bosses can be defeated with fire, wither, and poison effects (e.g., from tools or gear); multi-shot mechanics (e.g., from Infinity or Zenith) also work effectively."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To speed up the 640T RF Chaotic Sentient Meatball craft, use multiple plugs on the Orb and connect them via cryo ducts for more throughput.$(li)Chaos pearls can be passived or torcherino’d; ~400–500 are needed for the Fractallite Furnace."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Perditio spell allows placing the Aesir rift anywhere after initially placing it in the space station."
+    }
+  ]
+}

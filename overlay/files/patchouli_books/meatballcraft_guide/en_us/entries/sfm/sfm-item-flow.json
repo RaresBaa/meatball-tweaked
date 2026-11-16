@@ -1,0 +1,28 @@
+{
+  "name": "Item & Fluid Flow",
+  "icon": "superfactorymanager:cable_intake",
+  "category": "sfm",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Item valves push at most 64 items per operation; to push more, repeat the output (which costs TPS). SFM reads an item valve's inventory only from its $(o)input$() side, so name that side."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Never put items into an SFM Block Gate by hand—it deletes them. A Block Gate acts as an inventory for the block space in front of it.$(li)SFM takes items in FIFO order per label; if labels overlap the same inventories, the first matching input in the script wins. Separate the storage or target slots."
+    },
+    {
+      "type": "text",
+      "text": "$(li)SFM reads at most 4 fluid slots per Fluid Export Interface; filter to the 4 you need or use more interfaces.$(li)When pulling from a locked fluid drawer, leave out the filter.$(li)Drawer controllers have an empty slot 0 that accepts any item and routes it correctly."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Item p2p: the side attached to SFM (by cable) is the input side.$(li)SFM can fill shulker boxes ($(5)OUTPUT RETAIN N item TO shulkerbox SLOT X$()) but can't break full ones reliably; use a router to break and sort them."
+    },
+    {
+      "type": "text",
+      "text": "$(li)SFM Proxies: FRONT connects to the network you want items $(o)from$(), BACK to the subnet you want to $(o)read from$(); filters and state are shared, but only the front stores state.$(li)Import interface slot numbers are fixed, not random."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Utilities",
+  "icon": "opencomputers:keyboard",
+  "category": "oc_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)mc$() - two-panel file manager$(li)$(l)nano$() - friendlier text editor$(li)$(l)mynaptic$() - OPPM with a GUI$(li)$(l)compviewer$() - browse components$(li)$(l)gitrepo$() - download a GitHub repository$(br2)Install each with $(l)oppm install <name>$()."
+    },
+    {
+      "type": "text",
+      "text": "$(l)psh$() - control another OpenOS computer remotely (start $(l)pshd$() on it first).$(br2)Install: $(l)oppm install psh$()$(br2)$(l)wocchat$() - IRC client.$(br2)Install: $(l)oppm install wocchat$()"
+    }
+  ],
+  "sortnum": 10
+}

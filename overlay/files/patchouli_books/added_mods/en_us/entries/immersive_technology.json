@@ -1,0 +1,11 @@
+{
+  "name": "Immersive Technology",
+  "icon": "immersivetech:metal_device",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "More Immersive Engineering multiblocks: boilers, steam turbines, distillers and solar towers."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Heading Into Chapter 2",
+  "icon": "extendedcrafting:table_elite",
+  "category": "chapter-1",
+  "sortnum": 29,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Once you have the $(l)Elite Crafting Table$(), you're in Chapter 2. A typical plan:$(br)1. $(l)Rush AE2$(), then the $(l)Void world$() for your base.$(br)2. $(l)Controller Manual$() → Bloodmaster drops and the Personal EMC Link."
+    },
+    {
+      "type": "text",
+      "text": "3. $(l)Extreme Reactors turbine$() for power.$(br)4. $(l)Void Ore Miner$() (Environmental Tech) and Mystical Agriculture for resources EMC doesn't cover.$(br)5."
+    },
+    {
+      "type": "text",
+      "text": "Then branch out: Botania + Arcana, Betweenlands (towards Chapter 3), Iceika (Creative storage upgrades, Danks), AbyssalCraft (level 15 enchanting), Astral Sorcery (perks), Blood Magic (Bloodmaster armor, the Eldritch Will ritual for Thaumcraft flux)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Start mining uranium early$() for the Void Ore Miner. It has to run a long time to earn its upgrade crystals, and the first Litherite takes roughly 0.5–1 billion EMC. That's another reason to get the dragon loop going."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Finish the Chapter 2 $(l)main$() line through to your first $(l)Modular Machine$() before diving into the side quests (which are also mandatory).$(li)Biggest time-saver: set up all of Chapter 2's resource generation early (seeds, chickens, bees, void miner)."
+    }
+  ]
+}

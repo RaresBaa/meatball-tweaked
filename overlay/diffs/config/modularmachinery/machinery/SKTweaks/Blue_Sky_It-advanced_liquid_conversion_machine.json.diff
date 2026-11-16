@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/SKTweaks/Blue_Sky_It-advanced_liquid_conversion_machine.json
++++ b/config/modularmachinery/machinery/SKTweaks/Blue_Sky_It-advanced_liquid_conversion_machine.json
+@@ -10,7 +10,7 @@
+             "x": -1,
+             "y": 0,
+             "z": 0,
+-            "description": "为什么不去玩玩新星工程呢？",
++            "description": "Why not go play Nova Engineering?",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:fluid",

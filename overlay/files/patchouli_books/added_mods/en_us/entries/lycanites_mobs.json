@@ -1,0 +1,11 @@
+{
+  "name": "Lycanites Mobs",
+  "icon": "lycanitesmobs:soulgazer",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Hundreds of new mobs and bosses; tame, summon and mount many of them."
+    }
+  ]
+}

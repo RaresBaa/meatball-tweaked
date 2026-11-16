@@ -1,0 +1,108 @@
+{
+  "preRequisites:11": [
+    1969737828
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nCollect one of every magical herb.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:apothecary_pouch"
+      },
+      "name:8": "All The Herbs 3!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1936906867,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "roots:wildroot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 12,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "id:8": "roots:apothecary_pouch",
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "TrophyName:8": "All The Herbs 3!",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "roots:baffle_cap_mushroom"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "roots:cloud_berry"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "roots:dewgonia"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "roots:infernal_bulb"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "roots:moonglow_leaf"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "roots:pereskia"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "roots:spirit_herb"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "roots:stalicripe"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "roots:terra_moss"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "roots:wildewheet"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "roots:wildroot"
+        }
+      },
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

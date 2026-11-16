@@ -1,0 +1,17 @@
+filename = 'EnderZoo-1.12.1-1.4.0.49.jar'
+name = 'Ender Zoo'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EnderZoo-1.12.1-1.4.0.49.jar'
+
+[download]
+hash = '44a687fb0eb6e8e28b4dad10cb05e72972b16d37'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2484148
+project-id = 225247

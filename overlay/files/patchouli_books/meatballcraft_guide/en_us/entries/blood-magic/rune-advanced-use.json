@@ -1,0 +1,20 @@
+{
+  "name": "Advanced Rune Mechanics (Charging, Acceleration, Displacement)",
+  "icon": "bloodmagic:blood_rune:9",
+  "category": "blood-magic",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Charging Runes$() drain LP continuously—even when idle—so avoid them for sustained crafting. Use them only for occasional high-priority crafts, not steady production."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Acceleration Runes$() reduce the time between altar operations and increase operations per tick. They do $(o)not$() speed up individual crafting steps, but let more cycles run per second. They also boost charging speed for Charging Runes."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Displacement Runes$() scale output as (1.2^D) × 20 mB/t per operation. With Acceleration runes, effective output multiplies further. For high-output setups, prioritize Displacement over Capacity runes; nobody has found a cap on Displacement."
+    }
+  ]
+}

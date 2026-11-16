@@ -1,0 +1,17 @@
+filename = 'Magneticraft_1.12-2.8.5-dev.jar'
+name = 'Magneticraft'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Magneticraft_1.12-2.8.5-dev.jar'
+
+[download]
+hash = '42b2a4deb640408b12037d2796bb82687076e9ef'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3791484
+project-id = 224808

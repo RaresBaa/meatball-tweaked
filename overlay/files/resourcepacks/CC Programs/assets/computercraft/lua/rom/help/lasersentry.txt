@@ -1,0 +1,12 @@
+Plethora: Laser sentry
+
+Manipulator turret: shoots hostile mobs it can sense.
+
+Usage: lasersentry
+
+Run on a neural interface (or a computer with a manipulator) with the required modules installed.
+
+Needs: Plethora manipulator
+
+By SquidDev (Plethora examples). License: MIT.
+Source: https://plethora.madefor.cc/examples/

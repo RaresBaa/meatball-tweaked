@@ -1,0 +1,11 @@
+{
+  "name": "Gaia Dimension",
+  "icon": "gaiadimension:keystone_block",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A crystal dimension with its own ores, gear and bosses."
+    }
+  ]
+}

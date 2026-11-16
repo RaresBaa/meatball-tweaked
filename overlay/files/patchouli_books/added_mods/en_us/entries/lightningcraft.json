@@ -1,0 +1,11 @@
+{
+  "name": "LightningCraft",
+  "icon": "lightningcraft:elec_hammer",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Harvest lightning as power, craft lightning tools and visit the Underworld dimension."
+    }
+  ]
+}

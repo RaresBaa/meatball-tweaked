@@ -1,0 +1,40 @@
+{
+  "name": "Essentia Crafting & Integration (AE2, Infusion)",
+  "icon": "thaumcraft:crystal_essence",
+  "category": "thaumcraft",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)To craft Vis Crystals, place a $(l)Vis Resonator$() (not Rare Earth) on the altar and ensure your export bus is filtered to the correct essentia type.$(li)AE2 cannot directly autocraft essentia like fluids;"
+    },
+    {
+      "type": "text",
+      "text": "send essentia crystals and melt them on-site using smelteries or alembics.$(li)For stable infusion, ensure radial symmetry: use 8 Candelabra and 8 Heads (e.g., 4 of each), placed symmetrically around the matrix."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Bewitchment candelabras are the best stabilizers—each pair gives diminishing returns; place up to 60 under the altar floor for ~16 stability."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Set infusion stability to at least $(5)min + (max−min)/2$(); most recipes have $(5)min=0$(), but some (e.g., 10–20) deviate.$(li)Essentia infusion providers require a label and existing essentia in the hatch to generate positive suction; they do not pull from arbitrary directions."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Essentia infusion providers cannot feed multiple essentia types to a Thaumatorium automatically; encode each recipe manually with labels, or melt crystals on-site instead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Runic Matrix cannot export essentia through Essentia Mirrors; to use mirrors, activate a craft that consumes essentia to trigger flow.$(li)The Infusion Matrix outputs a comparator signal while actively crafting—use this to detect progress or trigger automation."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The essentia solidifier (not the Thaumatorium) is used to craft infusion shards; patterns for it are not supported—manual crafting or workarounds are required."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To avoid waiting for vis regeneration in the Arcane Crafting Terminal, use the Workbench Charger or build the Arcana Autoworkbench multiblock."
+    }
+  ]
+}

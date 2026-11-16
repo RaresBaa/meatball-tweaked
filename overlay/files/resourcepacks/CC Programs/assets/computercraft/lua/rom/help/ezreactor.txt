@@ -1,0 +1,14 @@
+EZ-NUKE (Extreme Reactors)
+
+Controls Extreme Reactors reactors and turbines with PID loops: keeps the energy buffer and temperature in range, spins turbines to target RPM, shows everything on monitors.
+
+Usage: ezreactor
+
+Connect reactor/turbine computer ports and advanced monitors (3x2) with wired modems. Settings are saved in /ReactorOptions and *.options files. To start automatically, make a startup.lua containing:  shell.run("ezreactor")
+
+Needs: advanced computer (colour), Extreme Reactors computer port
+
+This program saves data, so the first run copies it (97 KB) to /extra/ezreactor. Delete that folder to reset it.
+
+By Lolmer / sandalle. License: MIT.
+Source: https://github.com/sandalle/minecraft_bigreactor_control

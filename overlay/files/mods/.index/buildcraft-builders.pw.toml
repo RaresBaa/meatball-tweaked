@@ -1,0 +1,21 @@
+filename = 'buildcraft-builders-8.0.0.jar'
+name = 'BuildCraft|Builders'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '8.0.0'
+
+[download]
+hash = 'adb581b3418cb670d948d43001821c76d8cede97'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6376384
+project-id = 231307
+
+[[x-prismlauncher-dependencies]]
+addonId = '231305'
+type = 'REQUIRED'

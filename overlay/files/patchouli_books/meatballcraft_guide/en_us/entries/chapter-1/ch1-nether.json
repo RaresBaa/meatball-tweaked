@@ -1,0 +1,24 @@
+{
+  "name": "The Nether",
+  "icon": "minecraft:netherrack",
+  "category": "chapter-1",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "text",
+      "text": "You unlock the Nether through the main questline (it needs a book). Get the $(l)Alien Material$() quests done first.$(br2)$(l)Prepare:$()$(li)Full bedrock armor (fire immunity) $(l)plus Magic Protection$()."
+    },
+    {
+      "type": "text",
+      "text": "Blazes and ghasts otherwise one-shot you.$(li)Mobility (glider and sling, later a jetpack) and a ranged weapon (shuriken).$(li)A Mob Crusher with a Spectre Coil makes a handy portable defence."
+    },
+    {
+      "type": "text",
+      "text": "$(l)In the Nether:$()$(li)Opening the portal makes mobs slightly stronger. It's a small bump, not a wall.$(li)Tunnel through walls and avoid open spaces, where blazes snipe you.$(li)Find a $(l)fortress$() and an $(l)Elemental Chamber$(). The chamber holds mithril and a Blitz spawner."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Hydras$() live in bone structures in the Nether."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "OPPM Package Manager",
+  "icon": "opencomputers:diskdrive",
+  "category": "oc_basics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)OPPM$() downloads and updates programs from the OpenPrograms collection. Craft the OPPM floppy from a $(item)Floppy Disk$() and an $(item)Interweb$(), and put an $(item)Internet Card$() in the computer."
+    },
+    {
+      "type": "text",
+      "text": "Run $(l)install$() and choose the OPPM disk to install it permanently.$(li)$(l)oppm list$() - every package$(li)$(l)oppm list <word>$() - search$(li)$(l)oppm info <pkg>$() - details$(li)$(l)oppm install <pkg>$()$(li)$(l)oppm update all$()"
+    },
+    {
+      "type": "text",
+      "text": "Most programs in this book install this way. Try $(l)oppm install mynaptic$() for a graphical package browser."
+    },
+    {
+      "type": "link",
+      "text": "Browse every OPPM package online, with descriptions and authors.",
+      "url": "https://openprograms.github.io/",
+      "link_text": "Open the package list"
+    }
+  ],
+  "sortnum": 3
+}

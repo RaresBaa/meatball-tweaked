@@ -1,0 +1,11 @@
+--- a/config/railway_depot_worker.cfg
++++ b/config/railway_depot_worker.cfg
+@@ -2,7 +2,7 @@
+ 
+ general {
+     # How to deal with beta message warning?
+-    S:betaMessage=lite
++    S:betaMessage=off
+ 
+     # It seems that Railcraft was trying to "fix" fluids from other mods that forgot to register the texture into atlas. 
+     # However, this is known to break some unusual fluid textures, most notably Molten Demon Metal from ExtraUtils2 when Tinkers Construct is also installed. 

@@ -1,0 +1,46 @@
+diff --git a/build.gradle b/build.gradle
+index d09e748..7b309eb 100644
+--- a/build.gradle
++++ b/build.gradle
+@@ -119,3 +119,5 @@ processResources {
+         exclude 'mcmod.info'
+     }
+ }
++
++dependencies { compileOnly files('libs/mixinbooter-10.7.jar') }
+diff --git a/src/main/java/com/github/aeddddd/mmceaddition/mixin/CraftingCPUClusterMixin.java b/src/main/java/com/github/aeddddd/mmceaddition/mixin/CraftingCPUClusterMixin.java
+index 4edcc30..3d0ff84 100644
+--- a/src/main/java/com/github/aeddddd/mmceaddition/mixin/CraftingCPUClusterMixin.java
++++ b/src/main/java/com/github/aeddddd/mmceaddition/mixin/CraftingCPUClusterMixin.java
+@@ -1,10 +1,7 @@
+ package com.github.aeddddd.mmceaddition.mixin;
+ 
+-import appeng.api.networking.IGrid;
+-import appeng.api.networking.crafting.ICraftingLink;
+ import appeng.api.networking.crafting.ICraftingMedium;
+ import appeng.api.networking.crafting.ICraftingPatternDetails;
+-import appeng.api.networking.energy.IEnergyGrid;
+ import appeng.me.cluster.implementations.CraftingCPUCluster;
+ import com.github.aeddddd.mmceaddition.tile.TileMEPatternAssembly;
+ import net.minecraft.inventory.InventoryCrafting;
+@@ -41,7 +38,7 @@ public abstract class CraftingCPUClusterMixin {
+     private int mmceaddition$boostBudget;
+ 
+     @Inject(method = "updateCraftingLogic", at = @At("HEAD"))
+-    private void mmceaddition$resetBoostBudget(IGrid grid, IEnergyGrid eg, ICraftingLink link, CallbackInfo ci) {
++    private void mmceaddition$resetBoostBudget(CallbackInfo ci) {
+         this.mmceaddition$boostBudget = MMCEADDITION$BOOST_BUDGET;
+     }
+ 
+diff --git a/src/main/resources/mixins.mmceaddition.json b/src/main/resources/mixins.mmceaddition.json
+index 000fb26..64835d2 100644
+--- a/src/main/resources/mixins.mmceaddition.json
++++ b/src/main/resources/mixins.mmceaddition.json
+@@ -5,7 +5,6 @@
+   "compatibilityLevel": "JAVA_8",
+   "mixins": [
+     "BlockInformationMixin",
+-    "ContainerInterfaceTerminalMixin",
+     "CraftingCPUClusterMixin",
+     "DynamicMachineMixin",
+     "FactoryRecipeSearchTaskMixin",

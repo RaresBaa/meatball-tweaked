@@ -1,0 +1,11 @@
+--- a/config/jei/jei.cfg
++++ b/config/jei/jei.cfg
+@@ -148,7 +148,7 @@
+     # Search mode for Tooltips (prefix: #)
+     # [Default: enabled]
+     # [Valid: [enabled, require_prefix, disabled]]
+-    S:tooltipSearchMode=ENABLED
++    S:tooltipSearchMode=DISABLED
+ }
+ 
+ 

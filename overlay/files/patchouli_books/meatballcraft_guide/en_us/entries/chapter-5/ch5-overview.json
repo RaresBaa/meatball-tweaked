@@ -1,0 +1,20 @@
+{
+  "name": "Chapter 5 Basics",
+  "icon": "astralsorcery:itemcraftingcomponent",
+  "category": "chapter-5",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)The Resonating Stone structure is very rare and contains the Torcherino.$()$(br2)$(l)Chaos Shards can be mined without a Draconic Pickaxe$(); the Draconic tool is not required, though it may be gated as part of a set."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Use the Emptying Essentia Transfuser$() (Thaumcraft) $(l)instead of Essentia Cells + Cables$() to feed the Terraformer, avoiding cabling clutter."
+    },
+    {
+      "type": "text",
+      "text": "$(l)The Superenchanted Flux-Infused Bow is highly effective in Chapter 5$() and remains viable until Vethea, where the Vethea Binding makes most weapons obsolete."
+    }
+  ]
+}

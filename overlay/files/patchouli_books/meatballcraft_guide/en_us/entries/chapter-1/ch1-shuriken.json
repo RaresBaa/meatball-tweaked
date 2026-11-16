@@ -1,0 +1,32 @@
+{
+  "name": "Tinkers' Weapons: the Shuriken",
+  "icon": "tconstruct:shuriken",
+  "category": "chapter-1",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The $(l)Shuriken$() is the go-to early weapon. See Tinkers' Builds for full builds."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Target build:$() Dragon Bone (put it first so repairs are easy until it's unbreakable), Enderium, Fluxed Electrum, and Terrasteel or Red Matter, with $(l)Nickel embossment$(), which makes every hit a crit."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Make it $(l)unbreakable$() (5 Reinforced modifiers, applied one at a time), level it up, then add as much Nether Quartz as you can.$(li)Each throw costs durability. Throws that miss can be picked back up.$(li)$(l)Don't$() add paper or Magical Wood just for modifier slots."
+    },
+    {
+      "type": "text",
+      "text": "Tool XP comes quickly, and Magical Wood's $(o)Magically Brittle$() trait can break even an unbreakable tool.$(li)Easier materials: Fluxed Electrum = silver + gold + redstone. Enderium needs platinum (from nickel/iridium byproducts)."
+    },
+    {
+      "type": "text",
+      "text": "Terrasteel is possible in Chapter 1 with a dozen Endoflames and half a mana pool."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Shurikens shred Ice & Fire dragons but are weak against the Ender Dragon.$(li)Katanas also work well. Tinkers' armor is mediocre.$(li)Found a dragon skeleton? Keep right-clicking it for $(l)dragon bones$(), which make strong budget weapons."
+    }
+  ]
+}

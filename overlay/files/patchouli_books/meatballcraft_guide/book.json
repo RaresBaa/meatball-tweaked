@@ -1,0 +1,8 @@
+{
+  "name": "MeatballCraft Guide",
+  "landing_text": "Tips for MeatballCraft: chapter walkthroughs, automation, storage and the bigger mods.$(br2)Entries marked as spoilers start with a warning page.",
+  "version": 1,
+  "show_progress": false,
+  "creative_tab": "misc",
+  "model": "patchouli:book_green"
+}

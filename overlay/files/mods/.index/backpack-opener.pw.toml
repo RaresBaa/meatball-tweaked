@@ -1,0 +1,21 @@
+filename = 'bpopener-1.1.0.jar'
+name = 'Backpack Opener'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bpopener-1.1.0.jar'
+
+[download]
+hash = '67e76f631ba743fb0b9cdf94aa8089904b5752f5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7017913
+project-id = 1147522
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'REQUIRED'

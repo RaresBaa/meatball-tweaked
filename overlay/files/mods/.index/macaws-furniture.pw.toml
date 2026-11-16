@@ -1,0 +1,17 @@
+filename = 'mcw-furniture-1.0.1-mc1.12.2beta.jar'
+name = 'Macaws Furniture'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mcw-furniture-1.0.1-mc1.12.2beta.jar'
+
+[download]
+hash = '98736df44b0f4df25adccdb8164cbc1d5cc24acc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2909603
+project-id = 359540

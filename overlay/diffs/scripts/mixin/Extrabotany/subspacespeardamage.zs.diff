@@ -1,0 +1,11 @@
+--- a/scripts/mixin/Extrabotany/subspacespeardamage.zs
++++ b/scripts/mixin/Extrabotany/subspacespeardamage.zs
+@@ -3,7 +3,7 @@
+ 
+ import native.com.meteor.extrabotany.common.item.relic.ItemSpearSubspace;
+ 
+-#mixin {value: "com.meteor.extrabotany.common.item.relic.ItemSpearSubspace"}
++#mixin {targets: "com.meteor.extrabotany.common.item.relic.ItemSpearSubspace"}
+ zenClass MixinItemSpearSubspace {
+     #mixin Static
+     #mixin ModifyConstant

@@ -1,0 +1,69 @@
+--- a/scripts/SKTweaks/ModularFridge.zs
++++ b/scripts/SKTweaks/ModularFridge.zs
+@@ -29,8 +29,8 @@
+ 
+ var MACHINE as string = "large_fridge";
+ MachineModifier.setMaxThreads(MACHINE,8);
+-MachineModifier.addCoreThread(MACHINE,FactoryRecipeThread.createCoreThread("冷却模块"));
+-<modularmachinery:large_fridge_factory_controller>.addTooltip(format.red("冷却液只能从后方输入！"));
++MachineModifier.addCoreThread(MACHINE,FactoryRecipeThread.createCoreThread("Cooling Module"));
++<modularmachinery:large_fridge_factory_controller>.addTooltip(format.red("Coolant can only be input from the back!"));
+ 
+ 
+ 
+@@ -44,15 +44,15 @@
+     builder.setMaxThreads(1);
+     builder.addFluidInput(FluidInput).setTag("coolant_input");
+     builder.addRecipeTooltip(
+-        "§b[冷却液输入]",
+-        "§r输入 §6"+FluidInput.displayName+"§r,",
+-        "§r为§b冷却模块§r提供§9 "+CoolantAmount+" §r点§b§l冷值"
++        "§b[Coolant Input]",
++        "§rInput §6"+FluidInput.displayName+"§r,",
++        "§rGives the §bCooling Module§r §9"+CoolantAmount+" §rpoints of §b§lcold"
+         );
+     builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
+         val data = event.controller.customData;
+         val actualInput = (Get_CustomData_long(data,"ColdCharge",0)+CoolantAmount);
+         if (actualInput > 9223372036854775807) {
+-            event.setFailed("冷值存储已达极限！");
++            event.setFailed("Cold storage is at its limit!");
+         }
+     });
+     builder.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+@@ -62,7 +62,7 @@
+         val newData = data + ({ "ColdCharge": New_Coolant } as IData);
+         ctrl.customData = newData;
+     });
+-    builder.setThreadName("冷却模块");
++    builder.setThreadName("Cooling Module");
+     builder.build();
+ }
+ val FluidValues as int[ILiquidStack]$orderly = {
+@@ -110,13 +110,13 @@
+         builder.addFluidOutput(FluidOutput);
+     }
+     builder.addRecipeTooltip(
+-        "§9[冷却模块]",
+-        "需要§9 " + CoolantAmount + " §r点冷值"
++        "§9[Cooling Module]",
++        "Needs §9" + CoolantAmount + " §rpoints of cold"
+         );
+     builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
+         val data = event.controller.customData;
+         if ((Get_CustomData_long(data,"ColdCharge",0)) < (CoolantAmount)) {
+-            event.setFailed("冷值不够！");
++            event.setFailed("Not enough cold!");
+         }
+     });
+     builder.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+@@ -195,7 +195,7 @@
+     val data = ctrl.customData;
+     var Coolant = Get_CustomData_long(data, "ColdCharge", 0);
+     var info as string[] = [];
+-    info += "§3║§6✦§b 稍微大一点的冰箱 §f| §7v1.0 ";
+-    info += "§3║§b▸§a 冷值 §f| §9" + Coolant;
++    info += "§3║§6✦§b Slightly-Larger Fridge §f| §7v1.0";
++    info += "§3║§b▸§a Cold §f| §9" + Coolant;
+     event.extraInfo = info;
+ });

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1942763537
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oKill the creature shown.\u00a7r\n\nKill a Warlord, the bandit leader found in Atum camps.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "atum:brigand_shield"
+      },
+      "name:8": "Lawbringer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1923198747,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "atum:golden_date"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 20,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "atum:warlord",
+      "required:3": 1,
+      "ignoreNBT:1": 1,
+      "subtypes:1": 1,
+      "index:3": 0
+    }
+  }
+}

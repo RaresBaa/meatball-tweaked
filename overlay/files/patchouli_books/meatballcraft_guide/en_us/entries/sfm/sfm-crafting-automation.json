@@ -1,0 +1,40 @@
+{
+  "name": "Recipe Notes",
+  "icon": "bloodmagic:soul_forge",
+  "category": "sfm",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Illuminated Enchanter: the script is slot-specific; inputs must go in the exact order with identical labels. Use high input rates and an ME output interface."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Vis pods: push from the crystals only when complete (3392 = 53×64, one stack of every pod type): $(5)IF importInterface HAS =3392 AND podInput HAS =0$(), then $(5)INPUT FROM importInterface OUTPUT TO podInput$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Passive alloy furnaces: one timed loop per recipe with offsets ($(5)EVERY 10 SECONDS DO$(), $(5)EVERY 10+1 SECONDS DO$()).$(li)Skip ContentTweaker items with $(5)INPUT EXCEPT contenttweaker:* FROM <container>$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)TARDIS Fusion Crafting injectors: a redstone pulse trigger with input checks and spaced timers (e.g., $(5)EVERY 20 TICKS$(), $(5)EVERY 4 SECONDS$()) runs at as little as 0.04 mspt; buffer outputs so a craft finishes before resetting."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Hellfire Forge: one ME interface in blocking (not locking) mode, four chests (N/E/S/W), four Scripted Managers, and one will-filled gem per forge as a placeholder that goes back to ME after crafting."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ingots from a Drawer Controller: $(5)INPUT WITH TAG #ingot*Base FROM drawer_controller$() plus $(5)INPUT contenttweaker:* FROM drawer_controller$(), then output to the interface."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Rolling Machine (Mangalium plates): check that input slots 0–4 and 27–31 are empty, then $(5)INPUT 360 thermalfoundation:material@132$(), $(5)INPUT 180 nuclearcraft:dust@7$(), $(5)OUTPUT TO rolling_machine_in$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Essence for Sequence Fabricators: no item name filters, fill fully about every 128 ticks (the max with 6 aux coils), and $(5)RETAIN$() so the source never empties.$(li)Manyullyn: read the fluid name from a filled bucket's NBT (anvil or NBT viewer) to script it."
+    }
+  ]
+}

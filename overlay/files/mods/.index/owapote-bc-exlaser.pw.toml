@@ -1,0 +1,18 @@
+filename = 'bc_ex_laser-2.1.2.jar'
+name = 'BuildCraft EXLaser'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bc_ex_laser-2.1.2.jar'
+
+[download]
+hash = 'be20931c0fa062c01e86dbed763bfad6a7ce3048'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7143930
+project-id = 1340995

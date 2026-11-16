@@ -1,0 +1,40 @@
+{
+  "name": "Bosses and Structures",
+  "icon": "cyclicmagic:spikes_diamond",
+  "category": "chapter-4",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The Army Block only spawns the boss after $(o)all$() mobs in the army are defeated; missed wandering mobs prevent the boss from appearing."
+    },
+    {
+      "type": "text",
+      "text": "If the block stops spawning mobs, one mob is likely still alive—use Diamond Spikes on a platform to kill them instantly.$(li)To cheese AoA boss fights (e.g., Baroness), build a 3-block-tall box around the altar to trap the boss, preventing attacks and invulnerability triggers."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Skeletron in Precasia spawns only after enough skeletal mobs are killed in waves; the boss is the final wave. Clear earlier waves fully: if enough mobs from a previous wave are still alive, the next wave won't spawn."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Statues in the Iridescent Altar do not render (appear invisible); solve this by placing all 8 statues in relays—visible ingredients will indicate which statue slots need filling.$(li)Red-eyed Abyssal zombies (not orange-eyed) drop Red Eyes;"
+    },
+    {
+      "type": "text",
+      "text": "use a non-Fortune tool (Fortune reduces drop rate), and break/replace them until the drop occurs.$(li)Against Barathos saberbacks, equip the Brave Bow with a quiver in your inventory (do not empower it), or use high-damage shurikens."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Custom structures on Lelyetia spawn at the bottom of the world (Y=0); use a jetpack or Hover Boots to navigate there.$(li)Some structures (e.g., Skeletal Army Arena in Precasia) have low or unreliable worldgen—expect them to appear as simple pillars instead of full arenas."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To locate missing Rhenia puzzle items, obliterate structures with a Morning Star or use an RFTools Inventory Scanner to quickly find chests.$(li)Draconic Armor’s damage reduction only activates when it has energy;"
+    },
+    {
+      "type": "text",
+      "text": "without sufficient energy transfer and storage, it may not prevent one-shot kills from Chapter 4 minibosses—consider Mithminite or Sacrifice Armor instead."
+    }
+  ]
+}

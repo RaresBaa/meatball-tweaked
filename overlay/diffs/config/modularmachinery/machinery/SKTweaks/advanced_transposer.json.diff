@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/SKTweaks/advanced_transposer.json
++++ b/config/modularmachinery/machinery/SKTweaks/advanced_transposer.json
+@@ -9,7 +9,7 @@
+             "x": 0,
+             "y": 4,
+             "z": 2,
+-            "description": "x16并行",
++            "description": "x16 parallel",
+             "modifiers": [
+                 {
+                     "io": "output",

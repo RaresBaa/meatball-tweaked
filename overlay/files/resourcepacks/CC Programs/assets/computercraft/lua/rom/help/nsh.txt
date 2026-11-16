@@ -1,0 +1,11 @@
+nsh (netshell)
+
+Remote shell: control one computer from another over rednet. Inside a session, get/put copy files.
+
+Usage: nsh host            (on the computer to control)
+nsh <id>            (on the controlling computer)
+
+Needs: modem
+
+By Lyqyd. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

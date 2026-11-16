@@ -1,0 +1,28 @@
+{
+  "name": "Materials: Steel and Brain Fluids",
+  "icon": "contenttweaker:trinity_ingot",
+  "category": "chapter-10",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Steel$()$(li)Steel takes a lot of alloy smelters: one player ran four on it and very few on anything else."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Brain fluid lines need careful planning$()$(li)Ensure neutral spirit is available before starting brain fluid production—it halts otherwise.$(li)Use two 10k recipes to reach the next tier (e.g., 10k → 10k → 100k), not a direct 100k jump—it doubles resource needs."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Upgrade fluid throughput early: replace EnderIO conduits with lasers for faster brain juice transfer."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Boss drops and other setups$()$(li)Anihilation planes may break tanks and drop items—use ME Interface + storage bus or XNet sensor for reliable fluid extraction.$(li)Fake players do not trigger the World Corrupting Meatball boss drop—use real players or passive farming."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A Scorching Heat Pickaxe converts boss statues to Divine Shards efficiently, despite seeming counterintuitive.$(li)Brain passive setups consume significant space—plan extra platforms or reorganize to accommodate future passives."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Getting Started: Copy, Paste, and Basic Settings",
+  "icon": "buildinggadgets:buildingtool",
+  "category": "copypaste-gadget",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)If placed blocks all face the direction you were looking, rotation lock is on: press $(l)[K]$() to change or reset it."
+    }
+  ]
+}

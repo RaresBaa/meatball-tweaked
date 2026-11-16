@@ -1,0 +1,8 @@
+cash
+
+Bourne-style shell with pipes, variables and scripting.
+
+Usage: cash
+
+By JackMacWindows. License: unspecified.
+Source: https://github.com/MCJack123/cash

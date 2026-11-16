@@ -1,0 +1,11 @@
+--- a/scripts/SKTweaks/large_scale_hypergrowth.zs
++++ b/scripts/SKTweaks/large_scale_hypergrowth.zs
+@@ -29,7 +29,7 @@
+ //     MachineModifier.addCoreThread(MACHINE, thread);
+ // }
+ // MachineModifier.setInternalParallelism("large_scale_chicken_farm", 4);
+-<modularmachinery:large_scale_hypergrowth_insolator_factory_controller>.addTooltip(format.gold("内置额外32线程！"));
++<modularmachinery:large_scale_hypergrowth_insolator_factory_controller>.addTooltip(format.gold("Built-in extra 32 threads!"));
+ 
+ 
+ 

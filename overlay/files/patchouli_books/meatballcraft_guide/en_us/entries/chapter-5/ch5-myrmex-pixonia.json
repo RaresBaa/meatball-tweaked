@@ -1,0 +1,40 @@
+{
+  "name": "Myrmex and Pixonia",
+  "icon": "iceandfire:myrmex_desert_egg",
+  "category": "chapter-5",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(4)$(l)Spoiler!$()$(br2)This entry gives away a puzzle solution. Turn the page only if you want to see it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Myrmex clover patches spawn only in the Cherry Blossom Grove biome.$(li)The Myrmex dimension is laggy, so don't linger there. If you summon the Myrmex Queen, kill her: left alive she causes lots of lag."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Myrmex structures include one yielding Myrmite, one or two with biome focus, and others providing Myrmex Resin (useful for Soul Accumulators)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not automate astral water production early; wait until after completing Pixonia and acquiring celestial crystals and whispering starlight."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Pixon mobs die instantly when scoped with a Stone Bowl—even with Regeneration III—so regeneration upgrades are unnecessary for survival in this context."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To start mythic replicators, make 4–8 stacks of garnets using the mythic assembler (via fuel fragments) or wormhole EMC conversion—1 bucket of each fuel yields a full stack of garnets."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use Arcane Bellows on an Infernal Furnace to speed up Heart of Pixonia production and increase meat nugget yield; automate by using a comparator on a chest to detect output fullness and disable the Carminite Empowerer when output space is insufficient for 8 items."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Pixon mobs can be duplicated using a Mob Duplicator (from Create), but manual right-clicking is still required to initiate duplication; fully automatic farms are not viable."
+    }
+  ]
+}

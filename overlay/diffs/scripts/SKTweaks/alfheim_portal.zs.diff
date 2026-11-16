@@ -1,0 +1,34 @@
+--- a/scripts/SKTweaks/alfheim_portal.zs
++++ b/scripts/SKTweaks/alfheim_portal.zs
+@@ -11,17 +11,17 @@
+ 
+ val MACHINE = "alfheim_portal";
+ MachineModifier.setMaxThreads("alfheim_portal", 0);
+-val threadA = FactoryRecipeThread.createCoreThread("§a精灵老王");
+-val threadB = FactoryRecipeThread.createCoreThread("§b精灵老李");
+-val threadC = FactoryRecipeThread.createCoreThread("§c精灵老张");
++val threadA = FactoryRecipeThread.createCoreThread("§aOld Wang the Elf");
++val threadB = FactoryRecipeThread.createCoreThread("§bOld Li the Elf");
++val threadC = FactoryRecipeThread.createCoreThread("§cOld Zhang the Elf");
+ val threadD = FactoryRecipeThread.createCoreThread("? ? ?");
+ MachineModifier.addCoreThread(MACHINE, threadA);
+ MachineModifier.addCoreThread(MACHINE, threadB);
+ MachineModifier.addCoreThread(MACHINE, threadC);
+ MachineModifier.addCoreThread(MACHINE, threadD);
+ MachineModifier.setInternalParallelism("alfheim_portal", 512);
+-<modularmachinery:alfheim_portal_factory_controller>.addTooltip(format.gold("内置额外512并行！"));
+-<modularmachinery:alfheim_portal_factory_controller>.addTooltip(format.gold("有3位精灵愿意和你交易！"));
++<modularmachinery:alfheim_portal_factory_controller>.addTooltip(format.gold("Built-in extra 512 parallel!"));
++<modularmachinery:alfheim_portal_factory_controller>.addTooltip(format.gold("Three elves are willing to trade with you!"));
+ 
+ 
+ 
+@@ -281,7 +281,7 @@
+ RecipeBuilder.newBuilder("explosive_recipe", "alfheim_portal", 20, 1, true)
+     .addItemInput(<minecraft:bread>)
+     .addEnergyPerTickInput(500000)
+-    .addItemOutput(<erebus:dung>.withTag({display: {Lore: ["§4扔你*面包呢"], Name: "§l§c粪便"}}))
++    .addItemOutput(<erebus:dung>.withTag({display: {Lore: ["§4Throw your * bread somewhere else"], Name: "§l§cDung"}}))
+     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+         val ctrl = event.controller;
+         val world = ctrl.world;

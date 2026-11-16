@@ -1,0 +1,21 @@
+filename = 'buildcraft-compat-8.0.0.jar'
+name = 'Buildcraft Compat'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '8.0.0'
+
+[download]
+hash = 'ed150f084326dba7cbe7dae126d430bc63829954'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6376390
+project-id = 233140
+
+[[x-prismlauncher-dependencies]]
+addonId = '231305'
+type = 'REQUIRED'

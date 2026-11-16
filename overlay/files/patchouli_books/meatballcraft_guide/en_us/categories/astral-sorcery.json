@@ -1,0 +1,7 @@
+{
+  "name": "Astral Sorcery",
+  "description": "Tips for Astral Sorcery.",
+  "icon": "astralsorcery:blockcollectorcrystal",
+  "parent": "topics",
+  "sortnum": 8
+}

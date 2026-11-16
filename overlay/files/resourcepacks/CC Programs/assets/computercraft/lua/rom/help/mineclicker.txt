@@ -1,0 +1,12 @@
+Mine Clicker
+
+Idle clicker: dig, buy upgrades, prestige.
+
+Usage: mineclicker
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (45 KB) to /extra/mineclicker. Delete that folder to reset it.
+
+By Sparkwave. License: GPL-3.0.
+Source: https://github.com/Sparkwave2/mine-clicker

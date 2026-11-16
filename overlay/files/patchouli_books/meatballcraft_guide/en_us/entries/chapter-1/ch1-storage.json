@@ -1,0 +1,24 @@
+{
+  "name": "Storage Before AE2",
+  "icon": "rftools:storage_scanner",
+  "category": "chapter-1",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "text",
+      "text": "AE2 comes early in Chapter 2. Until then, keep storage simple.$(li)$(l)Dank/Null:$() set one up as soon as its quest allows and add dirt, cobble, marble and so on. You can stay underground much longer."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Crates < Danks$() for bulk. From Chapter 2 you can make a placeable Dank.$(li)$(l)Sack of Holding + a Large Storage Crate$() is the best early portable storage. The emerald chicken shrine and chicken structures have medium crates."
+    },
+    {
+      "type": "text",
+      "text": "$(li)RFTools $(l)Storage Scanner$() on a drawer controller works well, but it becomes a mess as a general storage interface.$(li)AA Crate Keepers (single use) let you move crates without losing their contents.$(li)Ender Pouch to dump items remotely, and Alchemical Bags later."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Backpacks: the Personal Augmentation tab lists them in order. A Thermal Satchel with Holding is a good start."
+    }
+  ]
+}

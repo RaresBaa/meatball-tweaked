@@ -1,0 +1,54 @@
+--- a/scripts/SKTweaks/dimention_drill.zs
++++ b/scripts/SKTweaks/dimention_drill.zs
+@@ -33,13 +33,13 @@
+ import native.flaxbeard.immersivepetroleum.api.crafting.PumpjackHandler;
+ 
+ val MACHINE = "dimension_drill";
+-val mainThread = FactoryRecipeThread.createCoreThread("矿脉钻头");
++val mainThread = FactoryRecipeThread.createCoreThread("Vein Drill");
+ MachineModifier.addCoreThread(MACHINE, mainThread);
+ MachineModifier.setMaxThreads(MACHINE, 0);
+ MachineModifier.setInternalParallelism(MACHINE, 32);
+-<modularmachinery:dimension_drill_factory_controller>.addTooltip(format.gold("内置32并行！"));
+-<modularmachinery:dimension_drill_factory_controller>.addTooltip(format.gold("这个**玩意在主世界无法读取矿脉"));
+-<modularmachinery:dimension_drill_factory_controller>.addTooltip(format.red("配方运行过一次后才会显示矿脉名称"));
++<modularmachinery:dimension_drill_factory_controller>.addTooltip(format.gold("Built-in 32 parallel!"));
++<modularmachinery:dimension_drill_factory_controller>.addTooltip(format.gold("This ** thing can't read veins in the Overworld"));
++<modularmachinery:dimension_drill_factory_controller>.addTooltip(format.red("The vein name only shows after the recipe has run once"));
+ <ore:orePsi>.add(<contenttweaker:psichic_stone>);
+ 
+ function getOreFromVein(
+@@ -94,7 +94,7 @@
+         builder.addItemInput(item).setChance(0.0);
+     }
+     for i in 0 to tier*tier {
+-        builder.addOutput(<immersiveengineering:metal_multiblock:11>.withTag({display: {Name: "§d§l矿脉挖掘", Lore: ["§6这台机器会根据§4§l沉浸矿脉§6生成产物", "§6如果没有矿脉，则生成圆石"]}})).addItemModifier(function(ctrl as IMachineController, item as IItemStack) as IItemStack {
++        builder.addOutput(<immersiveengineering:metal_multiblock:11>.withTag({display: {Name: "§d§lVein Mining", Lore: ["§6This machine makes products based on §4§lImmersive Engineering veins§6", "§6Without a vein, it makes cobblestone"]}})).addItemModifier(function(ctrl as IMachineController, item as IItemStack) as IItemStack {
+             return getOreFromVein(ctrl, item, multiplier);
+         });
+     }
+@@ -138,7 +138,7 @@
+ );
+ Dimentional_Drill_Recipe_builder(
+     3,
+-    [<avaritia:infinity_pickaxe>.withTag({display: {Lore: ["§d§o极・超限附魔§r"]}})],
++    [<avaritia:infinity_pickaxe>.withTag({display: {Lore: ["§d§oHyper-Limit Enchantment§r"]}})],
+     [],
+     256
+ );
+@@ -146,12 +146,12 @@
+ MMEvents.onControllerGUIRender(MACHINE, function(event as ControllerGUIRenderEvent) {
+     val ctrl = event.controller;
+     if (isNull(ctrl)) return;
+-    var name = "无矿脉";
++    var name = "No vein";
+     val data = ctrl.customData;
+     if (!isNull(data)) {
+         val map = data.asMap();
+         val currentVein = map["current_vein"] as string;
+         if (!isNull(currentVein) && currentVein != "") name = currentVein;
+     }
+-    event.extraInfo = ["§9当前区块矿脉: §a" + name];
++    event.extraInfo = ["§9Vein in this chunk: §a" + name];
+ });
+\ No newline at end of file

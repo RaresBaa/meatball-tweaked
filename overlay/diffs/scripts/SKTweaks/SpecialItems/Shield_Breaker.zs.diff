@@ -1,0 +1,34 @@
+--- a/scripts/SKTweaks/SpecialItems/Shield_Breaker.zs
++++ b/scripts/SKTweaks/SpecialItems/Shield_Breaker.zs
+@@ -31,19 +31,19 @@
+ function clearEntityShields(target as IEntity, player as IPlayer) as bool {
+     val nativeEntity = target.native as Entity;
+     if (isNull(nativeEntity)) {
+-        player.sendChat("§c无法获取实体。");
++        player.sendChat("§cCan't get the entity.");
+         return false;
+     }
+ 
+     val shield = nativeEntity.getCapability(CapabilityList.SHIELDS, null) as IShieldCapability;
+     if (isNull(shield)) {
+-        player.sendChat("§e该实体没有护盾能力。");
++        player.sendChat("§eThis entity has no shield ability.");
+         return false;
+     }
+ 
+     // 关键：检查护盾值是否 > 0
+     if (shield.shieldsLeft() <= 0) {
+-        player.sendChat("§e该实体没有护盾。");
++        player.sendChat("§eThis entity has no shield.");
+         return false;
+     }
+ 
+@@ -51,6 +51,6 @@
+     shield.setShields(0, true);
+     shield.setShields(0, false);
+ 
+-    player.sendChat("§a已清除实体护盾！");
++    player.sendChat("§aEntity shield cleared!");
+     return true;
+ }
+\ No newline at end of file

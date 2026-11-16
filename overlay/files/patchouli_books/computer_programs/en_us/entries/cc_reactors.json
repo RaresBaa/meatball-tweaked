@@ -1,0 +1,20 @@
+{
+  "name": "Reactor Control",
+  "icon": "computercraft:computer",
+  "category": "computercraft",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)drmon$() watches a $(item)Draconic Reactor$(): it keeps the containment field at 50%, and stops the reactor if the field drops below 15%, it overheats past 8000C or fuel runs low.$(br2)See $(l)help drmon$() for the exact setup."
+    },
+    {
+      "type": "text",
+      "text": "Setup: advanced computer with the reactor $(l)stabilizer on its back$() and the $(l)output flux gate on its right$(). Connect the input flux gate and a 3x3 advanced monitor with wired modems.$(br2)Test it on a reactor you can afford to lose first!"
+    },
+    {
+      "type": "text",
+      "text": "$(l)ezreactor$() (EZ-NUKE) runs $(item)Extreme Reactors$() reactors and turbines. Connect their computer ports and 3x2 advanced monitors with wired modems and run it. It balances control rods, energy buffer and turbine RPM by itself."
+    }
+  ],
+  "sortnum": 1
+}

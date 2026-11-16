@@ -1,0 +1,9 @@
+Nyan Cat
+
+A pop-tart cat flying through space on a rainbow. Any key quits.
+
+Usage: nyancat [monitor]  - e.g. 'nyancat top' plays it on a monitor
+
+Needs: advanced computer (colour)
+
+By made for this pack. License: MIT.

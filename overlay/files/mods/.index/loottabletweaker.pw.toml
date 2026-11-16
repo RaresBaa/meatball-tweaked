@@ -1,0 +1,21 @@
+filename = 'LootTableTweaker-1.12.2-1.1.14.jar'
+name = 'LootTableTweaker'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'LootTableTweaker-1.12.2-1.1.14.jar'
+
+[download]
+hash = '80b697c8d8cf49ca8cac6a0a30b8743d3b4891e0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2541554
+project-id = 261339
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'REQUIRED'

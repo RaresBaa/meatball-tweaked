@@ -1,0 +1,44 @@
+{
+  "name": "OpenComputers & CC:Tweaked Automation",
+  "icon": "opencomputers:adapter",
+  "category": "computers",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Modems and peripherals$()"
+    },
+    {
+      "type": "text",
+      "text": "$(li)To interface with non-OC mods (e.g., OCRocketry), place an OpenComputers adapter adjacent to the target block, use $(5)component.list()$() to discover components, wrap them with $(5)component.proxy()$(), and inspect available methods via tab-completion in the Lua console."
+    },
+    {
+      "type": "text",
+      "text": "$(l)AE2 automation pitfalls$()$(li)The AE2 Auto Stocker script is written for OpenComputers (not CC:Tweaked) and is installed via $(5)pastebin get -f ai3msVQD /home/AE2AutoStock.lua$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To avoid blocking AE2 crafting due to rapid successive craft requests, add a short sleep timer (e.g., $(5)os.sleep(0.5)$()) between craft submissions in the OC AE2 Maintainer script."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To detect missing fluids in an ME network, run an OpenComputers script that compares the list of all known fluids (e.g., from $(5)definer_fluids.lua$()) against those present in the ME network obtained via $(5)me_system.getFluidsInNetwork()$()."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Turtle & script tips$()$(li)To mine only fully grown (stage 4) Astral Sorcery celestial crystals with a Mining Turtle, equip a diamond pickaxe in slot 1 via $(5)equip 1 left$() (outside the script), then use a Lua script that inspects the block, checks for $(5)astralsorcery:blockcelestialcrystals$() with $(5)state.stage==4$(), and digs only then."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When removing multiple items from a Lua table during iteration, loop backwards: use $(5)for i = #table, 1, -1 do$() instead of $(5)for i = 1, #table do$() to avoid skipping elements or errors."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To install the OC AE2 Maintainer script, run the following wget commands to fetch config.lua, level_maintainer.lua, craftables.lua, and ae2_helpers.lua from the ynsrkn fork:"
+    },
+    {
+      "type": "text",
+      "text": "$(5)wget https://raw.githubusercontent.com/ynsrkn/OC_AE2_Maintainer/main/config.lua && wget https://raw.githubusercontent.com/ynsrkn/OC_AE2_Maintainer/main/ae2_helpers.lua && wget https://raw.githubusercontent.com/ynsrkn/OC_AE2_Maintainer/main/level_maintainer.lua && wget https://raw.githubusercontent.com/ynsrkn/OC_AE2_Maintainer/main/craftables.lua$()"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Troubleshooting & Optimization",
+  "icon": "appliedenergistics2:wireless_terminal",
+  "category": "tinkers",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Energy Eater & Mana Eater$()$(li)Place your energy source (e.g., thermal capacitor) in your hotbar or inventory to keep Energy Eater active (baubles work too). Flux Networks wireless charging reaches the hotbar best."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Energy Eater consumes RF proportional to damage boost (up to ~2.4×) from your hotbar, inventory, armor or baubles; Mana Eater draws from any mana item in inventory or baubles.$(li)Both traits prevent durability loss $(o)if$() sufficient energy/mana is present;"
+    },
+    {
+      "type": "text",
+      "text": "otherwise, they still consume durability.$(li)To reach full damage multiplier, ensure your energy/mana reserves are high enough—higher capacity sustains the boost during sustained attacks."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tool & Modifier Priorities$()$(li)Apply $(l)Unbreakable$() early—it's usually the first modifier you add (perhaps after luck). If living wood is unavailable, level the tool against high-HP targets to unlock modifier slots."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Avoid Excavate and Scoop on late-game tools: they can destroy conduits, ME controllers, and other critical infrastructure.$(li)Red Morningstar’s wide AoE may accidentally break ME systems and sensitive blocks—use cautiously."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Enchanting & Repair$()$(li)Tinkers armor can be enchanted via the Abyssalcraft Mass Enchant Ritual; weapons require the Mass Enchanter instead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use Botania’s mana enchanter to apply enchantments without XP cost, and the Enchantment Extractor or Lens of Disenchantment to remove them cheaply.$(li)For portable ME access, combine a Draconic Chest with Global Traveller to bind all items to ME."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "The Void World and Your Base",
+  "icon": "simplevoidworld:portal",
+  "category": "chapter-2",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Build your Chapter 2+ base in the Void World.$() Use the $(o)Portal to the Void$() block early in Chapter 2 to access a skyblock-like dimension with no mob spawning (reducing lag), infinite build space, and no terraforming needed."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do $(o)not$() use beds—they explode in the Void World.$(li)Weather and time are tied to the Overworld; control them there to affect the Void.$(li)Repositioning your Overworld portal moves the Void portal correspondingly—plan your layout."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Prioritize early Void Ore Miners.$() They are essential for key ores (Galena, Yellorium, Resonant End, etc.) and should not be delayed.$(li)Set up an Environmental Tech Void Ore Miner before the Modular Machinery void miners, plus the resource miner: its mica is needed for miner upgrades."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Molten Sednanite is required for Void Miner fluid upgrades and may not be obvious from in-game hints alone$(li)Upgrade tiers as soon as possible—T3 is much faster than T1/T2.$(li)Ensure output slots have space (e.g., Redstone Furnace discards items at 63/64)."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Keep infrastructure efficient and stable.$()$(li)Use Ender Chests to move items between Overworld and Void—simple and reliable.$(li)Build farms and laggy setups (e.g., bee farms) in a dedicated area several chunks from your main base."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For Compact Machines, chunk-load either the internal chunk or the placement chunk to keep them active.$(li)Avoid overly compact designs—spread machines across chunks for better performance and maintenance."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use the Builder Wand for larger-range placement instead of the limited Copy-Paste Tool."
+    }
+  ]
+}

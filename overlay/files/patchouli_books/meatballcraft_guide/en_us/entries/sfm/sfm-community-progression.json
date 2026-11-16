@@ -1,0 +1,36 @@
+{
+  "name": "Community Scripts: Gravitite",
+  "icon": "superfactorymanager:manager",
+  "category": "sfm",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "text",
+      "text": "By RagingRevenge. Crafting chains for chapter materials, including gravitite."
+    },
+    {
+      "type": "link",
+      "text": "$(l)EmpoweredGravitite$(): Actually Additions Empowerers and Reconstructor, all five stages. 42 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/EmpoweredGravitite.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)EnchantedGravitite$(): ambrosium, enchanted gravitite and its fluids. 11 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/EnchantedGravitite.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)ExtendedCraftingCore$(): jade, certus dust and clear glass into drawers. 6 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/ExtendedCraftingCore.sfm",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)MarginalMythical$(): moves fluid to a tank and feeds flammable dust and ghostly powder. 5 labels.",
+      "url": "https://raw.githubusercontent.com/RagingRevenge/Meatballcraft-SFM-Scripts/832801a024edf74ff6e265954ccec0cd55e031e0/MarginalMythical.sfm",
+      "link_text": "Open script"
+    }
+  ]
+}

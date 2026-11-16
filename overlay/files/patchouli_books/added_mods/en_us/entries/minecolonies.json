@@ -1,0 +1,11 @@
+{
+  "name": "MineColonies",
+  "icon": "minecolonies:supplychestdeployer",
+  "category": "fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Found a colony, hire citizens and let them build, farm, mine and defend."
+    }
+  ]
+}

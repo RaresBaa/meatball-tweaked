@@ -1,0 +1,52 @@
+{
+  "name": "Script Syntax",
+  "icon": "superfactorymanager:manager",
+  "category": "sfm",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Triggers$()$(li)$(5)EVERY X TICKS DO$() and $(5)EVERY X SECONDS DO$(); there is no $(5)MINUTES$() (use $(5)EVERY 600 SECONDS DO$())."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The second number is an offset inside the interval: $(5)EVERY 600+20 TICKS DO$() runs every 600 ticks, 20 ticks after $(5)EVERY 600 TICKS DO$() would. Keep the offset smaller than the interval.$(li)Nested $(5)IF$()s each need their own $(5)END$(): $(5)IF … THEN … ELSE IF … THEN … END END$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(5)IF drawer HAS < 1000 item THEN … END$() reads drawers directly, so you can stop production at a stock level. Item checks don't see fluid drawers; check fluids separately."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Items and metadata$()$(li)Without a meta, $(5)appliedenergistics2:material$() matches every meta value. Add one only to tell items with the same id apart: $(5)item@1$(), $(5)item WITH @1$() and $(5)item WITH META 1$() are the same.$(li)SFM ignores NBT completely."
+    },
+    {
+      "type": "text",
+      "text": "For NBT items (potions, fluid buckets, vis crystals), move them by slot instead ($(5)INPUT FROM chest SLOT 0$()).$(li)One $(5)INPUT$() can list several items: $(5)INPUT item1, item2 FROM label$().$(li)$(5)INPUT EXCEPT minecraft:stick FROM a$() takes everything except sticks."
+    },
+    {
+      "type": "text",
+      "text": "$(5)EXCEPT$() only takes item ids, no $(5)WITH$(): $(5)INPUT WITHOUT @58 EXCEPT thebetweenlands:rock_snot_pearl$() takes anything without meta 58 that isn't a pearl."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Slots and amounts$()$(li)$(5)SLOT 2$() and $(5)SLOTS 2$() are the same; $(5)SLOTS 0, 2$() is slots 0 and 2 only, $(5)SLOTS 2-3, 5$() mixes ranges and single slots.$(li)$(5)RETAIN$() is per item: $(5)OUTPUT RETAIN 64 item TO label$() keeps the target at 64 of that item; $(5)retain 64$() of \"any item\" doesn't work."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(5)OUTPUT RETAIN N TO EACH label$() fills every target up to N, e.g. to spread fluid evenly. $(5)ROUND ROBIN$() picks $(o)one$() target per run and cycles; it doesn't split items.$(li)When outputting into a single slot, the target's own stack limit applies; you don't need $(5)RETAIN$() for that."
+    },
+    {
+      "type": "text",
+      "text": "$(l)FORGET and redstone$()$(li)$(5)FORGET$() makes SFM forget all earlier $(5)INPUT$()s. Write $(5)INPUT$(), $(5)OUTPUT$(), $(5)FORGET$() as often as you can.$(li)Fluids: $(5)INPUT fluid:nuclearcraft:nak_hot FROM label$(). Plain $(5)fluid::$() checks every fluid type, so filter it when you can."
+    },
+    {
+      "type": "text",
+      "text": "Conditions can chain sources and slots: $(5)Oxygen, FluidInterface SLOT 1 HAS >= 64000 fluid::$().$(li)The scripted manager can't output redstone (the older SFM2 manager can set a Redstone Emitter's level)."
+    },
+    {
+      "type": "text",
+      "text": "It can react to redstone: $(5)EVERY REDSTONE PULSE DO$() with a clock next to the manager."
+    }
+  ]
+}

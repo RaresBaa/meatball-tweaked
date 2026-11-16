@@ -1,0 +1,18 @@
+filename = 'sfm-1.12.2-4.1.0.jar'
+name = 'Super Factory Manager: Unofficial Backport ( SFM:UB )'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Super Factory Manager (SFM) − 4.1.0'
+
+[download]
+hash = '0ea237146b15c7250ac4edc661a19fd09c132f0e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7492878
+project-id = 1394832

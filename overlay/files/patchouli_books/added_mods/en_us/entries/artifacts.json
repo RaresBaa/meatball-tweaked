@@ -1,0 +1,15 @@
+{
+  "name": "Artifacts",
+  "icon": "artifacts:bottled_cloud",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Baubles such as the Cloud in a Bottle and Lucky Horseshoe. Find them in underground chests below y=45 and in ocean-floor shrines in the Overworld."
+    },
+    {
+      "type": "text",
+      "text": "About 40% of those underground chests are Mimics. Animals can also drop everlasting food."
+    }
+  ]
+}

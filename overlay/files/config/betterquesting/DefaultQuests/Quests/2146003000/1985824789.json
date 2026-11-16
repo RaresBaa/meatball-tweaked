@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1969737828
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oClick the checkbox when done.\u00a7r\n\nApply one of every modifier type using an Imposer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "roots:imposer"
+      },
+      "name:8": "All The Mod(ifier)s 4!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1985824789,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "roots:wildroot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 12,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+filename = 'RecurrentComplexVolts-1.12.2-2.0.0.9.jar'
+name = 'Recurrent Complex Volts'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'RecurrentComplexVolts-1.12.2-2.0.0.9.jar'
+
+[download]
+hash = 'b6cebff1427b2c9ded1c75c33169f15d7a37eb6b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8543203
+project-id = 1505551
+
+[[x-prismlauncher-dependencies]]
+addonId = '224535'
+type = 'REQUIRED'

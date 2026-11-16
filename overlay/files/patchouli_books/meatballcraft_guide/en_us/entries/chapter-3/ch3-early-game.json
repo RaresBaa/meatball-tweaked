@@ -1,0 +1,56 @@
+{
+  "name": "Automation and Progression",
+  "icon": "projecte:rm_furnace",
+  "category": "chapter-3",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Automate Quartz Fiber$() using the Crafting Core with Packaged Automation, mirroring your Basic/Advanced/Elite table automation."
+    },
+    {
+      "type": "text",
+      "text": "Avoid power buffering—running out of power causes immediate failure and makes issues easier to diagnose."
+    },
+    {
+      "type": "text",
+      "text": "For early grinding, use the Industrial Grinder and skip the TNT-based recipe in other Tech Reborn machines to avoid rapid gunpowder consumption."
+    },
+    {
+      "type": "text",
+      "text": "Use XNet or split EnderIO conduit lines to route items to multi-blocks/furnaces; avoid overloading a single extraction line."
+    },
+    {
+      "type": "text",
+      "text": "Configure an Anihilation Plane subnet to only insert peat into bog earth setups; TCK acceleration speeds this up."
+    },
+    {
+      "type": "text",
+      "text": "For Mystical Agriculture, hold Yellorium and Platinum essences instead of crafting them early—use them later for Quantum Bridge or gems."
+    },
+    {
+      "type": "text",
+      "text": "Side-specific furnaces (e.g., Red Matter, Supremium) only accept input/output from designated sides—check JEI or the block model for orientation."
+    },
+    {
+      "type": "text",
+      "text": "To upgrade slow circuit passives, triple their count to meet throughput demands."
+    },
+    {
+      "type": "text",
+      "text": "The first hundred freed Betrayed Souls is a satisfying early milestone and key for automation progression."
+    },
+    {
+      "type": "text",
+      "text": "Don’t automate mythic essences for miners in mid-to-late Chapter 3; rush Sednanite instead for better recipes, and only batch craft essences long enough to obtain Divine Stars."
+    },
+    {
+      "type": "text",
+      "text": "If automation slows unexpectedly, consider chunk loading issues or focus-switch lag—most issues resolve on reload or chunk re-entry."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Spectre coils must be the power-producing variant$()—using the consumption variant for generation will drain power instead of creating it."
+    }
+  ]
+}

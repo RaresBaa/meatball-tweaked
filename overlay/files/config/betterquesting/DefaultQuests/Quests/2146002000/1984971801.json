@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    1937145564,
+    1975124871,
+    1905269075
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nThe universal crafting machine with up to twelve inputs, used throughout NTM. Built on the steel anvil from steel, copper plates, two motors and four vacuum tubes. Needs power and a recipe chosen in its GUI.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_assembly_machine"
+      },
+      "name:8": "Assembly Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1984971801,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:circuit"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "id:8": "hbm:machine_assembly_machine",
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "TrophyName:8": "Assembly Machine",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_assembly_machine"
+        }
+      },
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

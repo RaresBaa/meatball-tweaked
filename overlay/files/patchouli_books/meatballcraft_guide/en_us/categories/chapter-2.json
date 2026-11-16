@@ -1,0 +1,7 @@
+{
+  "name": "Chapter 2 Tips",
+  "description": "Tips for Chapter 2.",
+  "icon": "thermalexpansion:dynamo:5",
+  "parent": "chapters",
+  "sortnum": 2
+}

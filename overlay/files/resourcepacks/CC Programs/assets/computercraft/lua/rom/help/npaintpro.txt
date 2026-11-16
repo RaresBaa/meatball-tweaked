@@ -1,0 +1,10 @@
+nPaintPro
+
+Paint program with layers, animation frames, text and 3D-printing support.
+
+Usage: npaintpro <file>
+
+Needs: advanced computer (colour)
+
+By nitrogenfingers. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

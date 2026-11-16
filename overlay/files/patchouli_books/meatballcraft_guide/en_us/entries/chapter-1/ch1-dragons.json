@@ -1,0 +1,20 @@
+{
+  "name": "Ice & Fire Dragons",
+  "icon": "iceandfire:fire_dragon_heart",
+  "category": "chapter-1",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Dragons are your route to the EMC loop. Fire dragons favour $(l)jungles and forests$().$(li)$(l)Cactus Battlesign trick:$() hide behind an unbreakable Cactus Battlesign. Melee and sea-serpent bubble beams are reflected back."
+    },
+    {
+      "type": "text",
+      "text": "Wear bedrock armor against fire dragons, and spam Shift if one grabs you, to \"dismount\".$(li)No dragon yet? Raid a $(l)dragon's nest$(). The chests can hold a Botanical Catalyst (1M EMC) and Catalyzing Glands.$(li)To hunt a specific tier, use the scanner or Super Mob Tracker."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Infinite fire dragon hearts:$() capture a dragon with a Mob Imprisonment Tool and duplicate it. The copies spawn at random ages, from stage 1 to stage 5. $(l)Never do this near your base.$()$(li)Dragons can wander through Dimensional Doors."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Biome Puzzle Solution",
+  "icon": "minecraft:grass",
+  "category": "chapter-4",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(4)$(l)Spoiler!$()$(br2)This entry gives away a puzzle solution. Turn the page only if you want to see it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For the Thaumcraft Arcane Terraformer biome puzzles, use a 5×5 pattern: corners and center as ominous woods, rest volcanic (XOX / OXO / XOX).$(li)Use a radius of 2 (5×5 area) for the puzzle;"
+    },
+    {
+      "type": "text",
+      "text": "stand in the center after terraforming to complete it.$(li)To terraform small shapes (e.g., a plus sign), use the Arcane Terraformer with a biome focus and ensure Vis, Impetus, and Essentia are supplied."
+    }
+  ]
+}

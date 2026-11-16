@@ -1,0 +1,17 @@
+filename = 'immersivetech-1.12-1.3.10.jar'
+name = 'Immersive Tech'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'immersivetech-1.12-1.3.10.jar'
+
+[download]
+hash = 'db87cdb932c62354851bb9391614897c10ef07c7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2568579
+project-id = 274159

@@ -1,0 +1,28 @@
+{
+  "name": "Performance",
+  "icon": "minecraft:redstone_torch",
+  "category": "automation",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Big TPS offenders: TR machines, Cyclic, itemducts, and large conduit bundles.$(li)Keep auto-farms outside every player's render distance (e.g., in Compact Machines or the Void Dimension)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Don't put XU Mechanical Users next to SFM inventory managers, their cables, or AE2 cables—it causes severe lag.$(li)To reduce AE2 lag from many storage buses: subnet the drawer walls, use partitioned or void cells, and keep drives in extract-only subnets."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Autoinfuser speed upgrade gives +80% speed (1.8×), not 80×.$(li)Use Immersive Engineering chutes instead of Open Crates for item transport—Open Crates cause measurable lag while idle.$(li)Avoid over-relying on Subnet Proxies;"
+    },
+    {
+      "type": "text",
+      "text": "they only help with cell count and channel management, not raw performance, and may slightly increase lag.$(li)For Ender IO conduits: minimize item types per channel, avoid filtering at output blocks (use EIO filters instead), and bundle conduits sparingly."
+    },
+    {
+      "type": "text",
+      "text": "Consider replacing energy conduits with Draconic Evolution wireless crystals."
+    }
+  ]
+}

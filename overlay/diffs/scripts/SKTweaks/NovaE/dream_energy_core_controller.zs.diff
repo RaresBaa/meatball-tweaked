@@ -1,0 +1,16 @@
+--- a/scripts/SKTweaks/NovaE/dream_energy_core_controller.zs
++++ b/scripts/SKTweaks/NovaE/dream_energy_core_controller.zs
+@@ -25,7 +25,7 @@
+     2560000000,
+     0
+ );
+-<modularmachinery:dream_energy_core_factory_controller>.addTooltip(format.gold("用于存储能量"));
+-<modularmachinery:dream_energy_core_factory_controller>.addTooltip(format.gold("用智能数据接口来确定输入/输出速度"));
+-<modularmachinery:dream_energy_core_factory_controller>.addTooltip(format.gold("存储近乎无限的RF！"));
+-<modularmachinery:dream_energy_core_factory_controller>.addTooltip(format.green("感谢Hikari_Nova的授权！"));
+\ No newline at end of file
++<modularmachinery:dream_energy_core_factory_controller>.addTooltip(format.gold("Stores energy"));
++<modularmachinery:dream_energy_core_factory_controller>.addTooltip(format.gold("Set input/output speed with a Smart Data Interface"));
++<modularmachinery:dream_energy_core_factory_controller>.addTooltip(format.gold("Stores nearly infinite RF!"));
++<modularmachinery:dream_energy_core_factory_controller>.addTooltip(format.green("Thanks to Hikari_Nova for the permission!"));
+\ No newline at end of file

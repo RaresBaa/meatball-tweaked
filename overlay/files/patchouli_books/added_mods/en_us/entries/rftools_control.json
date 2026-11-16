@@ -1,0 +1,11 @@
+{
+  "name": "RFTools Control",
+  "icon": "minecraft:comparator",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Program processors with a visual language to control machines and automation."
+    }
+  ]
+}

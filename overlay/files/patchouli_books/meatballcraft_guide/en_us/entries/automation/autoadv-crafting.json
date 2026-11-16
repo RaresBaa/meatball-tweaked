@@ -1,0 +1,28 @@
+{
+  "name": "Crafting Without AE2 Patterns",
+  "icon": "thermalexpansion:machine:11",
+  "category": "automation",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Automate crafting tables with an RFTools Crafter in extC mode and a pattern terminal (recipe pattern only, no crafting table in the pattern)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For recipes with a reusable item (e.g., tools), use Modular Routers or ME patterns in processing mode so the reusable item stays in the inventory."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For non-EMC recipes, Thermal Sequential Fabricators beat RFTools Crafters: they take an augment that guarantees buffer space and are lighter on TPS; crafters struggle with recipes that re-insert outputs (e.g., torcherino++, leather crafts)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Sequential Fabricator: set one side to $(l)'anything-goes'$(), extract from it with XNet (leaving the required inputs), and return output via Item P2P (output→input only) or auto-input with the pattern validation augment."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Recursive recipes in RFTools Crafters: (1) reusable items: encode the pattern without the reusable item and set the recipe to ExtC; (2) consumed items: loop one output back into the crafter, or set two recipes (Int + ExtC) so sending two sets triggers two crafts, dupe once, and keep the output inside."
+    }
+  ]
+}

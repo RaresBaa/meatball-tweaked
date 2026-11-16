@@ -1,0 +1,11 @@
+{
+  "name": "Defiled Lands",
+  "icon": "defiledlands:umbrium_ingot",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Corrupted biomes with their own mobs, gear and bosses. Corruption can spread."
+    }
+  ]
+}

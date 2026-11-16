@@ -1,0 +1,50 @@
+--- a/scripts/SKTweaks/lib/aaa_function.zs
++++ b/scripts/SKTweaks/lib/aaa_function.zs
+@@ -336,7 +336,7 @@
+     for fluid in fluidOutputs {
+         builder.addFluidOutput(fluid);
+     }
+-    builder.addRecipeTooltip("§c配方需要§6顺序输入§c！！§r");
++    builder.addRecipeTooltip("§cThis recipe needs §6ordered input§c!!§r");
+     builder.setMaxThreads(1);
+     builder.build();
+ };
+@@ -576,14 +576,14 @@
+ global DE_Energy_PreCheck as function(RecipeCheckEvent, BigInteger) bool = function(event as RecipeCheckEvent, EnergyInput as BigInteger) as bool {
+     val ctrl = event.controller as IMachineController;
+     if (!Check_DE_Core_Exist(ctrl)) {
+-        event.setFailed("未连接梦之能量核心！");
++        event.setFailed("Not connected to a Dream Energy Core!");
+         return false;
+     }
+     if (EnergyInput.compareTo(BigInteger("0")) <= 0) return true;
+ 
+     val energy = Get_DE_Energy(ctrl);
+     if (energy.compareTo(EnergyInput) < 0) {
+-        event.setFailed("能量不足！");
++        event.setFailed("Not enough energy!");
+         return false;
+     }
+ 
+@@ -650,10 +650,10 @@
+     val builder = RecipeBuilder.newBuilder(recipeName, machineName, time);
+     var Energy_tooltip = "";
+     if (energyInput.compareTo(BigInteger("0"))>0) {
+-        Energy_tooltip = "§e需要 RF：§6" + formatBigNumber_not_recursive(energyInput);
++        Energy_tooltip = "§eRequires RF: §6" + formatBigNumber_not_recursive(energyInput);
+     }
+     if (energyOutput.compareTo(BigInteger("0"))>0) {
+-        Energy_tooltip = "§eRF 输出：§6" + formatBigNumber_not_recursive(energyOutput);
++        Energy_tooltip = "§eRF output: §6" + formatBigNumber_not_recursive(energyOutput);
+     }
+     builder.setMaxThreads(1);
+         // 物品输入
+@@ -720,7 +720,7 @@
+         });
+     }
+     builder.addRecipeTooltip(
+-        "§a梦之§b能量核心§6连接:",
++        "§aDream §bEnergy Core §6link:",
+         Energy_tooltip
+         );
+     builder.build();

@@ -1,0 +1,18 @@
+{
+  "name": "Community Tools",
+  "icon": "opencomputers:keyboard",
+  "category": "oc_tools",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Two more packages from $(l)dyc3/meatballcraft-infra$(); register it first (see NuclearCraft Monitoring).$(li)$(l)oppm install explore$(): browse components, their methods and docs$(li)$(l)oppm install provision-drive$(): set up a new server drive with OpenOS and OPPM. It erases the drive you pick."
+    },
+    {
+      "type": "link",
+      "text": "$(l)E-Tank Fluid Manager$() by mantikafasi (from peachey2k2): a searchable list of which fluid is on which colour frequency. Needs MineOS.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/etanks.lua",
+      "link_text": "Open script"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+--- a/scripts/mixin/aoa3/MaterialRegisterBuffs.zs
++++ b/scripts/mixin/aoa3/MaterialRegisterBuffs.zs
+@@ -7,7 +7,7 @@
+ See StatsConfig.zs in this folder for values.
+ */
+ 
+-#mixin {value: "net.tslat.aoa3.common.registration.MaterialsRegister"}
++#mixin {targets: "net.tslat.aoa3.common.registration.MaterialsRegister"}
+ zenClass MixinWeaponRegister {
+   #mixin Definition
+   #{

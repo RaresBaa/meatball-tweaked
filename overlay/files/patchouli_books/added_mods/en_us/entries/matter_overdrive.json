@@ -1,0 +1,11 @@
+{
+  "name": "Matter Overdrive",
+  "icon": "matteroverdrive:tritanium_ingot",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Tritanium tech: androids, phasers and energy weapons, the Transporter, and a fusion reactor built around gravitational anomalies. Matter replication is disabled in this pack, and anomalies pull you in but do not break blocks."
+    }
+  ]
+}

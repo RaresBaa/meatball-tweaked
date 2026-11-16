@@ -1,0 +1,20 @@
+--- a/config/modularmachinery/machinery/SKTweaks/machine_daisy.json
++++ b/config/modularmachinery/machinery/SKTweaks/machine_daisy.json
+@@ -9,7 +9,7 @@
+             "y": 1,
+             "z": 0,
+             "elements": "contenttweaker:charged_draconium_block",
+-            "description": "配方速度x20",
++            "description": "Recipe speed x20",
+             "modifier": {
+                 "io": "input",
+                 "target": "modularmachinery:duration",
+@@ -22,7 +22,7 @@
+             "y": 1,
+             "z": 0,
+             "elements": "botania:pool@1",
+-            "description": "95%RF消耗减免",
++            "description": "95% less RF used",
+             "modifier": {
+                 "target": "modularmachinery:energy",
+                 "io": "input",

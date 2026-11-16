@@ -1,0 +1,12 @@
+Rubik's Cube
+
+A playable 3D Rubik's Cube.
+
+Usage: rubikscube
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (77 KB) to /extra/rubikscube. Delete that folder to reset it.
+
+By Michiel. License: unspecified.
+Source: https://github.com/MichielP1807/CC-Rubiks-Cube

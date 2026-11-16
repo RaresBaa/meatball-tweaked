@@ -1,0 +1,29 @@
+filename = 'morphoverlay-1.0.1.jar'
+name = 'MorphOverlay'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'morphoverlay-1.0.1.jar'
+
+[download]
+hash = 'c406a5319bd6a424d6254ee3ca27199084efb84a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6902995
+project-id = 1329068
+
+[[x-prismlauncher-dependencies]]
+addonId = '250577'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245287'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '923677'
+type = 'OPTIONAL'

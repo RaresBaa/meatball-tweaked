@@ -1,0 +1,32 @@
+{
+  "name": "AE2, XNet and Automation",
+  "icon": "appliedenergistics2:interface",
+  "category": "chapter-6",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Use blocking mode for safe extraction$()$(li)Turn on blocking mode on the pattern interface (optionally feeding a buffer inventory) so a machine gets no new inputs until it's done with the last batch"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Draconic automation needs special handling$()$(li)AE2 autocrafting won’t automatically use compacting drawers to convert fuel dusts into regular dusts"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Create explicit patterns for tiny → regular dust conversion, but expect occasional extraction errors due to compacting drawer quirks$(li)For Draconic injectors and similar multi-step recipes, use Position Packages to package full input/output sequences"
+    },
+    {
+      "type": "text",
+      "text": "$(l)XNet for tricky fluid control$()$(li)When multiple recipes share ingredients (e.g., Cleansing Balm and Demonic Elixir), use XNet to lock outputs$(li)Leave ~1 mB of each target fluid in the output buffer—this prevents the phasing still from crafting the cheaper alternative"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Learn XNet early; it makes automation much more reliable$(br2)$(l)Never use item P2Ps for berserker forge loops$()$(li)Item P2Ps cause item voiding in berserker forge automation loops"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fluid scaling reminder$()$(li)In the MSR tab, the only valid scaling recipe is 144 mB → 1 bucket$(li)Using the wrong recipe in automation can break fluid balance and cause unexpected shortages"
+    }
+  ]
+}

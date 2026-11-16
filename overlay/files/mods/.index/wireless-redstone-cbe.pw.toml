@@ -1,0 +1,25 @@
+filename = 'WR-CBE-1.12.2-2.3.2.33-universal.jar'
+name = 'Wireless Redstone CBE'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Wireless Redstone CBE 1.12.2-2.3.2.33-universal'
+
+[download]
+hash = '0bab1c02f1fde38f3cc184d12127ee5eafef7395'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2755798
+project-id = 260824
+
+[[x-prismlauncher-dependencies]]
+addonId = '242818'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '258426'
+type = 'REQUIRED'

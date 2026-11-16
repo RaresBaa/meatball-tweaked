@@ -1,0 +1,28 @@
+{
+  "name": "Puzzles (Spoilers)",
+  "icon": "minecraft:flint_and_steel",
+  "category": "chapter-1",
+  "sortnum": 24,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(4)$(l)Spoiler!$()$(br2)This entry gives away a puzzle solution. Turn the page only if you want to see it."
+    },
+    {
+      "type": "text",
+      "text": "Chapter 1 has optional puzzles, such as the $(l)Alchemical Mushroom$() and the $(l)Furnace Dimension$(). You don't need them now, and they're easier in Chapter 2. Some puzzle rewards are useful much later:$(li)The Furnace puzzle gives better furnaces."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Chapter 3 puzzles are required for Chapter 5/6.$(li)Shell puzzles (Chapter 4+) are required for Chapter 9.$(li)The Lynderwyrm puzzle unlocks Draconic armor.$(br2)If you get stuck, the questbook can show each puzzle's solution."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Furnace Dimension hints:$()$(li)The $(o)Everburning Furnace$() answer: Nether Brick, Nether Brick, Nether Brick, Nether Roof.$(li)One clue sits in a Nether-roof nether-brick structure with a skull. It points to a $(l)Demonically Gargantuan tank/drum of Netherite$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The $(l)Portable Furnace$() is in the big Overworld furnace house, in a single-chest room reached through trapdoors and ladders.$(li)Farming the ~456k Netherite: Watcher summons in a 5x5x5 Nether room with a Mechanical User and Mob Crusher. It's under 10 hours of AFK."
+    }
+  ]
+}

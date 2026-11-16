@@ -1,0 +1,13 @@
+--- a/scripts/SKTweaks/machine_dasiy.zs
++++ b/scripts/SKTweaks/machine_dasiy.zs
+@@ -2,8 +2,8 @@
+ import mods.modularmachinery.MachineModifier;
+ 
+ MachineModifier.setInternalParallelism("machine_daisy", 64);
+-<modularmachinery:machine_daisy_controller>.addTooltip(format.gold("内置64并行！"));
+-<modularmachinery:machine_daisy_controller>.addTooltip(format.gold("蕴魔土上方不要放置方块！"));
++<modularmachinery:machine_daisy_controller>.addTooltip(format.gold("Built-in 64 parallel!"));
++<modularmachinery:machine_daisy_controller>.addTooltip(format.gold("Don't place blocks above the Enchanted Soil!"));
+ // 64并行
+ function machine_daisy_recipe_builder(
+     recipeName as string,

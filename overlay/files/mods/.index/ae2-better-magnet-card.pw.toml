@@ -1,0 +1,25 @@
+filename = 'BetterMagnetCard-1.2.2.jar'
+name = 'AE2 Better Magnet Card'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BetterMagnetCard-1.2.2.jar'
+
+[download]
+hash = '898f0f999e7ad2246329338fb3f9d65b51332842'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8490176
+project-id = 1475753
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '570458'
+type = 'REQUIRED'

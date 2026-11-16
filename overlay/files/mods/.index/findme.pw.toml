@@ -1,0 +1,21 @@
+filename = 'findme-1.12.2-1.1.0-8.jar'
+name = 'FindMe'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'findme-1.12.2-1.1.0-8.jar'
+
+[download]
+hash = '7c283c18b3a6f2567c2f4cbf49b4bafafbb1dc82'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2682853
+project-id = 291936
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'REQUIRED'

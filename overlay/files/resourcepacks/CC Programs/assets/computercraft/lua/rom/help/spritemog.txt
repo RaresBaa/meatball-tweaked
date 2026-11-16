@@ -1,0 +1,10 @@
+SpriteMog
+
+Pixel-art sprite editor with palettes.
+
+Usage: spritemog
+
+Needs: advanced computer (colour)
+
+By unknown (SpriteMog V1.2). License: unspecified.
+Source: https://pastebin.com/iHpQhwvy

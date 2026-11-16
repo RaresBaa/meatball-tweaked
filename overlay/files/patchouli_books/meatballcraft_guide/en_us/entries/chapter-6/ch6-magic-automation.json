@@ -1,0 +1,36 @@
+{
+  "name": "Thaumatoriums, Seals and Runes",
+  "icon": "aoa3:charged_rune",
+  "category": "chapter-6",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(4)$(l)Spoiler!$()$(br2)This entry gives away a puzzle solution. Turn the page only if you want to see it."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Thaumatoriums need a heat source$() underneath; without one, essentia won't go in."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Infusion seals$() come from defeating the 3rd Shell bosses; check their structures for the required items (e.g., 8 clunkheads)."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Rune Templars$() spawn in underground Runic Brick structures around Y=5. Use a Catalytic Lens, Void Tear, and Air Sigil to clear them efficiently. Right-click with the matching colored rune to change its color, then kill it for a colored chunk."
+    },
+    {
+      "type": "text",
+      "text": "Quest rewards from Chapter 5 onward (e.g., realmstone quests) include scanner modules that help locate Rune Templar structures—standard Scanner mod tools won’t detect them due to nonstandard generation."
+    },
+    {
+      "type": "text",
+      "text": "Never detonate seals (e.g., ODB or Draconian reactor explosions) near your base—they destroy structures and items. Build them in a remote area."
+    },
+    {
+      "type": "text",
+      "text": "The Runandor puzzle solution appears in JEI, but requires eight runes found in the dimension. The liquid elecanium tank is $(o)not$() shown in JEI or tooltips and must be discovered separately."
+    }
+  ]
+}

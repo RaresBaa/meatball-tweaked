@@ -1,0 +1,32 @@
+{
+  "name": "Alloys and Passive Crafting",
+  "icon": "enderio:block_alloy_smelter",
+  "category": "automation",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Scale alloys with 9 interfaces : 1 pattern set : 1 alloy smelter per recipe group (18/27 interfaces if needed); each interface holds the same 9 patterns (one per alloy). AE2 auto-parallelizes across machines when demand is high."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Simpler ratio option: one ME Interface + Modular Router with Distributor Modules and regulator augments to enforce ratios (e.g., 3 Cu + 1 Sn)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For very high-demand alloys (e.g., bronze, endsteel), use personal EMC links with compact drawers, smelting entities, and optionally TR machines; prefer passive setups over active crafting."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Passivate items that recur often in recipes: use on-demand EMC first, then switch to passive once demand passes ~100 units.$(li)For passive crafting, combine ME Interface, Packager, Unpackager and Basic Package Crafter in a small dedicated subnet with a storage bus on drawers."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use one recipe per AE2 maintainer subnet to prevent flickering, and don't rely on level emitters alone for complex or uncapped passives.$(li)To cut AE2 lag in passive subnets: ≤2 crafting steps, pull items from the main network, avoid full crafting card overhead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Early game, Mystical Agriculture beats Void Miner ore processing—you rarely need Void Miner output once MA is running."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Food",
+  "icon": "minecraft:golden_carrot",
+  "category": "chapter-1",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Eat every food at least once.$() New foods give you extra hearts.$(li)$(l)DivineRPG Donuts$(): made from wheat, nearly fill your hunger bar. Hay-bale (straw) houses are an easy wheat source."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)MRE$(): cheap and fills hunger instantly, but leaves a dirty plate.$(li)$(l)Golden Carrots$(): the highest saturation in vanilla. They also lower radiation.$(li)$(l)Golden Steak$(): 8 gold + steak, fully restores hunger and saturation."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Dragon Egg Omelet$() (often found in Intestines): decent food plus a large 10-minute health boost.$(li)$(l)Domino's pizza$() (once EMC is running): full restore plus Speed and Haste.$(li)Relic apples and Notch apples have EMC, so you can duplicate them."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To stop worrying about food: Rituals of Satiated Stomach, soul stones, or a saturation tablet (8 anima stones + 16 gold + 1 apple)."
+    }
+  ]
+}

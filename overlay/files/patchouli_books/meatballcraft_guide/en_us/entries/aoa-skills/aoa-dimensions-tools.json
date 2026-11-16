@@ -1,0 +1,32 @@
+{
+  "name": "Dimensions & Essential Tools (Occult Shovel/Pickaxe)",
+  "icon": "aoa3:occult_shovel",
+  "category": "aoa-skills",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)AoA dimensions are locked to Chapter 4+; the Corrupted Traveller NPC is disabled until then and cannot be used to access them earlier.$(li)The Occult Pickaxe requires Foraging 90;"
+    },
+    {
+      "type": "text",
+      "text": "level it by mining bedrock-level stone with a Divine Shickaxe (Excavation III) while holding W—though laggy, this yields ~30–90 Foraging in ~15 minutes.$(li)Crafting the Occult Shovel requires Extraction 90;"
+    },
+    {
+      "type": "text",
+      "text": "use Giant Skill Crystals (rare drops), hold a Volcanite Amulet in offhand and Diamond Bowl in main hand, right-click the Extraction Device repeatedly, and automate obsidian mining + item collection."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Luck IV potions (brewed via Thermal Alchemical Imbuer chain + Fractioning Still) significantly speed up Extraction leveling."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not attempt to enter AoA dimensions before Chapter 4; the Corrupted Traveller will not function and you’ll be stuck.$(li)Foraging 90 via Divine Shickaxe + W-hold works well.$(li)Extraction 90 is grind-intensive;"
+    },
+    {
+      "type": "text",
+      "text": "prioritize automating obsidian mining and use Volcanite Amulet + Diamond Bowl combo to maximize gains per click."
+    }
+  ]
+}

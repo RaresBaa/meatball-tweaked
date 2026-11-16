@@ -1,0 +1,32 @@
+{
+  "name": "Corium",
+  "icon": "nuclearcraft:fission_controller_new_fixed",
+  "category": "chapter-5",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Standard radiation scrubbers do not fully clean corium setups while corium remains present; use the multi scrubber for corium setups."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To avoid voiding needed fluids from radioactive ethereal goo, funnel excess into a target fluid via void upgrades, prioritizing the least-consumed fluid."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Corium is needed to craft the Unholy Radioactive Mixture, which is processed into Einsteinium and then used to make Naquadah."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Larger corium reactor volumes improve casing efficiency: although ~50% of casings are lost per meltdown, casing loss scales with surface area while volume (and thus corium yield) scales faster."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For passive corium production, build a reactor inside a space chamber using two builders (one to construct, one to pump), a Phantomface for fuel input, and redstone logic (fluid level emitter + timers) to cycle construction and pumping."
+    },
+    {
+      "type": "text",
+      "text": "Link the controller to the Phantomface for fuel input; the connection persists even if the controller is destroyed.$(li)Use LEU-235 as fuel: it's cheap and doesn't kill you. Set builders to [On to activate] and [Keep running with redstone signal]."
+    }
+  ]
+}

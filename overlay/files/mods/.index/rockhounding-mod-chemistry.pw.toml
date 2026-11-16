@@ -1,0 +1,17 @@
+filename = 'rockhounding_chemistry-1.12.2-3.71.jar'
+name = 'Rockhounding Mod: Chemistry'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rockhounding_chemistry-1.12.2-3.71.jar'
+
+[download]
+hash = '34a8e4981f2b9d49557e35a0d2a0e9e17c97529f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8540754
+project-id = 251974

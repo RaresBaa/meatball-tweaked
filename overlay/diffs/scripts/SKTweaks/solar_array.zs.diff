@@ -1,0 +1,85 @@
+--- a/scripts/SKTweaks/solar_array.zs
++++ b/scripts/SKTweaks/solar_array.zs
+@@ -54,7 +54,7 @@
+     builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
+         val data = event.controller.customData;
+         if (Get_CustomData_bool(data, upgradeKey, false)) {
+-            event.setFailed("该升级已激活！");
++            event.setFailed("This upgrade is already active!");
+         }
+     });
+ 
+@@ -66,7 +66,7 @@
+         ctrl.customData = data;
+     });
+ 
+-    builder.addRecipeTooltip("§a安装太阳能阵列升级", "§b倍率：" + SOLAR_UPGRADE_MULTIPLIERS[upgradeKey] + "x", "§c连接到§a梦之§b能量核心§c时才生效！");
++    builder.addRecipeTooltip("§aInstall Solar Array Upgrade", "§bMultiplier:" + SOLAR_UPGRADE_MULTIPLIERS[upgradeKey] + "x", "§cOnly works when connected to a §aDream §bEnergy Core§c!");
+     builder.build();
+ }
+ Upgrade_Recipe_Builder("upgrade_torch");
+@@ -192,12 +192,12 @@
+     AddEnergyToDreamCore(decoreCtrl, injection);
+ });
+ 
+-<modularmachinery:solar_array_controller>.addTooltip("§6[可连接到§a梦之§b能量核心§6]");
+-<modularmachinery:solar_array_controller>.addTooltip(format.gold("可以放置太阳能发电机和加速配置"));
+-<modularmachinery:solar_array_controller>.addTooltip(format.gold("太阳能发电机发电量可叠加"));
+-<modularmachinery:solar_array_controller>.addTooltip(format.red("每tick发电过高可能不会工作！！"));
+-<modularmachinery:solar_array_controller>.addTooltip(format.red("每次重进，可能需要重新放入材料才会正确输出"));
+-<modularmachinery:solar_array_controller>.addTooltip(format.red("控制器拆了重放也可以"));
++<modularmachinery:solar_array_controller>.addTooltip("§6[Can connect to a §aDream §bEnergy Core§6]");
++<modularmachinery:solar_array_controller>.addTooltip(format.gold("Can hold solar generators and acceleration setups"));
++<modularmachinery:solar_array_controller>.addTooltip(format.gold("Solar generator output stacks"));
++<modularmachinery:solar_array_controller>.addTooltip(format.red("Generating too much per tick may stop it working!!"));
++<modularmachinery:solar_array_controller>.addTooltip(format.red("After each rejoin, you may need to re-insert materials for correct output"));
++<modularmachinery:solar_array_controller>.addTooltip(format.red("Breaking and replacing the controller also works"));
+ 
+ 
+ MMEvents.onControllerGUIRender(MACHINE, function(event as ControllerGUIRenderEvent) {
+@@ -205,37 +205,37 @@
+     if (isNull(ctrl)) return;
+     val data = ctrl.customData;
+     var info as string[] = [];
+-    info += "§3║§6✦§6 神话太阳能阵列 §f| §7v1.0";
++    info += "§3║§6✦§6 Mythic Solar Array §f| §7v1.0";
+     var baseEnergyStr = "0";
+     if (!isNull(data)) {
+         baseEnergyStr = Get_CustomData_string(data, "currentBaseEnergy", "0");
+     }
+-    info += "§3║§b▸ 基础能量产出：§6" + baseEnergyStr + " §bRF/t";
++    info += "§3║§b▸ Base energy output: §6" + baseEnergyStr + " §bRF/t";
+     val decoreX = isNull(data) ? null : data.memberGet("DECore_X");
+     val connected = !isNull(decoreX);
+     if (connected) {
+-        info += "§3║§a▸ §a梦之§b能量核心§r：§a● 已连接";
++        info += "§3║§a▸ §aDream §bEnergy Core§r: §a● Connected";
+         var upgradeMul = 1;
+         for key in SOLAR_UPGRADE_KEYS {
+             if (Get_CustomData_bool(data, key, false)) {
+                 upgradeMul *= SOLAR_UPGRADE_MULTIPLIERS[key];
+             }
+         }
+-        info += "§3║§b▸ 额外乘数：§6" + upgradeMul + "x";
++        info += "§3║§b▸ Extra multiplier: §6" + upgradeMul + "x";
+         var parallel = 1;
+         val activeRecipe = ctrl.activeRecipe;
+         if (!isNull(activeRecipe)) {
+             parallel = activeRecipe.parallelism;
+             if (parallel <= 0) parallel = 1;
+         }
+-        info += "§3║§b▸ 并行数：§6" + parallel;
++        info += "§3║§b▸ Parallel: §6" + parallel;
+         val baseEnergyBig = BigInteger(baseEnergyStr);
+         val total = baseEnergyBig
+             .multiply(BigInteger.valueOf(upgradeMul as long))
+             .multiply(BigInteger.valueOf(parallel as long));
+-        info += "§3║§6▸ 总产出：§e" + total.toString() + " §bRF/t";
++        info += "§3║§6▸ Total output: §e" + total.toString() + " §bRF/t";
+     } else {
+-        info += "§3║§c▸ §a梦之§b能量核心§r：§c○ 未连接";
++        info += "§3║§c▸ §aDream §bEnergy Core§r: §c○ Not connected";
+     }
+     event.extraInfo = info;
+ });
+\ No newline at end of file

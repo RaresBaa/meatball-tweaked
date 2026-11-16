@@ -1,0 +1,27 @@
+{
+  "name": "SK Tweaks Redeem Codes",
+  "icon": "minecraft:paper",
+  "category": "reference",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The SK Tweaks addon has a chat command that hands out free items:$(br2)$(l)/SKT_redeemcode <code>$()$(br2)It works without cheats enabled. Codes are case-sensitive. Each one works once per player until the game restarts.$(br2)Some rewards are jokes, and some skip a lot of progression."
+    },
+    {
+      "type": "text",
+      "title": "Machine Rewards",
+      "text": "$(li)$(l)aeddddBlessing$(): Seared Caster machine data, 1024 parallel$(li)$(l)WheelchairPower$(): Mythic Solar Array machine data$(li)$(l)MMCE$(): a book with a tip about machine controllers$(li)$(l)FriendFigurine$(): a Draconic mob soul"
+    },
+    {
+      "type": "text",
+      "title": "Items and Jokes",
+      "text": "$(li)$(l)CoolBlocks$(): 6 Infinity Block facades$(li)$(l)FluidCleanup$(): an unbreakable Antimatter Evaporator$(li)$(l)Friendship$(): 64 fluid orbs$(li)$(l)MeatballTruth$(): sainagh's head and a cosmetic$(li)$(l)IGiveUp$(): a shulker box that promises a lot"
+    },
+    {
+      "type": "text",
+      "title": "Dangerous",
+      "text": "$(l)WhatIsThis$() gives a fully grown Thaumic Augmentation rift seed of size 2000.$(br2)Its own tooltip says not to use it. Try it in a world you don't care about."
+    }
+  ]
+}

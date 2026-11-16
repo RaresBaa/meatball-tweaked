@@ -1,0 +1,25 @@
+filename = 'Animus-1.12-2.1.7.jar'
+name = 'Animus'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Animus-1.12-2.1.7.jar'
+
+[download]
+hash = '0c2ac1efa08df98632168a1b2536bf4081c910ad'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2888473
+project-id = 229664
+
+[[x-prismlauncher-dependencies]]
+addonId = '224791'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228832'
+type = 'REQUIRED'

@@ -1,0 +1,20 @@
+{
+  "name": "Late-Game Survivability & Combat Tips",
+  "icon": "bloodmagic:sacrificial_dagger",
+  "category": "astral-sorcery",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Prioritize damage over defense$()—high-damage perks like $(o)Culling Strike$() and $(o)Last Breath$() outperform body blocking or stacking armor, especially past the usual level cap.$(br2)To maintain 1 HP for $(o)Last Breath$() or starvation builds:"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Combine starvation with $(o)Last Stand$()$(li)$(o)Vis Innoculation$() keeps you at full health and works together with $(o)Last Breath$(), so you stay on full life$(br2)$(l)The Magicbane with Super Enchant Unbreaking$() deals tens of thousands of damage per hit."
+    },
+    {
+      "type": "text",
+      "text": "For emergency 1-HP recovery:$(li)Use $(o)Sacrificial Dagger$() with $(o)Silent Eternity$() on $(o)Armara$()$(li)It blocks the fatal damage tick when health drops below 1, enabling near-instant healing"
+    }
+  ]
+}

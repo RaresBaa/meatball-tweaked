@@ -1,0 +1,25 @@
+filename = 'opeq-1.12.2-1.0.0.jar'
+name = 'Optional Equivalence'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'opeq-1.12.2-1.0.0.jar'
+
+[download]
+hash = '4daa297f8fad3010b18f8c9d75e89c7d36b517ef'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5735274
+project-id = 1105165
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '226410'
+type = 'REQUIRED'

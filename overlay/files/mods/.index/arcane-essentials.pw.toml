@@ -1,0 +1,21 @@
+filename = 'Arcane Essentials-1.0.0-alpha-11.jar'
+name = "Arcane Essentials (Electroblob's Wizardry)"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Arcane Essentials-1.0.0-alpha-11.jar'
+
+[download]
+hash = 'ff8815b72b06cb2b0603c2b3b97a1059cedbccf4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3205508
+project-id = 312318
+
+[[x-prismlauncher-dependencies]]
+addonId = '265642'
+type = 'REQUIRED'

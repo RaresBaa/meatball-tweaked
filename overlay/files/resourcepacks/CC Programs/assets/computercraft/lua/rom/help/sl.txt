@@ -1,0 +1,8 @@
+sl
+
+A steam locomotive runs across your screen. Cures mistyping 'ls'.
+
+Usage: sl
+
+By florensie. License: unspecified.
+Source: https://gist.github.com/florensie/cc8a6af40fb575c718cea72d2d6dfd83

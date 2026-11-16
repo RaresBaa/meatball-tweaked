@@ -1,0 +1,18 @@
+filename = 'betterbiomeblend-1.12.2-1.2.1-forge.jar'
+name = 'Better Biome Blend'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'betterbiomeblend-1.12.2-1.2.1-forge.jar'
+
+[download]
+hash = '008ab6154d6230deec2ec68b0b2e997f75a6e7c6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8302844
+project-id = 446253

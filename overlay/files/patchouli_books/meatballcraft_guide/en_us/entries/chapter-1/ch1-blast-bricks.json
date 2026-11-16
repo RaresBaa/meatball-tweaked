@@ -1,0 +1,20 @@
+{
+  "name": "Blast Bricks and Coal Coke",
+  "icon": "immersiveengineering:stone_decoration:1",
+  "category": "chapter-1",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Early on you get $(l)Blast Bricks$() and $(l)Coal Coke$() by looting structures, not by crafting them.$(br2)$(l)Blast Bricks:$()$(li)The tall stone-brick tower with a ladder in the middle (pumpkin spiders nearby)."
+    },
+    {
+      "type": "text",
+      "text": "The ladder hangs on blast bricks. Two towers is usually enough.$(li)$(l)Troll campfires$() (with a copper chest).$(li)A 3x3 patch of black grass ringed by upside-down quartz stairs hides 9 blast bricks underneath.$(li)A house built from Thaumcraft blocks."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Coal Coke:$() the $(l)Coke Library$() (full of book spawners) has a roof made of coal coke blocks. It's easier to spot in open areas without many trees or much water. The library also contains an $(l)Elytra$()."
+    }
+  ]
+}

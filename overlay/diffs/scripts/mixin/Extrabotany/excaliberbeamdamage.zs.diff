@@ -1,0 +1,11 @@
+--- a/scripts/mixin/Extrabotany/excaliberbeamdamage.zs
++++ b/scripts/mixin/Extrabotany/excaliberbeamdamage.zs
+@@ -3,7 +3,7 @@
+ 
+ import native.com.meteor.extrabotany.common.item.relic.ItemExcaliber;
+ 
+-#mixin {value: "com.meteor.extrabotany.common.item.relic.ItemExcaliber"}
++#mixin {targets: "com.meteor.extrabotany.common.item.relic.ItemExcaliber"}
+ zenClass MixinItemExcaliber {
+     #mixin Static
+     #mixin ModifyConstant

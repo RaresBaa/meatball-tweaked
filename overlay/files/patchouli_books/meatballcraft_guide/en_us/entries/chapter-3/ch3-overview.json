@@ -1,0 +1,20 @@
+{
+  "name": "Chapter 3 at a Glance",
+  "icon": "minecraft:ender_pearl",
+  "category": "chapter-3",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Upon entering Chapter 3, complete the first 3 warpers via the wormhole to obtain Deep Blue Matter from the Vanolite Gateway.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use the Valonite Gateway to access Betweenlands non-EMC blocks—no need to enter the dimension."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Prioritize acquiring resources for NuclearCraft machines early; turbine recipes should be feasible—if not, optimize your infrastructure.$(li)Passivate at least the Plutonium isotope chain in Chapter 3; most Chapter 3 mining can be skipped until Chapter 4."
+    }
+  ]
+}

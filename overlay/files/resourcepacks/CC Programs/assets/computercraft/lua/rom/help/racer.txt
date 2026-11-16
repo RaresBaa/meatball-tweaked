@@ -1,0 +1,12 @@
+PineJam Racing
+
+Race a car through checkpoints on a generated 3D road.
+
+Usage: racer
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (482 KB) to /extra/racer. Delete that folder to reset it.
+
+By remie92. License: unspecified.
+Source: https://github.com/remie92/Computer-Racer

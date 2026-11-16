@@ -1,0 +1,25 @@
+--- a/scripts/SKTweaks/draconic_mythical_infusion.zs
++++ b/scripts/SKTweaks/draconic_mythical_infusion.zs
+@@ -21,16 +21,16 @@
+ 
+ val MACHINE = "draconic_mythical_infusion";
+ MachineModifier.setMaxThreads("draconic_mythical_infusion",0);
+-val threadA = FactoryRecipeThread.createCoreThread("§e觉醒聚合器I");
+-val threadB = FactoryRecipeThread.createCoreThread("§e觉醒聚合器II");
+-val threadC = FactoryRecipeThread.createCoreThread("§e觉醒聚合器III");
++val threadA = FactoryRecipeThread.createCoreThread("§eAwakening Aggregator I");
++val threadB = FactoryRecipeThread.createCoreThread("§eAwakening Aggregator II");
++val threadC = FactoryRecipeThread.createCoreThread("§eAwakening Aggregator III");
+ MachineModifier.addCoreThread(MACHINE, threadA);
+ MachineModifier.addCoreThread(MACHINE, threadB);
+ MachineModifier.addCoreThread(MACHINE, threadC);
+ MachineModifier.setInternalParallelism("draconic_mythical_infusion", 64);
+-<modularmachinery:draconic_mythical_infusion_factory_controller>.addTooltip(format.gold("内置额外64并行！"));
+-<modularmachinery:draconic_mythical_infusion_factory_controller>.addTooltip(format.gold("内置额外3线程！"));
+-<modularmachinery:draconic_mythical_infusion_factory_controller>.addTooltip(format.gold("3x3的龙研能量核心稳定器可能需手动放置"));
++<modularmachinery:draconic_mythical_infusion_factory_controller>.addTooltip(format.gold("Built-in extra 64 parallel!"));
++<modularmachinery:draconic_mythical_infusion_factory_controller>.addTooltip(format.gold("Built-in extra 3 threads!"));
++<modularmachinery:draconic_mythical_infusion_factory_controller>.addTooltip(format.gold("The 3x3 Draconic energy core stabilizers may need placing by hand"));
+ 
+ function Draconic_Fusion_Recipe_Builder(
+     recipeName as string,

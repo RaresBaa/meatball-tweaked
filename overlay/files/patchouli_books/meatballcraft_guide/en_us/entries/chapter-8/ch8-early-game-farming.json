@@ -1,0 +1,36 @@
+{
+  "name": "Materials and Farming",
+  "icon": "bewitchment:garnet",
+  "category": "chapter-8",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Vethea Garnet Farming$()$(li)Use 8 garnet miners instead of 1; each cycle takes 40s with 50% chance, so scaling linearly reduces wait time.$(li)Vethea garnets are obtainable before the Infinity Furnace;"
+    },
+    {
+      "type": "text",
+      "text": "mortum souls needed for the Infinity Furnace can be obtained from the Nightmare Callstone.$(li)All non-shyre garnets (including vethea, mortum, etc.) can be crafted via ME Mythic Assembler before the Infinity Furnace."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Sacred Acorn Acquisition$()$(li)Obtain sacred acorn tree logs via Void Botanical Resource Miner or by using a Beebee Gun on logs with leaves attached."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Pink Slime Farming$()$(li)Farm pink slime via Woot or ultimate mob farms."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Avoid Inefficiencies$()$(li)Skip the first Mortum Star recipe and craft the upgraded version directly; the first recipe is unnecessary and inefficient.$(li)Avoid recipes that use Ichorium when Ichorium Condensate is available; the latter is more efficient."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ethaxium for Hihi/Parafrosynium is best obtained from the recipe (not drops).$(li)Carminite is easily farmed via DML or wood borers.$(li)For mob farming, Ultimate mob farms work but perform worse than Woot."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not rely on mob drops for Ethaxium—it’s inefficient and unreliable."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Miscellaneous Tips",
+  "icon": "deepmoblearningbm:digital_agonizer",
+  "category": "blood-magic",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Self-sacrifice runes do not count toward the Digital Mob Agonizer’s ritual progress; only standard Sacrifice Runes are used.$(li)Mechanical Users cannot trigger Life Essence generation with the Dagger of Sacrifice—they only deal 1 HP of damage."
+    },
+    {
+      "type": "text",
+      "text": "Use an Agonizer instead for automation."
+    },
+    {
+      "type": "text",
+      "text": "$(li)How much Life Essence a mob gives depends on its type (aggressive, passive or villager) and its HP."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Early-game, automate blood iron bucket filling by piping fluids into an Ender IO tank, placing empty buckets inside, and using filtered conduits to shuttle full/empty buckets back and forth."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Digital Mob Agonizer is a reliable Life Essence source for crafting altars. Woot-based mob farms may yield extra drops but add complexity."
+    }
+  ]
+}

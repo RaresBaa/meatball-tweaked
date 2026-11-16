@@ -1,0 +1,8 @@
+ccfetch
+
+neofetch for ComputerCraft: shows OS, uptime, disk and palette.
+
+Usage: ccfetch
+
+By Rainb0wSkeppy. License: MIT.
+Source: https://github.com/Rainb0wSkeppy/ccfetch

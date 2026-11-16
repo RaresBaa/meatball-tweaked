@@ -1,0 +1,68 @@
+{
+  "name": "PackagedAuto",
+  "icon": "packagedauto:packager",
+  "category": "automation",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)The Combination Crafter (or the PackagedEx variant) is the easy setup: one unit with a recipe holder instead of a separate Packager/Unpackager.$(li)Recipe Encoder: each holder holds up to 20 recipes;"
+    },
+    {
+      "type": "text",
+      "text": "use 2 holders (one for the Packager, one for the Unpackager). A recipe needs 1 package per 9 unique ingredient stacks. Set the recipe type to match the target ($(5)Processing$() for any inventory, $(5)Specific Machine$() for an exact block)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use $(l)'First Match'$() mode for most setups; 'Require Exact' and 'Require Disjoint' only when you need strict input matching."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Unpackager holds up to 10 recipes (10 rows × 9 packages); it inserts a whole row into any adjacent machine that accepts the recipe—up to 6 machines at once—and only targets specific machines if the recipe type says so."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Unpackagers don't need a matching pattern holder when not using AE2.$(li)Packager Extensions (in the 3×3 around a Packager) duplicate pattern registration in AE2 without extra channels or TPS cost, for parallel crafting."
+    },
+    {
+      "type": "text",
+      "text": "$(li)With AE2: encode identical recipes in both Package Recipe Holders, give each 1 channel, and put the right Package Crafter (e.g., Ultimate Crafter) next to the unpackager."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Positioned packages (PackagedEx)$()$(li)The Positioned Package Distributor sends recipe inputs to fixed spots marked with Distribution Markers (sneak + right-click to bind); max range 16 blocks, chunks must be loaded, and every input slot needs a bound marker."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Marker items in the Positioned Recipe Encoder record world positions; link crystals in the distributor correspond to slots in the unpacker, which only processes packages with a valid destination."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Distributor fails for recipes needing more than 9 identical items (packager slot limit): pad packages with dummy items, or split across several packagers feeding one unpackager."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Other uses$()$(li)Package full multiblock recipes (e.g., Immersive Engineering excavator) by sending packages via interface to an enderchest, then pulling from an ender pouch."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For wireless unpacker connections, use a Package Crafting Machine Proxy (or Phantomface/router) on up to 6 faces, with plenty of power (one player used 2 separate Draconic crystals)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Batch alloys with Packager → Distributor → Unpackager chains: fill the machine's whole buffer per recipe, distribute to unpackagers next to the machines, and trigger with a Level Maintainer (or redstone control without one)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When using Xnet to automate package crafting, do not encode sub-recipes into the packager/unpackager; encode only the full recipe in both packager (set to First Match) and unpackager, and ensure the unpackager is not in blocking mode."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Packagers, unpackagers, and package crafters can be passivated by powering them with quartz fiber or RF (not channels); use identical recipe package encoders across all units, one packager per sub-recipe, and set them to 'first match' mode."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To use packages in the upgraded Elite Crafting Table, place an Unpackager adjacent to it with a matching Package Holder recipe and recipe card as the Packager."
+    }
+  ]
+}

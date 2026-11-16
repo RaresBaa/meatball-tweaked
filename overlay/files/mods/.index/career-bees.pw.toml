@@ -1,0 +1,18 @@
+filename = 'careerbees-0.4.0.jar'
+name = 'Career Bees'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Career Bees 0.4.0'
+
+[download]
+hash = 'f1a934c4dca379dfb733c36eab9bc63345a81abb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2534481
+project-id = 281791

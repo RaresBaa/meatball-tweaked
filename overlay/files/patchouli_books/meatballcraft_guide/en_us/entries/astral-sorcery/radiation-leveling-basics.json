@@ -1,0 +1,28 @@
+{
+  "name": "Radiation Leveling: How It Works & Key Items",
+  "icon": "nuclearcraft:block_depleted_californium",
+  "category": "astral-sorcery",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)To level Astral Sorcery perks via radiation, stand in lethal radiation; the damage probably needs to give you the wither effect. Picking up high-radiation items like Californium blocks can nuke you outright."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Carry a Charm of Life (a Totem of Undying probably works too) to survive the lethal radiation.$(li)Radiation XP gain is tick-based and requires actual damage registration; inconsistent XP may mean your damage isn’t registering reliably."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Radiation XP gain is capped per-hit, not per-second—so high-damage sources (e.g., Californium blocks) maximize XP per tick.$(li)The XP bar may $(o)appear$() stuck but is still increasing slowly."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Radiation levelling needs the constellation attunement that's about taking damage. To change attunement later, use an Irradiant Shifting Star (not the base one) attuned to the one you want."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Kikoku does $(o)not$() count as dealing damage for XP gain—use direct radiation sources instead.$(li)Lag can interfere with XP gain; minimize lag or hold the action key to ensure damage ticks register consistently."
+    }
+  ]
+}

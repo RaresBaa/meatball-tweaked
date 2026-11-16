@@ -1,0 +1,8 @@
+CC-Checkerboard
+
+Menu of board games: tic-tac-toe, checkers, chess, connect 4, battleship, othello, minesweeper, binario.
+
+Usage: boardgames
+
+By stuin. License: unspecified.
+Source: https://github.com/stuin/CC-Checkerboard

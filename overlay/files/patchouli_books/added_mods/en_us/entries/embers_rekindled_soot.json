@@ -1,0 +1,11 @@
+{
+  "name": "Embers Rekindled + Soot",
+  "icon": "embers:tinker_hammer",
+  "category": "magic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Dwarven ember-powered magic tech; Soot adds alchemy, stills and more ember gear."
+    }
+  ]
+}

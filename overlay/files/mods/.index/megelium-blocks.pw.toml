@@ -1,0 +1,18 @@
+filename = 'Megelium Blocks-1.12.2-0.6.jar'
+name = 'Megelium Blocks'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Megelium Blocks-1.12.2-0.6.jar'
+
+[download]
+hash = '7b773b3c4aed909d2d32547363f8c924f02706d8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2575427
+project-id = 293283

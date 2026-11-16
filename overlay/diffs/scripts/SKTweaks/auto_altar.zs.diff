@@ -1,0 +1,11 @@
+--- a/scripts/SKTweaks/auto_altar.zs
++++ b/scripts/SKTweaks/auto_altar.zs
+@@ -6,7 +6,7 @@
+ import mods.modularmachinery.MachineModifier;
+ 
+ MachineModifier.setInternalParallelism("auto_altar", 4);
+-<modularmachinery:auto_altar_controller>.addTooltip(format.gold("内置额外4并行！"));
++<modularmachinery:auto_altar_controller>.addTooltip(format.gold("Built-in extra 4 parallel!"));
+ 
+ // RecipeBuilder.newBuilder("auto_altar", "auto_altar", 20)
+ //     .addItemInputs(

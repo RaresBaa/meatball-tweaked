@@ -1,0 +1,36 @@
+{
+  "name": "Optimization and Troubleshooting",
+  "icon": "draconicevolution:crystal_binder",
+  "category": "chapter-4",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Automation & reliability fixes$()$(li)In SFM, crafter output slots may use incorrect indexing (e.g., label slot 26 to access physical slot 36); verify real slot numbers with the SFM Network Tool."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When using Mekanism’s Crafting Unit, wait for the relay to illuminate the correct slot with yellow light before inserting items—do not pre-place items. If the relay glows but no item appears (e.g., Eden statue), manually place the correct item due to 3D model rendering issues."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Overbuild automation (e.g., 12 squeezers instead of exact needed count) to avoid bottlenecks and simplify AE2 extraction—pulling a full stack is easier than single items."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Energy & critical systems$()$(li)After LEU-235 fission reactors (~51k RF/t), the next major energy upgrades are the ER Turbine (~430k RF/t) or ET Solar Array (~1.3M RF/t) once you have T6 controllers and 169 T5 cells."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use compacting drawers with Infinity upgrade to store large EMC quantities efficiently (e.g., for Tree of Life).$(li)The Tree of Life is a highly efficient, free-to-run power source by mid-game; one Mekanism COOP can support many trees."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Bug workarounds & edge cases$()$(li)Fluid processing patterns for Spatial Crucible and Modular Machines are bugged—fluids from modular machine recipes do not appear in the pattern terminal.$(li)To quickly remove a fission reactor meltdown, use a Builder with a Pump Card."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When placing spectral relays for the Eden Core, ignore missing sunstorm statue projections; follow gray starlight beams instead to determine statue placement."
+    }
+  ]
+}

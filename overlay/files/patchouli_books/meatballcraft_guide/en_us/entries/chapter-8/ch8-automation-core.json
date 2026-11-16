@@ -1,0 +1,36 @@
+{
+  "name": "Automation: Repair, Shulkers and Essentia",
+  "icon": "cyclicmagic:chest_sack",
+  "category": "chapter-8",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use a Sack of Holding to move pipes containing essentia instead of moving individual jars."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For auto-repair, route Woot outputs into a crate, then send durability items to an EU2 Analog Crafter with XNet limiting input to 2 items; repaired items go to storage, damaged ones loop back.$(li)RFTools Crafter can replace EU2 Analog Crafter for auto-repair setups;"
+    },
+    {
+      "type": "text",
+      "text": "filter its output to only keep desired gear and void the rest."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To passively craft shulker boxes in an AE2 Storage Network: encode a pattern with items in correct order, use a block placer to place shulkers, connect an interface to the shulker, place a redstone relay on the shulker and a block breaker behind it (comparator input to"
+    },
+    {
+      "type": "text",
+      "text": "shulker, inverted threshold ≥1 to breaker), and add an interface behind the breaker to auto-insert outputs; use Random Things Block Breaker for reliable auto-insertion."
+    },
+    {
+      "type": "text",
+      "text": "$(li)In SFM, set up a flow from a trigger through inputs and splits to multiple outputs, each filtered to one item with count=1 and assigned a specific slot ID and face, to passively craft shulker boxes."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use an AE2 autocraft setup for the Infusion Altar to pre-stock ingredients on the pedestal, then manually craft by right-clicking to save time and reduce complexity."
+    }
+  ]
+}

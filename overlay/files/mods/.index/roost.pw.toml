@@ -1,0 +1,25 @@
+filename = 'roost-1.12.2-2.0.10.jar'
+name = 'Roost'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'roost-1.12.2-2.0.10.jar'
+
+[download]
+hash = '7b297968dea20a9353105123a877c5203ef6d739'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2702080
+project-id = 277711
+
+[[x-prismlauncher-dependencies]]
+addonId = '241941'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '251786'
+type = 'OPTIONAL'

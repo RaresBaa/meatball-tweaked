@@ -1,0 +1,36 @@
+{
+  "name": "Essentia Production",
+  "icon": "thaumcraft:crystal_essence",
+  "category": "thaumcraft",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Build Phytogenic Insolators first$()$(li)Use monoculture augment to prevent seed overflow$(li)Filter excess seeds by placing a trash can directly on the system output side$(li)Configure XNet with proper side input/output and meta/NBT handling"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use 5 Fuel Efficiency and 4 Speed upgrades per Insolator; you can drop 2 Speed upgrades if desired$(li)Avoid Nullification Chamber and Reagent Recovery; instead use a Drawer with seeds + Void upgrade for auto-voiding"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Crystallization and Smeltery Setup$()$(li)Use an Import Interface with a Pull Card (not an Import Bus) to extract essentia from the Smeltery into ME$(li)For non-augmented setups, 8–12 crystallizers suffice; for fully augmented 53-insolator chains, ~53 crystallizers are needed"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ensure auto-extraction systems (e.g., Ender-Face analog) do $(o)not$() push seeds into crystallizer input—use full 4x4 Emerald Drawers to buffer crystals and prevent overflow$(li)Crystallizers output crystals split 50/50: half to smeltery, half to Dank 7 connected to ME;"
+    },
+    {
+      "type": "text",
+      "text": "void excess via drawer voiding"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Essentia Production Strategy$()$(li)Grow Phytogenic Vis Pods → crystallize into Vis Crystals → melt in Essentia Smeltery for essentia$(li)Use Mithrillium (or Adamaniite/Mithminite) Essentia Smeltery instead of Mechanized Essentia Smeltery—it outputs 0 Flux and is safer"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Nitor under the crucible is required for Thaumatorium infusion recipes to work$(li)Rushing the Tree of Life saves you from building ~53 phytogenic insolators$(li)Blaze Rods are inefficient; use Ignis Crystals (crafted from Ingots) for better output"
+    }
+  ]
+}

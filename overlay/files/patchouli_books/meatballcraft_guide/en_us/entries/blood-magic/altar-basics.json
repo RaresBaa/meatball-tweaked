@@ -1,0 +1,20 @@
+{
+  "name": "Blood Altar Basics & First Steps",
+  "icon": "bloodmagic:altar",
+  "category": "blood-magic",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Avoid common early mistakes$()$(li)A ritual won’t start if the required activation crystal is missing—even if you have enough blood$(li)The Dagger of Sacrifice must deal full damage to mobs;"
+    },
+    {
+      "type": "text",
+      "text": "mechanical users dealing only 1 HP won’t trigger sacrifice$(li)Blood orbs don’t stack their absorption rate multiplicatively—multiple Self Sacrifice runes add linearly"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Upgrade path tips$()$(li)Replace an Apprentice Orb with a Sacrifice or Demon Orb once you can craft it; higher tiers absorb blood faster$(li)For a next-step setup, consider the T6 tri-altar layout (Sacrifice, Crafting, Charging) in a 23×23×9 footprint"
+    }
+  ]
+}

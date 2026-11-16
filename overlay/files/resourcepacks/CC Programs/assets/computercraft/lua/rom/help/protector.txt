@@ -1,0 +1,12 @@
+Protector
+
+Defender-style shooter: protect the humans from abductors.
+
+Usage: protector
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (30 KB) to /extra/protector. Delete that folder to reset it.
+
+By fredthead. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

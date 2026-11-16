@@ -1,0 +1,20 @@
+{
+  "name": "Community Scripts: How to Use",
+  "icon": "superfactorymanager:labelgun",
+  "category": "sfm",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The next entries list full programs shared by other MeatballCraft players. They were written for their authors' bases, so treat them as a starting point, not something that works as soon as you paste it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Open a script's link and copy all of its text.$(li)In the Factory Manager, press $(l)Paste from clipboard$().$(li)Use the Label Gun to give your blocks the names the script uses, or rename them in the script.$(li)Read it first: it will move whatever it is told to, and trim any section you don't need."
+    },
+    {
+      "type": "text",
+      "text": "Each link says how many labels the script needs. Scripts with $(5)EVERY TICK$() power sections cost more performance; their authors say so at the top of the file.$(br2)Each link opens the exact version reviewed for this pack. All of them passed SFM's parser unless noted, but none has been run on a real base here."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+filename = 'RebornCore-FORK-1.12.2-3.19.5-universal.jar'
+name = 'Reborn Core (Fork NBT fix)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'RebornCore-FORK-1.12.2-3.19.5-universal.jar'
+
+[download]
+hash = '3ca5fac4519adb50826efd273c4830d2c83ce692'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3360902
+project-id = 496398

@@ -1,0 +1,20 @@
+--- a/scripts/mixin/BetterP2P.zs
++++ b/scripts/mixin/BetterP2P.zs
+@@ -10,7 +10,7 @@
+ import native.com.projecturanus.betterp2p.network.packet.C2SUnlinkP2P;
+ import native.com.projecturanus.betterp2p.network.packet.S2COpenGui;
+ 
+-#mixin {value: "com.projecturanus.betterp2p.network.packet.ServerLinkP2PHandler"}
++#mixin {targets: "com.projecturanus.betterp2p.network.packet.ServerLinkP2PHandler"}
+ zenClass MixinServerLinkP2PHandler {
+     #mixin Overwrite
+     function onMessage(message as C2SLinkP2P, ctx as MessageContext) as IMessage {
+@@ -38,7 +38,7 @@
+     }
+ }
+ 
+-#mixin {value: "com.projecturanus.betterp2p.network.packet.ServerUnlinkP2PHandler"}
++#mixin {targets: "com.projecturanus.betterp2p.network.packet.ServerUnlinkP2PHandler"}
+ zenClass MixinServerUnlinkP2PHandler {
+     #mixin Overwrite
+     function onMessage(message as C2SUnlinkP2P, ctx as MessageContext) as S2COpenGui {

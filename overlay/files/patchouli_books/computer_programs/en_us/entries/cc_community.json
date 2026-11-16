@@ -1,0 +1,24 @@
+{
+  "name": "Community Scripts",
+  "icon": "computercraft:computer",
+  "category": "computercraft",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Small scripts by mantikafasi. Use $(l)wget <url> <name>$() on a computer, or copy from the page."
+    },
+    {
+      "type": "link",
+      "text": "$(l)fly$(): flight on a neural interface with Plethora's sensor, scanner and kinetic modules. Replace $(l)mantikafasi$() in the script with your own name.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/fly.lua",
+      "link_text": "Open script"
+    },
+    {
+      "type": "link",
+      "text": "$(l)uncorrupted_library$(): redstone output on the left while a Dank below holds over 1024 of every demon crystal type it contains.",
+      "url": "https://raw.githubusercontent.com/mantikafasi/meatballcraft/240599bf85b11d0bbd21a62d93491b03a29023b4/uncorrupted_library.lua",
+      "link_text": "Open script"
+    }
+  ]
+}

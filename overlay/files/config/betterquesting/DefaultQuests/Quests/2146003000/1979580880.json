@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1960759826
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oClick the checkbox when done.\u00a7r\n\nWhile Knights are pretty great, they're even better when they've got backup in the form of archers, better train some of those as well!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecolonies:blockhutarchery"
+      },
+      "name:8": "Bull's Eye",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1979580880,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:stonebrick"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
+    }
+  }
+}

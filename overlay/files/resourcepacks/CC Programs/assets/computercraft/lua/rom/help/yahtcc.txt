@@ -1,0 +1,10 @@
+YahtCC
+
+Dice game: roll five dice and fill the scorecard.
+
+Usage: yahtcc
+
+Needs: advanced computer (colour)
+
+By JackMacWindows. License: unspecified.
+Source: https://gist.github.com/MCJack123/4f7f1635998f44630c8440e81213d32e

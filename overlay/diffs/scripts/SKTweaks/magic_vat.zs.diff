@@ -1,0 +1,24 @@
+--- a/scripts/SKTweaks/magic_vat.zs
++++ b/scripts/SKTweaks/magic_vat.zs
+@@ -10,16 +10,16 @@
+ 
+ MachineModifier.setMaxThreads("magic_vat", 0);
+ val MACHINE = "magic_vat";
+-val threadA = FactoryRecipeThread.createCoreThread("魔力酿造室I");
+-val threadB = FactoryRecipeThread.createCoreThread("魔力酿造室II");
+-val threadC = FactoryRecipeThread.createCoreThread("魔力酿造室III");
++val threadA = FactoryRecipeThread.createCoreThread("Magic Brewing Chamber I");
++val threadB = FactoryRecipeThread.createCoreThread("Magic Brewing Chamber II");
++val threadC = FactoryRecipeThread.createCoreThread("Magic Brewing Chamber III");
+ 
+ MachineModifier.addCoreThread(MACHINE, threadA);
+ MachineModifier.addCoreThread(MACHINE, threadB);
+ MachineModifier.addCoreThread(MACHINE, threadC);
+ MachineModifier.setInternalParallelism("magic_vat", 4);
+-<modularmachinery:magic_vat_factory_controller>.addTooltip(format.gold("内置额外4并行！"));
+-<modularmachinery:magic_vat_factory_controller>.addTooltip(format.gold("内置3个线程！"));
++<modularmachinery:magic_vat_factory_controller>.addTooltip(format.gold("Built-in extra 4 parallel!"));
++<modularmachinery:magic_vat_factory_controller>.addTooltip(format.gold("Built-in 3 threads!"));
+ 
+ function magic_vat_recipe_builder(
+     recipeName as string,

@@ -1,0 +1,11 @@
+{
+  "name": "EvilCraft",
+  "icon": "evilcraft:dark_gem",
+  "category": "magic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Dark magic using blood: Blood Infusers, spirits, brooms and Vengeance Spirits."
+    }
+  ]
+}

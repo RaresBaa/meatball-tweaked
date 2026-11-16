@@ -1,0 +1,102 @@
+--- a/scripts/SKTweaks/infinite_recursive_factory.zs
++++ b/scripts/SKTweaks/infinite_recursive_factory.zs
+@@ -18,11 +18,11 @@
+ function getcontroller_as_cata(name as string) as IItemStack {
+     return itemUtils.getItem("modularmachinery:" + name + "_controller");
+ }
+-<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.gold("机器结构中放置的并行控制器无效！"));
+-<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.gold("自带256并行"));
+-<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.gold("自带32主线程"));
+-<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.red("并行数可升级！！"));
+-<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.red("最高4194304并行"));
++<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.gold("Parallel controllers placed in the machine's structure have no effect!"));
++<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.gold("Comes with 256 parallel"));
++<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.gold("Comes with 32 main threads"));
++<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.red("Parallel can be upgraded!!"));
++<modularmachinery:infinite_recursive_factory_factory_controller>.addTooltip(format.red("Up to 4194304 parallel"));
+ // ===================== 全局并行同步函数 =====================
+ // 二次魔改自Nyonio
+ // https://www.mcmod.cn/post/6160.html
+@@ -50,8 +50,8 @@
+ // 设置最大线程数
+ // MachineModifier.setMaxThreads(MACHINE, 0);
+ MachineModifier.setMaxThreads(MACHINE, 32);
+-MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("并行安装").addRecipe("parallel_upgrade"));
+-MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("并行卸载").addRecipe("parallel_downgrade"));
++MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("Install Parallel").addRecipe("parallel_upgrade"));
++MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("Remove Parallel").addRecipe("parallel_downgrade"));
+ // MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("熔炼核心-I"));
+ // MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("熔炼核心-II"));
+ // MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("熔炼核心-III"));
+@@ -79,7 +79,7 @@
+         val map = data.asMap();
+         var current = (isNull(map["parallelUpgrades"]) ? 0 : map["parallelUpgrades"]) as int;
+         if (current >= 16383) {                                                             //这里决定了最多允许安装多少个  并行升级物品
+-            event.setFailed("已达到并行升级上限！无法继续升级。");
++            event.setFailed("Parallel upgrade limit reached! Can't upgrade further.");
+         }
+     })
+     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+@@ -90,8 +90,8 @@
+         map["parallelUpgrades"] = current + 1;
+         ctrl.customData = data;
+     })
+-    .addRecipeTooltip("§b[§6并行安装§b]§r","消耗一个升级","为机器增加 §c256 并行数")
+-    .setThreadName("并行安装")
++    .addRecipeTooltip("§b[§6Install Parallel§b]§r","Consumes one upgrade","Adds §c256 parallel §rto the machine")
++    .setThreadName("Install Parallel")
+     .build();
+ // ===================== 并行升级配方 =====================
+ 
+@@ -105,7 +105,7 @@
+         val map = data.asMap();
+         var current = (isNull(map["parallelUpgrades"]) ? 0 : map["parallelUpgrades"]) as int;
+         if (current < 1) {
+-            event.setFailed("并行升级数量不足 1，无法降级！");
++            event.setFailed("Fewer than 1 parallel upgrade, can't downgrade!");
+         }
+     })
+     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+@@ -117,8 +117,8 @@
+         ctrl.customData = data;
+     })
+     .addItemOutput(<avaritiaitem:cosmic_balance>*1)
+-    .addRecipeTooltip("§b[§6并行卸载§b]§r","消耗一张纸","减少 §c256 并行数","并返还一个升级")
+-    .setThreadName("并行卸载")
++    .addRecipeTooltip("§b[§6Remove Parallel§b]§r","Consumes one sheet of paper","Removes §c256 parallel","and returns one upgrade")
++    .setThreadName("Remove Parallel")
+     .build();
+ // ===================== 并行降级配方 =====================
+ 
+@@ -153,7 +153,7 @@
+         .addModifier(RecipeModifierBuilder.create("modularmachinery:energy", "input", 8, 1, false).build())
+         .addItemInput(getcontroller_as_cata(Machine_to_be_adpted[i])).setChance(0.0).setParallelizeUnaffected(true)
+         .addCatalystInput(<contenttweaker:eye_of_harmony_power_unit>*1,
+-            ["§c和谐之眼能量单元§9--§a能量输入减少90%"],
++            ["§cEye of Harmony Power Unit§9--§aEnergy input reduced by 90%"],
+             [
+                 RecipeModifierBuilder.create("modularmachinery:energy", "input", 0.1F, 1, false).build()
+             ]
+@@ -176,7 +176,7 @@
+     .addModifier(RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.02, 1, false).build())
+     .addItemInput(<minecraft:furnace>).setChance(0.0).setParallelizeUnaffected(true)
+         .addCatalystInput(<contenttweaker:flame_of_actualization>,
+-            ["§c显化之焰§9--§a能量输入增加900%,速度提升400%"],
++            ["§cFlame of Actualization§9--§aEnergy input +900%, speed +400%"],
+             [
+                 RecipeModifierBuilder.create("modularmachinery:energy", "input", 10.0F, 1, false).build(),
+                 RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2F, 1, false).build()
+@@ -203,9 +203,9 @@
+         maxParallel = 4194304;
+     }
+     var info as string[] = [];
+-    info += "§3=======/§9§l寰宇§3§l递归§b§l工厂§3/=======";
+-    info += "§e并行升级数量: §a" + upgrades;
+-    info += "§e当前最大并行数: §b" + maxParallel + "§r / 4194304";
++    info += "§3=======/§9§lCosmic §3§lRecursive §b§lFactory§3/=======";
++    info += "§eParallel upgrades: §a" + upgrades;
++    info += "§eCurrent max parallel: §b" + maxParallel + "§r / 4194304";
+     event.extraInfo = info;
+ });
+ // ===================== GUI显示并行升级 =====================
+\ No newline at end of file

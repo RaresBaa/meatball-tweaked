@@ -1,0 +1,18 @@
+filename = 'Leshen-1.2.jar'
+name = 'Zenkorium Creatures'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Leshen-1.2.jar'
+
+[download]
+hash = '7743bcd8f0e37e85815cbc3dffe277c94230b2ee'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2874062
+project-id = 360331

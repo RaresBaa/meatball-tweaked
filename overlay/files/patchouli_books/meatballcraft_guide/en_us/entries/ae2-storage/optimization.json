@@ -1,0 +1,32 @@
+{
+  "name": "Performance",
+  "icon": "cellterminal:cell_terminal",
+  "category": "ae2-storage",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Tick-accelerated UMFs and Woot farms lag mostly from item insertion into AE2, not machine logic—insertion is expensive due to drops cache and stacking checks."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For subnet lag, see Subnet Proxies (event storms) and Linking Subnets (keep subnets small).$(br2)$(l)Keep AE2 busses empty$()—unused item interfaces and input/output busses that hold items cause constant export attempts every tick, leading to lag."
+    },
+    {
+      "type": "text",
+      "text": "Swap unused interfaces to export-only or clear them entirely.$(li)Use separate ME subnets for storage, hypergrowth output, and essenceifier input to avoid polling lag$(li)Avoid complex channel-heavy setups; rebuild with dedicated smaller networks instead"
+    },
+    {
+      "type": "text",
+      "text": "$(li)For on-demand crafting, keep critical items on the main network—subnet interfaces cannot trigger main-network crafting$(li)Force updates occur when a subnet both imports and exports via interface + storage bus on the same controller, exposing the entire network;"
+    },
+    {
+      "type": "text",
+      "text": "avoid by using separate controllers for import/export or limiting cross-subnet data flow.$(li)ME chests are just worse drives. Storage bus walls are where most AE2 tick time goes, so prefer drives."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A storage bus attached to an interface that isn’t actively stocking items will scan the entire ME network, causing noticeable lag$(li)A storage bus on an interface that $(o)is$() stocking something only sees that stack. Partitioning the storage bus doesn't fix the lag, it just blocks items"
+    }
+  ]
+}

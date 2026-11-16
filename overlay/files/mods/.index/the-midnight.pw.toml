@@ -1,0 +1,17 @@
+filename = 'themidnight-0.3.5.jar'
+name = 'The Midnight'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'themidnight-0.3.5.jar'
+
+[download]
+hash = '2198e4b9b383c78a3a65ddd450e9065520d36b6e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2727758
+project-id = 304881

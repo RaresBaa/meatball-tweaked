@@ -1,0 +1,20 @@
+{
+  "name": "Rockets: Stuck in the Air and Landing Together",
+  "icon": "advancedrocketry:rocketbuilder",
+  "category": "reference",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Stuck at high altitude after planet entry$()$(li)If your rocket is stuck high above the surface (e.g., Y=1000), bind $(l)Open Rocket GUI$() to a key.$(li)Press the $(l)descent key$() (default $(5)Space$()) and wait for altitude to drop to 0."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Then open the rocket GUI and disassemble it—this keeps the planet chip but uses up the remaining fuel."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Landing on a planet in multiplayer$()$(li)Have two players in the rocket, on different seats, before landing.$(li)If loading stalls during landing, one player must disconnect while the other stays in the rocket.$(li)Otherwise the rocket may disappear entirely."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Tic-Tac-Toe
+
+Tic-tac-toe against the computer.
+
+Usage: tictactoe
+
+By TheOriginalBIT. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

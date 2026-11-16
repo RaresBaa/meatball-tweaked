@@ -1,0 +1,38 @@
+{
+  "name": "Draconic Reactor",
+  "icon": "opencomputers:case3",
+  "category": "oc_automation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Draconic Evolution reactors can be run from OpenComputers too. Whatever you use, $(l)test it on a reactor you can afford to lose$() and keep a manual shutdown plan.$(br2)For ComputerCraft, see $(l)drmon$() in the ComputerCraft chapter."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Draconic Control$() (XyFreak): GUI, config file, multiple reactors. Needs a $(l)Lua 5.2$() CPU: sneak-right-click the CPU in the air to switch (OC defaults to 5.3).$(br2)$(l)wget http://xypm.tenyx.de/standalone/dc_installer.lua$() then $(l)dc_installer$()"
+    },
+    {
+      "type": "link",
+      "text": "Setup guide and requirements for Draconic Control.",
+      "url": "https://tenyx.de/draconic_control/",
+      "link_text": "Open Draconic Control"
+    },
+    {
+      "type": "text",
+      "text": "$(l)reactor-control$() (Jonathan Ramos Weigend) - single file for MC 1.12.2. It drives two flux gates; check that it picked the right gate for input and output before relying on it."
+    },
+    {
+      "type": "link",
+      "text": "Download: wget https://raw.githubusercontent.com/JonathanRamosWeigend/OpenComputersDraconicReactor/main/reactor-control.lua",
+      "url": "https://github.com/JonathanRamosWeigend/OpenComputersDraconicReactor",
+      "link_text": "Open on GitHub"
+    },
+    {
+      "type": "link",
+      "text": "$(l)DEReactor Complete Control$() - works on both OpenComputers and ComputerCraft.",
+      "url": "https://github.com/OfficialStamper/DEReactor_CompleteControl",
+      "link_text": "Open on GitHub"
+    }
+  ],
+  "sortnum": 13
+}

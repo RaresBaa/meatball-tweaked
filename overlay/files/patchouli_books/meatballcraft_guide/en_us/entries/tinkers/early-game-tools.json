@@ -1,0 +1,36 @@
+{
+  "name": "Early-Game Tools & Materials",
+  "icon": "divinerpg:rupee_shickaxe",
+  "category": "tinkers",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Prioritize the Rupee Shickaxe for Chapter 1$()$(li)It’s the optimal early-game pickaxe—no need for Netherite picks until AbyssalCraft (late Chapter 2) or Advanced Rocketry (mid Chapter 3)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For shurikens, use Enderium for hitscan speed and enderman targeting, or Fluxed Electrum (Energy Eater) and Terrasteel (Mana Eater), each worth up to ~2.4–2.5× damage; Dragon Bone gives Fracture II but is replaceable later."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Material order matters: Dragon Bone $(o)before$() Fluxed Electrum and Terrasteel yields highest damage."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tool Construction & Modifiers$()$(li)Cast all metal parts in the smeltery using molds—don’t build them directly in the Part Builder.$(li)Use Unbreaking V to make tools effectively unbreakable; obtain from Tinkers’ Construct books."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Swap parts freely if you have enough durability or unused modifiers (e.g., from Magical Wood) to reapply traits.$(li)For pickaxes, prioritize Unbreakable, Haste (e.g., Weezer trait), and Netherite Sharpening Kit over raw material damage."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Avoid Common Pitfalls$()$(li)Signalium’s damage scales with missing health—great vs weak mobs, but situational.$(li)Do $(o)not$() rely on super-enchanting via AbyssalCraft: enchants vanish on part/modifier changes or leveling."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Lapis doesn’t work with autosmelt; early ore doubling makes autosmelt unnecessary.$(li)Non-weapon tools (e.g., hammers, excavators) are rarely needed if you have an Ender Pickaxe and Ore Excavation."
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "preRequisites:11": [
+    1979486906
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nObtain all Artifacts",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "atum:atums_homecoming"
+      },
+      "name:8": "The Full Museum",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1906108216,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "atum:golden_date"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:silver_coin"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyItem:10": {
+              "id:8": "atum:atums_homecoming",
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "TrophyName:8": "The Full Museum",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "atum:gebs_toil"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "atum:atums_homecoming"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "atum:gebs_might"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "atum:anubiss_mercy"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "atum:atums_bounty"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "atum:ras_fury"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "atum:tefnuts_blessing"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "atum:montus_strike"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "atum:feet_of_ra"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "atum:seths_sting"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "id:8": "atum:seths_venom"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "id:8": "atum:feet_of_atum"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "id:8": "atum:horuss_soaring"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "id:8": "atum:body_of_ra"
+        },
+        "14:10": {
+          "Count:3": 1,
+          "id:8": "atum:isis_healing"
+        },
+        "15:10": {
+          "Count:3": 1,
+          "id:8": "atum:legs_of_ra"
+        },
+        "16:10": {
+          "Count:3": 1,
+          "id:8": "atum:shus_swiftness"
+        },
+        "17:10": {
+          "Count:3": 1,
+          "id:8": "atum:halo_of_ra"
+        },
+        "18:10": {
+          "Count:3": 1,
+          "id:8": "atum:montus_blast"
+        },
+        "19:10": {
+          "Count:3": 1,
+          "id:8": "atum:nuits_duality"
+        },
+        "20:10": {
+          "Count:3": 1,
+          "id:8": "atum:horuss_ascension"
+        },
+        "21:10": {
+          "Count:3": 1,
+          "id:8": "atum:legs_of_atum"
+        },
+        "22:10": {
+          "Count:3": 1,
+          "id:8": "atum:tefnuts_call"
+        },
+        "23:10": {
+          "Count:3": 1,
+          "id:8": "atum:atums_will"
+        },
+        "24:10": {
+          "Count:3": 1,
+          "id:8": "atum:ptahs_decadence"
+        },
+        "25:10": {
+          "Count:3": 1,
+          "id:8": "atum:ptahs_undoing"
+        },
+        "26:10": {
+          "Count:3": 1,
+          "id:8": "atum:eyes_of_atum"
+        },
+        "27:10": {
+          "Count:3": 1,
+          "id:8": "atum:body_of_atum"
+        },
+        "28:10": {
+          "Count:3": 1,
+          "id:8": "atum:shus_breath"
+        },
+        "29:10": {
+          "Count:3": 1,
+          "id:8": "atum:shus_exile"
+        },
+        "30:10": {
+          "Count:3": 1,
+          "id:8": "atum:gebs_grounding"
+        },
+        "31:10": {
+          "Count:3": 1,
+          "id:8": "atum:nuits_vanishing"
+        },
+        "32:10": {
+          "Count:3": 1,
+          "id:8": "atum:tefnuts_rain"
+        },
+        "33:10": {
+          "Count:3": 1,
+          "id:8": "atum:anubiss_wrath"
+        },
+        "34:10": {
+          "Count:3": 1,
+          "id:8": "atum:nuits_ire"
+        },
+        "35:10": {
+          "Count:3": 1,
+          "id:8": "atum:nuits_quarter"
+        },
+        "36:10": {
+          "Count:3": 1,
+          "id:8": "atum:anputs_hunger"
+        }
+      },
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

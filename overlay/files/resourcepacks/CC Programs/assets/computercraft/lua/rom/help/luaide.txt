@@ -1,0 +1,10 @@
+LuaIDE
+
+Code editor with syntax highlighting, run/debug and themes.
+
+Usage: luaide [file]
+
+Needs: advanced computer (colour)
+
+By GravityScore. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

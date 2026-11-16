@@ -1,0 +1,12 @@
+{
+  "name": "Chapter 6 Basics",
+  "icon": "astralsorcery:blockaltar",
+  "category": "chapter-6",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Consider skipping the Starlight Altar for now.$() It needs 130+ Mythic Casings, which gate you hard right at the start of Chapter 6."
+    }
+  ]
+}

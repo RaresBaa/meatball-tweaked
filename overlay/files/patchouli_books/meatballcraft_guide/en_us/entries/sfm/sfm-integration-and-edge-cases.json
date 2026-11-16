@@ -1,0 +1,28 @@
+{
+  "name": "Machine Notes",
+  "icon": "enderio:block_alloy_smelter",
+  "category": "sfm",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)For simple machines (e.g., NuclearCraft) use slots, not sides; sides matter only for IE, TechReborn, EnderIO and some magic blocks. A $(5)null$() side (e.g., on alloy smelters) has no exports."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Crystallizers: use $(5)TOP_SIDE$(), $(5)BOTTOM_SIDE$() or $(5)north$(), $(5)south$() etc.; check them with the network tool.$(li)SFM can't talk to Flux Points; connect them to a battery first (e.g., Draconic wireless crystals).$(li)Modular Machinery input hatches are insert-only, so SFM can't pull from them."
+    },
+    {
+      "type": "text",
+      "text": "The MMCE item input has 9 slots (0–8) with slot 0 as the main input."
+    },
+    {
+      "type": "text",
+      "text": "$(li)SFM can't reliably read Ender IO Alloy Smelters for conditions.$(li)Bewitchment machines overflow if a slot goes above 64; cap inputs at 64 per slot.$(li)Use a 9-slot EMC Link for iron-based recipes; it's faster than the 1-slot one."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Definer fluids: connect fluid interfaces to the inputs in JEI recipe order; reinforced (10,000 mB) inputs prevent downtime.$(li)SFM visits every output slot one by one (even 1, 3, 5, 7); there's no batch insert."
+    }
+  ]
+}

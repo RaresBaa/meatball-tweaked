@@ -1,0 +1,60 @@
+--- a/config/unidict/UniDict.cfg
++++ b/config/unidict/UniDict.cfg
+@@ -22,7 +22,7 @@
+ 
+ general {
+     # Automatically hide items in JEI [default: true]
+-    B:autoHideInJEI=false
++    B:autoHideInJEI=true
+ 
+     # Entries listed here won't be hidden in JEI.
+     # Only works if keepOneEntry is false. [default: ]
+@@ -100,7 +100,7 @@
+ 
+ inputreplacement {
+     # Enabling this will remove all non-standard items from inputs of the Furnace. [default: false]
+-    B:furnace=false
++    B:furnace=true
+ 
+     # Enabling this will remove all non-standard items from inputs of Mekanism Machine Recipes. [default: false]
+     B:mekanism=false
+@@ -220,6 +220,28 @@
+         Rhenium
+         Ogerite
+         Myrmitite
++        Thorium
++        Thorium232
++        Tungsten
++        Cobalt
++        Lithium
++        Boron
++        Beryllium
++        Zirconium
++        Graphite
++        Uranium233
++        Uranium235
++        Uranium238
++        Plutonium
++        Plutonium238
++        Plutonium239
++        Plutonium241
++        Neptunium237
++        Americium241
++        Americium242
++        Caesium
++        Polonium
++        Strontium
+      >
+ 
+     # All the entries will be sorted according to the modID list below
+@@ -233,6 +255,10 @@
+         mekanism
+         immersiveengineering
+         techreborn
++        nuclearcraft
++        contenttweaker
++        tconstruct
++        libvulpes
+      >
+ 
+     # Recipe names that you don't want the Crafting Integration to mess with. [default: [minecraft:iron_nugget], [minecraft:iron_block], [minecraft:iron_ingot_from_block], [minecraft:iron_ingot_from_nuggets], [minecraft:gold_nugget], [minecraft:gold_ingot_from_block], [minecraft:gold_ingot_from_nuggets], [minecraft:gold_block]]

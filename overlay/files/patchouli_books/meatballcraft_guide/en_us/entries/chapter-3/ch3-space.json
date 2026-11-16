@@ -1,0 +1,40 @@
+{
+  "name": "Rockets, Stations and Planets",
+  "icon": "advancedrocketry:jetpack",
+  "category": "chapter-3",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Carry a jetpack or jetplate$() when traveling to dimensions without creative flight—this prevents getting stranded."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Avoid rocket disassembly issues$(): use a Tinkers' tool like the Portly Gentleman to pick up and store the entire rocket after landing, or switch to Bee stargates for more reliable travel."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Watch your fuel and warp steps$(): the Warp Core holds only ~1000 fuel; to reach distant planets like Sedna, warp to intermediate worlds first instead of attempting direct travel."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Space Station Assembler can silently fail$(): if the build process is interrupted or misconfigured, it consumes items without producing output—follow all steps precisely."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Luna is primarily for callstones and structures$(), not essential resources—no critical items beyond those."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Europa and Oi require warping to Vulcan first$() before launching rockets to them; they are not reachable directly from Earth orbit."
+    },
+    {
+      "type": "text",
+      "text": "$(l)If a rocket fails to build or launch$(), try breaking and replacing the rocket controller—it may get stuck on a previous recipe if ingredients were inserted out of order."
+    },
+    {
+      "type": "text",
+      "text": "$(l)For planet selection, keep GUI scale at Normal (2)$() if the list is unresponsive at higher scales; revert afterward to avoid UI issues."
+    }
+  ]
+}

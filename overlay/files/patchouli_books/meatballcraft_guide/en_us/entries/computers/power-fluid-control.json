@@ -1,0 +1,36 @@
+{
+  "name": "Power & Fluid System Control",
+  "icon": "enderio:block_cap_bank",
+  "category": "computers",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Shift-right-click the top face of an EnderIO capacitor with a wrench to toggle its built-in RF display screen. This provides local RF readout without computers."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ender Chests whose contents change often are a TPS cost: every ender chest on the same frequency has to update its comparator level."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For high-throughput energy storage at T2, water tanks are preferable over energy storage blocks because they have effectively unlimited throughput, whereas energy tanks struggle with peak demand."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Big Reactors turbines can overheat if RPM stays too high for too long, but this is only a concern for non-ludicrite coils; ludicrite coils are safe, and RPM can be limited by throttling steam flow."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To monitor energy in a Draconic Orb and receive chat notifications when energy drops, use a ComputerCraft/OpenComputers program that periodically checks the orb’s energy level and calculates time to depletion; this is possible because Draconic Evolution provides a CC/OC integration API."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use the StormFusions Draconic ComputerCraft program to automate reactor startup, output regulation, and temperature control; users report stable operation at 3.5–4.5 MRF/t with output ramped to ~6–7K °C and then stabilized at ~4–5K °C."
+    },
+    {
+      "type": "text",
+      "text": "$(li)ComputerCraft/OpenComputers can automate mob farms (e.g., Cursed Earth + duplicators) by monitoring essentia levels and drop needs to turn farms on/off dynamically."
+    }
+  ]
+}

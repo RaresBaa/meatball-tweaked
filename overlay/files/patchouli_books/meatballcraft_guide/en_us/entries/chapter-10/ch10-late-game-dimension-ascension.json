@@ -1,0 +1,20 @@
+{
+  "name": "Dimensional Ascension",
+  "icon": "contenttweaker:tardis_casing",
+  "category": "chapter-10",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(4)$(l)Spoiler!$()$(br2)This entry gives away a puzzle solution. Turn the page only if you want to see it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Stone of Dimensional Ascension comes from a structure with its own puzzle (separate from the gem puzzle)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Recurrent Nightmare blocks (needed for Dynamizer and other mid-late game recipes) require completion of the Dimensional Ascension ritual to craft.$(li)Dimensional shards evaporate quickly—prioritize obtaining them early before running out, as they are critical for later tiers."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Troubleshooting",
+  "icon": "environmentaltech:void_ore_miner_cont_1",
+  "category": "chapter-10",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)NC machines can reset all settings to defaults due to tick age overflow; note your settings so you can redo them."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A capped RS drawer can silently disable Void Miners, halting Dense RS production—check drawer capacity and remove caps if needed.$(li)ME Output Buses do not function while you’re offline—schedule active crafting or use SFM/external systems for reliable offline production."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Fluid Transposers jam when a bottle sits in the output location with no fluid to fill—clear the output or add a buffer tank."
+    },
+    {
+      "type": "text",
+      "text": "$(li)RFTools Builder with a 'Placing Liquids' card may reset and delete the card if an Ender Tank is directly above it—turn the builder off before inserting the card and ensure no Ender Tank is overhead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Fluid input hatches may misreport fluid amounts (e.g., showing 680 buckets when none is visible)—verify hatch tier, fluid compatibility, and eliminate flux interference."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Modular Machinery hatches can randomly begin extracting every 10 seconds, draining buffers—watch for irregular patterns and add redstone control or manual overrides."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The Radiation Scrubber multiblock only produces Arc Residue when $(o)actual radiation$() is input—do not assume it runs without a radiation source.$(li)Use only the arc residue recipe for the scrubber if radiation output is intended; avoid the alternative recipe that omits it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A vacuum hatch on a different 2-phase line can starve the target machine of molten fluid—ensure only one vacuum hatch is active per fluid line.$(li)If a Meteoric Beefaller is idle with no error, check biome hatch config, fluid/item inputs; it can sit idle without showing any error."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not use the last purple noodle for Thaumcraft duplication—you’ll need more for later brain juice tiers; the dupe is cheap enough to spare them.$(li)Recipes that depend on enchanted inputs (e.g., Cuendillar plate) are unreliable in the combination crafter;"
+    },
+    {
+      "type": "text",
+      "text": "use the Ligature of the Three Oaths multiblock for those Cuendillar recipes instead.$(li)Draconic fusion injectors will stop crafting if the drawer containing depleted LEU-235 fills up—ensure the drawer has space or use a storage bus with a filter."
+    }
+  ]
+}

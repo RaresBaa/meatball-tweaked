@@ -1,0 +1,44 @@
+{
+  "name": "AE2 Autocrafting Essentials",
+  "icon": "appliedenergistics2:molecular_assembler",
+  "category": "ae2-storage",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)You need: Pattern Terminal (create patterns), ME Interfaces (adjacent to machines), Molecular Assemblers, and a Crafting CPU."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Double-check patterns use correct ingot types (e.g., not Tinkers’ Antique variants) to avoid failures.$(li)For NBT-sensitive items (e.g., Rock Crystals), encode patterns with NBT-free blanks and let the crafter apply NBT."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A controller face carries 32 channels over dense cable; a network without a controller (energy acceptor only) gets just 8. Spread channels around the base with P2P tunnels or subnets."
+    },
+    {
+      "type": "text",
+      "text": "$(li)AE2 autocrafters only craft full batches—if ingredients for even one full batch are missing, crafting is blocked.$(li)When multiple recipes share ingredients, the autocrafter gathers everything needed, then splits shared ingredients equally (rounded down) across consumers."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use up to 6 Molecular Assemblers per Interface, and split crafting chains across separate columns (one chain per column) to maximize parallelization.$(li)Crafting card + export bus setups have a reputation for lag, though experienced players say it’s overblown."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Passive crafting$()$(li)Use Import Interfaces with partitioned cells to limit passive crafting to only what’s needed.$(li)Focus passives on high-use items: Alloys, seeds, chickens, Blood Magic slates, Thaumcraft Vis/Essentia."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do $(o)not$() confuse batching (manual prep) with autocrafting—AE2 doesn’t do batching automatically.$(li)Use Export Buses with Fuzzy Cards for complex-NBT items to ensure correct extraction from AE networks"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Avoid the Lazy AE2 Mass Assembler for 3×3 recipes$()—patterns may vanish unexpectedly; use standard AE2 autocrafters instead for reliability."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Route crafted patterns directly into the Lazy AE2 Mass Assembler$() using a high-priority storage bus to auto-fill it from your AE system."
+    }
+  ]
+}

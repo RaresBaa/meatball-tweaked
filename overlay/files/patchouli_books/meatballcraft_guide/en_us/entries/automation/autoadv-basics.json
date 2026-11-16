@@ -1,0 +1,24 @@
+{
+  "name": "Modular Machines and Hatches",
+  "icon": "modularmachinery:blockcontroller",
+  "category": "automation",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)For modular machines, AE2 with a Level Emitter on a small subnet is easier than XNet: it supports parallel multiblocks per recipe type and avoids timing pitfalls.$(li)ME hatches can lag badly because they ping AE2 for every craft request;"
+    },
+    {
+      "type": "text",
+      "text": "standard hatches are the safe choice for autocrafting.$(li)For multi-recipe MMCE multis (e.g., Enchanted Greenhouse), rely on output hatch overflow: full slots automatically skip to the next recipe with space."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Enchanted Greenhouse input hatch: items won’t auto-extract—break and replace the hatch to reset.$(li)Black hole tanks can't be inserted into a controller automatically: detect full tanks with Integrated Dynamics, and break and replace them with a placer when empty."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Rotate Modular Machine Controllers with a Crescent Hammer; rotate previews by right-clicking the controller after building."
+    }
+  ]
+}

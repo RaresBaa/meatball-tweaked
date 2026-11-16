@@ -1,0 +1,18 @@
+filename = 'QuantumThings-MC-1.12.2-1.3.0.jar'
+name = 'Quantum Things'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'QuantumThings-MC-1.12.2-1.3.0.jar'
+
+[download]
+hash = 'a8556c39fa122323f5248f9602e4457d05e75614'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8352165
+project-id = 1387363

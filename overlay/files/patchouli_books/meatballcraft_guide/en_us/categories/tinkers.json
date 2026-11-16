@@ -1,0 +1,7 @@
+{
+  "name": "Tinkers' Builds",
+  "description": "Tips for Tinkers' Builds.",
+  "icon": "minecraft:enchanted_book",
+  "parent": "topics",
+  "sortnum": 5
+}

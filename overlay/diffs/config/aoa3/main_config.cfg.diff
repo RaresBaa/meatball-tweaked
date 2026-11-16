@@ -1,0 +1,11 @@
+--- a/config/aoa3/main_config.cfg
++++ b/config/aoa3/main_config.cfg
+@@ -78,7 +78,7 @@
+     B:showVanityLevels=true
+ 
+     # Set this to false to disable the message that welcomes you to Advent of Ascension when logging in
+-    B:showWelcomeMessage=true
++    B:showWelcomeMessage=false
+ 
+     # Set this to false to disable the small scrolling popups that appear when you gain xp in a skill
+     B:showXpParticles=true

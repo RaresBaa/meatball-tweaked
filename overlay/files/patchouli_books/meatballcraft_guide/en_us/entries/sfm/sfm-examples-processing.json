@@ -1,0 +1,56 @@
+{
+  "name": "Example Scripts: Processing",
+  "icon": "superfactorymanager:manager",
+  "category": "sfm",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Resonating Crystal growth and splitting$() (Spirit). A 1×1 liquid starlight pool, refilled by any fluid placer, with an SFM item valve at the bottom facing up. $(5)CrystalBuffer$() is a chest; only $(5)CrystalOutput$() should be connected to your main storage."
+    },
+    {
+      "type": "text",
+      "text": "$(5)EVERY 10 SECONDS DO$()$(br)$(5)  if Valve has >= 2 then$()$(br)$(5)    input from Valve$()$(br)$(5)    output to CrystalBuffer$()$(br)$(5)    output to CrystalOutput$()$(br)$(5)  end$()$(br)$(5)  if Valve has = 0 then$()$(br)$(5)    input from CrystalBuffer$()$(br)$(5)    output 1 to Valve$()$(br)$(5)  end$()$(br)$(5)END$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Blood Magic slates$() (DECOI). Slot 0 of $(5)OutputChest$() picks the slate: empty = Blank, a Blank Slate there = Reinforced, and so on up to Ethereal ($(5)slate@4$()).$(br)$(5)name \"Basic Slate Crafting\"$()$(br)$(5)EVERY 20 TICKS DO$()$(br)$(5)    INPUT FROM InputChest$()$(br)$(5)    OUTPUT TO Altar$()$(br)$(5)END$()"
+    },
+    {
+      "type": "text",
+      "text": "$(5)EVERY 20 TICKS DO$()$(br)$(5)    IF OutputChest SLOT 0 HAS GE 1 bloodmagic:slate@0 THEN$()$(br)$(5)        INPUT FROM Altar$()$(br)$(5)        OUTPUT bloodmagic:slate@1 TO OutputChest SLOT 1-107$()$(br)$(5)    ELSE IF OutputChest SLOT 0 HAS GE 1 bloodmagic:slate@1 THEN$()"
+    },
+    {
+      "type": "text",
+      "text": "$(5)        INPUT FROM Altar$()$(br)$(5)        OUTPUT bloodmagic:slate@2 TO OutputChest SLOT 1-107$()"
+    },
+    {
+      "type": "text",
+      "text": "Repeat the $(5)ELSE IF$() for $(5)slate@2$() → $(5)slate@3$() and $(5)slate@3$() → $(5)slate@4$(), then end with:$(br)$(5)    ELSE$()$(br)$(5)        INPUT FROM Altar$()$(br)$(5)        OUTPUT bloodmagic:slate@0 TO OutputChest SLOT 1-107$()$(br)$(5)    END$()$(br)$(5)END$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Definer from one export interface$() (Spirit). Stock all 120 fluids in an export interface at 10,000 mb each. Needs $(l)reinforced$() fluid hatches; any other size breaks it. The 102 seconds covers the recipe scan time. Simple, but costs about 2 ms."
+    },
+    {
+      "type": "text",
+      "text": "$(5)EVERY 102 SECONDS DO$()$(br)$(5)    IF Interface HAS = 1200000 fluid:: AND$()$(br)$(5)        Hatch ROUND ROBIN BY BLOCK HAS = 0 fluid::$()$(br)$(5)    THEN$()$(br)$(5)        INPUT fluid:: FROM Interface$()$(br)$(5)        OUTPUT fluid:: TO Hatch$()$(br)$(5)    END$()$(br)$(5)END$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)A whole line in one trigger$() (Super Factory Meinager): Cosmic Fabric from Meteoric Draconic Stone. Each step ends with $(5)FORGET$(). Use exact item ids where you can, because wildcard matches are much more expensive."
+    },
+    {
+      "type": "text",
+      "text": "$(5)EVERY 1 SECOND DO$()$(br)$(5)    INPUT contenttweaker:meteoric_draconic_stone FROM stone SLOT 0$()$(br)$(5)    OUTPUT TO iMelter$()$(br)$(5)    FORGET$()$(br)$(5)    INPUT fluid:: FROM oMelter$()$(br)$(5)    OUTPUT fluid:: TO iBefallerFluid$()$(br)$(5)    FORGET$()"
+    },
+    {
+      "type": "text",
+      "text": "$(5)    INPUT EXCEPT minecraft:stick FROM oBefaller$()$(br)$(5)    OUTPUT contenttweaker:cosmic_fabric TO iBefaller$()$(br)$(5)    OUTPUT TO crystallizers TOP SIDE$()$(br)$(5)    FORGET$()$(br)$(5)    INPUT FROM emc$()$(br)$(5)    OUTPUT TO crystallizers WEST SIDE$()$(br)$(5)    FORGET$()"
+    },
+    {
+      "type": "text",
+      "text": "$(5)    INPUT FROM crystallizers BOTTOM SIDE SLOTS 0, 2$()$(br)$(5)    OUTPUT TO drawers$()$(br)$(5)END$()"
+    }
+  ]
+}

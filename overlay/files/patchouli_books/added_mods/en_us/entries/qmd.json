@@ -1,0 +1,11 @@
+{
+  "name": "Quantum Minecraft Dynamics",
+  "icon": "qmd:linear_accelerator_controller",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A NuclearCraft addon for particle physics: linear accelerators and synchrotrons, beamlines, target and collision chambers, decay chambers, nucleosynthesis and antimatter containment. This is our own port to the pack's plain NuclearCraft; the original needs NuclearCraft Overhauled."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Integrated Crafting & Terminals",
+  "icon": "integratedterminals:part_terminal_storage_item",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Integrated Dynamics add-ons: autocrafting and a storage terminal for your network."
+    }
+  ]
+}

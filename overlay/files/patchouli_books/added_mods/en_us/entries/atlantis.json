@@ -1,0 +1,15 @@
+{
+  "name": "Atlantis",
+  "icon": "atlantis:orb_of_atlantis",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An underwater dimension with aquamarine gear and pearl and shell building blocks."
+    },
+    {
+      "type": "text",
+      "text": "To get there, kill an $(item)Elder Guardian$(). An $(item)Atlantis Portal$() block appears where it dies; right-click it to travel. No return portal is built, so mine a second guardian's portal block with a harvest level 5 pickaxe and take it with you."
+    }
+  ]
+}

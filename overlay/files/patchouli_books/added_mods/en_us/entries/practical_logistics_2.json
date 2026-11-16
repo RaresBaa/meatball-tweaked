@@ -1,0 +1,11 @@
+{
+  "name": "Practical Logistics 2",
+  "icon": "practicallogistics2:displayscreen",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Read info from machines and show it on displays, plus remote item and fluid access."
+    }
+  ]
+}

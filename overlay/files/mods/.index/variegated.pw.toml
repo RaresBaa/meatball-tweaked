@@ -1,0 +1,45 @@
+filename = 'variegated-1.2.7.jar'
+name = 'Variegated'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'variegated-1.2.7.jar'
+
+[download]
+hash = 'f39bff858abd29c055dcbdac79c822d0831f80dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2789273
+project-id = 319227
+
+[[x-prismlauncher-dependencies]]
+addonId = '270470'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242830'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224791'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225643'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225561'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'

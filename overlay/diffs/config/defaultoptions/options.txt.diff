@@ -1,0 +1,11 @@
+--- a/config/defaultoptions/options.txt
++++ b/config/defaultoptions/options.txt
+@@ -15,7 +15,7 @@
+ fancyGraphics:true
+ ao:2
+ renderClouds:false
+-resourcePacks:[]
++resourcePacks:["New_AE2_Textures_1.12.2_v1.3.zip","VanillaTweaks_r548056_MC1.12.x.zip"]
+ incompatibleResourcePacks:[]
+ lastServer:
+ lang:en_us

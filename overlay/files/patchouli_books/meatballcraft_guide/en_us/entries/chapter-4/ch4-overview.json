@@ -1,0 +1,32 @@
+{
+  "name": "Chapter 4 Basics",
+  "icon": "thermalexpansion:cell",
+  "category": "chapter-4",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Applied Energistics 2 (AE2)$()$(li)Ensure sufficient energy storage (e.g., energy cells) to avoid slowdowns, especially with high throughput—item transfer consumes network energy."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Prioritize standard item storage components over Thaumcraft integration modules (e.g., Essentia Storage Cells); Thaumcraft AE2 components are unnecessary early and can be ignored until later stages."
+    },
+    {
+      "type": "text",
+      "text": "$(l)UU Matter & Ore Generation$()$(li)UU Matter is generated freely during production and is $(o)not$() consumed—do not waste time calculating energy flow for it.$(li)You must mine all ore types manually at least once;"
+    },
+    {
+      "type": "text",
+      "text": "otherwise, new ore veins will not generate in the world."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Mechanical Users & Injectors$()$(li)They work with Energy (inventory content retrieval) but may not work with Mana due to Botania API incompatibility.$(li)Injectors don't have to face inward; they also work facing outwards."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Warded Chests$()$(li)You cannot open a Warded Chest directly, so don't store anything in one that you'll need again."
+    }
+  ]
+}

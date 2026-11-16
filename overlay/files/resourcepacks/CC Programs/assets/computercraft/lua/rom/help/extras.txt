@@ -1,0 +1,7 @@
+extras lists the games and programs that come with this modpack. They are on every computer: type a program's name to run it.
+
+Usage: extras [category]
+Categories: Fun, Games, Tools, Mod helpers
+
+"help <program>" shows how to use a program and who made it. Grey entries need an advanced computer.
+Programs that save data (highscores, settings) are copied to /extra/<name> on first run; delete that folder to reset one.

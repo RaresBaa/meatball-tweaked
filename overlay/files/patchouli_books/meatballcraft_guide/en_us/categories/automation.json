@@ -1,0 +1,7 @@
+{
+  "name": "Automation",
+  "description": "Tips for Automation.",
+  "icon": "packagedauto:packager",
+  "parent": "topics",
+  "sortnum": 1
+}

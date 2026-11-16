@@ -1,0 +1,11 @@
+{
+  "name": "Psi",
+  "icon": "psi:cad_assembler",
+  "category": "magic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Build spells as programs. This pack renames Psi items: build a casting Rod in the Rod Constructor and write spells onto Spell Nodes in the Spell Inscriber. Magical Psi adds Botania/mana integration."
+    }
+  ]
+}

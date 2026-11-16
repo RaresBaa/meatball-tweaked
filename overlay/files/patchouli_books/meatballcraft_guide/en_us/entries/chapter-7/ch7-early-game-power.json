@@ -1,0 +1,24 @@
+{
+  "name": "Power and Materials",
+  "icon": "thermalfoundation:material:288",
+  "category": "chapter-7",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Immersive Engineering diesel is a good power option$()—it's surprisingly light on performance: even at 36x torcherino it was only ~0.5 mspt."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Use the Biome Hatch with Meteoric Beefalo efficiently$(): place one Beefalo per required biome instead of switching biomes repeatedly for each recipe."
+    },
+    {
+      "type": "text",
+      "text": "$(l)For rapid iron smelting$(), run a Smeltery with a Tinkers I/O Fuel Input Machine: it melts Blocks of Iron in ~1 second, and fluid lasers extract fast enough to keep up."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Uranium ore is best sourced from uranium bees$()—MA seeds yield ingots, not ore."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Mob Farming for Blood",
+  "icon": "bloodarsenal:base_item",
+  "category": "blood-magic",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use glass shards placed over graveyard soil to damage undead mobs (e.g., Wither Skeletons) repeatedly; the shards cause bleeding and generate LP."
+    },
+    {
+      "type": "text",
+      "text": "$(li)This method works with Sacrifice Runes and is highly efficient."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not rely on standard mob grinders alone—undead mobs must be damaged $(o)repeatedly$() by the shards to sustain bleeding and LP output."
+    }
+  ]
+}

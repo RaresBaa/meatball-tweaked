@@ -1,0 +1,28 @@
+{
+  "name": "Bosses and Weapons",
+  "icon": "minecraft:golden_sword",
+  "category": "chapter-5",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Excalibur$() deals void damage, which bypasses all armor and damage mitigation—ideal for bosses like the Diabetic Meatball Fiend that ignore conventional damage.$(li)$(l)Kikoku$() is the strongest weapon in Chapter 5;"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Last Stand$() is also highly effective.$(li)Unbreakable armor is a good idea; the doped electrode super-enchant Unbreaking is fine in a pinch."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use the $(l)Tax Collector bee gun$() on Shell Bosses (e.g., Halite Warrior) to obtain parts directly, avoiding repeated kills; note it does not work on Candor."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The $(l)Dread Servant$() boss in Pixonia starts with 15,000 HP lost on spawn, leaving only 20 HP remaining—making it trivial to kill once spawned."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For better bow damage, get better enchants on the bow and your armor, and work on your Astral Sorcery perks."
+    }
+  ]
+}

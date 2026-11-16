@@ -1,0 +1,44 @@
+{
+  "name": "Common Issues & Optimization Tips",
+  "icon": "bloodmagic:sigil_seer",
+  "category": "blood-magic",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Use separate altars for production and crafting$()$(li)Set up one altar dedicated to high-volume LP generation (production altar)"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Feed that altar’s output into a second altar used for crafting recipes (crafting altar)"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Prevent over-production with filters and emitters$()$(li)Use multiple item filters paired with level emitters$(li)Set each emitter to the exact slate tier quantity you want$(li)This stops slates from generating beyond your target amount"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Boost throughput without downtime$()$(li)Altar output speed depends on transfer rate, not just capacity$(li)Max transfer per operation is capped at 10% of altar capacity$(li)Increase Displacement Runes and ensure capacity is high enough to avoid gaps between Agonizer dumps"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Optimize LP yield and storage$()$(li)Use Twilight Essence as your main catalyst for active crafting$(li)For passive generation, Droplet of the Great Snake or Ender Dragon Blood gives the highest LP per craft"
+    },
+    {
+      "type": "text",
+      "text": "$(li)For AE2 LP storage: higher capacity reduces charging speed—tune based on how often you craft large batches"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Inspect and troubleshoot reliably$()$(li)Use the Seer Sigil to check internal altar buffer levels$(li)If Ender IO conduits seem slow, confirm the altar isn’t full and add Displacement Runes if needed"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Matter (e.g., pristine matter) gives a solid LP boost if you already have it, but isn’t required to get started"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Keep lag low$()$(li)Move machines and structures into the Pocket Realm when possible$(li)This isn’t mandatory, but it significantly reduces server strain on large setups"
+    }
+  ]
+}

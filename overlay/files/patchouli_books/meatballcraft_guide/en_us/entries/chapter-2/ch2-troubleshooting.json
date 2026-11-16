@@ -1,0 +1,32 @@
+{
+  "name": "Troubleshooting",
+  "icon": "minecraft:lava_bucket",
+  "category": "chapter-2",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Avoid smeltery bottlenecks$()$(li)If items sit waiting in a full Tinkers’ Smeltery, TPS can drop drastically—clear outputs promptly.$(li)Extracting multiple fluids from one tank causes slowdown;"
+    },
+    {
+      "type": "text",
+      "text": "insert and extract from the controller instead.$(li)Don’t automate the Tinkers’ Seared Furnace; use Redstone, Red Matter, or Insanium Furnaces for high-volume smelting."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Stable multiblock & dimension use$()$(li)Compact Machines can cause crashes and memory leaks."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Critical troubleshooting steps$()$(li)If the Assembly Table does nothing, check: power (laser), ingredient input, and recipe selection.$(li)If a T3 crafter outputs 0%, verify: encoded recipe, Dragon Heart, output space, and energy."
+    },
+    {
+      "type": "text",
+      "text": "$(li)NuclearCraft machines don’t need pipes: build them next to each other and they auto-push into the next one. Faulty fluid pipes can even cause odd overheating.$(li)Don’t use Tesseralators or Tesslocator with filters—they crash reliably."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ender IO conduit lag often comes from over-filtering and bundles; simplify channels and avoid filtering in output blocks."
+    }
+  ]
+}

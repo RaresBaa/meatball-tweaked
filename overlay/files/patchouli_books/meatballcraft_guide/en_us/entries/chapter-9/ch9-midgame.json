@@ -1,0 +1,24 @@
+{
+  "name": "Energy, Fluids and Farming",
+  "icon": "contenttweaker:charged_dyson_capacitor",
+  "category": "chapter-9",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Energy$()$(li)To maximize Dyson energy ball output, use multiple pylons (each provides maxint power) or phantom faces; 1024× dischargers require multiple input pylons."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A 256× discharger tier is sufficient for Eye of Galifrey passive crafting and leaves adequate overhead; higher tiers are optional.$(li)Do not rely on random tick speed to speed up black hole tank filling—use Actually Additions fluid lasers (2.1 billion mb/t) instead."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fluids$()$(li)To feed 120 definers, players have used a drawer wall with one conduit per hatch, a single AE2 subnet with export buses, or 14 networks of 8 fluids each over fluid P2P. All of these work."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Farming & Crafting$()$(li)Terrestrial Cauldrons become the primary bottleneck for halite production; passive crafting of cauldron components is recommended once ingredients are abundant.$(li)Fluid replicators are very fast and do not require overclocking."
+    }
+  ]
+}

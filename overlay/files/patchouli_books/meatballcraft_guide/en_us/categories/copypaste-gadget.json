@@ -1,0 +1,7 @@
+{
+  "name": "Copy-Paste Gadget",
+  "description": "Tips for Copy-Paste Gadget.",
+  "icon": "buildinggadgets:buildingtool",
+  "parent": "topics",
+  "sortnum": 11
+}

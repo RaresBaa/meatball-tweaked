@@ -1,0 +1,11 @@
+{
+  "name": "The Beneath",
+  "icon": "beneath:teleporterbeneath",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A dark underground dimension below the Overworld."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+--- a/config/fermiumbooter.cfg
++++ b/config/fermiumbooter.cfg
+@@ -1,7 +1,8 @@
+ # Configuration file
+ 
+ general {
+-    # Mixin config json files to forcibly early enqueue, to allow for simple compatibility with older mods that fail to enqueue their mixins
++    # Appends prior mixin exceptions to crash reports to help diagnose crashes
++    B:"Append General Mixin Exceptions To Crash Reports"=true
+     S:"Forced Early Mixin Config Additions" <
+      >
+ 
+@@ -17,6 +18,22 @@
+     # Prevents the mixin compatibility warning text from rendering on screen
+     # Errors and warnings will still be printed to the log
+     B:"Suppress Mixin Compatibility Warnings Render"=false
++
++    ##########################################################################################################
++    # jar scanner manual overrides
++    #--------------------------------------------------------------------------------------------------------#
++    # Used to detect mods that don't use @Mod or mcmod.info to define their modid
++    # If the jar scanner finds the given package, it will set the respective modid as being present. 
++    # It is not possible to filter for version or modname when using this system
++    # Pattern: S:path.of.package=modid
++    ##########################################################################################################
++
++    "jar scanner manual overrides" {
++        S:gg.essential=essential
++        S:git.jbredwards.jsonpaintings=jsonpaintings
++        S:net.optifine=optifine
++    }
++
+ }
+ 
+ 

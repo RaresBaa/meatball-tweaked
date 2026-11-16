@@ -1,0 +1,33 @@
+filename = 'chickens-6.0.4.jar'
+name = 'Chickens'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Chickens 6.0.4v (MC 1.12.2)'
+
+[download]
+hash = '170b7f97baec7433a0933dc4c484941b47714e51'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2537643
+project-id = 241941
+
+[[x-prismlauncher-dependencies]]
+addonId = '73488'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '253449'
+type = 'OPTIONAL'

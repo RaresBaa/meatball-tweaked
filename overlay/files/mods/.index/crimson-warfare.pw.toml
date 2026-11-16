@@ -1,0 +1,21 @@
+filename = 'crimsonwarfare-1.5.jar'
+name = 'Crimson Warfare'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Crimson Warfare 1.5'
+
+[download]
+hash = '65185e3be1771b41f71b7597f157522d99d203f2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2879737
+project-id = 361313
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'REQUIRED'

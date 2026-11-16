@@ -1,0 +1,20 @@
+--- a/config/modularmachinery/machinery/SKTweaks/large_scale_essentia_crystallizer.json
++++ b/config/modularmachinery/machinery/SKTweaks/large_scale_essentia_crystallizer.json
+@@ -11,7 +11,7 @@
+             "x": 0,
+             "y": 1,
+             "z": 0,
+-            "description": "替换中间方块以获得产出x4",
++            "description": "Replace the middle block for output x4",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:item",
+@@ -24,7 +24,7 @@
+             "x": 0,
+             "y": 1,
+             "z": 0,
+-            "description": "替换中间方块以获得产出x20",
++            "description": "Replace the middle block for output x20",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:item",

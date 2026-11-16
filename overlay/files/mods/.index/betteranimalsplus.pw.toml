@@ -1,0 +1,17 @@
+filename = 'betteranimalsplus-1.12.2-9.0.1.jar'
+name = 'Better Animals Plus'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'betteranimalsplus-1.12.2-9.0.1.jar'
+
+[download]
+hash = '673f1f60061c91305335d9ca13c3ee4563322bcd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2933382
+project-id = 303557

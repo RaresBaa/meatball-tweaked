@@ -1,0 +1,11 @@
+--- a/config/AppliedEnergistics2/CustomRecipes.cfg
++++ b/config/AppliedEnergistics2/CustomRecipes.cfg
+@@ -1,7 +1,7 @@
+ # Configuration file
+ 
+ cache {
+-    S:digest=5f85950e1633dd79cbdb0bd9c3ae2275
++    S:digest=4da0bc433d706e7d4bf3b807ae928905
+ 
+     # Caching can save processing time, if there are a lot of items. [default: true]
+     B:enableCache=true

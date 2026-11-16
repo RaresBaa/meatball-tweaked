@@ -1,0 +1,16 @@
+{
+  "name": "Screen Toys",
+  "icon": "opencomputers:screen3",
+  "category": "oc_fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)cmatrix$() - Matrix rain$(li)$(l)stars$() - starfield screensaver$(li)$(l)pipedream$() - growing pipes$(li)$(l)alongtimeago$() - the Star Wars ASCII movie$(li)$(l)sl$() - a train for when you mistype ls"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)cowsay$() and $(l)fortune$()$(li)$(l)drama$() - asie's modding drama generator$(br2)Install each with $(l)oppm install <name>$()."
+    }
+  ],
+  "sortnum": 7
+}

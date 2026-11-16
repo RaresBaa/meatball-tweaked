@@ -1,0 +1,36 @@
+{
+  "name": "Botania and Blood Magic",
+  "icon": "botania:specialflower",
+  "category": "automation",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Botania$()$(li)Runic Altar: two Modular Routers—the first places items and locks input via a comparator signal, the second uses a Wand of the Forest to finish;"
+    },
+    {
+      "type": "text",
+      "text": "collect runes with an Advanced Item Collector (whitelist, ignore oredict/NBT). A mechanical user with an ME interface in blocking mode also works.$(li)Feed leaves from an EMC link into a powered OpenBlocks placer to keep a Gourmaryllis fed for passive mana until the pools are full."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Living Gold: two Builders, one places gold blocks around a Pure Daisy, the other breaks only gold blocks; limit both with a redstone clock to reduce TPS lag."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For Living Rock/Gold/Wood with AE2, use two subnets: one for formation planes (fed with gold from an EMC link via import bus), one for annihilation planes (ME chest with storage bus)."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Blood Magic slates$()$(li)Passive slates: EMC Link → conduits → Blood Altar with a limited item filter (1 stone), connected to locked drawers (one per slate tier) and a void upgrade on the ethereal drawer; the altar moves up tier by tier as lower tiers fill. For an SFM version, see the SFM page."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Avoid voiding ethereals: redstone relays (Thermal Ducts) in threshold mode (≥14 signal) watch the drawers, and Project Red AND gates stop stone extraction only when $(o)all$() drawers are full.$(li)Keep slate processing continuous;"
+    },
+    {
+      "type": "text",
+      "text": "if the next slate is processed before the current one registers, the system pulls the next one automatically."
+    }
+  ]
+}

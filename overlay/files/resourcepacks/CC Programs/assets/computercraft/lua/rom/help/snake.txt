@@ -1,0 +1,8 @@
+Snake
+
+Classic snake. Arrow keys to steer.
+
+Usage: snake
+
+By unknown. License: unspecified.
+Source: https://pastebin.com/xa4G6tH2

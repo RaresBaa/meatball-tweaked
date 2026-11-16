@@ -1,0 +1,24 @@
+{
+  "name": "Surviving: Armor and Magic Protection",
+  "icon": "divinerpg:bedrock_chestplate",
+  "category": "chapter-1",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Bedrock armor$() is the Chapter 1 armor. It's crafted from rupees (see Finding Ores) and makes you $(l)immune to fire damage$(). It's much better than Netherite armor."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Magic Protection$() matters just as much. Blazes, ghasts, fireball-shooting mobs and dragon breath all deal $(l)magic damage$(), and they will one-shot you without it. Put Magic Protection on every armor piece if you can."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Both $(l)Electroblob's Wizardry$() and $(l)Bewitchment$() add a Magic Protection enchant, and you can stack both on one piece.$(li)Spells hit very hard in this pack. Player spell damage is multiplied by 7 and NPC spell damage by 13, which is why a stray fireball can kill you."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Early on, a good trick is to build into a hill in a plains biome. It's safer than open ground.$(li)Later, $(l)Last Stand$() on your armor helps a lot."
+    }
+  ]
+}

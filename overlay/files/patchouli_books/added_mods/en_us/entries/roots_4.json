@@ -1,0 +1,11 @@
+{
+  "name": "Roots 4",
+  "icon": "roots:pestle",
+  "category": "magic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Herb-based druid magic: rituals, spells with a staff and fey crafting."
+    }
+  ]
+}

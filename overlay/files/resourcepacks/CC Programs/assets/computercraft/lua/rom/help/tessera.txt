@@ -1,0 +1,10 @@
+Tessera
+
+Falling-block puzzle game. P pauses.
+
+Usage: tessera
+
+Needs: advanced computer (colour)
+
+By aximu4. License: MIT.
+Source: https://github.com/aximu4/Tessera

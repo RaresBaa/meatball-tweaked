@@ -1,0 +1,25 @@
+filename = 'AE2OverclockedCrafting-release-1.3.jar'
+name = 'AE2 Overclocked Crafting'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AE2OverclockedCrafting-release-1.3.jar'
+
+[download]
+hash = 'f3fee3c4b7464e8fee335bf08a9aa0a2285033c5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8532898
+project-id = 1628168
+
+[[x-prismlauncher-dependencies]]
+addonId = '623955'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '570458'
+type = 'REQUIRED'

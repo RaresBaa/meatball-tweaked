@@ -1,0 +1,48 @@
+{
+  "name": "TARDIS Overview & Core Concepts",
+  "icon": "contenttweaker:space_time_beam",
+  "category": "tardis",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Crafting a Space Time Beam yields 12 per craft, not 1—double-check your recipe output to avoid underestimating material needs."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A full TARDIS build requires sustained high-rate production: e.g., 1,728 neutron reflector/s, 432 beryllium cells/s, and 74 superconductors/s (including helium cells and iridium alloy plates)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Particle accelerators cannot share floor or ceiling space—place them on separate layers to avoid interference."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For core multiblocks, you'll need a Fractallite Furnace for the other Gallifrean ingot.$(li)The Dyson Abater multiblock’s components must be arranged from farthest to closest as: abator → revolver → scatterer → dynamizer."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A reasonable minimum TARDIS speed is two hours per casing (ideally one hour); this still adds up to ~1,300 hours."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To automate halite production efficiently, use the Nightmare Synthesizer with Warren Binder fluid feeding blackhole controllers—this reduces refills from every 2.5 minutes to every 30 minutes.$(li)A fresh, unprepared TARDIS casing requires approximately 800 million EMC to craft."
+    },
+    {
+      "type": "text",
+      "text": "$(li)TARDIS casing production is slow (~10 per 3–4 days), so plan accordingly.$(li)To obtain the TARDIS, search for it in JEI, then control-click the wrench and click the TARDIS block to claim it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To sustain the 50-hour TARDIS, you need at least two twelve-gate fluid production multiblocks, as dark starlight is consumed rapidly."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Placing a TARDIS stem can trigger a draconic reactor meltdown in all chunkloaded chunks—ensure all nearby reactors are safely shut down first.$(li)Crafting a 50-hour TARDIS requires ~22.86 million ingots (e.g., ~22,860,000), plus tens of thousands more;"
+    },
+    {
+      "type": "text",
+      "text": "at 127/s, this takes ~50 hours of pure crafting."
+    }
+  ]
+}

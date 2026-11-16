@@ -1,0 +1,16 @@
+{
+  "name": "Mob Farming",
+  "icon": "divinerpg:purple_blaze",
+  "category": "chapter-6",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ultimate mob farms are compact, have no durability cost, and read drop tables directly—avoiding champion mob modifiers—making them ideal for passiving rarer drops."
+    },
+    {
+      "type": "text",
+      "text": "Purple Blaze can be ultimate mob farmed and is a viable passive source for certain materials.$(br2)Passive farming of wildwood stars is best done with DML; alternatively, catch a rainbour and ultimate mob farm it, or craft using bloodgems from bloodgem chickens or the Deep Twilight Comb."
+    }
+  ]
+}

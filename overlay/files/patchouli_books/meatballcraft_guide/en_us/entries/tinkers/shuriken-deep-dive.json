@@ -1,0 +1,40 @@
+{
+  "name": "Shuriken Mechanics & Builds",
+  "icon": "tconstruct:shuriken",
+  "category": "tinkers",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Shuriken Mechanics$()$(li)Shurikens fly high and slowly return—unsuitable for fast-moving targets.$(li)Shurikens follow standard Tinkers’ durability mechanics: retrieve them before they despawn to recover ammo;"
+    },
+    {
+      "type": "text",
+      "text": "repair with any head part material.$(li)Trait levels affect kill chance: critkill on non-bosses triggers at ~10% × trait level; player self-kill chance is ~3% ÷ trait level.$(li)Test damage on Giant Crabs or actual mobs—the Test Dummy is buggy for ranged hits."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Optimal Builds$()$(li)For early shurikens: use paper or prosperity shard as one of the four primary blades for extra modifier slots.$(li)Best early build: paper/prosperity shard + dragon bone + dragon bone + enderium."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Best damage multiplier combo: Terrasteel (Mana Eater) + Fluxed Electrum (Energy Eater) + Nickel Embossment (always crit) + Dragon Bone (Fracture, which adds more damage than the tooltip shows)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To apply Nickel Embossment correctly: place shuriken center in Tool Forge, add Nickel Blade in a surrounding cell $(o)without$() replacing an existing blade."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Key Tips & Workarounds$()$(li)Don't put a Will modifier on your shuriken (the drops clog your inventory). Hold a Sentient Sword in your main hand and the shuriken in your offhand: you still get Will drops.$(li)Neutronium shurikens are viable;"
+    },
+    {
+      "type": "text",
+      "text": "locate floating End Farlands with Topography Map.$(li)Fiery trait lets shurikens hit enemies immune to ranged attacks (e.g., Shoggoths).$(li)For maximum damage: mass-enchant via the Enchantment Library (e.g., Vorpal 15 on a katana lasts until endgame);"
+    },
+    {
+      "type": "text",
+      "text": "max level = highest-level book inserted, all on one book to avoid wiping."
+    }
+  ]
+}

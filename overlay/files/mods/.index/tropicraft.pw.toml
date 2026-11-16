@@ -1,0 +1,17 @@
+filename = 'tropicraft-MC1.12.2-7.1.9.115.jar'
+name = 'Tropicraft'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tropicraft-MC1.12.2-7.1.9.115.jar'
+
+[download]
+hash = '0fd96e1368489dc6c4d1121ce67bb8e660e65f65'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2713918
+project-id = 254794

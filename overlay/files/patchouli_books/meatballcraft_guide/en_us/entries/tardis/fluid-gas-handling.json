@@ -1,0 +1,20 @@
+{
+  "name": "Fluid & Gas Processing (Transposer, Witchcraft, Separator)",
+  "icon": "nuclearcraft:isotope_separator_idle",
+  "category": "tardis",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Fluid Transposer$()$(li)Recipes run in 2 ticks, not 1.$(li)Machines like OpenBlocks tanks fill at 1 tick per bucket (16 ticks for 16-bucket tanks).$(li)Power draw (600 RF/t) exceeds recipe cost (400 RF/t)."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Witchcraft$()$(li)Liquid Witchcraft requires two dedicated Honeysmelters."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Isotope Separator$()$(li)Upgrading the separator enables simpler, non-spammy TARDIS material routes.$(li)Without the upgrade, complex routing or spam is required."
+    }
+  ]
+}

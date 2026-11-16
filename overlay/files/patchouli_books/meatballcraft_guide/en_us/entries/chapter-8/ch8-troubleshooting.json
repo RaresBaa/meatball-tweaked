@@ -1,0 +1,20 @@
+{
+  "name": "Troubleshooting",
+  "icon": "minecraft:obsidian",
+  "category": "chapter-8",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Lag$()$(li)To prevent severe lag with UMF, always keep an Import Interface with a Trash Card active in the network."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fluid Hatches$()$(li)You can take the fluid out of a hatch before breaking it.$(li)For large fluid storage, use black hole units or fluid drawers (~15M mB each at max tier)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not place flux points directly on Woot factories; use a cryo-stabilized fluxduct between them to prevent disconnections."
+    }
+  ]
+}

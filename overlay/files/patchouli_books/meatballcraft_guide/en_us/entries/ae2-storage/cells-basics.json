@@ -1,0 +1,36 @@
+{
+  "name": "Cells Basics & Setup",
+  "icon": "cellterminal:cell_terminal",
+  "category": "ae2-storage",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)To apply cards (e.g., capacity, distribution) to a cell, right-click the cell with the card in hand or drop the card onto the cell in the terminal GUI."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Equal distribution cards work with Hyper Density Cells and Configurable Cells (which ship with Hyper Density Cells by default); they do $(o)not$() work with standard cells.$(li)For compacting cells, the Compacting Card stores only one item type per slot;"
+    },
+    {
+      "type": "text",
+      "text": "to combine oredict variants (e.g., all copper ingots), use an Oredict Card on a Compacting Cell—it converts all matching variants into the partitioned item type.$(li)Avoid using Sticky mode in AE2 storage cells due to performance issues and stale item listings when counts drop to zero."
+    },
+    {
+      "type": "text",
+      "text": "$(li)When a component is removed from a Configurable Cell without specifying a max value, the NBT tag (e.g., $(5)maxPerType$()) may persist; clearing $(5)maxPerType$() avoids performance problems with blinking cells."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The defragmentation button in the Cell Terminal splits items evenly across unique cells.$(li)CELLS cells stack to 64. Shift-right-clicking extracts all but one."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To upgrade a full compacting cell (e.g., 16K → larger), use Export Interfaces to export items to a subnet with an Import Interface holding the new cell, and transfer via SFM (transfer limits capped at Integer.MAX: 2.1B)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Partition storage cells to avoid overflow, but leave a few unpartitioned for flexibility."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+filename = 'lazy-ae2-patch-1.2.2.jar'
+name = 'Lazy AE2 Patch'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lazy-ae2-patch-1.2.2.jar'
+
+[download]
+hash = '5072130e961e1cbd2f46d25e5a2a50304c1aecc9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8243712
+project-id = 870503
+
+[[x-prismlauncher-dependencies]]
+addonId = '322347'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '570458'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'

@@ -1,0 +1,16 @@
+{
+  "name": "Bonsai Timing",
+  "icon": "minecraft:flower_pot",
+  "category": "chapter-4",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Build your first bonsai setup only after Chapter 4–5, when usability improvements unlock; earlier attempts will be frustratingly slow."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Do not attempt final bonsai crafting before Chapter 9—it requires unlocked recipes and materials only available then.$(li)MK-12 bonsais appear only in the Proxima Belt, and only after reaching Chapter 6 or 7; plan your travel accordingly."
+    }
+  ]
+}

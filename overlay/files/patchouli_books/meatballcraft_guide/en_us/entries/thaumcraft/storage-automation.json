@@ -1,0 +1,48 @@
+{
+  "name": "Essentia Storage & Automation",
+  "icon": "thaumicenergistics:essentia_cell_1k",
+  "category": "thaumcraft",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use an $(o)Essentia$() ME storage bus—not a generic Item Storage Bus—to connect essentia to ME systems.$(li)Keep essentia on a dedicated subnet (not the main ME network) to avoid cache issues and lag."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use Storage Level Emitters (not Essentia-specific emitters) to monitor essentia levels in ME drives.$(li)Configurable Essentia Cells reduce clutter: one cell handles multiple essentia types instead of one per type."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Import/Export Interfaces can store essentia indefinitely, acting as infinite-capacity storage and bypassing the need for Essentia Cells in some setups.$(li)Essentia import/export buses are always filtered—you must manually set the essentia type in the bus GUI;"
+    },
+    {
+      "type": "text",
+      "text": "they do not auto-pull any available essentia."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To automate the Thaumatorium, use Essentia Export Interfaces (not Infusion Providers) to feed essentia; Infusion Providers only work with the Runic Matrix.$(li)Essentia output hatches behave like jars—you can attach storage buses to them for ME integration."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For wireless essentia export without filtering, use wireless essentia + an Emptying Essentia Transfuser to pull from jars within 16 blocks.$(li)Avoid using essentia storage buses on essentia providers—they cause cache-update issues and lag; use import/export buses instead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Thaumcraft tubes are unreliable and prone to jamming (visible as gas leaks and Flux generation); avoid overloading or unbalanced flow."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Essentia types do not appear alphabetically in JEI, so manual filtering or slot-based automation is required to avoid errors when managing many essentia types.$(li)Essentia Mirrors have EMC and are easy to craft, but transform part of your essentia into Flux—use cautiously."
+    },
+    {
+      "type": "text",
+      "text": "$(li)A 4+1 nutrient cycle (4 nutrient + 1 empty slot) reduces nutrient consumption from 10% to 5% per cycle in crystallizers.$(li)To connect ME cables to Compact Machines, use a ME Capability Adapter—it fetches sides automatically and is not side-specific."
+    },
+    {
+      "type": "text",
+      "text": "$(li)You can smelt essentia on-site for machines using a subnet’s wireless essentia or export buses—no need to bring essentia to the main network."
+    }
+  ]
+}

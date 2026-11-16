@@ -1,0 +1,154 @@
+--- a/scripts/SKTweaks/ModularOreProcessing_Core.zs
++++ b/scripts/SKTweaks/ModularOreProcessing_Core.zs
+@@ -33,7 +33,7 @@
+ val MACHINE = "numeron_network";
+ MachineModifier.setInternalParallelism(MACHINE, 1);
+ MachineModifier.setMaxThreads(MACHINE, 64);
+-MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("网络监控器"));
++MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("Network Monitor"));
+ var offsets = [
+     [-10,0,-8],
+     [10,0,-8],
+@@ -168,59 +168,59 @@
+     val data = ctrl.customData;
+     val world = ctrl.world;
+     var info as string[] = [];
+-    var sub_info = "§a● 已成型";
++    var sub_info = "§a● Formed";
+     var energy_input = 1 as float;
+     var Parallel = 256;
+-    info += "§3║§5✦§d 源数网络 §f| §7v1.0 ";
+-    info += "§3║§b▸ §7主结构：§r" + "§a已成型" ;
++    info += "§3║§5✦§d Numeron Network §f| §7v1.0";
++    info += "§3║§b▸ §7Main structure: §r" + "§aFormed" ;
+     // 附属模块
+     if(Get_CustomData_bool(data,"Extra_1_shell",false)){
+         if(Get_CustomData_int(data,"Extra_1_shell_connection",0)>0){
+-            sub_info = "§d● 已连接";
++            sub_info = "§d● Connected";
+             energy_input *= 0.05;
+         }
+-        info += "§3║§b▸ §e第一神话叠壳：§r" + sub_info ;
+-        sub_info = "§a● 已成型";
++        info += "§3║§b▸ §eFirst Mythic Shell: §r" + sub_info ;
++        sub_info = "§a● Formed";
+     }
+     if(Get_CustomData_bool(data,"Extra_2_shell",false)){
+         if(Get_CustomData_int(data,"Extra_2_shell_connection",0)>0){
+-            sub_info = "§d● 已连接";
+-        }
+-        info += "§3║§b▸ §e第二神话叠壳：§r" + sub_info ;
+-        sub_info = "§a● 已成型";
++            sub_info = "§d● Connected";
++        }
++        info += "§3║§b▸ §eSecond Mythic Shell: §r" + sub_info ;
++        sub_info = "§a● Formed";
+     }
+     if(Get_CustomData_bool(data,"Extra_3_shell",false)){
+         if(Get_CustomData_int(data,"Extra_3_shell_connection",0)>0){
+-            sub_info = "§d● 已连接";
++            sub_info = "§d● Connected";
+             Parallel *= 16;
+         }
+-        info += "§3║§b▸ §e第三神话叠壳：§r" + sub_info ;
+-        sub_info = "§a● 已成型";
++        info += "§3║§b▸ §eThird Mythic Shell: §r" + sub_info ;
++        sub_info = "§a● Formed";
+     }
+     if(Get_CustomData_bool(data,"Extra_4_shell",false)){
+         if(Get_CustomData_int(data,"Extra_4_shell_connection",0)>0){
+-            sub_info = "§d● 已连接";
+-        }
+-        info += "§3║§b▸ §e第四神话叠壳：§r" + sub_info ;
+-        sub_info = "§a● 已成型";
++            sub_info = "§d● Connected";
++        }
++        info += "§3║§b▸ §eFourth Mythic Shell: §r" + sub_info ;
++        sub_info = "§a● Formed";
+     }
+     if(Get_CustomData_bool(data,"Extra_5_shell",false)){
+         if(Get_CustomData_int(data,"Extra_5_shell_connection",0)>0){
+-            sub_info = "§d● 已连接";
++            sub_info = "§d● Connected";
+             energy_input *=0.05;
+             Parallel *= 256;
+         }
+-        info += "§3║§b▸ §e第五神话叠壳：§r" + sub_info ;
+-        sub_info = "§a● 已成型";
+-    }
+-
+-    info += "§3║§b▸ §6能量升级：§r" + formatFloat(energy_input, 5) + "x" ;
+-    info += "§3║§b▸ §6并行处理：§r" + Parallel + "x"  ;
++        info += "§3║§b▸ §eFifth Mythic Shell: §r" + sub_info ;
++        sub_info = "§a● Formed";
++    }
++
++    info += "§3║§b▸ §6Energy upgrade: §r" + formatFloat(energy_input, 5) + "x" ;
++    info += "§3║§b▸ §6Parallel processing: §r" + Parallel + "x"  ;
+     if(Get_CustomData_int(data,"Extra_3_shell_connection",0)>0){
+-        info += "§3║§b▸ §6主产物：§r" + "16x" ;
++        info += "§3║§b▸ §6Main product: §r" + "16x" ;
+     }
+     if(Get_CustomData_int(data,"Extra_4_shell_connection",0)>0){
+-        info += "§3║§b▸ §6附产物：§r" + "8x" ;
++        info += "§3║§b▸ §6Byproduct: §r" + "8x" ;
+     }
+     event.extraInfo = info;
+ });
+@@ -247,8 +247,8 @@
+     MachineModifier.setMaxThreads(machineName, 0);
+     // ======================tooltips======================
+ 
+-    machineItem.addTooltip(format.red("源数网络附属模块"));
+-    machineItem.addTooltip(format.red("机器朝向必须于主控制器一致才能正确成型！"));
++    machineItem.addTooltip(format.red("Numeron Network Submodule"));
++    machineItem.addTooltip(format.red("The machine must face the same way as the main controller to form correctly!"));
+ 
+     // ======================tooltips======================
+ 
+@@ -266,13 +266,13 @@
+     });
+     // ==============================================结构形成事件=============================================
+ 
+-    MachineModifier.addCoreThread("mythic_fractal_core_" + i, FactoryRecipeThread.createCoreThread("网络维护单元"));
++    MachineModifier.addCoreThread("mythic_fractal_core_" + i, FactoryRecipeThread.createCoreThread("Network Maintenance Unit"));
+     var sub_Recipe_i = RecipeBuilder.newBuilder("numeron_connect_" + i, "mythic_fractal_core_" + i, 200);
+     sub_Recipe_i
+         .addEnergyPerTickInput(2000)
+         .setMaxThreads(1)
+         .setParallelized(false)
+-        .setThreadName("网络维护单元")
++        .setThreadName("Network Maintenance Unit")
+         .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+             val ctrl = event.controller;
+             val data = ctrl.customData;
+@@ -289,7 +289,7 @@
+             }
+             main_controller.customData = main_controller.customData + ({ "Extra_" + i + "_shell_connection": New_connetion } as IData);
+         })
+-        .addRecipeTooltip("§d[网络连接维持]")
++        .addRecipeTooltip("§d[Network Link Upkeep]")
+         .build();
+ }
+ 
+@@ -347,7 +347,7 @@
+                    return null;
+                })
+                .setTag("ore_prossing_output")
+-               .setPreViewNBT({display:{Lore:["§e需要升级：§b副产出升级"]}} as IData);
++               .setPreViewNBT({display:{Lore:["§eRequires upgrade: §bByproduct Output Upgrade"]}} as IData);
+     }
+ 
+     builder.addEnergyPerTickInput(1000000);
+@@ -382,9 +382,9 @@
+         }
+         ctrl.customData = data;
+     })
+-    .addRecipeTooltip("§d[网络连接维持]")
++    .addRecipeTooltip("§d[Network Link Upkeep]")
+     .setMaxThreads(1)
+-    .setThreadName("网络监控器")
++    .setThreadName("Network Monitor")
+     .build();
+ 
+ // ==================================================处理连接==================================================

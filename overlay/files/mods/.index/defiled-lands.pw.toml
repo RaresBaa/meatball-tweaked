@@ -1,0 +1,17 @@
+filename = 'defiledlands-1.12.2-1.4.3.jar'
+name = 'Defiled Lands'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'defiledlands-1.12.2-1.4.3.jar'
+
+[download]
+hash = 'a5590fd607602a9f44b5d9c0511ee7756cd99591'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2835318
+project-id = 273502

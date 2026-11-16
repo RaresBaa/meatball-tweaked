@@ -1,0 +1,21 @@
+filename = 'Tesslocator-1.1.0.15.jar'
+name = 'Tesslocator'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Tesslocator-1.1.0.15.jar'
+
+[download]
+hash = '3e80462c51dfc12c757e170d3b2bd773319a1428'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2754227
+project-id = 314814
+
+[[x-prismlauncher-dependencies]]
+addonId = '309674'
+type = 'REQUIRED'

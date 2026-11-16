@@ -1,0 +1,28 @@
+{
+  "name": "Heat Exchangers",
+  "icon": "nuclearcraft:heat_exchanger_controller",
+  "category": "chapter-8",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)For multi-slice setups, hold shift when placing a cell to copy the configuration of the cell you target (works for MSR too)$(li)Ensure water and hot fluid flow in opposite directions—this is required for heat exchange efficiency"
+    },
+    {
+      "type": "text",
+      "text": "$(li)In modular multiblocks, fluid input order does not affect function; in heat exchangers, the water and the hot fluid must flow in opposite directions"
+    },
+    {
+      "type": "text",
+      "text": "$(li)For 2-phase heat exchangers, additional slices increase processing speed"
+    },
+    {
+      "type": "text",
+      "text": "$(li)For MSR/heat exchanger chains, alternate default and input spread, with product out on the last slice (e.g., default → input spread → default → input spread → default → product out for a three-slice MSR)"
+    },
+    {
+      "type": "text",
+      "text": "$(li)The heat exchanger for the Fluid Crystal Matrix does not require actual heat; surrounding the tube with buckets of Redstone is sufficient"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Astral Sorcery Overview & Core Loop",
+  "icon": "astralsorcery:blockcollectorcrystal",
+  "category": "astral-sorcery",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Collector Crystal Optimization$()$(li)Ritual range charts' \"+5 Lens\" means a Collector Crystal plus 4 Lenses (a max ritual)$(li)To reach maximum ritual range, pair a Collector Crystal with exactly 4 Lenses"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Lucerna is exceptionally strong and worth prioritizing early"
+    }
+  ]
+}

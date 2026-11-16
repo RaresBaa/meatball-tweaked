@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/me_mythic_assembler.json
++++ b/config/modularmachinery/machinery/me_mythic_assembler.json
+@@ -8,7 +8,7 @@
+             "x": 0,
+             "y": 0,
+             "z": 6,
+-            "description": "速度x5",
++            "description": "Speed x5",
+             "modifiers": [
+                 {
+                     "io": "input",

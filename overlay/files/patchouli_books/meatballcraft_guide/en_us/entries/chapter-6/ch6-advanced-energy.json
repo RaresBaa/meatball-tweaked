@@ -1,0 +1,28 @@
+{
+  "name": "Salt Reactors and Fission Fuels",
+  "icon": "nuclearcraft:depleted_fuel_americium_hea_242",
+  "category": "chapter-6",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Keep stockpiled depleted fuels$()—LEU-235, LEP-239, HEA-242, LEB-248, and some LE-FHM—on hand. All other fuels can be produced via passive or automated chains once progression unlocks them."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Salt reactor stability tips$()$(li)A 3-slice stable lymph salt reactor powers three miners comfortably (each miner uses 50 mB of vital lymph per 40 s).$(li)Molten polonium $(o)can$() be used safely in the safe vital lymph salt reactor, but only if both fuel rows are maintained to prevent shutdown."
+    },
+    {
+      "type": "text",
+      "text": "$(li)You may skip polonium entirely—it is optional and not required for progression."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fuel handling & breeding$()$(li)Build robust depleted HEA-242 production early to avoid bottlenecks in enrichment.$(li)Monitor fission breeding buffers closely: if full, californium-250 production halts and unidentified ingot progress stalls."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Recycle NaK to efficiently handle hot molten salt mixtures for reuse."
+    }
+  ]
+}

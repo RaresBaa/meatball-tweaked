@@ -1,0 +1,44 @@
+{
+  "name": "Subnet Proxies",
+  "icon": "cells:subnet_proxy_front",
+  "category": "ae2-storage",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Export Interfaces are the safer way to link subnets; Subnet Proxies can cause TPS lag, force updates and wrong reporting."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Inbound/Outbound in the Subnet Proxy UI is defined from the Terminal’s perspective: $(o)Outbound$() = main → subnet, $(o)Inbound$() = subnet → main.$(li)The directional arrow icon only appears on the top face; side faces never show it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Point the proxy from the smaller (subnet) to the larger (main) network."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Never let a proxy both expose and accept the same item from the main network—this can cause infinite recursion and server stalls.$(li)Give each subnet unique partitions, or items/fluids get counted twice on the main network."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Verify all proxies in a subnet show a purple ring; missing rings mean broken connections that may stall the server.$(li)Copy partition/filter settings from a Storage Bus and paste them into a Subnet Proxy to save time.$(li)Cell Terminal supports subnet proxy filtering and overview;"
+    },
+    {
+      "type": "text",
+      "text": "it treats proxies as storage buses for search and IO."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Prevent event storms and lag$()$(li)Even insert-only storage buses send events into the subnet—this can trigger loops and force updates if cycles exist."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use star topology: subnets talk directly via subnet proxies, and the main network only extracts from them (never inserts without careful filtering).$(li)Proxies reduce lag only if events are filtered at the proxy boundary; otherwise, propagation grows exponentially with depth and device count."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Large unfiltered subnets can exceed packet limits and disconnect you when opening a Cell Terminal. Reduce subnet size or filter content."
+    }
+  ]
+}

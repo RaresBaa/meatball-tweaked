@@ -1,0 +1,13 @@
+--- a/scripts/SKTweaks/fluix_reator.zs
++++ b/scripts/SKTweaks/fluix_reator.zs
+@@ -14,8 +14,8 @@
+ // MachineModifier.addCoreThread(MACHINE, threadA);
+ // MachineModifier.addCoreThread(MACHINE, threadB);
+ // MachineModifier.addCoreThread(MACHINE, threadC);
+-<modularmachinery:fluix_reactor_factory_controller>.addTooltip(format.gold("内置64并行！"));
+-<modularmachinery:fluix_reactor_factory_controller>.addTooltip(format.gold("内置3个线程！"));
++<modularmachinery:fluix_reactor_factory_controller>.addTooltip(format.gold("Built-in 64 parallel!"));
++<modularmachinery:fluix_reactor_factory_controller>.addTooltip(format.gold("Built-in 3 threads!"));
+ 
+ 
+ 

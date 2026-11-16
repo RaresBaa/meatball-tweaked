@@ -1,0 +1,32 @@
+{
+  "name": "Finding Ores and Loot",
+  "icon": "rftools:scanner",
+  "category": "chapter-1",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The $(l)Scannable Scanner$() is one of your best friends all pack long.$(li)Make a $(l)Block module$(): right-click the ore you want with it, then put it in the scanner."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Quests hand out modules for important targets: rupee, dragon coin piles, Dreadlands shrine blocks, strongholds…$(li)Scan for $(l)Nickel$() too. It's rare and an important platinum source.$(li)Charge the scanner in a Thermal Energetic Infuser or another charger."
+    },
+    {
+      "type": "text",
+      "text": "The questbook's logistics/storage section lists chargers."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)RFTools Storage Scanner$(): place it near a structure and it reads every chest in range. It's great for looting Battle Towers and dungeons.$(li)$(l)Random Things Chunk Analyzer$(): very cheap, lists every block in a chunk. Handy for rare ores."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Windmill mining$() finds diamonds, rupee and arlemite much faster than strip mining.$(li)Structures don't generate at predictable spots, so there's no structure compass. Explore and $(l)waypoint every structure$() you find."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Loot rule of thumb:$() the pack hides loot in walls, floors and ceilings, not just chests. Break structures apart.$(li)Waypoint every structure; they often contain things you'll need later.$(li)Watch out for the villager selling a \"gold block\" for 1 emerald. It's cardboard, and the villager vanishes."
+    }
+  ]
+}

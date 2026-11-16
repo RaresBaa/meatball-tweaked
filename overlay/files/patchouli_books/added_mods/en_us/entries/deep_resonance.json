@@ -1,0 +1,11 @@
+{
+  "name": "Deep Resonance",
+  "icon": "deepresonance:resonating_crystal",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Grow resonating crystals and turn them into a huge (and unstable) power source."
+    }
+  ]
+}

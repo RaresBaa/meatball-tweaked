@@ -1,0 +1,21 @@
+filename = 'armoreablemobs-1.12.2-1.1.8.jar'
+name = 'ArmoreableMobs'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'armoreablemobs-1.12.2-1.1.8.jar'
+
+[download]
+hash = '646b49f2db0eb2d9f4e17ec65b6aa6d7a16b72e4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2696448
+project-id = 281316
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'REQUIRED'

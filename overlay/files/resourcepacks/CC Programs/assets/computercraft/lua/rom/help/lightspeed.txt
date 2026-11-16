@@ -1,0 +1,12 @@
+Lightspeed Alpha
+
+Command a spaceship and its crew, inspired by FTL.
+
+Usage: lightspeed
+
+Needs: advanced computer (colour)
+
+This program saves data, so the first run copies it (41 KB) to /extra/lightspeed. Delete that folder to reset it.
+
+By Xella. License: unspecified.
+Source: https://github.com/Xella37/LightspeedAlpha

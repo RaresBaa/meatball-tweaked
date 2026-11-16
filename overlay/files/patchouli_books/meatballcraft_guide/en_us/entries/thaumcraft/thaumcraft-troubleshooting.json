@@ -1,0 +1,32 @@
+{
+  "name": "Common Issues & Fixes",
+  "icon": "xnet:connector",
+  "category": "thaumcraft",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Essentia Delivery Issues$()$(li)Set XNet output hatches to priority 1200 (highest) to ensure reliable essentia delivery and reduce connector points for better performance."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Essentia mirrors may fail to recognize new jars if placed on a block previously used for mirrors; avoid reusing such blocks or place mirrors on new blocks."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Rift & Taint Behavior$()$(li)The Void Siphon does not close rifts—it intentionally leaves them open for farming; a small rift is normal and not a bug.$(li)When Flux Rifts collapse (from starvation or leeching), they commonly spawn taint seeds nearby;"
+    },
+    {
+      "type": "text",
+      "text": "these are highly visible and can be removed by killing the seed."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Efficiency & Setup Tips$()$(li)The carminite empowerer export bus stops automatically when full; better practice is to passive-export crystals or use a recipe that consumes the exact number of crystals and melt on-site."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Torcherino DML Sim Chambers to speed up processing; 5 chambers are sufficient for essentia farms, and most don’t need to run constantly."
+    }
+  ]
+}

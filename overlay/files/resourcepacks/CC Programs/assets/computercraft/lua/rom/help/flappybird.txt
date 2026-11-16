@@ -1,0 +1,10 @@
+Flappy Bird
+
+Tap to flap through the pipes.
+
+Usage: flappybird
+
+Needs: advanced computer (colour)
+
+By bartek18887. License: MIT.
+Source: https://github.com/bartek18887/ComputerCraft-FlappyBird

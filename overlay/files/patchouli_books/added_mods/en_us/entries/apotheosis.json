@@ -1,0 +1,11 @@
+{
+  "name": "Apotheosis",
+  "icon": "apotheosis:hellshelf",
+  "category": "magic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Reworks enchanting: Hellshelves and other shelves push enchantments far past vanilla levels, plus spawner tweaks, new enchantments and more. Use JEI to see the shelves and the Prismatic Altar."
+    }
+  ]
+}

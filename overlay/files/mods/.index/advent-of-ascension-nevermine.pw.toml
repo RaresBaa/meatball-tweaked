@@ -1,0 +1,18 @@
+filename = 'AoA3-3.3.6.jar'
+name = 'Advent of Ascension (Nevermine)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AoA3 3.3.6'
+
+[download]
+hash = 'b0e46f6c8d608972157d5ba27f7b093c46797e5a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3054253
+project-id = 311054

@@ -1,0 +1,15 @@
+{
+  "name": "AE2Enhanced",
+  "icon": "ae2enhanced:omni_wireless_terminal",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A big Applied Energistics 2 expansion: universal buses, wireless channels, chunk power and mana nodes, and huge late-game multiblocks. SK-Tweaks replaces many recipes, so use HEI."
+    },
+    {
+      "type": "text",
+      "text": "Late-game parts come from a $(item)Micro Singularity$(). Throw 64 AE2 Singularities and 4 Nether Stars on the ground, then hold a Nether Star and right-click an ME Controller."
+    }
+  ]
+}

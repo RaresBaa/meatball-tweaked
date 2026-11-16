@@ -1,0 +1,184 @@
+--- a/scripts/SKTweaks/Modular_EnvironmentTech_SK.zs
++++ b/scripts/SKTweaks/Modular_EnvironmentTech_SK.zs
+@@ -20,9 +20,9 @@
+ import mods.modularmachinery.FactoryRecipeStartEvent;
+ 
+ val MACHINE = "deep_void_excavator";
+-val threadA = FactoryRecipeThread.createCoreThread("升级核心");
++val threadA = FactoryRecipeThread.createCoreThread("Upgrade Core");
+ MachineModifier.addCoreThread(MACHINE, threadA);
+-val threadB = FactoryRecipeThread.createCoreThread("深度采掘核心");
++val threadB = FactoryRecipeThread.createCoreThread("Deep Excavation Core");
+ MachineModifier.addCoreThread(MACHINE, threadB);
+ MachineModifier.setMaxThreads(MACHINE, 0);
+ 
+@@ -307,7 +307,7 @@
+     processTime as int,
+     energyPerTick as int
+ ) {
+-    val placeholder = <minecraft:stone>.withTag({ench: [{lvl: 1 as short, id: 51 as short}], HideFlags: 1, display: {Lore: ["§e根据放入的虚空矿机来进行不同模式的采矿", "§7§m要是能拿到这个，也算你运气好"], Name: "§b虚空采掘"}});
++    val placeholder = <minecraft:stone>.withTag({ench: [{lvl: 1 as short, id: 51 as short}], HideFlags: 1, display: {Lore: ["§eMining mode depends on the void miner placed inside", "§7§mIf you can get this, consider yourself lucky"], Name: "§bVoid Excavation"}});
+     val builder = RecipeBuilder.newBuilder(recipeName, machineName, processTime);
+     builder.addEnergyPerTickInput(energyPerTick);
+     builder.addItemInput(iteminput).setChance(0.0);
+@@ -373,7 +373,7 @@
+             totalWeight += entry.weight as int;
+         }
+         if (totalWeight <= 0) {
+-            event.setFailed("没有可用的产出权重");
++            event.setFailed("No output weights available");
+             return;
+         }
+         var rand = Math.random() * totalWeight;
+@@ -386,7 +386,7 @@
+             }
+         }
+         if (selectedId == "") {
+-            event.setFailed("随机选择失败");
++            event.setFailed("Random selection failed");
+             return;
+         }
+         // ---- 3. 存储字符串 ID（不转换物品） ----
+@@ -437,9 +437,9 @@
+             return stack*(outputMultiplier); // 可以根据需要调整数量
+         }
+     });
+-    builder.setPreViewNBT({ench: [{lvl: 1 as short, id: 51 as short}], HideFlags: 1, display: {Lore: ["§e根据放入的虚空矿机来进行不同模式的采矿"], Name: "§b虚空采掘"}} as IData);
++    builder.setPreViewNBT({ench: [{lvl: 1 as short, id: 51 as short}], HideFlags: 1, display: {Lore: ["§eMining mode depends on the void miner placed inside"], Name: "§bVoid Excavation"}} as IData);
+     builder.setMaxThreads(1); // 设置最大线程数为 1，确保线程安全
+-    builder.setThreadName("深度采掘核心");
++    builder.setThreadName("Deep Excavation Core");
+     builder.build();
+ }
+ 
+@@ -451,9 +451,9 @@
+ // 0白 1橙 2品红 3淡蓝 4黄 5黄绿 6粉 7灰 8淡灰 9青 10紫 11蓝 12棕 13绿 14红 15黑 16水晶
+ // 17原木 18树苗 19树叶 20花 21食物 22种子 23植物
+ val colorNames = [
+-    "白色", "橙色", "品红色", "淡蓝色", "黄色", "黄绿色", "粉色", "灰色",
+-    "淡灰色", "青色", "紫色", "蓝色", "棕色", "绿色", "红色", "黑色","水晶",
+-    "原木","树苗","树叶","鲜花","食物","种子","植物"
++    "White", "Orange", "Magenta", "Light Blue", "Yellow", "Lime", "Pink", "Gray",
++    "Light Gray", "Cyan", "Purple", "Blue", "Brown", "Green", "Red", "Black","Crystal",
++    "Log","Sapling","Leaves","Flower","Food","Seed","Plant"
+ ];
+ // ===================== GUI 显示 =====================
+ MMEvents.onControllerGUIRender(MACHINE, function(event as ControllerGUIRenderEvent) {
+@@ -492,7 +492,7 @@
+     // ==================改成全局函数==================
+ 
+     // ---- 判断透镜类型并获取颜色名称 ----
+-    var colorName = "§c未检测到透镜";
++    var colorName = "§cNo lens detected";
+     var hasLens = false;
+ 
+     if (lensBlock == "environmentaltech:laser_lens_colored") {
+@@ -501,49 +501,49 @@
+             colorName = colorNames[lensMeta];   // 使用 colorNames 数组
+             hasLens = true;
+         } else {
+-            colorName = "§c未知颜色 (meta=" + lensMeta + ")";
++            colorName = "§cUnknown color (meta=" + lensMeta + ")";
+         }
+     } else if (lensBlock == "environmentaltech:laser_lens_crystal") {
+-        colorName = "水晶";
++        colorName = "Crystal";
+         hasLens = true;
+     } else if( lensBlock == "divinerpg:mortum_log") {
+-        colorName = "原木";
++        colorName = "Log";
+         hasLens = true;
+     } else if( lensBlock == "botania:pylon")&&(lensMeta == 1) {
+-        colorName = "树苗";
++        colorName = "Sapling";
+         hasLens = true;
+     } else if( lensBlock == "botania:pylon")&&(lensMeta == 0) {
+-        colorName = "树叶";
++        colorName = "Leaves";
+         hasLens = true;
+     } else if( lensBlock == "botania:bifrostperm") {
+-        colorName = "鲜花";
++        colorName = "Flower";
+         hasLens = true;
+     } else if (lensBlock == "minecraft:hay_block") {
+-        colorName = "食物";
++        colorName = "Food";
+         hasLens = true;
+     } else if (lensBlock == "contenttweaker:alchemical_crystal") {
+-        colorName = "种子";
++        colorName = "Seed";
+         hasLens = true;
+     } else if (lensBlock == "minecraft:grass") {
+-        colorName = "植物";
++        colorName = "Plant";
+         hasLens = true;
+     } else {
+-        colorName = "§c未检测到有效透镜";
++        colorName = "§cNo valid lens detected";
+     }
+     // ---- 构建显示信息 ----
+     var extra = event.extraInfo;
+     if (isNull(extra)) extra = [] as string[];
+ 
+-    extra += "§3=======/§9深度虚空采掘机§3/=======";
+-    extra += "§a当前透镜：§f§l" + colorName;
++    extra += "§3=======/§9Deep Void Excavator§3/=======";
++    extra += "§aCurrent lens: §f§l" + colorName;
+     // 如果检测到有效透镜，显示加成提示
+     if (hasLens) {
+-        extra += "§a对应颜色水晶/矿石权重 §b× 50";
++        extra += "§aWeight of matching color crystals/ores §b× 50";
+     } else {
+-        extra += "§a未放置有效透镜，无额外权重加成";
++        extra += "§aNo valid lens placed, no extra weight bonus";
+     }
+     // extra += "§a速度升级数量：§b" + Upgrade_Speed_Amount + "/16";
+-    extra += "§a时运升级数量：§b" + Upgrade_Fortune_Amount + "/16";
++    extra += "§aFortune upgrades: §b" + Upgrade_Fortune_Amount + "/16";
+     if(outputMultiplier==0){
+         outputMultiplier=1;
+     }
+@@ -553,7 +553,7 @@
+     //     if (!isNull(sf)) speedFactorDisplay = sf;
+     // }
+     // extra += "§a当前速度：§b" + (speedFactorDisplay * 100) + "%";
+-    extra += "§a当前产出倍率：§b" + (outputMultiplier) + " x";
++    extra += "§aCurrent output multiplier: §b" + (outputMultiplier) + " x";
+     event.extraInfo = extra;
+ });
+ 
+@@ -564,7 +564,7 @@
+         // 读取当前时运升级数，默认 0，无需判空
+         val fortune = Get_CustomData_int(event.controller.customData, "Upgrade_Fortune", 0);
+         if (fortune >= 16) {
+-            event.setFailed("§c时运升级已满！");
++            event.setFailed("§cFortune upgrades are maxed!");
+         }
+     })
+     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+@@ -586,14 +586,14 @@
+         } as IData;
+         ctrl.customData = data;
+     })
+-    .addRecipeTooltip("§a消耗一个§6幸运强化部件§a", "增加 §61§a 级时运升级", "最大 §616§a 级")
+-    .setThreadName("升级核心")
++    .addRecipeTooltip("§aConsumes one §6Luck Modifier§a", "Adds §61§a Fortune upgrade level", "Max level §616§a")
++    .setThreadName("Upgrade Core")
+     .build();
+ 
+-<divinerpg:mortum_log>.addTooltip(format.gold("特殊深度虚空采掘透镜：原木"));
+-<botania:pylon:1>.addTooltip(format.gold("特殊深度虚空采掘透镜：树苗"));
+-<botania:pylon>.addTooltip(format.gold("特殊深度虚空采掘透镜：树叶"));
+-<botania:bifrostperm>.addTooltip(format.gold("特殊深度虚空采掘透镜：鲜花"));
+-<minecraft:hay_block>.addTooltip(format.gold("特殊深度虚空采掘透镜：食物"));
+-<contenttweaker:alchemical_crystal>.addTooltip(format.gold("特殊深度虚空采掘透镜：种子"));
+-<minecraft:grass>.addTooltip(format.gold("特殊深度虚空采掘透镜：植物"));
+\ No newline at end of file
++<divinerpg:mortum_log>.addTooltip(format.gold("Special Deep Void Excavation Lens: Log"));
++<botania:pylon:1>.addTooltip(format.gold("Special Deep Void Excavation Lens: Sapling"));
++<botania:pylon>.addTooltip(format.gold("Special Deep Void Excavation Lens: Leaves"));
++<botania:bifrostperm>.addTooltip(format.gold("Special Deep Void Excavation Lens: Flower"));
++<minecraft:hay_block>.addTooltip(format.gold("Special Deep Void Excavation Lens: Food"));
++<contenttweaker:alchemical_crystal>.addTooltip(format.gold("Special Deep Void Excavation Lens: Seed"));
++<minecraft:grass>.addTooltip(format.gold("Special Deep Void Excavation Lens: Plant"));
+\ No newline at end of file

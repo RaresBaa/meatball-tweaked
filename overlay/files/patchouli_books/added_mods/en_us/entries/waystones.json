@@ -1,0 +1,11 @@
+{
+  "name": "Waystones",
+  "icon": "waystones:waystone",
+  "category": "fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Find or build waystones and teleport between them."
+    }
+  ]
+}

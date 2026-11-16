@@ -1,0 +1,16 @@
+{
+  "name": "Known Issues",
+  "icon": "minecraft:barrier",
+  "category": "reference",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Questbook missing?$() Run $(5)/bq_admin default load$() to restore it.$(li)$(l)Don't eat Candyland food or dried Vishroom$(); they crash the game."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Checkbox quests$() have to be ticked by each player separately, even in the same party; all other quest progress is shared.$(li)$(l)Enchanted books with enchantments that don't exist$() drop from some mobs; void them."
+    }
+  ]
+}

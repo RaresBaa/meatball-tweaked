@@ -1,0 +1,19 @@
+{
+  "name": "Lands of Icaria",
+  "icon": "landsoficaria:greek_fire_grenade",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A dimension with its own tool tiers: chalkos, kassiteros, orichalcum and sideros. Vanilla torches and chests don't work properly there."
+    },
+    {
+      "type": "text",
+      "text": "Build two facing pillar columns of equal height on a solid floor, each capped with a Pillar Head. Put a bottom-half slab on the head and another next to it, over the gap. Beside the head on its outer side, place a top-half slab."
+    },
+    {
+      "type": "text",
+      "text": "Then throw a $(item)Greek Fire Grenade$() into the gap. This pack adds an Overworld recipe for it: string on top, blaze powder in the middle and 3 iron nuggets."
+    }
+  ]
+}

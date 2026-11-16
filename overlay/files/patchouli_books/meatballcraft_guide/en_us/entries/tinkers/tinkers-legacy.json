@@ -1,0 +1,24 @@
+{
+  "name": "More Weapon and Armor Tips",
+  "icon": "bloodarsenal:stasis_sword",
+  "category": "tinkers",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Top-tier sword builds$() combine specific enchantments via correct applicators: Sharpness (Superenchant Arcana), Sweeping Edge (Aether Superenchant), Looting (Slime Sword), Unbreaking (Shickaxe), and remaining enchants via"
+    },
+    {
+      "type": "text",
+      "text": "AbyssalCraft’s Enchantment Applicator—$(l)not$() IF Applicator. The Stasis Blade (especially Max Quickdraw upgrade) and Ice Dragonsteel offer highest raw damage; Kikoku enables spam-clicking. $(l)Avoid Multishot on modded bows$() (e.g., Draconic Bow)—it only works on vanilla and CoFH bows."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Armor & protection$(): Bedrock armor is best overworld set; for magic damage (common in Nether), add Thaumcraft Magic Protection (duplicable to max level via Bibliocraft). Elite Realmite offers high raw armor."
+    },
+    {
+      "type": "text",
+      "text": "Tinkers’ armor uses Knightslime plates (3 HP/piece), Chocolate trim (Uplifting), and Unbreakable modifier as priority."
+    }
+  ]
+}

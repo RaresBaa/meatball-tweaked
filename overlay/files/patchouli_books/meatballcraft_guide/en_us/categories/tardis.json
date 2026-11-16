@@ -1,0 +1,7 @@
+{
+  "name": "TARDIS",
+  "description": "Tips for TARDIS.",
+  "icon": "contenttweaker:space_time_beam",
+  "parent": "topics",
+  "sortnum": 9
+}

@@ -1,0 +1,44 @@
+--- a/scripts/SKTweaks/blood_abyss_altar.zs
++++ b/scripts/SKTweaks/blood_abyss_altar.zs
+@@ -20,16 +20,16 @@
+ // ==================== 机器配置 ====================
+ val MACHINE = "blood_abyss_altar";
+ MachineModifier.setMaxThreads(MACHINE, 0); 
+-val threadA = FactoryRecipeThread.createCoreThread("§4转化线程I");
+-val threadB = FactoryRecipeThread.createCoreThread("§4转化线程II");
+-val threadC = FactoryRecipeThread.createCoreThread("§4转化线程III");
+-val threadD = FactoryRecipeThread.createCoreThread("§4转化线程IV");
+-val threadE = FactoryRecipeThread.createCoreThread("§4转化线程V");
+-val threadF = FactoryRecipeThread.createCoreThread("§4转化线程VI");
+-val threadG = FactoryRecipeThread.createCoreThread("§4转化线程VII");
+-val threadH = FactoryRecipeThread.createCoreThread("§4转化线程VIII");
+-val threadI = FactoryRecipeThread.createCoreThread("§4转化线程IX");
+-val threadJ = FactoryRecipeThread.createCoreThread("§4转化线程X");
++val threadA = FactoryRecipeThread.createCoreThread("§4Conversion Thread I");
++val threadB = FactoryRecipeThread.createCoreThread("§4Conversion Thread II");
++val threadC = FactoryRecipeThread.createCoreThread("§4Conversion Thread III");
++val threadD = FactoryRecipeThread.createCoreThread("§4Conversion Thread IV");
++val threadE = FactoryRecipeThread.createCoreThread("§4Conversion Thread V");
++val threadF = FactoryRecipeThread.createCoreThread("§4Conversion Thread VI");
++val threadG = FactoryRecipeThread.createCoreThread("§4Conversion Thread VII");
++val threadH = FactoryRecipeThread.createCoreThread("§4Conversion Thread VIII");
++val threadI = FactoryRecipeThread.createCoreThread("§4Conversion Thread IX");
++val threadJ = FactoryRecipeThread.createCoreThread("§4Conversion Thread X");
+ MachineModifier.addCoreThread(MACHINE, threadA);
+ MachineModifier.addCoreThread(MACHINE, threadB);
+ MachineModifier.addCoreThread(MACHINE, threadC);
+@@ -41,10 +41,10 @@
+ MachineModifier.addCoreThread(MACHINE, threadI);
+ MachineModifier.addCoreThread(MACHINE, threadJ);
+ MachineModifier.setInternalParallelism("blood_abyss_altar", 1024);
+-<modularmachinery:blood_abyss_altar_factory_controller>.addTooltip(format.red("内置额外1024并行！"));
+-<modularmachinery:blood_abyss_altar_factory_controller>.addTooltip(format.red("内置10线程！"));
+-<modularmachinery:blood_abyss_altar_factory_controller>.addTooltip(format.gold("自动搭建时，混沌龙块可能会被龙块代替，导致不成型！"));
+-<modularmachinery:blood_abyss_altar_factory_controller>.addTooltip(format.gold("请手动替换"));
++<modularmachinery:blood_abyss_altar_factory_controller>.addTooltip(format.red("Built-in extra 1024 parallel!"));
++<modularmachinery:blood_abyss_altar_factory_controller>.addTooltip(format.red("Built-in 10 threads!"));
++<modularmachinery:blood_abyss_altar_factory_controller>.addTooltip(format.gold("When auto-building, Chaotic Draconium blocks may be replaced with Draconium blocks, so it won't form!"));
++<modularmachinery:blood_abyss_altar_factory_controller>.addTooltip(format.gold("Replace them by hand"));
+ //blood_abyss_altar_factory_controller
+ function Blood_Alter_SK_Recipe_Builder(
+     RecipeName as string,

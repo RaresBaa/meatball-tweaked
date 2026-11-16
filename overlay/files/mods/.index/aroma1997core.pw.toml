@@ -1,0 +1,18 @@
+filename = 'Aroma1997Core-1.12.2-2.0.0.2.jar'
+name = 'Aroma1997Core'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Aroma1997Core-1.12.2-2.0.0.2.jar'
+
+[download]
+hash = '2bfed460f229174b4eb1dd823fbd73b0b940d2ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2676866
+project-id = 223735

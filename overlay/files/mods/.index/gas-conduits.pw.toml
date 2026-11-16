@@ -1,0 +1,17 @@
+filename = 'EnderIO-conduits-mekanism-1.12.2-5.3.72.jar'
+name = 'Gas Conduits'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EnderIO-conduits-mekanism-1.12.2-5.3.72.jar'
+
+[download]
+hash = '42ced232597dbf345bc477bbf4b4413fdae9b659'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4674242
+project-id = 309756

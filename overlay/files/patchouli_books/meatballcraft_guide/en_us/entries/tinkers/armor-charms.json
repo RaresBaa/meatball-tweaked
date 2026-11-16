@@ -1,0 +1,40 @@
+{
+  "name": "Armor, Charms & Survival",
+  "icon": "twilightforest:charm_of_life_2",
+  "category": "tinkers",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)For Chapter 1, prioritize collecting at least 3 void steel cubes from a Greater Portal Tower to craft self-repairing diamond armor."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Tinkers’ Construct armor is viable early—build with emerald core, steel plates (Indomitable), and lead trim (Shielding); use 5 unbreakable plates for indestructibility."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Protection V on every piece is the most that does anything, and it multiplies with armor points (e.g., 50% from enchants and 50% from armor means you take 25%).$(li)Avoid Last Stand modifier; it’s unreliable and conflicts with other survivability strategies."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Jetpack is strongly recommended in blocked-flight dimensions; it cuts travel time significantly.$(li)Jetplate is useful but not mandatory.$(li)Armor Station crafts armor but cannot modify it; Armor Forge modifies but cannot craft."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Prioritize Grave Dust drop chance perk first to bulk-craft scrolls and gain Corail XP quickly.$(li)Reset with Ankh of Pray once points are high, then max Disenchanting Tome."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Scroll of Purification grants 10+ minutes of immunity to all debuffs—including Soul Fray—allowing sustainable self-sacrifice with high max health, regen, and EMC.$(li)Soul Fray prevents spamming deaths for healing; bypass it with the scroll, not avoidance."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Energy Eater does $(o)not$() refill saturation unless hunger is below full; true saturation regen (before hunger loss) is faster and more reliable.$(li)Charm of Life 2 grants undead-style revival frames: death immunity after first hit, enabling survival at very low health with multiple stacks."
+    },
+    {
+      "type": "text",
+      "text": "$(li)With ~full inventory of Charm of Life 2, a strong weapon, and no armor, Chaos Guardian is vulnerable—even without high survivability stats—just avoid taking multiple hits in quick succession."
+    }
+  ]
+}

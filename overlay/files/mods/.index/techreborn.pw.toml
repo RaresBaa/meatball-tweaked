@@ -1,0 +1,21 @@
+filename = 'TechReborn-1.12.2-2.27.3.1084-universal.jar'
+name = 'Tech Reborn'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TechReborn-1.12.2-2.27.3.1084-universal.jar'
+
+[download]
+hash = '1a0cb9170ee03f44ed340ef1b578647647ee7e0a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2966851
+project-id = 233564
+
+[[x-prismlauncher-dependencies]]
+addonId = '237903'
+type = 'REQUIRED'

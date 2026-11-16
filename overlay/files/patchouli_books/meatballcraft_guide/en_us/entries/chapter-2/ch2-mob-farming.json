@@ -1,0 +1,20 @@
+{
+  "name": "Mob Farming and Duplication",
+  "icon": "industrialforegoing:mob_imprisonment_tool",
+  "category": "chapter-2",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Mob Imprisonment Tool is essential$() for capturing and duplicating mobs. Some mobs won’t drop the loot you want for mod reasons: if it can drop but isn’t in the list, use a Woot Flusher. A few bosses need Tax Collector bees instead."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Mob duplicators simulate ~500 kills$() in a separate dimension before generating loot instantly; however, duplicated mobs have lower HP (e.g., Endermen: 40 vs 60), and Content Tweaker items (e.g., modded loot) never drop from duplication."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Avoid common pitfalls$(): Spawners won’t spawn Scorchers if lava is too bright—remove the lava. Blood Master Armor drops from mobs (e.g., when making the Controller Manual); pipe it to a furnace for nuggets. Some villagers sell dragon eggs. For non-shuriken builds, prioritize Quick Draw and Valiance."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+filename = 'XU2-Patcher-1.0.2.jar'
+name = 'XU2-Patcher'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'XU2 Patcher v1.0.2'
+
+[download]
+hash = 'ea2b00643c7758713a103b028eaf2d51cf5cf6e2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6596160
+project-id = 1016395
+
+[[x-prismlauncher-dependencies]]
+addonId = '225561'
+type = 'REQUIRED'

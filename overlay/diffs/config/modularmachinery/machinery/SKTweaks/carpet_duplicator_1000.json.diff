@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/SKTweaks/carpet_duplicator_1000.json
++++ b/config/modularmachinery/machinery/SKTweaks/carpet_duplicator_1000.json
+@@ -12,7 +12,7 @@
+                 "y": 1,
+                 "z": 0,
+                 "elements": "avaritia:block_resource@1",
+-                "description": "产量x1000",
++                "description": "Output x1000",
+                 "modifiers": [
+                     {
+                         "io": "output",

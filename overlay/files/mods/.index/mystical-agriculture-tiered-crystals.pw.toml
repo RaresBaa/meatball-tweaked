@@ -1,0 +1,29 @@
+filename = 'matc-1.0.1-hotfix.jar'
+name = 'Mystical Agriculture Tiered Crystals'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'matc-1.0.1-hotfix.jar'
+
+[download]
+hash = '1502157b947d16815d5777326f8c58ff596d3c7d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2650681
+project-id = 299045
+
+[[x-prismlauncher-dependencies]]
+addonId = '256247'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '272335'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '246640'
+type = 'REQUIRED'

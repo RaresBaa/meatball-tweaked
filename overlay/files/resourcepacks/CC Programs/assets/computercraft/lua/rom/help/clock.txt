@@ -1,0 +1,8 @@
+Minecraft Clock
+
+Shows the in-game time, day/night state and day number.
+
+Usage: clock
+
+By Tom (PineStore). License: unspecified.
+Source: https://pastebin.com/fezGRyMy

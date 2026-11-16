@@ -1,0 +1,24 @@
+{
+  "name": "Skill System Overview",
+  "icon": "aoa3:medium_skill_crystal",
+  "category": "aoa-skills",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Skill progression is tied to Advent of Ascension (AoA).$()$(li)Hauling is usually done by hand until level 15, though an Industrial Foregoing Fisher can AFK it.$(li)After level 15, use Skill Crystals for efficient leveling."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For $(l)Foraging$(), break mountain sides with an Unbreakable Hammer for fast early gains.$(li)Early: use a Bronze Hammerhead + Rupee Tool Rod.$(li)Later: upgrade to Cobalt."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Butchery$() boosts Battle Rage (crit chance) and crit damage.$(li)$(l)Hunter$() can be leveled quickly (e.g., level 2→19 in 5–10 min) using an IF Spawner to spawn Rammerheads."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Level Infusion$() is most efficient with mob-duplicated Glistening Pixons:$(li)Enclose them in 2-block-high walls to prevent escape.$(li)Upgrade to Diamond Bowl at level 11 for faster levelling.$(li)Pixons give more XP than basic mobs and are required for Ch5 Infusinator (level 35)."
+    }
+  ]
+}

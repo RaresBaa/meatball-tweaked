@@ -1,0 +1,11 @@
+--- a/scripts/SKTweaks/auto_thaumatorium.zs
++++ b/scripts/SKTweaks/auto_thaumatorium.zs
+@@ -13,7 +13,7 @@
+ 
+ 
+ MachineModifier.setInternalParallelism("auto_thaumatorium", 256);
+-<modularmachinery:auto_thaumatorium_controller>.addTooltip(format.gold("内置256并行！"));
++<modularmachinery:auto_thaumatorium_controller>.addTooltip(format.gold("Built-in 256 parallel!"));
+ RecipeAdapterBuilder.create("modularmachinery:auto_thaumatorium", "thaumcraft:crucible").build();
+ 
+ function Thaumatorium_Recipe_Builder(

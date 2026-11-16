@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    1991682850
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nEvery stage needs thrusters. Liquid-fuel, solid-fuel, methalox and hydrolox thrusters all work.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbmspace:mp_thruster_20_methalox"
+      },
+      "name:8": "First Thruster",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1984970855,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "hbm:ingot_steel"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mp_thruster_10_kerosene"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mp_thruster_10_solid"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mp_thruster_15_kerosene"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mp_thruster_15_solid"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbmspace:mp_thruster_20_methalox"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "hbmspace:mp_thruster_20_hydrogen"
+        }
+      },
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Passive Setups and Automation",
+  "icon": "extrautils2:user",
+  "category": "chapter-10",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Keep passives supplied$()$(li)Use large buffers for passive machines (e.g., Wrath Rune, Hungering Casings) to avoid starvation when intermediate items are consumed before the next crafting step."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Run a Vibrating Flux Crucible constantly with a timed Mechanical User and Flux Sponge to maintain stable flux supply."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Rune and packaging automation$()$(li)For Wrath/Gluttony runes: use an item collector filtered $(o)only$() for completed runes (not components), store them internally, and trigger rune output via SFM + interface checks for wish dust and mana diamonds."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For packaging: use a 9× setup of torch-powered packaging providers—higher multipliers do not increase throughput."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Common pitfalls$()$(li)Do not use RF Tools Crafters’ filtering—place interface, drawer, and machine directly, then red-print the recipe.$(li)If you use Arsenic, don't source it from a single ancient rock crusher with six upgrades; that bottlenecks supply."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ensure Borax transposers have enderium upgrades; base transposers make filling extremely slow.$(li)If your Teleposer gets stuck: place the block at target, insert the item, and apply redstone—swap items or reposition if needed."
+    }
+  ]
+}

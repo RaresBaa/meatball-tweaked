@@ -1,0 +1,17 @@
+filename = 'StevesCarts-1.12.2-2.4.32.137.jar'
+name = 'Steves Carts Reborn'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'StevesCarts-1.12.2-2.4.32.137.jar'
+
+[download]
+hash = '4b51d6abd0236f7b4df39a897e91577ff415c355'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2834651
+project-id = 253462

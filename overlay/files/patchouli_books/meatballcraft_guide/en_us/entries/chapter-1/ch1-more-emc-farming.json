@@ -1,0 +1,48 @@
+{
+  "name": "More EMC and Farming Tips",
+  "icon": "projectex:power_flower",
+  "category": "chapter-1",
+  "sortnum": 28,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)EMC$()$(li)$(l)Power Flowers$() enable EMC duplication; transfer items between crafter and condensers with Conduits (upgraded) or XNet connectors (not cables) with rate throttling to avoid item voiding."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Trade with the red-eyed Druid for free EMC; convert poisonous potatoes, apples, and beetroot into emeralds via ProjectE condensers.$(li)Use $(l)Stone/Nether Seeds$() to duplicate Ascended Sapphires and other Adventure/DRPG ores—seeds are highly useful early-game."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For Grains of Infinity: $(l)Fire Water$() is power-efficient; the grinding ball loop is better long-term. Bedrock fire ignition is most efficient at ~64 igniters per chunk (max ~118).$(li)Double compressed blocks are optimal for duplicating Grains of Infinity."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Wild vanilla mobs can be transmuted into Evokers using the Philosopher’s Stone projectile—then duped via mob duplicator for emeralds and Totems of Undying.$(li)A Cyclic Diamond Autocrafter paired with RFTools Crafter and two Energy Condensers provides massive early EMC gain."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Mob farming$()$(li)Wyvern-tier spawners (Wyvern Core + vanilla spawner) disable redstone and don’t require player proximity; pair with Reaper-enchanted weapon for efficient farming$(li)Stabilized and Resturbed spawners can spawn Bloodmaster-armored mobs;"
+    },
+    {
+      "type": "text",
+      "text": "soul shard spawners cannot$(li)Tax collector bees collect mob drops without killing mobs, work on most mobs (including Watcher and King Bam), but not true bosses like the Wither$(li)Keep mob farms away from your base—they produce significantly more lag than chicken farms"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Dragon spawners may spawn mobs underneath the spawner, not just on top—secure the area carefully$(li)Woot farms process already-present mobs (they don’t spawn mobs themselves) and are highly effective for vanilla, AoA, and DRPG mobs with upgrades"
+    },
+    {
+      "type": "text",
+      "text": "$(li)For villager job duplication: capture a villager with a Mob Imprisonment Tool, duplicate it in an Immersive Engineering Mob Duper, and respawn until you get the desired job (e.g., Alchemist)$(li)Use HEI’s 'Mob Drops' tab to trace which mobs drop needed items;"
+    },
+    {
+      "type": "text",
+      "text": "note JEI may omit rare drops or mod-specific currency tokens$(li)To fight flying enemies early, build a 2-block-high box around yourself, then add a second 4–5-block-high box on top; stand diagonally at the lower edge to hit enemies without taking damage"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Erebus Brood Mother is vulnerable to Instant Damage potions—the most reliable known method"
+    }
+  ]
+}

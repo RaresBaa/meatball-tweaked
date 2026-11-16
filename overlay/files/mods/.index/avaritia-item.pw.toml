@@ -1,0 +1,18 @@
+filename = 'AvaritiaItem-1.0.3-beta.jar'
+name = 'Avaritia Item'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AvaritiaItem-1.0.3-beta.jar'
+
+[download]
+hash = 'b2746ee74ce344ad68ea267b23bbedbdea2071bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5355213
+project-id = 1019865

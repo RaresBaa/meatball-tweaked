@@ -1,0 +1,32 @@
+{
+  "name": "SFM Logic Patterns",
+  "icon": "superfactorymanager:cable_output",
+  "category": "automation",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use SFM Redstone Emitters as toggle latches: they hold their signal once set unless told to pulse.$(li)Cable clusters don't work reliably as Redstone Receivers—use standalone Redstone Receivers."
+    },
+    {
+      "type": "text",
+      "text": "$(li)SFM’s 1-slot-per-condition limit can be worked around by spreading stacks across more slots (e.g., 5×16 instead of 2×64), which also fixes some packager encoding issues."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The central 'working' slot of a multiblock controller is slot 0 and can be extracted from while the analyzer is still processing."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Cycle a single machine through several uncapped passives with SFM and a buffer (drawer or dank): check output presence (e.g., silicon ingots, wafers, circuits) and put ore processing first, so the machine never gets stuck on one recipe."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Use SFM4’s IF-THEN-ELSE with OVERALL checks to craft only when outputs are missing (e.g., a Botania vial and its ingredients)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)In SFM greenhouse automation, use 'Removal #' modules to clear outputs in multiples of the craft size (e.g., 48 for 16-craft output) when output reaches 64, and 'Threshold' to limit storage (e.g., 1024). The threshold can still clog when the drawer is just under it and the output hatch is full."
+    }
+  ]
+}

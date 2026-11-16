@@ -1,0 +1,11 @@
+{
+  "name": "Cooking for Blockheads",
+  "icon": "cookingforblockheads:cooking_table",
+  "category": "fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A kitchen multiblock that shows every food you can cook from nearby storage."
+    }
+  ]
+}

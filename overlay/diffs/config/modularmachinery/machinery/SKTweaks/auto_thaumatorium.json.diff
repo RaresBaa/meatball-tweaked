@@ -1,0 +1,11 @@
+--- a/config/modularmachinery/machinery/SKTweaks/auto_thaumatorium.json
++++ b/config/modularmachinery/machinery/SKTweaks/auto_thaumatorium.json
+@@ -10,7 +10,7 @@
+             "y": 11,
+             "z": 2,
+             "elements": "contenttweaker:vibranium_servo@0",
+-            "description": "配方速度x5",
++            "description": "Recipe speed x5",
+             "modifiers": [
+                 {
+                     "io": "input",

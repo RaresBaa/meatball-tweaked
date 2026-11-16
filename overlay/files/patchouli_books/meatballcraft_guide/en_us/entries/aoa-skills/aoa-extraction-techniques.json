@@ -1,0 +1,28 @@
+{
+  "name": "Extraction: Manual vs Auto & Loot Quality",
+  "icon": "minecraft:magma_cream",
+  "category": "aoa-skills",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Manual Extraction$()$(li)Hold a Lavatide Amulet (or Philosophers Stone) in your main hand and a Diamond Bowl in your off-hand (or swap roles per method).$(li)Right-click the Extraction Device repeatedly to level the skill."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ensure an obsidian block breaker and item collector loop the process."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Auto Extraction Setup$()$(li)Route an EMC link’s cobblestone output into a Magma Crucible with 3 speed upgrades and a Pyroconvective Loop Augment.$(li)Pipe output to a Liquid Placer set to $(o)Deactivated$(), with a one-block air gap, then the Extraction Device, then another air gap."
+    },
+    {
+      "type": "text",
+      "text": "$(li)The placer drops lava onto the device for consumption.$(li)Obsidian generated is auto-mined and recycled via a World Block Importer linked to the EMC loop."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Loot Quality$()$(li)Extraction machine loot is unaltered and remains poor (“utter trash”).$(li)Extraction loot is poor, so do it for the levels."
+    }
+  ]
+}

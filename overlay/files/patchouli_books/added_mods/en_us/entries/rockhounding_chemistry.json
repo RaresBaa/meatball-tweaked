@@ -1,0 +1,11 @@
+{
+  "name": "Rockhounding: Chemistry",
+  "icon": "rockhounding_chemistry:machines_a",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A deep chemistry chain: process minerals into chemicals, alloys and rare elements."
+    }
+  ]
+}

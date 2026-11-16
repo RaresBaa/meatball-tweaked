@@ -1,0 +1,8 @@
+A Long Time Ago
+
+The Star Wars Episode IV ASCII movie (the original ComputerCraft treasure disk).
+
+Usage: alongtimeago
+
+By dan200. License: ComputerCraft Public License.
+Source: https://github.com/cc-tweaked/treasure-disks

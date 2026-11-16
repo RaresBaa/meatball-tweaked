@@ -1,0 +1,24 @@
+{
+  "name": "Automation, EMC and Armor",
+  "icon": "nuclearcraft:helm_boron",
+  "category": "chapter-4",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Prioritize passive automation$() for key Chapter 4 resources: AE2 processors, Mystical Agriculture seeds, chickens, Blood Magic slates, Stargate materials, fission fuels, basic and advanced circuits, abyssalnite/dreadium, and all Botania components and"
+    },
+    {
+      "type": "text",
+      "text": "Essentia. Passive them as soon as you can to avoid bottlenecks later.$(br2)$(l)Armor progression in Chapter 4$(): Skip Sacrifice Metal (unavailable here). Use Mithminite/Superenchanted Maid → Stellar/Mithminite → Draconic."
+    },
+    {
+      "type": "text",
+      "text": "Stellar is viable and superior to Bloodmaster until Draconic; it grants Revealing, creative flight, speed, and 95% damage reduction with Empowered upgrades."
+    },
+    {
+      "type": "text",
+      "text": "$(l)EMC pitfalls$(): Avoid EMC Links for automatic input—they’re buggy. Use an EMC Cell instead (if available). Also, $(o)always$() check EMC value before crafting; some items (e.g., Divine Rock) are cheaper to transmute. For recipes needing duplicate inputs, use the Spinning Wheel with 64 crafts at once for efficiency."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+--- a/config/modularmachinery/machinery/SKTweaks/large_scale_chicken_farm.json
++++ b/config/modularmachinery/machinery/SKTweaks/large_scale_chicken_farm.json
+@@ -11,7 +11,7 @@
+             "x": 0,
+             "y": 2,
+             "z": 0,
+-            "description": "产出x10",
++            "description": "Output x10",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:item",
+@@ -24,7 +24,7 @@
+             "x": 0,
+             "y": 2,
+             "z": 0,
+-            "description": "产出x100",
++            "description": "Output x100",
+             "modifier": {
+                 "io": "output",
+                 "target": "modularmachinery:item",

@@ -1,0 +1,20 @@
+--- a/config/modularmachinery/machinery/SKTweaks/auto_altar.json
++++ b/config/modularmachinery/machinery/SKTweaks/auto_altar.json
+@@ -10,7 +10,7 @@
+                 "y": 1,
+                 "z": 2,
+                 "elements": "contenttweaker:charged_draconium_block",
+-                "description": "配方速度x20",
++                "description": "Recipe speed x20",
+                 "modifier": {
+                     "io": "input",
+                     "target": "modularmachinery:duration",
+@@ -23,7 +23,7 @@
+                 "y": 1,
+                 "z": 4,
+                 "elements": "botania:pool@1",
+-                "description": "99.9%mana消耗减免",
++                "description": "99.9% less mana used",
+                 "modifier": {
+                     "target": "modularmachinery:mana",
+                     "io": "input",

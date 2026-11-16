@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1947808406
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oKill the creature shown.\u00a7r\n\nKill the Mask Man, a heavily armored NTM boss.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:coin_maskman"
+      },
+      "name:8": "Mask Man",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1985917255,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:golden_apple"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "hbm:entity_mask_man",
+      "required:3": 1,
+      "ignoreNBT:1": 1,
+      "subtypes:1": 1,
+      "index:3": 0
+    }
+  }
+}

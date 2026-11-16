@@ -1,0 +1,17 @@
+filename = 'modelloader-1.1.7.jar'
+name = 'ModelLoader'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'modelloader-1.1.7.jar'
+
+[download]
+hash = '8f77152980cafb1be5a4204f5773daef74de8627'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2744735
+project-id = 277663

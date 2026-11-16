@@ -1,0 +1,17 @@
+filename = 'mcw-windows-1.0.0-mc1.12.2.jar'
+name = 'Macaws Windows'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mcw-windows-1.0.0-mc1.12.2.jar'
+
+[download]
+hash = '0404b499c11b8eca0aa01c7d7f1ae3d89a6d8e8f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2884962
+project-id = 363569

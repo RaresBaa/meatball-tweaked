@@ -1,0 +1,17 @@
+filename = "RLFoliage-MC1.12-2.5.4.jar"
+name = "RLFoliage"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "RLFoliage-MC1.12-2.5.4.jar"
+
+[download]
+hash = 'a5ff8ab4314b0bbd4117ab4e8e1893b5201fdcf5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9141185
+project-id = 970462

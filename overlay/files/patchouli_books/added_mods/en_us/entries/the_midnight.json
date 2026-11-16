@@ -1,0 +1,11 @@
+{
+  "name": "The Midnight",
+  "icon": "midnight:nagrilite_sword",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A dark, dangerous dimension with unique materials and creatures."
+    }
+  ]
+}

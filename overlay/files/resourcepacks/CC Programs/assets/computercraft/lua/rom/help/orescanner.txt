@@ -1,0 +1,12 @@
+Plethora: Ore scanner
+
+Shows nearby ores on your overlay glasses using a block scanner.
+
+Usage: orescanner
+
+Run on a neural interface (or a computer with a manipulator) with the required modules installed.
+
+Needs: Plethora neural interface
+
+By SquidDev (Plethora examples). License: MIT.
+Source: https://plethora.madefor.cc/examples/

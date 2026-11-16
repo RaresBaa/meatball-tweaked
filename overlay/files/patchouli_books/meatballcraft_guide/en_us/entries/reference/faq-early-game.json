@@ -1,0 +1,16 @@
+{
+  "name": "Getting Started",
+  "icon": "contenttweaker:alien_material_manual",
+  "category": "reference",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Use the Alien Material Manual first$() to build your Nether portal.$(li)$(l)Get shelter and gear early$(): hostile mobs hit hard in the first few hours; craft basic armor and tools before exploring."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Follow the Dimensional Ascension quest tab$() for structured early goals; it guides you to key upgrades like Tinkers’ Construct’s ore doubling and ProjectE’s mana-infused metal, which unlocks essential late-game tech."
+    }
+  ]
+}

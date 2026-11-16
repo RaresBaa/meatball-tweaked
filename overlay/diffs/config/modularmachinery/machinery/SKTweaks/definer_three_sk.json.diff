@@ -1,0 +1,20 @@
+--- a/config/modularmachinery/machinery/SKTweaks/definer_three_sk.json
++++ b/config/modularmachinery/machinery/SKTweaks/definer_three_sk.json
+@@ -11,7 +11,7 @@
+             "x": 0,
+             "y": 4,
+             "z": 4,
+-            "description": "机器运作时，大量定义出现导致堵塞，处理速度减慢90%",
++            "description": "While running, excess Defined clogs the machine, slowing processing by 90%",
+             "modifier": {
+                 "io": "input",
+                 "target": "modularmachinery:duration",
+@@ -24,7 +24,7 @@
+             "x": 0,
+             "y": 6,
+             "z": 4,
+-            "description": "机器运作时，大量定义出现导致堵塞，处理速度减慢90%",
++            "description": "While running, excess Defined clogs the machine, slowing processing by 90%",
+             "modifier": {
+                 "io": "input",
+                 "target": "modularmachinery:duration",

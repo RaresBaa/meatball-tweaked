@@ -1,0 +1,28 @@
+{
+  "name": "Level Caps & Progression Limits",
+  "icon": "astralsorcery:itemjournal",
+  "category": "astral-sorcery",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Base cap is 30.$()$(li)Singularity Master manual: $(l)35$(), at the very start of Chapter 4$(li)Draconic Key: $(l)40$(), near the end of Chapter 4$(li)Ancient Elven Knowledge: $(l)45$(), in Chapter 6$(li)Vethea Binding: $(l)60$(), in Chapter 7"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Tome of Astral Mastery: $(l)100$(), Chapter 10 bonus postgame content"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Caps are also tied to key items:$()$(li)Singularity Master Manual → $(l)35$()$(li)Draconic Key → $(l)40$()$(li)Ancient Elven Knowledge → $(l)45$()$(li)Vethea Binding → $(l)60$()$(li)Tome of Astral Mastery → $(l)100$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Reaching level 100 is not feasible with normal XP gain alone.$()$(li)Exponential XP curve makes manual leveling to 100 impractical$(li)The Tome of Astral Mastery is required to reach the highest cap"
+    },
+    {
+      "type": "text",
+      "text": "$(li)If the Tome of Astral Mastery is stuck at level 60, try restarting the game—it may be a client-side desync issue."
+    }
+  ]
+}

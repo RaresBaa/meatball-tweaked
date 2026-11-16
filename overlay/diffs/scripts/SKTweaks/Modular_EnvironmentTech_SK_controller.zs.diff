@@ -1,0 +1,12 @@
+--- a/scripts/SKTweaks/Modular_EnvironmentTech_SK_controller.zs
++++ b/scripts/SKTweaks/Modular_EnvironmentTech_SK_controller.zs
+@@ -27,5 +27,5 @@
+     3200000,
+     0
+ );
+-<modularmachinery:deep_void_excavator_factory_controller>.addTooltip(format.gold("可在科幻方块（ME控制器）上放置透镜"));
+-<modularmachinery:deep_void_excavator_factory_controller>.addTooltip(format.gold("特殊透镜请搜索：特殊深度虚空采掘透镜"));
+\ No newline at end of file
++<modularmachinery:deep_void_excavator_factory_controller>.addTooltip(format.gold("A lens can be placed on Sci-Fi Blocks (ME Controllers)"));
++<modularmachinery:deep_void_excavator_factory_controller>.addTooltip(format.gold("For special lenses, search: Special Deep Void Excavation Lens"));
+\ No newline at end of file

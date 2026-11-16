@@ -1,0 +1,131 @@
+--- a/scripts/SKTweaks/BrainLine.zs
++++ b/scripts/SKTweaks/BrainLine.zs
+@@ -24,13 +24,13 @@
+ import mods.modularmachinery.ActiveMachineRecipe;
+ import crafttweaker.liquid.ILiquidStack;
+ val MACHINE = "infinite_seeker_brain_in_a_vat";
+-MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("探究之脑"));
++MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("Seeker Brain"));
+ // MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("探究之脑-本我"));
+ // MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("探究之脑-自我"));
+ // MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("探究之脑-超我"));
+-MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("探究之脑-探究"));
++MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("Seeker Brain - Research"));
+ for i in 1 to 11 {
+-    val threadName = "探究之脑-运算-" + i;
++    val threadName = "Seeker Brain - Computing -" + i;
+     val recipeName = "brain_whisper_" + i;
+     MachineModifier.addCoreThread(MACHINE,
+         FactoryRecipeThread.createCoreThread(threadName).addRecipe(recipeName)
+@@ -45,7 +45,7 @@
+         val data = event.controller.customData;
+         val nutrient = Get_CustomData_int(data, "Brain_Nutrient", 0);
+         if (nutrient < 50) {
+-            event.setFailed("大脑缺少养分！");
++            event.setFailed("The brain lacks nutrients!");
+         }
+     })
+     .addFluidOutput(<liquid:recursive_computing_matter>*512)
+@@ -70,14 +70,14 @@
+         event.controller.customData = newData;
+     })
+     .addRecipeTooltip(
+-        "§f大脑§6§l养分§r越多",
+-        "§f产出越多",
+-        "§f默认产出：§c1x",
+-        "§f最大产出：§c80000.0x",
+-        "§f需要消耗：§c养分 §ex50"
++        "§fThe more brain §6§lnutrients§r",
++        "§fThe more output",
++        "§fDefault output: §c1x",
++        "§fMax output: §c80000.0x",
++        "§fConsumes: §cNutrients §ex50"
+     )
+     .setMaxThreads(1)
+-    .setThreadName("探究之脑-探究")
++    .setThreadName("Seeker Brain - Research")
+     .build();
+ 
+ 
+@@ -87,7 +87,7 @@
+         val data = event.controller.customData;
+         val nutrient = Get_CustomData_int(data,"Brain_Nutrient",0);
+         if((nutrient + 200) >= 1000000) {
+-            event.setFailed("养分已满！");
++            event.setFailed("Nutrients are full!");
+         }
+     })
+     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+@@ -97,8 +97,8 @@
+         event.controller.customData = newData;
+     })
+     .setMaxThreads(1)
+-    .addRecipeTooltip("§f为大脑提供 §e200 §c养分")
+-    .setThreadName("探究之脑")
++    .addRecipeTooltip("§fGives the brain §e200 §cnutrients")
++    .setThreadName("Seeker Brain")
+     .build();
+ 
+ 
+@@ -115,19 +115,19 @@
+     var info as string[] = [];
+     var actual_bonus = Get_CustomData_double(data,"Bonus",1.0);
+     // 标题行
+-    info += "§3║§6✦§b §9§l无尽探求之脑 §f| §7v1.0 ";
+-    info += "§3║§d▸ 养分： §e" + nutrient + " / 1000000";
+-    info += "§3║§b▸ 递归推演物质： §e" + Math.round(actual_bonus) as int + "x";
+-    info += "§3║§b▸ 瑟尔： §e" + Math.round(Get_CustomData_double(data,"Bonus_1",1.0)) as int + "x";
+-    info += "§3║§b▸ 阿克拉斯特·科瓦莱恩： §e" + Math.round(Get_CustomData_double(data,"Bonus_2",1.0)) as int + "x";
+-    info += "§3║§b▸ 维狄萨斯·安纳斯： §e" + Math.round(Get_CustomData_double(data,"Bonus_3",1.0)) as int + "x";
+-    info += "§3║§b▸ 欧姆托斯·费拉克： §e" + Math.round(Get_CustomData_double(data,"Bonus_4",1.0)) as int + "x";
+-    info += "§3║§b▸ 丹奈斯·鲁森： §e" + Math.round(Get_CustomData_double(data,"Bonus_5",1.0)) as int + "x";
+-    info += "§3║§b▸ 泰兰： §e" + Math.round(Get_CustomData_double(data,"Bonus_6",1.0)) as int + "x";
+-    info += "§3║§b▸ 库兰德·泰尔兰： §e" + Math.round(Get_CustomData_double(data,"Bonus_7",1.0)) as int + "x";
+-    info += "§3║§b▸ 库拉德·暗穆兰： §e" + Math.round(Get_CustomData_double(data,"Bonus_8",1.0)) as int + "x";
+-    info += "§3║§b▸ 库拉德·加莱： §e" + Math.round(Get_CustomData_double(data,"Bonus_9",1.0)) as int + "x";
+-    info += "§3║§b▸ 斯塔沃·德梅兰： §e" + Math.round(Get_CustomData_double(data,"Bonus_10",1.0)) as int + "x";
++    info += "§3║§6✦§b §9§lInfinite Seeker Brain §f| §7v1.0";
++    info += "§3║§d▸ Nutrients: §e" + nutrient + " / 1000000";
++    info += "§3║§b▸ Recursive Computing Matter: §e" + Math.round(actual_bonus) as int + "x";
++    info += "§3║§b▸ Thel: §e" + Math.round(Get_CustomData_double(data,"Bonus_1",1.0)) as int + "x";
++    info += "§3║§b▸ Ahkrast Korvalain: §e" + Math.round(Get_CustomData_double(data,"Bonus_2",1.0)) as int + "x";
++    info += "§3║§b▸ Verdith Anath: §e" + Math.round(Get_CustomData_double(data,"Bonus_3",1.0)) as int + "x";
++    info += "§3║§b▸ Omtose Phellack: §e" + Math.round(Get_CustomData_double(data,"Bonus_4",1.0)) as int + "x";
++    info += "§3║§b▸ Donaeth Rusen: §e" + Math.round(Get_CustomData_double(data,"Bonus_5",1.0)) as int + "x";
++    info += "§3║§b▸ Tellan: §e" + Math.round(Get_CustomData_double(data,"Bonus_6",1.0)) as int + "x";
++    info += "§3║§b▸ Kurald Thyrllan: §e" + Math.round(Get_CustomData_double(data,"Bonus_7",1.0)) as int + "x";
++    info += "§3║§b▸ Kurald Emurlahn: §e" + Math.round(Get_CustomData_double(data,"Bonus_8",1.0)) as int + "x";
++    info += "§3║§b▸ Kurald Galain: §e" + Math.round(Get_CustomData_double(data,"Bonus_9",1.0)) as int + "x";
++    info += "§3║§b▸ Starvald Demelain: §e" + Math.round(Get_CustomData_double(data,"Bonus_10",1.0)) as int + "x";
+     event.extraInfo = info;
+ });
+ 
+@@ -204,7 +204,7 @@
+         val data = event.controller.customData;
+         val nutrient = Get_CustomData_int(data, "Brain_Nutrient", 0);
+         if (nutrient < NutrientCost) {
+-            event.setFailed("大脑缺少养分！");
++            event.setFailed("The brain lacks nutrients!");
+         }
+     });
+     builder.addFluidOutput(FluidOutput).addFluidModifier(function(controller, liquid) {
+@@ -232,13 +232,13 @@
+         event.controller.customData = newData;
+     });
+     builder.addRecipeTooltip(
+-        "§f大脑§6§l养分§r越多",
+-        "§f产出越多",
+-        "§f默认产出：§c1x",
+-        "§f最大产出：§c" + MaxBonus + "x",
+-        "§f需要消耗：§c养分 §ex" + NutrientCost
++        "§fThe more brain §6§lnutrients§r",
++        "§fThe more output",
++        "§fDefault output: §c1x",
++        "§fMax output: §c" + MaxBonus + "x",
++        "§fConsumes: §cNutrients §ex" + NutrientCost
+     );
+-    builder.setThreadName("探究之脑-运算-" + ThreadName);
++    builder.setThreadName("Seeker Brain - Computing -" + ThreadName);
+     builder.setMaxThreads(1);
+     builder.build();
+ }

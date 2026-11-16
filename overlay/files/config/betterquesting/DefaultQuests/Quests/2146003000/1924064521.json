@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1943039366
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nCraft an Engineer's Electric Wrench.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "immersiveintelligence:electric_wrench"
+      },
+      "name:8": "We have reached maximum velocity",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1924064521,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "immersiveintelligence:material",
+          "Damage:2": 7
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 12,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "immersiveintelligence:electric_wrench"
+        }
+      },
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

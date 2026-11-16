@@ -1,0 +1,16 @@
+{
+  "name": "Miscellaneous Tips",
+  "icon": "minecraft:compass",
+  "category": "aoa-skills",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Use a Nature’s Compass to find Rammerheads efficiently$()$(li)Rammerheads spawn in savannah biomes and are ideal for early Hunter leveling"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Pair it with a mob duplicator to spawn them repeatedly for steady, efficient XP gain"
+    }
+  ]
+}

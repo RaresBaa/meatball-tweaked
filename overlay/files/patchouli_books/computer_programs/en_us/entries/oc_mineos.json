@@ -1,0 +1,22 @@
+{
+  "name": "MineOS",
+  "icon": "opencomputers:case3",
+  "category": "oc_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)MineOS$() is a full graphical OS with windows, a file manager, a paint program and an app store.$(br2)Needs a $(l)tier 3$() graphics card and screen, $(l)2x tier 3.5 RAM$() and an $(item)Internet Card$()."
+    },
+    {
+      "type": "text",
+      "text": "Boot OpenOS and run:$(br2)$(l)pastebin run PDE3eVsL$()$(br2)The installer checks your hardware first and tells you what is missing."
+    },
+    {
+      "type": "link",
+      "text": "Screenshots, features and the source code.",
+      "url": "https://github.com/IgorTimofeev/MineOS",
+      "link_text": "Open MineOS on GitHub"
+    }
+  ],
+  "sortnum": 9
+}

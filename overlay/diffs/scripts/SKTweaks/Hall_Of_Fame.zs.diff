@@ -1,0 +1,11 @@
+--- a/scripts/SKTweaks/Hall_Of_Fame.zs
++++ b/scripts/SKTweaks/Hall_Of_Fame.zs
+@@ -110,7 +110,7 @@
+         return "SUCCESS";
+     };
+     stone.register();
+-    print("已注册召唤石: " + id);
++    print("Registered summon stone:" + id);
+ }
+ // createArmorStandSummonStone(
+ //     "summon_iron_guard",

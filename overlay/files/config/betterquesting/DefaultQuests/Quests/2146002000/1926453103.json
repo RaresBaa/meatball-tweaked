@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    1991492068
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nCools the RBMK and makes steam. Water goes in the bottom, steam comes out the top. Put them right next to fuel channels.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:rbmk_boiler"
+      },
+      "name:8": "RBMK Steam Channel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1926453103,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:ingot_bismuth"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:gold_coin"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:rbmk_boiler"
+        }
+      },
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

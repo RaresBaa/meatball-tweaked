@@ -1,0 +1,7 @@
+{
+  "name": "Thaumcraft and Essentia",
+  "description": "Tips for Thaumcraft and Essentia.",
+  "icon": "thaumcraft:sanity_soap",
+  "parent": "topics",
+  "sortnum": 6
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Journey Into the Light",
+  "icon": "journey:flamecoin",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ores, dungeons, bosses and new dimensions, unlocked in a chain. Light most portals with a $(item)Flame Coin$(), crafted from 8 gold ingots and a diamond."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Frozen Lands$(): craft frames from snowballs and a diamond.$(li)$(l)Boiling Point$(): frames are in the chest of a ruined portal in the Nether.$(li)$(l)Euca$(): frames come from pieces dropped by the Nether Beast, Withering Beast and Soul Watcher."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Depths$(): gems from Eudor or Corallator; ring frame opened with a Dark Gem.$(li)$(l)Corba$(): gems from Scale or Thunderbird; ring frame opened with the Demonic Eye.$(li)$(l)Terrania$(): gems from Logger or Sentry King.$(li)$(l)Cloudia$(): gems from the Terranian Protector."
+    },
+    {
+      "type": "text",
+      "text": "Bosses are summoned with items made on the $(item)Summoning Table$(); HEI shows each recipe. The questline is in $(l)Extra Dimensions$()."
+    }
+  ]
+}

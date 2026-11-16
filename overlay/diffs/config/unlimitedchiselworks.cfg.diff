@@ -1,0 +1,60 @@
+--- a/config/unlimitedchiselworks.cfg
++++ b/config/unlimitedchiselworks.cfg
+@@ -18,6 +18,12 @@
+     B:"appliedenergistics2:sky_stone_brick"=true
+     B:"astralsorcery:blockblackmarble"=true
+     B:"astralsorcery:blockmarble"=true
++    B:"atum:alabaster_brick_smooth"=true
++    B:"atum:deadwood_planks"=true
++    B:"atum:limestone_brick_large"=true
++    B:"atum:palm_planks"=true
++    B:"atum:porphyry_brick_smooth"=true
++    B:"betternether:stalagnate_planks"=true
+     B:"bewitchment:coquina_bricks"=true
+     B:"bewitchment:cypress_planks"=true
+     B:"bewitchment:dragons_blood_planks"=true
+@@ -39,6 +45,7 @@
+     B:"botania:quartztypemana"=true
+     B:"botania:quartztypered"=true
+     B:"botania:quartztypesunny"=true
++    B:"defiledlands:tenebra_planks"=true
+     B:"environmentaltech:aethium"=true
+     B:"environmentaltech:erodium"=true
+     B:"environmentaltech:ionite"=true
+@@ -62,6 +69,17 @@
+     B:"integrateddynamics:menril_planks"=true
+     B:"natura:nether_planks"=true
+     B:"natura:overworld_planks"=true
++    B:"naturesaura:ancient_planks"=true
++    B:"naturesaura:infused_brick"=true
++    B:"plants2:planks"=true
++    B:"quark:biome_cobblestone"=true
++    B:"quark:biotite_block"=true
++    B:"quark:duskbound_block"=true
++    B:"quark:elder_prismarine"=true
++    B:"quark:midori_block"=true
++    B:"quark:soul_sandstone"=true
++    B:"quark:stained_planks"=true
++    B:"quark:world_stone_bricks"=true
+     B:"railcraft:brick_abyssal"=true
+     B:"railcraft:brick_bleachedbone"=true
+     B:"railcraft:brick_bloodstained"=true
+@@ -73,10 +91,18 @@
+     B:"railcraft:brick_red_nether"=true
+     B:"railcraft:brick_red_sandy"=true
+     B:"railcraft:brick_sandy"=true
++    B:"roots:runestone_brick"=true
++    B:"roots:wildwood_planks"=true
++    B:"sonarcore:reinforcedstonebrick"=true
+     B:"techreborn:rubber_planks"=true
+     B:"thaumcraft:plank_greatwood"=true
+     B:"thaumcraft:plank_silverwood"=true
+     B:"thebetweenlands:mud_bricks"=true
++    B:"traverse:blue_rock_bricks"=true
++    B:"traverse:blue_rock_cobblestone"=true
++    B:"traverse:fir_planks"=true
++    B:"traverse:red_rock_bricks"=true
++    B:"traverse:red_rock_cobblestone"=true
+ }
+ 
+ 

@@ -1,0 +1,40 @@
+{
+  "name": "Miscellaneous Tips",
+  "icon": "bloodmagic:sentient_sword",
+  "category": "chapter-2",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)Use Silk Touch on spirit tree leaves to harvest EMC directly; automate leaf breaking with a Builder’s Wand or by placing leaves strategically for quick harvest."
+    },
+    {
+      "type": "text",
+      "text": "$(li)For non-ME automation (e.g., furnace smelting), encode a 'Processing' pattern in the Pattern Terminal—ME exports inputs but expects finished products imported back manually or via automation.$(li)ME interfaces hit pattern capacity limits;"
+    },
+    {
+      "type": "text",
+      "text": "add Pattern Expansion Cards or extra interfaces as needed."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Chicken tier-up cannot be automated before unlocking the Roost; earlier, use manual or ComputerCraft/Integrated Dynamics logic.$(li)The Mech Coop bypasses chicken breeding entirely—no stats to manage—and provides passive eggs/mobs."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Chickens aren’t essential early; skip breeding until you can craft key eggs directly and use Mechanical Coops.$(li)You don’t need every chicken species—focus on high-yield types (4–8 ingots/egg) for temporary resource gains."
+    },
+    {
+      "type": "text",
+      "text": "$(li)To automatically filter all items from a chest, encode Import/Export Interfaces like storage buses.$(li)Share EMC and knowledge with teammates by joining the same FTB team and enabling 'Share EMC' in team settings (team EMC starts at 0)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Share Extra Utilities 2 GP among teammates using $(5)/xu_powersharing$().$(li)At level 15, use Skill Crystals (from boss kills) to level up skills; combine desired enchantments onto one book via the Enchant Library (start with a level 15 book)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)You can carry and level multiple data models simultaneously—pair with fast weapons (e.g., Mass Enchanted Flux Bow) or mob crushers + Time in a Bottle for efficiency."
+    }
+  ]
+}

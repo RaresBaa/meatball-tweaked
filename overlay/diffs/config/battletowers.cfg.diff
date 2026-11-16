@@ -1,0 +1,47 @@
+--- a/config/battletowers.cfg
++++ b/config/battletowers.cfg
+@@ -1,10 +1,4 @@
+ # Configuration file
+-
+-##########################################################################################################
+-# battletowerchestitems
+-#--------------------------------------------------------------------------------------------------------#
+-# Syntax for each Item entry is 'Name-Meta-Spawnchance-minAmount-maxAmount', entries are seperated by ';'
+-##########################################################################################################
+ 
+ battletowerchestitems {
+     S:"Floor 1"=stick-0-75-5-6;integrateddynamics:menril_sapling-0-75-3-5;planks-0-75-5-6;reeds-0-75-3-5;golden_carrot-0-70-2-8;contenttweaker:call_of_the_full_moon-0-10-2-3;contenttweaker:recursive_paper_abyssal-0-10-2-3;contenttweaker:recursive_paper_faithfulundead-0-10-2-3;contenttweaker:recursive_paper_dunerider-0-10-2-3
+@@ -32,6 +26,8 @@
+     B:ancient_cavern=false
+     B:apalachia=false
+     B:arcana=false
++    B:aurorianforesthills=true
++    B:aurorianplains=true
+     B:bamboo_forest=true
+     B:barathos=false
+     B:bayou=true
+@@ -172,6 +168,7 @@
+     B:mutated_taiga_cold=true
+     B:mysterium=false
+     B:mystic_grove=true
++    B:night_plains=true
+     B:nuclear_wasteland=false
+     B:oak_savannah=true
+     B:oasis=true
+@@ -235,6 +232,7 @@
+     B:taiga_cold_hills=true
+     B:taiga_hills=true
+     B:tainted_lands=false
++    B:tc_tropics=true
+     B:telos=true
+     B:temperate_rainforest=true
+     B:thornlands=true
+@@ -280,6 +278,8 @@
+     I:"Tower Destroying Enabled"=1
+     I:chanceTowerIsUnderGround=15
+     B:noGolemExplosions=false
++
++    # Destroy all Mob Spawners in Tower Area upon Tower Fall?
+     B:towerFallDestroysMobSpawners=false
+ }
+ 

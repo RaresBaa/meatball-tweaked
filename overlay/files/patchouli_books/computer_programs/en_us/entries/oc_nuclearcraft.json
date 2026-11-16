@@ -1,0 +1,26 @@
+{
+  "name": "NuclearCraft Monitoring",
+  "icon": "opencomputers:adapter",
+  "category": "oc_automation",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A set of NuclearCraft monitors by dyc3 and friends, from their MeatballCraft playthrough. Servers read a machine through an $(item)Adapter$(); clients show it from anywhere, over a Network or Linked Card.$(br2)Add the source once:$(br)$(l)oppm register dyc3/meatballcraft-infra$()"
+    },
+    {
+      "type": "text",
+      "text": "Then install what you need with $(l)oppm install <name>$():$(li)$(l)nc-dashboard$(): every service on one screen$(li)$(l)nc-reactor-server$() / $(l)nc-reactor-client$(): salt reactors, with remote control$(li)$(l)nc-reactor-relay$(): crosses dimensions by Linked Card"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)nc-heat-server$() / $(l)nc-heat-client$(): heat exchangers$(li)$(l)nc-turbine-server$() / $(l)nc-turbine-client$(): turbines$(li)$(l)nc-geiger-server$() / $(l)nc-geiger-client$(): radiation$(br2)Run a server once to name it, then $(l)rc nc-heat-server enable$() to start it at boot."
+    },
+    {
+      "type": "link",
+      "text": "Full setup notes are in the repository under nuclearcraft/README.txt. Installs always fetch the latest version.",
+      "url": "https://github.com/dyc3/meatballcraft-infra",
+      "link_text": "Open on GitHub"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1944790988,
+    1929807921
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\u00a77\u00a7oObtain the item(s) shown.\u00a7r\n\nCrystallized Lapis, Crystallized Redstone and a gold ingot make a Keystone Block. Build the portal frame from them.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gaiadimension:keystone_block"
+      },
+      "name:8": "Keystone Block",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1910898602,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:gold_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "aoa3:copper_coin"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "actuallyadditions:item_solidified_experience"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:retrieval",
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "id:8": "gaiadimension:keystone_block"
+        }
+      },
+      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "partialMatch:1": 1
+    }
+  }
+}

@@ -1,0 +1,11 @@
+--- a/scripts/SKTweaks/machine_mana_pool.zs
++++ b/scripts/SKTweaks/machine_mana_pool.zs
+@@ -5,7 +5,7 @@
+ import mods.modularmachinery.ControllerGUIRenderEvent;
+ 
+ MachineModifier.setInternalParallelism("machine_mana_pool", 256);
+-<modularmachinery:machine_mana_pool_controller>.addTooltip(format.gold("内置额外256并行！"));
++<modularmachinery:machine_mana_pool_controller>.addTooltip(format.gold("Built-in extra 256 parallel!"));
+ function Machine_Mana_Pool_Recipe_Builder(
+     fusiontype as string,
+     recipeName as string,

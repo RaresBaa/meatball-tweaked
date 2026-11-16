@@ -1,0 +1,44 @@
+{
+  "name": "What to Skip or Delay",
+  "icon": "minecraft:glass_bottle",
+  "category": "chapter-4",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Skip or delay these to avoid wasted effort$()$(li)$(l)Delay making Hint of Insanity$() until you have Berserker Forge access (requires Berserker Steel); Hellfire Forges are inefficient without automation setup."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Don’t prioritize dedicated beryllium production early$()—it’s produced as a byproduct of NaK processing.$(li)$(l)Skip early Roosts$()—a single Roost is about half the speed of a Mechanized Coop; go straight to multi-block roosts for high-tier chickens."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Skip non-Advanced Torcherinos$()—only the Advanced version exists in-game, and it’s already strong enough."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Don’t farm Taint Seeds by placing them near blocks that can become tainted$()—taint spreads even from partially infected blocks; use Silk Quarry or Builder quarry on a captured seed over dirt instead."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Don’t rely on JEI alone for Nebulous Hearts$()—the Abyss Table recipe (in the Abyss dimension) is valid and recommended, while JEI only shows the Mythical Miner path.$(li)$(l)Don’t kill Wrought Crabs with non-pickaxe tools$()—only pickaxe kills drop the puzzle item;"
+    },
+    {
+      "type": "text",
+      "text": "other methods (e.g., Liquid Death) yield only the item tag."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Skip bone mining for Prescia Bone Horn components$()—Bone Bits can be obtained from Shell resources (e.g., chickens).$(li)$(l)Skip early dedicated Barathos Hive Spawner hunting$()—the structure is located inside a huge hollow hill, so surface scanning is unnecessary."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Skip trying to fit Tesseractors inside boxes$() behind bedrock slabs—use Terra Shatterer, Awakened Ichorium Pick (Square Mode), Red Morning Star, or a Magnet/Item Collector instead.$(li)$(l)Delay Dragonsteel maintenance$() until Lattice production is needed;"
+    },
+    {
+      "type": "text",
+      "text": "minimal upkeep is fine while focusing on other Draconic Evolution stages."
+    }
+  ]
+}

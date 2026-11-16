@@ -1,0 +1,8 @@
+CONSULT
+
+Modern text editor with menus, line numbers and mouse support.
+
+Usage: consult <file>
+
+By Sammy L. Koch. License: MIT.
+Source: https://github.com/SammyForReal/consult

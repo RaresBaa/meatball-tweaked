@@ -1,0 +1,21 @@
+filename = 'tinker_io-1.12.2-rw2.8.3.jar'
+name = 'Tinker I/O'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tinker_io-1.12.2-rw2.8.3'
+
+[download]
+hash = '6fe015e930d57f3c9b4c41731f6464d55a198f72'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3102626
+project-id = 229503
+
+[[x-prismlauncher-dependencies]]
+addonId = '74072'
+type = 'REQUIRED'

@@ -1,0 +1,7 @@
+{
+  "name": "Super Factory Manager",
+  "description": "Tips for Super Factory Manager.",
+  "icon": "superfactorymanager:network_tool",
+  "parent": "topics",
+  "sortnum": 3
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Music",
+  "icon": "minecraft:noteblock",
+  "category": "oc_fun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)midi$() plays real MIDI files on the computer speaker or on note blocks wired to the computer.$(br2)Install: $(l)oppm install midi$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)song$() plays tunes with computer.beep; the examples include several songs.$(br2)Install: $(l)oppm install song$(), $(l)oppm install song-examples$()"
+    }
+  ],
+  "sortnum": 8
+}

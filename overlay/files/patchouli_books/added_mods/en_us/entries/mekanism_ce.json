@@ -1,0 +1,11 @@
+{
+  "name": "Mekanism CE",
+  "icon": "mekanism:atomicdisassembler",
+  "category": "tech",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ore multiplication, energy cubes, digital miner, QIO storage, jetpacks and the Atomic Disassembler. The Community Edition build includes Generators and Tools."
+    }
+  ]
+}

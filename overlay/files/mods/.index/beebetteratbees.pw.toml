@@ -1,0 +1,25 @@
+filename = 'beebetteratbees-1.12.2-2.0.3.jar'
+name = 'BeeBetterAtBees'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BeeBetterAtBees-1.12.2-2.0.3.jar'
+
+[download]
+hash = '93c8e92f38287afa24bb5218f5b0e5d237c60a2e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2627215
+project-id = 244516
+
+[[x-prismlauncher-dependencies]]
+addonId = '59751'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'REQUIRED'

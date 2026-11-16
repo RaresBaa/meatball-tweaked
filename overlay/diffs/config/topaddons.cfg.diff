@@ -1,0 +1,21 @@
+--- a/config/topaddons.cfg
++++ b/config/topaddons.cfg
+@@ -22,6 +22,18 @@
+ }
+ 
+ 
++lycanitesmobs {
++    # Is holding a Soulgazer required to see certain information.
++    B:requireGazer=false
++}
++
++
++stevescarts {
++    # Show cart inventory contents in TOP.
++    B:showChestsContents=true
++}
++
++
+ storagedrawers {
+     # Replace Storage Drawers default extended info.
+     B:replaceDrawers=true

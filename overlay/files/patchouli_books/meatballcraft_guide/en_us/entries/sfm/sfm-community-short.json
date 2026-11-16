@@ -1,0 +1,32 @@
+{
+  "name": "Community Scripts: Short Ones",
+  "icon": "superfactorymanager:manager",
+  "category": "sfm",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Small scripts by mantikafasi, short enough to type in. Labels are the names after $(5)FROM$() and $(5)TO$()."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Keep one of each$()$(br)Empties a chest but leaves 1 of each item type.$(br2)$(5)every 20 ticks do$()$(br)$(5)    INPUT retain 1 each * from source$()$(br)$(5)    OUTPUT to out$()$(br)$(5)end$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Recursive crafter$()$(br)Sends results back into the crafter, with the rest going to an interface.$(br2)$(5)every 20 ticks do$()$(br)$(5)    INPUT from crafter$()$(br)$(5)    OUTPUT to crafter$()$(br)$(5)    OUTPUT to interface$()$(br)$(5)end$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fluids to interface$()$(br2)$(5)every 20 ticks do$()$(br)$(5)    INPUT fluid:: from out$()$(br)$(5)    OUTPUT fluid:: to interface$()$(br)$(5)end$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Alveary frames$()$(br)Keeps frames in a frame holder.$(br2)$(5)every 100 ticks do$()$(br)$(5)    INPUT careerbees:pheremone_frame from interface$()$(br)$(5)    OUTPUT to frame_holder$()$(br)$(5)end$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l)Base ingots to interface$()$(br2)$(5)every 20 ticks do$()$(br)$(5)    INPUT WITH TAG #ingot*Base FROM drawer_controller$()$(br)$(5)    INPUT contenttweaker:* from drawer_controller$()$(br)$(5)    OUTPUT to interface$()$(br)$(5)end$()"
+    }
+  ]
+}

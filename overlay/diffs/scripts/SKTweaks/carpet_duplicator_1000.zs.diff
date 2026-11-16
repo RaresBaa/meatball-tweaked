@@ -1,0 +1,67 @@
+--- a/scripts/SKTweaks/carpet_duplicator_1000.zs
++++ b/scripts/SKTweaks/carpet_duplicator_1000.zs
+@@ -27,27 +27,27 @@
+ function getcarpetfrommeta(metadata as int) as IItemStack {
+     return (metadata >= 0 && metadata <= 15) ? <minecraft:carpet>.withDamage(metadata) : <minecraft:carpet>;
+ }
+-<modularmachinery:carpet_duplicator_1000_factory_controller>.addTooltip(format.red("为什么你需要这个？"));
++<modularmachinery:carpet_duplicator_1000_factory_controller>.addTooltip(format.red("Why do you need this?"));
+ 
+ MachineModifier.setMaxThreads(MACHINE, 0);
+-MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("地毯复制核心"));
++MachineModifier.addCoreThread(MACHINE, FactoryRecipeThread.createCoreThread("Carpet Duplication Core"));
+ // ========== 1. 定义智能数据接口 ==========
+ // 颜色接口（整数 0~15）
+ MachineModifier.addSmartInterfaceType(MACHINE,
+     SmartInterfaceType.create("Color", 0)
+-        .setHeaderInfo("羊毛颜色选择")
+-        .setValueInfo("当前颜色索引: §a%.0f")
+-        .setFooterInfo("0白 1橙 2品红 3淡蓝 4黄 5黄绿 6粉 7灰 8淡灰 9青 10紫 11蓝 12棕 13绿 14红 15黑")
+-        .setJeiTooltip("颜色索引范围 0-15", 2)
++        .setHeaderInfo("Wool color selection")
++        .setValueInfo("Current color index: §a%.0f")
++        .setFooterInfo("0 White 1 Orange 2 Magenta 3 Light Blue 4 Yellow 5 Lime 6 Pink 7 Gray 8 Light Gray 9 Cyan 10 Purple 11 Blue 12 Brown 13 Green 14 Red 15 Black")
++        .setJeiTooltip("Color index range 0-15", 2)
+ );
+ 
+ // 数量接口（长整数，例如 1~2147483647）
+ MachineModifier.addSmartInterfaceType(MACHINE,
+     SmartInterfaceType.create("Count", 1)
+-        .setHeaderInfo("单次输出数量")
+-        .setValueInfo("当前数量: §a%.0f")
+-        .setFooterInfo("数量范围 1 ~ 2147483647")
+-        .setJeiTooltip("数量范围 1-2147483647", 2)
++        .setHeaderInfo("Output amount per run")
++        .setValueInfo("Current amount: §a%.0f")
++        .setFooterInfo("Amount range 1 ~ 2147483647")
++        .setJeiTooltip("Amount range 1-2147483647", 2)
+ );
+ 
+ // ========== 2. 可选：将接口值同步到 customData（便于调试） ==========
+@@ -98,14 +98,14 @@
+         return (getcarpetfrommeta(color)*count);
+     })
+     .addEnergyPerTickInput(100000)
+-    .addRecipeTooltip("根据智能数据接口的值","输出指定颜色和数量的地毯")
++    .addRecipeTooltip("Based on the Smart Data Interface's values","Outputs carpet of the chosen color and amount")
+     .build();
+ 
+     // ========== 4. GUI 显示当前产出设置 ==========
+ // 颜色名称映射（0-15）
+ val colorNames = [
+-    "白色", "橙色", "品红色", "淡蓝色", "黄色", "黄绿色", "粉色", "灰色",
+-    "淡灰色", "青色", "紫色", "蓝色", "棕色", "绿色", "红色", "黑色"
++    "White", "Orange", "Magenta", "Light Blue", "Yellow", "Lime", "Pink", "Gray",
++    "Light Gray", "Cyan", "Purple", "Blue", "Brown", "Green", "Red", "Black"
+ ];
+ 
+ MMEvents.onControllerGUIRender(MACHINE, function(event as ControllerGUIRenderEvent) {
+@@ -126,7 +126,7 @@
+     if (colorIdx > 15) colorIdx = 15;
+     if (count < 1) count = 1;
+     val colorName = colorNames[colorIdx];
+-    val displayText = "§a目前输出：§f" + colorName + "地毯 §a× §f" + count;
++    val displayText = "§aCurrent output: §f" + colorName + "carpet §a× §f" + count;
+     var extra = event.extraInfo;
+     if (isNull(extra)) extra = [] as string[];
+     extra += displayText;

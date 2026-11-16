@@ -1,0 +1,11 @@
+{
+  "name": "Endorium (End Reborn)",
+  "icon": "endreborn:item_ingot_endorium",
+  "category": "adventure",
+  "pages": [
+    {
+      "type": "text",
+      "text": "New End content: ores, gear, structures and mobs."
+    }
+  ]
+}

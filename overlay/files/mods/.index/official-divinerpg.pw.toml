@@ -1,0 +1,21 @@
+filename = 'DivineRPG-1.7.1.jar'
+name = 'DivineRPG (Official)'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DivineRPG classic 1.7.1'
+
+[download]
+hash = '410ea6a1eb52946ae0781b49a8ed1b82e84bdf30'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3081433
+project-id = 363543
+
+[[x-prismlauncher-dependencies]]
+addonId = '280510'
+type = 'OPTIONAL'

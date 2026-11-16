@@ -1,0 +1,20 @@
+{
+  "name": "Common Issues & Debugging",
+  "icon": "minecraft:barrier",
+  "category": "sfm",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(l)Script does nothing:$() check for mislabeled interfaces and blocks that aren't connected; SFM silently skips those. Check the slot numbers with the network tool."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Disk deletes itself:$() some label names on niche blocks do this (known: NuclearCraft reactor parts); rename the labels. It also happened to several players on the first fuel push into a new fission reactor, so do that step by hand."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Editor crash:$() pressing down at the bottom of the script editor crashes with $(5)StringIndexOutOfBoundsException$(); avoid it.$(li)$(l)AE2 fluid cells$() can cause partitioning errors; make sure there are enough cells."
+    }
+  ]
+}

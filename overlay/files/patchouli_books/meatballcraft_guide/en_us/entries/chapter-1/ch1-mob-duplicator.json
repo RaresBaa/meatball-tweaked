@@ -1,0 +1,28 @@
+{
+  "name": "Mob Duplicator and Useful Mobs",
+  "icon": "industrialforegoing:mob_duplicator",
+  "category": "chapter-1",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Worth building as soon as T1 crafting opens: $(l)Mob Crusher, Mob Duplicator, a pulverizer, and a Magma Crucible$() (for Enderium). Use the extended crafting table recipe for the duplicator's machine case; the normal crafting table recipe is for Chapter 2."
+    },
+    {
+      "type": "text",
+      "text": "Capture a mob with a $(l)Mob Imprisonment Tool$(), put it in the duplicator, and let the crusher kill the copies. Woot doesn't replace this; a duplicator plus crusher is more flexible."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Mobs worth duplicating:$()$(li)Infernal (Nether) → Emberstone ingot$(li)Chimera (arid biomes) → Limonite ingot$(li)Polar Ursa (cold biomes) → Rosite ingot$(li)Stymphalian Bird (egg is craftable) → Bronze + copper$(li)Shadow Beast (Dark Lands) → Shadow Gem"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Scorcher (Nether lava fountains) → Purple Blaze$(li)Pink Slime (Pink Slime bucket) → Pink Slime balls$(li)Blizz / Blitz / Basalz (the Nether mithril structure) → their rods$(li)Cyclops → Cyclops eyes; Wither Skeleton → skulls"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Hunter skill:$() a quest gives you a $(l)Rammerhead egg$(). Duplicate it to level Hunter, which some bosses require.$(li)Catch one of every new mob you meet. You never know which one a later recipe will need."
+    }
+  ]
+}

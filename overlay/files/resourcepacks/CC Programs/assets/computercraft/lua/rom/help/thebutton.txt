@@ -1,0 +1,12 @@
+The Button
+
+A big 3D button. Press it. The global press counter needs HTTP.
+
+Usage: thebutton
+
+Needs: advanced computer (colour), internet (HTTP API)
+
+This program saves data, so the first run copies it (107 KB) to /extra/thebutton. Delete that folder to reset it.
+
+By Michiel. License: unspecified.
+Source: https://github.com/MichielP1807/CC-Bored-Button

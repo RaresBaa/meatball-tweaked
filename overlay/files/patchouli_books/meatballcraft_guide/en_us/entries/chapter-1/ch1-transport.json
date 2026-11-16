@@ -1,0 +1,32 @@
+{
+  "name": "Moving Items, Fluids and Energy",
+  "icon": "enderio:item_item_conduit",
+  "category": "chapter-1",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Performance matters.$() Pipes are a common source of lag.$(li)$(l)Thermal itemducts and conduit bundles hurt TPS.$() Ducts are fine for 1-to-1 links but bad for networks. Make them opaque.$(li)EnderIO conduits all tick, so use them in moderation."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)XNet$() is the best for complex setups. Later, AE2 is best of all."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Cheapest early pipes:$() Thermal Dynamics. Add a servo to extract and enable it in the servo's redstone control. The lowest-tier fluid ducts $(l)break with hot fluids$(). Switch to EnderIO once it's affordable.$(br2)$(l)Actually Additions lasers:$() green = items, red = energy, blue = fluid."
+    },
+    {
+      "type": "text",
+      "text": "Item lasers join every connected inventory into one network that you access through an Item Interface. Fluid lasers are very fast. Lasers can occasionally disconnect for good, and they're a lag source, so use the invisibility upgrade."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Energy:$() XNet, Draconic wireless crystals, Flux Networks (long distance), EnderIO in moderation, or cryo fluxducts.$(li)Tesslocators only reach 1 block. They're fine for item hand-offs but pointless for energy."
+    },
+    {
+      "type": "text",
+      "text": "$(li)An RFTools Builder with a $(l)Pump card$() collects fluid source blocks from the world."
+    }
+  ]
+}

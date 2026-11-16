@@ -1,0 +1,32 @@
+{
+  "name": "Turbines and Power Transfer",
+  "icon": "bigreactors:turbinecontroller",
+  "category": "chapter-2",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Power Scaling$()$(li)Use steam turbines instead of direct reactor output; a single turbine produces ~430k RF/t and is the recommended Chapter 2 power source."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Reactor size and turbine size are independent—you can scale the reactor larger than the turbine if needed.$(li)For cyanite production (required for turbines and later tech), fill the reactor with yellorium seeds once available."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Turbine Setup$()$(li)Use Ludicrite coils for optimal output (~435k RF/t at 2000 mB/t steam); Enderium is second-best.$(li)Ensure water input meets demand: low output (e.g., ~200 mB/t) usually means insufficient water flow."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Build turbines around the shaft and blades first (as JEI shows), then add the controller and coils."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Fluid & Energy Transfer$()$(li)Fluid Laser Relays (Actually Additions) are reliable for steam/water transfer; space lasers 4–5 blocks apart.$(li)Infinite water blocks auto-output to all sides—use them in a wall layout for steady supply."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Draconic Evolution Wireless Energy Crystals (first two tiers) are the best wireless option in Chapter 2—avoid Ender energy transfer."
+    }
+  ]
+}

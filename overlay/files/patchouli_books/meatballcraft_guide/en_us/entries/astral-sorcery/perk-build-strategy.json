@@ -1,0 +1,36 @@
+{
+  "name": "Perk Selection & Build Strategy",
+  "icon": "astralsorcery:itemperkgem_sky",
+  "category": "astral-sorcery",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Prioritize Perk Effectiveness early$()—it multiplies all perk effects, including itself, leading to exponential scaling. Early investment here amplifies returns from every other perk."
+    },
+    {
+      "type": "text",
+      "text": "$(l)For leveling, choose Vicio$()—XP comes from movement (walking, sprinting, etc.), which you do constantly. It requires no setup and scales well in exploration-heavy packs."
+    },
+    {
+      "type": "text",
+      "text": "$(l)At level 60, you can already achieve very high body blocking and culling strike percentages$(). By level 100 (post-game), you can reach 100% for both—but you don’t need to wait that long for strong performance."
+    },
+    {
+      "type": "text",
+      "text": "To guarantee 100% culling strike proc chance (triggers when enemy is below 15% HP), you need ~92 levels and Perk Effectiveness ≥ 5.6904."
+    },
+    {
+      "type": "text",
+      "text": "$(l)For maximum damage output, prioritize nodes that say '$(o)More$()$(l) damage' over '$(o)Increased$()$(l) damage'$()—the former scales better with Perk Effectiveness. One optimized build reaches ~5.82× melee damage."
+    },
+    {
+      "type": "text",
+      "text": "For tankiness, combine body blocking (~133% mitigation at max effectiveness) with 100% culling strike."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Late-game (level 100) survival builds$() use Armara + radiation + life charms (e.g., Charm of Life II or Silent Eternity) to gain XP via self-damage while staying alive. Add +8% speed/reach gems for optimal pacing."
+    }
+  ]
+}

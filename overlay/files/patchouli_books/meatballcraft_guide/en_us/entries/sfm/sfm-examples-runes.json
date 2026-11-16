@@ -1,0 +1,28 @@
+{
+  "name": "Example Scripts: Botania Runes",
+  "icon": "botania:runealtar",
+  "category": "sfm",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l)Botania runes$() (PocketSkeleton). One script per rune. $(5)import$() is where finished runes are stored (it stops at the target amount), $(5)export output$() stocks the ingredients, and $(5)user$() feeds the Runic Altar. Rune of Autumn:$(br)$(5)name \"autumn\"$()$(br)$(5)every 8 seconds do$()"
+    },
+    {
+      "type": "text",
+      "text": "$(5)    if import has lt 255144 botania:rune@6 then$()$(br)$(5)        input from export output$()$(br)$(5)        retain 1 contenttweaker:valhalla_warren_dust,$()$(br)$(5)        retain 1 botania:livingrock,$()$(br)$(5)        retain 1 minecraft:spider_eye,$()$(br)$(5)        retain 2 minecraft:leaves,$()$(br)$(5)        retain 1 botania:rune@1,$()"
+    },
+    {
+      "type": "text",
+      "text": "$(5)        retain 1 botania:rune@3$()$(br)$(5)        to user$()$(br)$(5)    end$()$(br)$(5)end$()"
+    },
+    {
+      "type": "text",
+      "text": "For the other runes, change the rune in the $(5)if$() line and the $(5)retain$() list. Every rune also keeps $(5)retain 1 contenttweaker:valhalla_warren_dust$() and $(5)retain 1 botania:livingrock$().$(li)$(l)Winter$() ($(5)rune@7$()): 1 $(5)cake$(), 1 $(5)snow$(), 1 $(5)wool$(), 1 $(5)rune@0$(), 1 $(5)rune@2$()$(li)$(l)Summer$() ($(5)rune@5$()): 1 $(5)slime_ball$(), 1 $(5)melon$(), 1 $(5)sand$(), 1 $(5)rune@2$(), 1 $(5)rune@3$()"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l)Spring$() ($(5)rune@4$()): 2 $(5)sapling$(), 1 $(5)wheat$(), 1 $(5)rune@0$(), 1 $(5)rune@1$()$(li)$(l)Mana$() ($(5)rune@8$()): 4 $(5)botania:manaresource@0$(), 1 $(5)botania:manaresource@1$()$(br2)$(5)minecraft:$() items unless noted."
+    }
+  ]
+}
